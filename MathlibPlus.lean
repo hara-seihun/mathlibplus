@@ -542,3 +542,5 @@ import MathlibPlus.LinearAlgebra.Claim12212
 import MathlibPlus.Analysis.Claim13841
 import MathlibPlus.Combinatorics.Claim21127
 import MathlibPlus.LinearAlgebra.Claim48866
+import MathlibPlus.LinearAlgebra.Claim11144
+import MathlibPlus.Combinatorics.Claim31406
