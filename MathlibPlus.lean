@@ -177,3 +177,4 @@ import MathlibPlus.Open.Analysis.CounterfeitLoewner
 import MathlibPlus.Open.Analysis.CompletedZetaLoewner.ExhaustiveScan
 import MathlibPlus.Open.Analysis.RadialLoewner.Congruence
 import MathlibPlus.LinearAlgebra.RationalCongruence
+import MathlibPlus.Open.Analysis.BesselK
