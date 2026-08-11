@@ -235,3 +235,6 @@ import MathlibPlus.Open.Automorphic.Polarization
 import MathlibPlus.Analysis.KarlinDegreeEightBoundary
 import MathlibPlus.Analysis.BareMultiplierJensen
 import MathlibPlus.GraphTheory.CharacteristicTwoCurvature
+import MathlibPlus.Analysis.AdjacentCosine
+import MathlibPlus.LinearAlgebra.FiniteVandermondeMoments
+import MathlibPlus.Algebra.C13SectionSizes
