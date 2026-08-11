@@ -297,3 +297,5 @@ import MathlibPlus.Combinatorics.CommonCoreOverlap
 import MathlibPlus.Open.GraphTheory.VertexDeckEdgeReconstruction
 import MathlibPlus.GroupTheory.TwoClosure
 import MathlibPlus.Algebra.TwoChannelUnitCircle
+import MathlibPlus.Analysis.BoundaryDirichlet
+import MathlibPlus.Algebra.LaurentNullKernelToy
