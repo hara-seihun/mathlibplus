@@ -28,3 +28,4 @@ import MathlibPlus.Analysis.SignedCoherentState
 import MathlibPlus.Algebra.ConnectedCumulant
 import MathlibPlus.LinearAlgebra.CompletedBezoutCofactor
 import MathlibPlus.Open.MomentCurve.TotalPositivity
+import MathlibPlus.Open.MomentGeometry.Sharpness
