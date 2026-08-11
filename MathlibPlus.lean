@@ -129,3 +129,4 @@ import MathlibPlus.MertensProduct
 import MathlibPlus.MatrixCongruence
 import MathlibPlus.QuarticCounterfeit
 import MathlibPlus.ExponentialReserve
+import MathlibPlus.CoshCounterfeit
