@@ -249,3 +249,5 @@ import MathlibPlus.Analysis.BasicFormResonance
 import MathlibPlus.Topology.LocallyFiniteQuasiCompact
 import MathlibPlus.Analysis.FinitePhasePoisson
 import MathlibPlus.Analysis.PartitionRelativeLengths
+import MathlibPlus.Combinatorics.TightFrequency
+import MathlibPlus.Algebra.ZeroEndpointSecondDifference
