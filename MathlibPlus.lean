@@ -312,3 +312,4 @@ import MathlibPlus.Open.AnalyticNumberTheory.ReciprocalXiFreeEnergy
 import MathlibPlus.AnalyticNumberTheory.ReciprocalXiDerivativeMoments
 import MathlibPlus.Open.AnalyticNumberTheory.ReciprocalXiDerivativeMoments
 import MathlibPlus.Open.Analysis.OrthogonalPolynomial.ReciprocalXiGaussianLimit
+import MathlibPlus.Open.Asymptotics.WeightedLambertWLogarithm
