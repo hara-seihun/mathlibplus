@@ -405,3 +405,5 @@ import MathlibPlus.Analysis.ElementaryClaimFormalizations
 import MathlibPlus.Algebra.PolynomialReflection
 import MathlibPlus.Combinatorics.IndependentLeafFactor
 import MathlibPlus.Algebra.TelescopingFractions
+import MathlibPlus.Algebra.Claim27412
+import MathlibPlus.Analysis.Claim13736And19168
