@@ -268,3 +268,7 @@ import MathlibPlus.Open.Algebra.AffinePower
 import MathlibPlus.Open.Analysis.GreenKernel
 import MathlibPlus.Algebra.ScalarLeftPeriod
 import MathlibPlus.Open.Analysis.CauchyFourierMaxIdentity
+import MathlibPlus.Analysis.EvenFunctionDerivative
+import MathlibPlus.Logic.TwoBranchLogicalImpossibility
+import MathlibPlus.Analysis.ComplexModulusDifference
+import MathlibPlus.Algebra.BinomialFiniteDifference
