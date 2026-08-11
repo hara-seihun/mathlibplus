@@ -103,3 +103,6 @@ import MathlibPlus.LinearAlgebra.DegreeOneMatrixModel
 import MathlibPlus.Algebra.CompletedQuadratic
 import MathlibPlus.Algebra.IntegerEndomorphism
 import MathlibPlus.Algebra.IntervalReflection
+import MathlibPlus.Analysis.ExponentialRemainder
+import MathlibPlus.Combinatorics.ComponentSizeMultisets
+import MathlibPlus.Combinatorics.BooleanComponentSeparation
