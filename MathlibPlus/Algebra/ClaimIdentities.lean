@@ -128,4 +128,23 @@ theorem delayedFailureFactor_roots (B : ℝ) (_hB : 2 < B) :
         ring
   rw [mul_eq_zero, hfirst, hquad]
 
+/-- Claim 28481: ordered linearly independent pairs in `𝔽₃³` have the
+advertised cardinality.  The displayed scalar-multiple criterion is the exact
+`linearIndependent_fin2` normal form. -/
+theorem orderedIndependentPairsF3_iff
+    (p : (Fin 3 → ZMod 3) × (Fin 3 → ZMod 3)) :
+    LinearIndependent (ZMod 3) ![p.1, p.2] ↔
+      p.2 ≠ 0 ∧ ∀ a : ZMod 3, a • p.2 ≠ p.1 := by
+  simpa using (linearIndependent_fin2 (K := ZMod 3)
+    (V := Fin 3 → ZMod 3) (f := ![p.1, p.2]))
+
+theorem orderedIndependentPairsF3 :
+    Fintype.card
+        {p : (Fin 3 → ZMod 3) × (Fin 3 → ZMod 3) //
+          p.2 ≠ 0 ∧ ∀ a : ZMod 3, a • p.2 ≠ p.1} =
+      (3 ^ 3 - 1) * (3 ^ 3 - 3) ∧
+        (3 ^ 3 - 1) * (3 ^ 3 - 3) = 26 * 24 ∧
+          26 * 24 = 624 := by
+  native_decide
+
 end MathlibPlus.Algebra.ClaimIdentities
