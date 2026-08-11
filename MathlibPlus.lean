@@ -519,3 +519,5 @@ import MathlibPlus.Analysis.Claim57694
 import MathlibPlus.Geometry.Claim48840
 import MathlibPlus.NumberTheory.Claim16816
 import MathlibPlus.Analysis.Claim15531
+import MathlibPlus.Analysis.Claim11118
+import MathlibPlus.Algebra.Claim23650
