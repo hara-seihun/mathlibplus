@@ -345,3 +345,6 @@ import MathlibPlus.Analysis.CayleyRate
 import MathlibPlus.LinearAlgebra.UniversalCollinearity
 import MathlibPlus.Analysis.ArthurRayEnergies
 import MathlibPlus.Analysis.CompletedGammaFactor
+import MathlibPlus.Algebra.ElementarySymmetricExpansion
+import MathlibPlus.Combinatorics.ChooseRatio
+import MathlibPlus.Open.AnalyticNumberTheory.PrimeCounting.GlobalAbsolutePsiSqrtLog
