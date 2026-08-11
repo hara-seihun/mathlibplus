@@ -114,3 +114,4 @@ import MathlibPlus.Open.Algebra.QuadraticFiniteIntervalFunctionalEquation
 import MathlibPlus.Open.Algebra.DistinctClosedPrimeFiberProducts
 import MathlibPlus.Algebra.NormalizedCoefficients
 import MathlibPlus.Algebra.GripfallFactor
+import MathlibPlus.NumberTheory.Claim1374
