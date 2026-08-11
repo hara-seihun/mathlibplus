@@ -15,3 +15,7 @@ import MathlibPlus.ZeroFreeRegion.Denominator4824
 import MathlibPlus.LinearAlgebra.CompletedBezout
 import MathlibPlus.AffineGap.ProjectivePeano
 import MathlibPlus.Open.AffineGap.ProjectivePeano
+import MathlibPlus.Analysis.SymmetricImaginaryShift.ConjugatePair
+import MathlibPlus.Analysis.SymmetricImaginaryShift.QuadraticSharpness
+import MathlibPlus.Analysis.SymmetricImaginaryShift.RealZero
+import MathlibPlus.Analysis.ThetaShell
