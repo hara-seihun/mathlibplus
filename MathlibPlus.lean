@@ -58,3 +58,4 @@ import MathlibPlus.MomentGeometry.NearThresholdCounterexamples
 import MathlibPlus.AffineGap
 import MathlibPlus.Analysis.FalseRHCurvature
 import MathlibPlus.Open.Analysis.FalseRHCurvature
+import MathlibPlus.Open.Asymptotics.WeightedLogFactorial
