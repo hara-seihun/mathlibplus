@@ -54,3 +54,4 @@ import MathlibPlus.Algebra.ChernArithmetic
 import MathlibPlus.PrimeDigitSum
 import MathlibPlus.Open.BoundaryCluster
 import MathlibPlus.Analysis.ReciprocalXi
+import MathlibPlus.MomentGeometry.NearThresholdCounterexamples
