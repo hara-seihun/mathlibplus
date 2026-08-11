@@ -482,3 +482,4 @@ import MathlibPlus.Combinatorics.Claim33574
 import MathlibPlus.Analysis.Claim34823
 import MathlibPlus.Analysis.Claim10630
 import MathlibPlus.Analysis.Claim19028
+import MathlibPlus.Open.Analysis.ResonanceSafePositiveLevelSet
