@@ -183,3 +183,4 @@ import MathlibPlus.Analysis.MomentRatios
 import MathlibPlus.Algebra.CurveDescendedLoewner
 import MathlibPlus.Open.NumberTheory.RiemannSplitAtom
 import MathlibPlus.Open.Analysis.SpecialFunctions.BesselKHadamard
+import MathlibPlus.Open.Analysis.MRSIntegrals
