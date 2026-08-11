@@ -30,3 +30,4 @@ import MathlibPlus.LinearAlgebra.CompletedBezoutCofactor
 import MathlibPlus.Open.MomentCurve.TotalPositivity
 import MathlibPlus.Open.MomentGeometry.Sharpness
 import MathlibPlus.Analysis.Moment.CompletedBezoutRankTwoPositive
+import MathlibPlus.Open.LinearAlgebra.CompletedBezout
