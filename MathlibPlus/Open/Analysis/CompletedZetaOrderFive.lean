@@ -40,4 +40,31 @@ noncomputable def globalOrderFivePositivity : Prop :=
   (∀ r : ℝ, r ∈ Set.Icc ((3549 : ℝ) / 100) 100 → Matrix.PosDef (C 5 (r ^ 2))) ∧
   (∀ r : ℝ, 100 ≤ r → Matrix.PosDef (C 5 (r ^ 2)))
 
+/-- RH is equivalent to positive semidefiniteness of every finite Riemann
+vertical-shift boundary-flux matrix for every `0 < ω < 1/2`. -/
+noncomputable def riemannBoundaryFluxCriterion : Prop :=
+  let xi : ℂ → ℂ := fun s =>
+    (1 / 2 : ℂ) * s * (s - 1) * completedRiemannZeta s
+  let A : ℝ → ℝ → ℂ := fun ω q =>
+    xi (((1 : ℝ) / 2 - ω : ℝ) + (q : ℂ) * Complex.I)
+  let parameterDerivative : ℝ → ℝ → ℂ := fun ω q =>
+    deriv (fun η : ℝ => A η q) ω
+  let coordinateDerivative : ℝ → ℝ → ℂ := fun ω q =>
+    deriv (A ω) q
+  let mixedDerivative : ℝ → ℝ → ℂ := fun ω q =>
+    deriv (parameterDerivative ω) q
+  let boundaryFlux : ℝ → ℝ → ℝ → ℝ := fun ω p q =>
+    if p = q then
+      -(1 : ℝ) / 4 *
+        ((mixedDerivative ω p * starRingEnd ℂ (A ω p)).im -
+          (parameterDerivative ω p * starRingEnd ℂ (coordinateDerivative ω p)).im)
+    else
+      ((parameterDerivative ω q * starRingEnd ℂ (A ω p)).im -
+          (parameterDerivative ω p * starRingEnd ℂ (A ω q)).im) /
+        (4 * (p - q))
+  RiemannHypothesis ↔
+    ∀ ω : ℝ, 0 < ω → ω < (1 : ℝ) / 2 →
+      ∀ n : ℕ, ∀ p : Fin n → ℝ, Function.Injective p →
+        Matrix.PosSemidef (fun i j => boundaryFlux ω (p i) (p j))
+
 end MathlibPlus.Open.Analysis.CompletedZeta
