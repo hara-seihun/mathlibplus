@@ -13,3 +13,5 @@ import MathlibPlus.LinearAlgebra.FiniteToeplitzMoment
 import MathlibPlus.Analysis.CompressedEvenTranslation
 import MathlibPlus.ZeroFreeRegion.Denominator4824
 import MathlibPlus.LinearAlgebra.CompletedBezout
+import MathlibPlus.AffineGap.ProjectivePeano
+import MathlibPlus.Open.AffineGap.ProjectivePeano
