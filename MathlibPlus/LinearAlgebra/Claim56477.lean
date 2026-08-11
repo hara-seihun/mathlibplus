@@ -3,8 +3,7 @@ import Mathlib
 namespace MathlibPlus.LinearAlgebra.Claim56477
 
 noncomputable def aggregate
-    {S F W Z : Type*} [Fintype S] [Fintype F]
-    [AddCommGroup W] [Module ℚ W] [AddCommGroup Z] [Module ℚ Z]
+    {S F : Type*} [Fintype S] [Fintype F]
     (q : S → ℚ) (Q : ℚ) (p : S → F → ℚ) : F → ℚ :=
   Q⁻¹ • ∑ e : S, q e • p e
 
@@ -32,9 +31,9 @@ theorem commonCoboundaryAggregate
   have hQ0 : Q ≠ 0 := ne_of_gt hQ
   have hQinv : 0 < Q⁻¹ := inv_pos.mpr hQ
   have hsumA : ∑ e : S, q e • a e = Q • abar := by
-    simp_rw [hAdecomp]
+    simp_rw [hAdecomp, smul_add]
     rw [Finset.sum_add_distrib]
-    simp only [smul_add, Finset.sum_smul]
+    simp only [Finset.sum_smul]
     rw [← Finset.smul_sum]
     rw [hLcancel]
     simp [Q]
@@ -55,9 +54,9 @@ theorem commonCoboundaryAggregate
   have hAbar : A (aggregate q Q p) = abar := by
     dsimp [aggregate]
     rw [map_smul, map_sum]
-    simp_rw [map_smul, hAexp]
+    simp_rw [map_smul, hAexp, smul_add]
     rw [Finset.sum_add_distrib]
-    simp only [smul_add, Finset.sum_smul]
+    simp only [Finset.sum_smul]
     rw [← Finset.smul_sum, ← Finset.smul_sum]
     rw [hLcancel, hsumA]
     field_simp

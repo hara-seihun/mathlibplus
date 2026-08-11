@@ -320,3 +320,4 @@ import MathlibPlus.Analysis.ReciprocalXiTransform
 import MathlibPlus.Combinatorics.HandshakeLemma
 import MathlibPlus.LinearAlgebra.WeightedRadon
 import MathlibPlus.Algebra.Claim11749Toeplitz
+import MathlibPlus.Algebra.Claim24871Pascal
