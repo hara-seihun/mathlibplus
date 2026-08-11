@@ -455,3 +455,4 @@ import MathlibPlus.Combinatorics.BoundaryProfileFactorization
 import MathlibPlus.GroupTheory.CayleyCI
 import MathlibPlus.NumberTheory.WeightedDyadicTail
 import MathlibPlus.LinearAlgebra.TraceInvisibleRateGram
+import MathlibPlus.NumberTheory.FinitePrimeProduct
