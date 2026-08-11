@@ -311,3 +311,4 @@ import MathlibPlus.Open.AnalyticNumberTheory.ReciprocalXiExactJacobiAsymptotic
 import MathlibPlus.Open.AnalyticNumberTheory.ReciprocalXiFreeEnergy
 import MathlibPlus.AnalyticNumberTheory.ReciprocalXiDerivativeMoments
 import MathlibPlus.Open.AnalyticNumberTheory.ReciprocalXiDerivativeMoments
+import MathlibPlus.Open.Analysis.OrthogonalPolynomial.ReciprocalXiGaussianLimit
