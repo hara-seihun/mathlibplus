@@ -385,3 +385,5 @@ import MathlibPlus.Open.NumberTheory.MertensProduct.StrictRoundedCoefficient4827
 import MathlibPlus.Open.NumberTheory.Totient.SharpGlobalCoefficient
 import MathlibPlus.Analysis.OrdinaryDirichletLogarithm
 import MathlibPlus.Open.NumberTheory.MertensProduct.FiniteJumpEnvelopeSeparation
+import MathlibPlus.LinearAlgebra.CorrectedHadamardFrame
+import MathlibPlus.Algebra.WeightedEulerIdentity
