@@ -70,3 +70,5 @@ import MathlibPlus.GraphTheory.AutomorphismModule
 import MathlibPlus.LinearAlgebra.RankTwoIntervalReflection
 import MathlibPlus.MeasureTheory.JordanDecomposition
 import MathlibPlus.Arithmetic.ProposedBoundParameters
+import MathlibPlus.Analysis.CoefficientChecks
+import MathlibPlus.NumberTheory.PrimeInterval
