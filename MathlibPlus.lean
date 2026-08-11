@@ -309,3 +309,5 @@ import MathlibPlus.Open.Analysis.OrthogonalPolynomial.Gaussian.NormalizationDiag
 import MathlibPlus.Open.Analysis.OrthogonalPolynomial.FixedShiftJacobiRatios
 import MathlibPlus.Open.AnalyticNumberTheory.ReciprocalXiExactJacobiAsymptotic
 import MathlibPlus.Open.AnalyticNumberTheory.ReciprocalXiFreeEnergy
+import MathlibPlus.AnalyticNumberTheory.ReciprocalXiDerivativeMoments
+import MathlibPlus.Open.AnalyticNumberTheory.ReciprocalXiDerivativeMoments
