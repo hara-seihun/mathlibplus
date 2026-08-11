@@ -546,3 +546,5 @@ import MathlibPlus.LinearAlgebra.Claim11144
 import MathlibPlus.Combinatorics.Claim31406
 import MathlibPlus.Algebra.RelativeJet
 import MathlibPlus.Algebra.RelativeDerivative
+import MathlibPlus.Analysis.Claim11305
+import MathlibPlus.Combinatorics.Claim46855
