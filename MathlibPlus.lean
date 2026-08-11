@@ -327,3 +327,4 @@ import MathlibPlus.NumberTheory.LiGram
 import MathlibPlus.Complex.CayleyZero
 import MathlibPlus.Algebra.ReciprocalSeries
 import MathlibPlus.Analysis.ShiftPacket
+import MathlibPlus.Combinatorics.SingletonSupport
