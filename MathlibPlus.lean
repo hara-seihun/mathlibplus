@@ -97,3 +97,4 @@ import MathlibPlus.Analysis.PhaseNoncancellation
 import MathlibPlus.Algebra.Idempotents
 import MathlibPlus.Algebra.QuadraticNorm
 import MathlibPlus.AlgebraicGeometry.NoetherFormula
+import MathlibPlus.AnalyticNumberTheory.CertificateArithmetic
