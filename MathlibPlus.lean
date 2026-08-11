@@ -299,3 +299,4 @@ import MathlibPlus.GroupTheory.TwoClosure
 import MathlibPlus.Algebra.TwoChannelUnitCircle
 import MathlibPlus.Analysis.BoundaryDirichlet
 import MathlibPlus.Algebra.LaurentNullKernelToy
+import MathlibPlus.Open.Analysis.StrictTotalPositivityShiftedGammaRows
