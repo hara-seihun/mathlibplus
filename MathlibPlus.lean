@@ -76,3 +76,6 @@ import MathlibPlus.Analysis.InverseOperatorStability
 import MathlibPlus.Analysis.SingleSpike
 import MathlibPlus.Analysis.Schoenberg
 import MathlibPlus.LinearAlgebra.SignedPermutationResidual
+import MathlibPlus.Algebra.ProjectiveStokes
+import MathlibPlus.LinearAlgebra.SkewQuadratic
+import MathlibPlus.Analysis.ReciprocalIntegerShell
