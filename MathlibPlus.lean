@@ -213,3 +213,5 @@ import MathlibPlus.Algebra.InitialCoefficientTable
 import MathlibPlus.Analysis.GammaGreenCompletion
 import MathlibPlus.LinearAlgebra.PauliSquares
 import MathlibPlus.Open.GraphTheory.StronglyRegularNonexistence
+import MathlibPlus.Algebra.TranslationDisplacement
+import MathlibPlus.Analysis.EndpointRatio
