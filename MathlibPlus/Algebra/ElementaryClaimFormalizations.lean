@@ -62,3 +62,44 @@ theorem companionFrobeniusMatrices :
     ring
 
 end MathlibPlus.LinearAlgebra.CompanionFrobenius
+
+namespace MathlibPlus.Algebra
+
+/-!
+Formalization of admitted claim 24957.  The four-term minimum is written with
+nested `min`s, preserving all four cross-sums in the source statement.
+-/
+
+/-- The cross-minimum identity for four nonnegative integer valuations. -/
+theorem crossMinimumIdentity (x y u v : ℕ) :
+    min (min (x + u) (y + v)) (min (x + v) (y + u)) =
+      min x y + min u v := by
+  omega
+
+/-!
+Formalization of admitted claim 19050.  The real parameters are coerced to
+`ℂ`, and the source's complex exponential and hyperbolic cosine are retained.
+-/
+
+/-- A reflected pair of exponentials has the displayed hyperbolic-cosine form. -/
+theorem reflectedFactorIdentity (a r : ℝ) (z : ℂ) :
+    (1 + (r : ℂ) * Complex.exp ((a : ℂ) * z)) *
+        (1 + (r : ℂ) * Complex.exp (-((a : ℂ) * z))) =
+      1 + (r : ℂ) ^ 2 + 2 * (r : ℂ) * Complex.cosh ((a : ℂ) * z) := by
+  simp only [Complex.cosh]
+  have hexp : Complex.exp ((a : ℂ) * z) * Complex.exp (-((a : ℂ) * z)) = 1 := by
+    rw [← Complex.exp_add]
+    simp
+  calc
+    (1 + (r : ℂ) * Complex.exp ((a : ℂ) * z)) *
+          (1 + (r : ℂ) * Complex.exp (-((a : ℂ) * z))) =
+        1 + (r : ℂ) * Complex.exp ((a : ℂ) * z) +
+          (r : ℂ) * Complex.exp (-((a : ℂ) * z)) +
+          (r : ℂ) ^ 2 *
+            (Complex.exp ((a : ℂ) * z) * Complex.exp (-((a : ℂ) * z))) := by ring
+    _ = 1 + (r : ℂ) ^ 2 + 2 * (r : ℂ) *
+          ((Complex.exp ((a : ℂ) * z) + Complex.exp (-((a : ℂ) * z))) / 2) := by
+      rw [hexp]
+      ring
+
+end MathlibPlus.Algebra

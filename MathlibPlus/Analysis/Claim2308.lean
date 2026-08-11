@@ -6,13 +6,13 @@ namespace MathlibPlus.Analysis.Claim2308
 written as a finite filtered sum. -/
 noncomputable def arithmeticKernel (c : ℕ) (p : ℝ → ℝ) (x : ℝ) : ℝ :=
   Real.exp (x / 2) / Real.sqrt (c : ℝ) *
-    ∑ n in (Finset.Icc 1 (c - 1)).filter
-      (fun n => (n : ℝ) < (c : ℝ) * Real.exp (-x)),
+    ∑ n ∈ ((Finset.Icc 1 (c - 1)).filter
+      (fun n => (n : ℝ) < (c : ℝ) * Real.exp (-x))),
       p ((n : ℝ) * Real.exp x / (c : ℝ))
 
 /-- The value jump at the cutoff where the summand with argument one
  disappears. -/
-def internalValueJump (p : ℝ → ℝ) (n : ℕ) : ℝ :=
+noncomputable def internalValueJump (p : ℝ → ℝ) (n : ℕ) : ℝ :=
   p 1 / Real.sqrt (n : ℝ)
 
 /-- Exact endpoint values, including the endpoint-flatness hypothesis from the
@@ -23,11 +23,11 @@ theorem endpointValues (c : ℕ) (hc : 0 < c) (p : ℝ → ℝ) (hp : p 1 = 0) :
     arithmeticKernel c p (Real.log c) = 0 ∧
       arithmeticKernel c p 0 =
         (1 / Real.sqrt (c : ℝ)) *
-          ∑ n in Finset.Icc 1 (c - 1), p ((n : ℝ) / (c : ℝ)) := by
+          ∑ n ∈ Finset.Icc 1 (c - 1), p ((n : ℝ) / (c : ℝ)) := by
   have hcR : (0 : ℝ) < (c : ℝ) := by exact_mod_cast hc
   have hleft :
-      (Finset.Icc 1 (c - 1)).filter
-          (fun n => (n : ℝ) < (c : ℝ) * Real.exp (- (0 : ℝ))) =
+      ((Finset.Icc 1 (c - 1)).filter
+          (fun n => (n : ℝ) < (c : ℝ) * Real.exp (- (0 : ℝ)))) =
         Finset.Icc 1 (c - 1) := by
     apply Finset.filter_eq_self.mpr
     intro n hn
@@ -40,8 +40,8 @@ theorem endpointValues (c : ℕ) (hc : 0 < c) (p : ℝ → ℝ) (hp : p 1 = 0) :
     rw [hlogexp]
     field_simp
   have hright :
-      (Finset.Icc 1 (c - 1)).filter
-          (fun n => (n : ℝ) < (c : ℝ) * Real.exp (-Real.log (c : ℝ))) = ∅ := by
+      ((Finset.Icc 1 (c - 1)).filter
+          (fun n => (n : ℝ) < (c : ℝ) * Real.exp (-Real.log (c : ℝ)))) = ∅ := by
     apply Finset.filter_eq_empty_iff.mpr
     intro n hn
     have hnlo : 1 ≤ n := (Finset.mem_Icc.mp hn).1
