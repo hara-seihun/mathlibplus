@@ -267,3 +267,4 @@ import MathlibPlus.Open.Analysis.BesselKernelBounds
 import MathlibPlus.Open.Algebra.AffinePower
 import MathlibPlus.Open.Analysis.GreenKernel
 import MathlibPlus.Algebra.ScalarLeftPeriod
+import MathlibPlus.Open.Analysis.CauchyFourierMaxIdentity
