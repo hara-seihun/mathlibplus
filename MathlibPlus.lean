@@ -435,3 +435,4 @@ import MathlibPlus.GraphTheory.Claim20718
 import MathlibPlus.NumberTheory.Claim6643
 import MathlibPlus.Combinatorics.LinearTrianglePacking
 import MathlibPlus.Algebra.CompleteNonzeroShear
+import MathlibPlus.Algebra.Claim21266
