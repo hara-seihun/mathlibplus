@@ -517,3 +517,5 @@ import MathlibPlus.Combinatorics.Claim37749
 import MathlibPlus.Open.GraphTheory.Claim16497
 import MathlibPlus.Analysis.Claim57694
 import MathlibPlus.Geometry.Claim48840
+import MathlibPlus.NumberTheory.Claim16816
+import MathlibPlus.Analysis.Claim15531
