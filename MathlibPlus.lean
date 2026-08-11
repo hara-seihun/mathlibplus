@@ -422,3 +422,7 @@ import MathlibPlus.Analysis.GammaOddCenters
 import MathlibPlus.Algebra.Claim8031
 import MathlibPlus.Algebra.Claim26838
 import MathlibPlus.Analysis.Claim14912
+import MathlibPlus.Algebra.FiniteFieldBinomial
+import MathlibPlus.Analysis.TrigonometricEllipse
+import MathlibPlus.Analysis.PoissonEntropy
+import MathlibPlus.Algebra.AffineSemigroup
