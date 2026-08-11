@@ -86,3 +86,7 @@ import MathlibPlus.Analysis.FiniteDimensionalOrthogonalProjection
 import MathlibPlus.Analysis.VerifiedHeightGaussianWidth
 import MathlibPlus.Algebra.NumberOperatorWedge
 import MathlibPlus.Analysis.ElementaryExponentialBounds
+import MathlibPlus.Algebra.TwoModeExteriorSquare
+import MathlibPlus.Analysis.HyperbolicCosineGreenMode
+import MathlibPlus.Combinatorics.AdjacentLayerSignature
+import MathlibPlus.LinearAlgebra.TwoDimensionalAlternatingSimilitude
