@@ -368,3 +368,4 @@ import MathlibPlus.Open.NumberTheory.ReciprocalPrimeTail
 import MathlibPlus.Open.NumberTheory.ReciprocalPrimeSharp
 import MathlibPlus.Open.NumberTheory.ReciprocalPrimeMargins
 import MathlibPlus.Open.NumberTheory.ReciprocalPrimeHandoff
+import MathlibPlus.Complex.QuartetCharacteristicPolynomial
