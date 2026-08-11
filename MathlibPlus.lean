@@ -465,3 +465,4 @@ import MathlibPlus.Algebra.PrimitiveVector
 import MathlibPlus.Algebra.Claim17590
 import MathlibPlus.Algebra.Claim4764
 import MathlibPlus.Algebra.Claim29002
+import MathlibPlus.Algebra.Claim10579_26597
