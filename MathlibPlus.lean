@@ -157,3 +157,4 @@ import MathlibPlus.Open.CompletedZetaOrderThree
 import MathlibPlus.Open.ConnectedTriple.BernsteinPattern
 import MathlibPlus.Open.ConnectedTriple.CanonicalPositivity
 import MathlibPlus.Open.ConnectedTriple.ScaledEdgeResidual
+import MathlibPlus.Analysis.TP4Packet
