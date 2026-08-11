@@ -521,3 +521,7 @@ import MathlibPlus.NumberTheory.Claim16816
 import MathlibPlus.Analysis.Claim15531
 import MathlibPlus.Analysis.Claim11118
 import MathlibPlus.Algebra.Claim23650
+import MathlibPlus.Analysis.Claim47128BellmanArithmetic
+import MathlibPlus.Combinatorics.Claim35019CensusArithmetic
+import MathlibPlus.Combinatorics.Claim37863ProfileCensusArithmetic
+import MathlibPlus.Algebra.Claim23693CocycleDefect
