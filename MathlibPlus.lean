@@ -92,3 +92,5 @@ import MathlibPlus.Combinatorics.AdjacentLayerSignature
 import MathlibPlus.LinearAlgebra.TwoDimensionalAlternatingSimilitude
 import MathlibPlus.Algebra.ClaimIdentities
 import MathlibPlus.LinearAlgebra.ProjectiveRowDifference
+import MathlibPlus.Analysis.RegularVariation
+import MathlibPlus.Analysis.PhaseNoncancellation
