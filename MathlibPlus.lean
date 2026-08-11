@@ -229,3 +229,4 @@ import MathlibPlus.Analysis.FixedExponentialInequality
 import MathlibPlus.Open.NumberTheory.PrimeBetweenPowers
 import MathlibPlus.MomentGeometry.StrictSlackCounterexample
 import MathlibPlus.Analysis.PrimeErrorEnvelopes
+import MathlibPlus.Open.Analysis.CompletedTheta
