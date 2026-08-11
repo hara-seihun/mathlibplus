@@ -376,3 +376,4 @@ import MathlibPlus.Open.NumberTheory.PrimeCounting.ExactPrimeCounting205Million
 import MathlibPlus.NumberTheory.Primorial
 import MathlibPlus.Open.Analysis.ProjectiveGaussTangentRationalization
 import MathlibPlus.Open.AnalyticNumberTheory.PrimeCounting.ThetaPartialSummationMajorant
+import MathlibPlus.NumberTheory.PrimeCounting.JumpEnvelope
