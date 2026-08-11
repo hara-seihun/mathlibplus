@@ -28,4 +28,20 @@ theorem c1sq7_c2_5_noether : (5 : ℚ) - 36 ≤ 5 * 7 := by
 theorem c1sq7_c2_5_bmy : (7 : ℚ) ≤ 3 * 5 := by
   norm_num
 
+/-- Claim 14600: the displayed BMY inequality for `(c₁², c₂) = (3, 9)`. -/
+theorem c1sq3_c2_9_bmy : (3 : ℚ) ≤ 3 * 9 := by
+  norm_num
+
+/-- Claim 14607: the displayed BMY inequality for `(c₁², c₂) = (4, 8)`. -/
+theorem c1sq4_c2_8_bmy : (4 : ℚ) ≤ 3 * 8 := by
+  norm_num
+
+/-- Claim 14614: the displayed BMY inequality for `(c₁², c₂) = (5, 7)`. -/
+theorem c1sq5_c2_7_bmy : (5 : ℚ) ≤ 3 * 7 := by
+  norm_num
+
+/-- Claim 14633: the displayed BMY equality for `(c₁², c₂) = (9, 3)`. -/
+theorem c1sq9_c2_3_bmy_eq : (9 : ℚ) = 3 * 3 := by
+  norm_num
+
 end MathlibPlus.Algebra.ChernArithmetic
