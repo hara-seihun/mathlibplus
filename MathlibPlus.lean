@@ -48,3 +48,4 @@ import MathlibPlus.Analysis.EvenLoewner
 import MathlibPlus.Analysis.ConfluentLoewner
 import MathlibPlus.Analysis.ZeroIsolation
 import MathlibPlus.Open.Analysis.ReciprocalXi
+import MathlibPlus.MomentGeometry.RankThreeAffine
