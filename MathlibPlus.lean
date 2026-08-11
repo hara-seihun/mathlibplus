@@ -468,3 +468,7 @@ import MathlibPlus.Algebra.Claim29002
 import MathlibPlus.Algebra.Claim10579_26597
 import MathlibPlus.Combinatorics.SimultaneousRegularLayers
 import MathlibPlus.LinearAlgebra.Claim39905
+import MathlibPlus.Analysis.Claim17415
+import MathlibPlus.Open.AnalyticNumberTheory.PrimeCounting.Claim929
+import MathlibPlus.Open.Algebra.Claim42107
+import MathlibPlus.Open.Algebra.Claim30628
