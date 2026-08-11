@@ -56,3 +56,5 @@ import MathlibPlus.Open.BoundaryCluster
 import MathlibPlus.Analysis.ReciprocalXi
 import MathlibPlus.MomentGeometry.NearThresholdCounterexamples
 import MathlibPlus.AffineGap
+import MathlibPlus.Analysis.FalseRHCurvature
+import MathlibPlus.Open.Analysis.FalseRHCurvature
