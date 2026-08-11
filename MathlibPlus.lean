@@ -374,3 +374,4 @@ import MathlibPlus.Open.AnalyticNumberTheory.PrimeCounting
 import MathlibPlus.Open.AnalyticNumberTheory.PrimeCounting.PriorGlobalCoefficient6098
 import MathlibPlus.Open.NumberTheory.PrimeCounting.ExactPrimeCounting205Million
 import MathlibPlus.NumberTheory.Primorial
+import MathlibPlus.Open.Analysis.ProjectiveGaussTangentRationalization
