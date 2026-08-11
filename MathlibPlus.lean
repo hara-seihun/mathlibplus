@@ -348,3 +348,4 @@ import MathlibPlus.Analysis.CompletedGammaFactor
 import MathlibPlus.Algebra.ElementarySymmetricExpansion
 import MathlibPlus.Combinatorics.ChooseRatio
 import MathlibPlus.Open.AnalyticNumberTheory.PrimeCounting.GlobalAbsolutePsiSqrtLog
+import MathlibPlus.Open.AnalyticNumberTheory.PrimeCounting.GlobalAbsolutePsiLogLogScale
