@@ -12,3 +12,4 @@ import MathlibPlus.ThirdJet
 import MathlibPlus.LinearAlgebra.FiniteToeplitzMoment
 import MathlibPlus.Analysis.CompressedEvenTranslation
 import MathlibPlus.ZeroFreeRegion.Denominator4824
+import MathlibPlus.LinearAlgebra.CompletedBezout
