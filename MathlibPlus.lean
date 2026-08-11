@@ -171,3 +171,4 @@ import MathlibPlus.Algebra.CurveCounterfeit
 import MathlibPlus.Open.TotalEvenLoewner
 import MathlibPlus.Open.NumberTheory.ZeroWeightEulerSeries
 import MathlibPlus.RepresentationTheory.ZeroWeightMultiplicity
+import MathlibPlus.Open.Analysis.CompletedZetaOrderFive
