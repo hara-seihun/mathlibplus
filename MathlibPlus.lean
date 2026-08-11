@@ -341,3 +341,5 @@ import MathlibPlus.Algebra.TranslationCore
 import MathlibPlus.NumberTheory.SubcutoffMangoldt
 import MathlibPlus.Combinatorics.PackedFamilyWord
 import MathlibPlus.Open.Analysis.LocalNumerator
+import MathlibPlus.Analysis.CayleyRate
+import MathlibPlus.LinearAlgebra.UniversalCollinearity
