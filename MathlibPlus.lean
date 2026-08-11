@@ -388,3 +388,4 @@ import MathlibPlus.Open.NumberTheory.MertensProduct.FiniteJumpEnvelopeSeparation
 import MathlibPlus.LinearAlgebra.CorrectedHadamardFrame
 import MathlibPlus.Algebra.WeightedEulerIdentity
 import MathlibPlus.Analysis.CheckerboardBezout
+import MathlibPlus.Algebra.InfiniteRankFeasibility
