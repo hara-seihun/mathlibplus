@@ -223,3 +223,7 @@ import MathlibPlus.Analysis.Claim15663
 import MathlibPlus.Analysis.Claim21951
 import MathlibPlus.LinearAlgebra.Claim34357
 import MathlibPlus.LinearAlgebra.Claim7764
+import MathlibPlus.Algebra.BranchPolynomial
+import MathlibPlus.Algebra.AxisPositivePolynomial
+import MathlibPlus.Analysis.FixedExponentialInequality
+import MathlibPlus.Open.NumberTheory.PrimeBetweenPowers
