@@ -459,3 +459,6 @@ import MathlibPlus.NumberTheory.FinitePrimeProduct
 import MathlibPlus.Analysis.LogarithmicTranslation
 import MathlibPlus.Arithmetic.FloatFloatStorage
 import MathlibPlus.GroupTheory.ElementOrderProfile
+import MathlibPlus.Algebra.AntipodalDifference
+import MathlibPlus.Algebra.BinaryCarry
+import MathlibPlus.Algebra.PrimitiveVector
