@@ -409,3 +409,4 @@ import MathlibPlus.Algebra.Claim27412
 import MathlibPlus.Analysis.Claim13736And19168
 import MathlibPlus.Analysis.PeriodicLimit
 import MathlibPlus.Asymptotics.SublinearDegree
+import MathlibPlus.Algebra.InwardDirectionalDepth
