@@ -400,3 +400,4 @@ import MathlibPlus.Analysis.ComplexSuperheat
 import MathlibPlus.Combinatorics.OddCyclicBinaryTransition
 import MathlibPlus.Algebra.ChernArithmeticAdditional
 import MathlibPlus.LinearAlgebra.ModularFullRank
+import MathlibPlus.Combinatorics.BinaryCarry
