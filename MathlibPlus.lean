@@ -147,3 +147,4 @@ import MathlibPlus.Ramsey55
 import MathlibPlus.CoefficientEnvelope
 import MathlibPlus.PureSheetTangent
 import MathlibPlus.AxlerSixthMajorant
+import MathlibPlus.MomentGeometry.RankTwoRatioFactorization
