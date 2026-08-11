@@ -508,3 +508,4 @@ import MathlibPlus.Combinatorics.Claim23866
 import MathlibPlus.Analysis.Claim54220
 import MathlibPlus.Combinatorics.Claim25961
 import MathlibPlus.Combinatorics.Claim8020
+import MathlibPlus.Algebra.Claim20863
