@@ -148,3 +148,4 @@ import MathlibPlus.CoefficientEnvelope
 import MathlibPlus.PureSheetTangent
 import MathlibPlus.AxlerSixthMajorant
 import MathlibPlus.MomentGeometry.RankTwoRatioFactorization
+import MathlibPlus.NumberTheory.BellottiGrowth
