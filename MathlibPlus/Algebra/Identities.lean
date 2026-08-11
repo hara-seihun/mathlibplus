@@ -62,4 +62,64 @@ theorem unaugmentedConnectivityIdentity {R : Type*} [CommRing R]
       (S + (2 * w - 1) * T) + (w - 1) * (S - T) := by
   ring
 
+
+/-- Claim 24477: the displayed factorization gives the equivalent cubic inequality. -/
+theorem interiorSupportPolynomialInequality {y r : ℝ}
+    (_hy0 : 0 < y) (hy4 : y < 4) (_hr0 : 0 < r) (_hr4 : r < 4) :
+    (4 - y) * (y - r) ^ 2 ≥ 0 ∧
+      ((4 - y) * (y - r) ^ 2 ≥ 0 ↔
+        y ^ 3 ≤ 4 * r ^ 2 - (8 * r + r ^ 2) * y + (4 + 2 * r) * y ^ 2) := by
+  have hnonneg : (4 - y) * (y - r) ^ 2 ≥ 0 :=
+    mul_nonneg (by linarith) (sq_nonneg (y - r))
+  have hfactor :
+      (4 - y) * (y - r) ^ 2 =
+        4 * r ^ 2 - (8 * r + r ^ 2) * y + (4 + 2 * r) * y ^ 2 - y ^ 3 := by
+    ring
+  refine ⟨hnonneg, ?_⟩
+  rw [hfactor]
+  constructor <;> intro h <;> linarith
+
+/-- Claim 18092: squaring maps each positive integer cell onto the corresponding band. -/
+theorem integerCell_square_image (n : ℕ) (hn : 0 < n) :
+    (fun x : ℝ => x ^ 2) '' Set.Ioo (n : ℝ) (n + 1 : ℝ) =
+      Set.Ioo ((n : ℝ) ^ 2) ((n + 1 : ℝ) ^ 2) := by
+  ext y
+  constructor
+  · rintro ⟨x, hx, rfl⟩
+    constructor
+    · have h₁ : 0 < x - (n : ℝ) := sub_pos.mpr hx.1
+      have hn : 0 < (n : ℝ) := by exact_mod_cast hn
+      have h₂ : 0 < x + (n : ℝ) := by linarith
+      nlinarith [mul_pos h₁ h₂]
+    · have h₁ : 0 < (n + 1 : ℝ) - x := sub_pos.mpr hx.2
+      have hn : 0 < (n : ℝ) := by exact_mod_cast hn
+      have hxpos : 0 < x := by linarith [hx.1]
+      have h₂ : 0 < (n + 1 : ℝ) + x := by linarith
+      nlinarith [mul_pos h₁ h₂]
+  · intro hy
+    have hy0 : 0 ≤ y := by
+      have hn0 : 0 ≤ (n : ℝ) := by positivity
+      have hn_sq : 0 ≤ (n : ℝ) ^ 2 := sq_nonneg _
+      nlinarith [hy.1]
+    let x : ℝ := Real.sqrt y
+    have hx0 : 0 ≤ x := Real.sqrt_nonneg y
+    have hx2 : x ^ 2 = y := by
+      dsimp [x]
+      exact Real.sq_sqrt hy0
+    have hxn : (n : ℝ) < x := by
+      by_contra h
+      have hle : x ≤ (n : ℝ) := le_of_not_gt h
+      have hprod : 0 ≤ ((n : ℝ) - x) * ((n : ℝ) + x) :=
+        mul_nonneg (sub_nonneg.mpr hle) (by positivity)
+      have hsquares : x ^ 2 ≤ (n : ℝ) ^ 2 := by nlinarith [hprod]
+      nlinarith [hy.1, hx2, hsquares]
+    have hxn1 : x < (n + 1 : ℝ) := by
+      by_contra h
+      have hle : (n + 1 : ℝ) ≤ x := le_of_not_gt h
+      have hprod : 0 ≤ (x - (n + 1 : ℝ)) * (x + (n + 1 : ℝ)) :=
+        mul_nonneg (sub_nonneg.mpr hle) (by positivity)
+      have hsquares : x ^ 2 ≥ (n + 1 : ℝ) ^ 2 := by nlinarith [hprod]
+      nlinarith [hy.2, hx2, hsquares]
+    exact ⟨x, ⟨hxn, hxn1⟩, hx2⟩
+
 end MathlibPlus.Algebra.Identities
