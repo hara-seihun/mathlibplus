@@ -256,3 +256,7 @@ import MathlibPlus.LinearAlgebra.PauliProjection
 import MathlibPlus.NumberTheory.GcdIdentities
 import MathlibPlus.Algebra.PositiveGradedNotPure
 import MathlibPlus.Algebra.CayleyPair
+import MathlibPlus.Algebra.QuadraticMomentMultiplication
+import MathlibPlus.LinearAlgebra.SymplecticSimilitudePurity
+import MathlibPlus.Analysis.ReflectedDyadicStandingWave
+import MathlibPlus.Algebra.TranslationPeriod
