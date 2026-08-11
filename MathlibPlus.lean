@@ -35,3 +35,4 @@ import MathlibPlus.Analysis.ReflectionDefect
 import MathlibPlus.Analysis.GaussianFactor
 import MathlibPlus.Algebra.PositiveExteriorDisplacement
 import MathlibPlus.Analysis.BoundaryModulus
+import MathlibPlus.Analysis.FKSEnvelopeCoefficient
