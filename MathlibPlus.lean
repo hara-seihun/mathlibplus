@@ -447,3 +447,6 @@ import MathlibPlus.Open.Algebra.Claim19222
 import MathlibPlus.NumberTheory.Claim2473
 import MathlibPlus.LinearAlgebra.Claim27875
 import MathlibPlus.Algebra.Claim48401
+import MathlibPlus.NumberTheory.Claim31044
+import MathlibPlus.Algebra.Claim14831
+import MathlibPlus.Analysis.Claim4662
