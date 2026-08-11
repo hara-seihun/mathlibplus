@@ -389,3 +389,4 @@ import MathlibPlus.LinearAlgebra.CorrectedHadamardFrame
 import MathlibPlus.Algebra.WeightedEulerIdentity
 import MathlibPlus.Analysis.CheckerboardBezout
 import MathlibPlus.Algebra.InfiniteRankFeasibility
+import MathlibPlus.LinearAlgebra.Claim5773
