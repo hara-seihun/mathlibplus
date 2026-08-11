@@ -537,3 +537,8 @@ import MathlibPlus.Analysis.Claim926
 import MathlibPlus.Open.Analysis.Claim854855
 import MathlibPlus.Open.Analysis.Claim899900
 import MathlibPlus.Complex.Claim2923
+import MathlibPlus.Algebra.Claim8300
+import MathlibPlus.LinearAlgebra.Claim12212
+import MathlibPlus.Analysis.Claim13841
+import MathlibPlus.Combinatorics.Claim21127
+import MathlibPlus.LinearAlgebra.Claim48866
