@@ -446,3 +446,4 @@ import MathlibPlus.Combinatorics.Claim16692
 import MathlibPlus.Open.Algebra.Claim19222
 import MathlibPlus.NumberTheory.Claim2473
 import MathlibPlus.LinearAlgebra.Claim27875
+import MathlibPlus.Algebra.Claim48401
