@@ -369,3 +369,4 @@ import MathlibPlus.Open.NumberTheory.ReciprocalPrimeSharp
 import MathlibPlus.Open.NumberTheory.ReciprocalPrimeMargins
 import MathlibPlus.Open.NumberTheory.ReciprocalPrimeHandoff
 import MathlibPlus.Complex.QuartetCharacteristicPolynomial
+import MathlibPlus.Analysis.CompleteCellTelescoping
