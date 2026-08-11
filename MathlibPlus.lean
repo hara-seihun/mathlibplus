@@ -399,3 +399,4 @@ import MathlibPlus.Open.Analysis.ComplexSuperheat
 import MathlibPlus.Analysis.ComplexSuperheat
 import MathlibPlus.Combinatorics.OddCyclicBinaryTransition
 import MathlibPlus.Algebra.ChernArithmeticAdditional
+import MathlibPlus.LinearAlgebra.ModularFullRank
