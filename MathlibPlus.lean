@@ -488,3 +488,4 @@ import MathlibPlus.Combinatorics.TrianglePacking
 import MathlibPlus.Arithmetic.RationalDenominatorScaling
 import MathlibPlus.Analysis.Superoscillation
 import MathlibPlus.Open.Analysis.MomentGeometry.StieltjesRatios
+import MathlibPlus.Open.Algebra.ConnectedTriple
