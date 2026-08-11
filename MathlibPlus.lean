@@ -212,3 +212,4 @@ import MathlibPlus.Algebra.AntisymmetricShadow
 import MathlibPlus.Algebra.InitialCoefficientTable
 import MathlibPlus.Analysis.GammaGreenCompletion
 import MathlibPlus.LinearAlgebra.PauliSquares
+import MathlibPlus.Open.GraphTheory.StronglyRegularNonexistence
