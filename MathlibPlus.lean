@@ -335,3 +335,5 @@ import MathlibPlus.Algebra.PrimeOrthogonalBlocks
 import MathlibPlus.Open.Analysis.ExplicitNegativeRootPFPolynomial
 import MathlibPlus.Open.Algebra.AffineDeterminantDegree
 import MathlibPlus.Algebra.ElementaryArithmeticClaims
+import MathlibPlus.Analysis.GoldbachAuxiliary
+import MathlibPlus.Open.AnalyticNumberTheory.PrimeCounting.AxlerInfiniteTail
