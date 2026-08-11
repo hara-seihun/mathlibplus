@@ -172,3 +172,4 @@ import MathlibPlus.Open.TotalEvenLoewner
 import MathlibPlus.Open.NumberTheory.ZeroWeightEulerSeries
 import MathlibPlus.RepresentationTheory.ZeroWeightMultiplicity
 import MathlibPlus.Open.Analysis.CompletedZetaOrderFive
+import MathlibPlus.Open.Analysis.KTypeSelector
