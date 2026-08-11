@@ -94,3 +94,6 @@ import MathlibPlus.Algebra.ClaimIdentities
 import MathlibPlus.LinearAlgebra.ProjectiveRowDifference
 import MathlibPlus.Analysis.RegularVariation
 import MathlibPlus.Analysis.PhaseNoncancellation
+import MathlibPlus.Algebra.Idempotents
+import MathlibPlus.Algebra.QuadraticNorm
+import MathlibPlus.AlgebraicGeometry.NoetherFormula
