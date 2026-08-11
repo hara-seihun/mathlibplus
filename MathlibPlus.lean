@@ -253,3 +253,6 @@ import MathlibPlus.Combinatorics.TightFrequency
 import MathlibPlus.Algebra.ZeroEndpointSecondDifference
 import MathlibPlus.Algebra.LinearQuadraticFactorization
 import MathlibPlus.LinearAlgebra.PauliProjection
+import MathlibPlus.NumberTheory.GcdIdentities
+import MathlibPlus.Algebra.PositiveGradedNotPure
+import MathlibPlus.Algebra.CayleyPair
