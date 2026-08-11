@@ -526,3 +526,6 @@ import MathlibPlus.Combinatorics.Claim35019CensusArithmetic
 import MathlibPlus.Combinatorics.Claim37863ProfileCensusArithmetic
 import MathlibPlus.Algebra.Claim23693CocycleDefect
 import MathlibPlus.Algebra.Claim4457
+import MathlibPlus.Combinatorics.Claim36143
+import MathlibPlus.Analysis.Claim48054
+import MathlibPlus.LinearAlgebra.Claim52454
