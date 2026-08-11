@@ -462,3 +462,6 @@ import MathlibPlus.GroupTheory.ElementOrderProfile
 import MathlibPlus.Algebra.AntipodalDifference
 import MathlibPlus.Algebra.BinaryCarry
 import MathlibPlus.Algebra.PrimitiveVector
+import MathlibPlus.Algebra.Claim17590
+import MathlibPlus.Algebra.Claim4764
+import MathlibPlus.Algebra.Claim29002
