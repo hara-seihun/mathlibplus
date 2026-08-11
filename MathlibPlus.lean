@@ -145,3 +145,4 @@ import MathlibPlus.MomentGeometry.RankTwoFeasibility
 import MathlibPlus.NumberTheory.PsiEnvelope
 import MathlibPlus.Ramsey55
 import MathlibPlus.CoefficientEnvelope
+import MathlibPlus.PureSheetTangent
