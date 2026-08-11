@@ -20,4 +20,15 @@ theorem noether_eulerCharacteristic_of_chern_pair
   rw [hNoether, hc₁, hc₂]
   norm_num
 
+/-- Claim 14647: the displayed Noether formula and Chern-number values force `χ = 2`.
+The source does not identify a Lean surface object, so the numerical formula and
+Chern-number equalities are represented directly. -/
+theorem noether_eulerCharacteristic_of_chern_pair_5_19
+    (χ c₁sq c₂ : ℚ)
+    (hNoether : χ = (c₁sq + c₂) / 12)
+    (hc₁ : c₁sq = 5) (hc₂ : c₂ = 19) :
+    χ = 2 := by
+  rw [hNoether, hc₁, hc₂]
+  norm_num
+
 end MathlibPlus.AlgebraicGeometry

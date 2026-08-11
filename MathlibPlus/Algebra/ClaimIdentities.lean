@@ -30,4 +30,14 @@ theorem slopeAndRateRecoverSquaredHeight (β γ d κ : ℝ)
   field_simp [hd0]
   nlinarith [hprod]
 
+/-- Claim 1427: exact target improvements in the historical claim.
+Finite decimals are represented exactly in `ℚ`. -/
+theorem exactTargetImprovements :
+    let target : ℚ := 0.2043672
+    let historical : ℚ := 0.1853
+    let baseline : ℚ := 0.2043
+    target - historical = 11917 / 625000 ∧
+      target - baseline = 42 / 625000 := by
+  norm_num
+
 end MathlibPlus.Algebra.ClaimIdentities

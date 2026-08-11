@@ -109,3 +109,4 @@ import MathlibPlus.Combinatorics.BooleanComponentSeparation
 import MathlibPlus.Algebra.Identities
 import MathlibPlus.Analysis.ExponentialPolynomial
 import MathlibPlus.Arithmetic.DyadicBlock
+import MathlibPlus.Analysis.EndpointFlat
