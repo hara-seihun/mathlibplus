@@ -206,3 +206,5 @@ import MathlibPlus.Analysis.AmplitudeDecayAndPsiNormalization
 import MathlibPlus.Open.AnalyticNumberTheory.PrimeSums.FksHistoryAndNormalization
 import MathlibPlus.Algebra.ElementaryClaimFormalizations
 import MathlibPlus.Analysis.RiemannBranchCrossover
+import MathlibPlus.Analysis.EigenvalueBands
+import MathlibPlus.Combinatorics.GapSignature
