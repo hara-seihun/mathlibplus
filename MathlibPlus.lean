@@ -98,3 +98,5 @@ import MathlibPlus.Algebra.Idempotents
 import MathlibPlus.Algebra.QuadraticNorm
 import MathlibPlus.AlgebraicGeometry.NoetherFormula
 import MathlibPlus.AnalyticNumberTheory.CertificateArithmetic
+import MathlibPlus.Analysis.PoleAmplitude
+import MathlibPlus.LinearAlgebra.DegreeOneMatrixModel
