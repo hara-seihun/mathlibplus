@@ -106,3 +106,5 @@ import MathlibPlus.Algebra.IntervalReflection
 import MathlibPlus.Analysis.ExponentialRemainder
 import MathlibPlus.Combinatorics.ComponentSizeMultisets
 import MathlibPlus.Combinatorics.BooleanComponentSeparation
+import MathlibPlus.Algebra.Identities
+import MathlibPlus.Analysis.ExponentialPolynomial
