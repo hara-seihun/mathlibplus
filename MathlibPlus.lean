@@ -419,3 +419,6 @@ import MathlibPlus.Analysis.ThetaShellClaim4660
 import MathlibPlus.Algebra.ElementaryClaimArithmetic
 import MathlibPlus.Analysis.QuarterOrder
 import MathlibPlus.Analysis.GammaOddCenters
+import MathlibPlus.Algebra.Claim8031
+import MathlibPlus.Algebra.Claim26838
+import MathlibPlus.Analysis.Claim14912
