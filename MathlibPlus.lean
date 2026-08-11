@@ -196,3 +196,4 @@ import MathlibPlus.ComplexGeometry.ArthurWeight
 import MathlibPlus.Open.RaisedKType
 import MathlibPlus.NumberTheory.HardyZ
 import MathlibPlus.Open.NumberTheory.HardyZ
+import MathlibPlus.Open.NumberTheory.RankinChannels
