@@ -308,3 +308,4 @@ import MathlibPlus.Analysis.CayleyImageSquared
 import MathlibPlus.Open.Analysis.OrthogonalPolynomial.Gaussian.NormalizationDiagnostic
 import MathlibPlus.Open.Analysis.OrthogonalPolynomial.FixedShiftJacobiRatios
 import MathlibPlus.Open.AnalyticNumberTheory.ReciprocalXiExactJacobiAsymptotic
+import MathlibPlus.Open.AnalyticNumberTheory.ReciprocalXiFreeEnergy
