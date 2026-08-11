@@ -300,3 +300,7 @@ import MathlibPlus.Algebra.TwoChannelUnitCircle
 import MathlibPlus.Analysis.BoundaryDirichlet
 import MathlibPlus.Algebra.LaurentNullKernelToy
 import MathlibPlus.Open.Analysis.StrictTotalPositivityShiftedGammaRows
+import MathlibPlus.Combinatorics.TerminalTargetPermutations
+import MathlibPlus.Open.LinearAlgebra.PolynomialSixChannelReflection
+import MathlibPlus.Open.Combinatorics.InverseClosedMarkerSpectrum
+import MathlibPlus.Open.GroupTheory.OddCycleReflectionInterface
