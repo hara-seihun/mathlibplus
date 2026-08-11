@@ -350,3 +350,7 @@ import MathlibPlus.Combinatorics.ChooseRatio
 import MathlibPlus.Open.AnalyticNumberTheory.PrimeCounting.GlobalAbsolutePsiSqrtLog
 import MathlibPlus.Open.AnalyticNumberTheory.PrimeCounting.GlobalAbsolutePsiLogLogScale
 import MathlibPlus.Algebra.FixedPointFreeOrderThree
+import MathlibPlus.Analysis.HilleHardyLorentzAtom
+import MathlibPlus.LinearAlgebra.ConformalSymplecticGamma
+import MathlibPlus.Algebra.PairSumSecondMoment
+import MathlibPlus.Algebra.InversePairedCyclicVertexLedger
