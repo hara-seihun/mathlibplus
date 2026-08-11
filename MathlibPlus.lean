@@ -439,3 +439,5 @@ import MathlibPlus.Algebra.Claim21266
 import MathlibPlus.Algebra.Claim9235
 import MathlibPlus.Algebra.Claim10425
 import MathlibPlus.Open.NumberTheory.Claim9755
+import MathlibPlus.Algebra.RelativeRapidityFusion
+import MathlibPlus.Analysis.WeightedVariance
