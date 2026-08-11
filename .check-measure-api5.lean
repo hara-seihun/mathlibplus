@@ -1,0 +1,12 @@
+import Mathlib
+open MeasureTheory
+#check MeasureTheory.Measure.normalize
+#check MeasureTheory.Measure.toFinite
+#check MeasureTheory.Measure.IsFiniteMeasure
+#check MeasureTheory.Measure.IsProbabilityMeasure
+#check MeasureTheory.Measure.haar
+#check MeasureTheory.Measure.haar_apply_univ
+#check MeasureTheory.Measure.haar_univ
+#check MeasureTheory.Measure.smul
+#check MeasureTheory.MeasureTheory.Measure
+#check MeasureTheory.Measure.map
