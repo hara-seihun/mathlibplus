@@ -272,3 +272,4 @@ import MathlibPlus.Analysis.EvenFunctionDerivative
 import MathlibPlus.Logic.TwoBranchLogicalImpossibility
 import MathlibPlus.Analysis.ComplexModulusDifference
 import MathlibPlus.Algebra.BinomialFiniteDifference
+import MathlibPlus.Algebra.FourLayerShadowAmplitude
