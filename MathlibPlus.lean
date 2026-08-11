@@ -318,3 +318,4 @@ import MathlibPlus.Analysis.CompletedSource.EulerSupport
 import MathlibPlus.Open.Analysis.CompletedSource.EulerSupport
 import MathlibPlus.Analysis.ReciprocalXiTransform
 import MathlibPlus.Combinatorics.HandshakeLemma
+import MathlibPlus.LinearAlgebra.WeightedRadon
