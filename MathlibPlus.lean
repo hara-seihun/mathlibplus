@@ -328,3 +328,6 @@ import MathlibPlus.Complex.CayleyZero
 import MathlibPlus.Algebra.ReciprocalSeries
 import MathlibPlus.Analysis.ShiftPacket
 import MathlibPlus.Combinatorics.SingletonSupport
+import MathlibPlus.Algebra.GoldenRatioConstant
+import MathlibPlus.Analysis.ElementaryBoundaryComparisons
+import MathlibPlus.AlgebraicGeometry.GeographyChecks
