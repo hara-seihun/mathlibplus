@@ -1,0 +1,15 @@
+import MathlibPlus
+#check Set.image_image
+#check Set.image_injective
+#check Set.image_inj
+#check Equiv.image_eq_iff
+#check Equiv.image_image
+#check Equiv.symm_image_eq
+#check Equiv.image_symm_image
+#check Equiv.symm_image_image
+#check Equiv.image_eq_image
+#check Function.Injective.image_injective
+#check Set.image_eq_iff
+#check Set.image_image
+#check Set.ext
+#check Function.comp
