@@ -136,3 +136,4 @@ import MathlibPlus.Complex.LaurentMoments
 import MathlibPlus.CenteredFactorial
 import MathlibPlus.PrimeThetaConstants
 import MathlibPlus.VKDecay
+import MathlibPlus.CompactPrimeCounting
