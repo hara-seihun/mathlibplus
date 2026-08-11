@@ -161,3 +161,4 @@ import MathlibPlus.Analysis.TP4Packet
 import MathlibPlus.Open.CanonicalTriple
 import MathlibPlus.Open.Analysis.ThetaShell
 import MathlibPlus.Open.Analysis.OrderTwoCurvature
+import MathlibPlus.Open.Analysis.CompletedZeta
