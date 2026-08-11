@@ -208,3 +208,7 @@ import MathlibPlus.Algebra.ElementaryClaimFormalizations
 import MathlibPlus.Analysis.RiemannBranchCrossover
 import MathlibPlus.Analysis.EigenvalueBands
 import MathlibPlus.Combinatorics.GapSignature
+import MathlibPlus.Algebra.AntisymmetricShadow
+import MathlibPlus.Algebra.InitialCoefficientTable
+import MathlibPlus.Analysis.GammaGreenCompletion
+import MathlibPlus.LinearAlgebra.PauliSquares
