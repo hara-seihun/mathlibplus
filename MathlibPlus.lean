@@ -331,3 +331,6 @@ import MathlibPlus.Combinatorics.SingletonSupport
 import MathlibPlus.Algebra.GoldenRatioConstant
 import MathlibPlus.Analysis.ElementaryBoundaryComparisons
 import MathlibPlus.AlgebraicGeometry.GeographyChecks
+import MathlibPlus.Algebra.PrimeOrthogonalBlocks
+import MathlibPlus.Open.Analysis.ExplicitNegativeRootPFPolynomial
+import MathlibPlus.Open.Algebra.AffineDeterminantDegree
