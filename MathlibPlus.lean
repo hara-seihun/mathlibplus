@@ -529,3 +529,10 @@ import MathlibPlus.Algebra.Claim4457
 import MathlibPlus.Combinatorics.Claim36143
 import MathlibPlus.Analysis.Claim48054
 import MathlibPlus.LinearAlgebra.Claim52454
+import MathlibPlus.Combinatorics.Claim43041
+import MathlibPlus.GroupTheory.Claim27729
+import MathlibPlus.LinearAlgebra.Claim6020
+import MathlibPlus.Analysis.Claim843
+import MathlibPlus.Analysis.Claim926
+import MathlibPlus.Open.Analysis.Claim854855
+import MathlibPlus.Open.Analysis.Claim899900
