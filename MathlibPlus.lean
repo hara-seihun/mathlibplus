@@ -3,3 +3,5 @@
 import MathlibPlus.Basic
 import MathlibPlus.Open.Basic
 import MathlibPlus.Test.AdmissionSmoke
+
+import MathlibPlus.MomentGeometry.AlgebraicWitnesses
