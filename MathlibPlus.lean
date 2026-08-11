@@ -10,3 +10,4 @@ import MathlibPlus.Analysis.ThetaMellin
 import MathlibPlus.ZeroFreeRegion.Denominator48568
 import MathlibPlus.ThirdJet
 import MathlibPlus.LinearAlgebra.FiniteToeplitzMoment
+import MathlibPlus.Analysis.CompressedEvenTranslation
