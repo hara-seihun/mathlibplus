@@ -192,3 +192,4 @@ import MathlibPlus.Analysis.CDialCounterfeit
 import MathlibPlus.Open.Analysis.CDialCounterfeit
 import MathlibPlus.Analysis.Moment.ScaleFreeRatios
 import MathlibPlus.Open.NumberTheory.VerifiedZetaZeros
+import MathlibPlus.ComplexGeometry.ArthurWeight
