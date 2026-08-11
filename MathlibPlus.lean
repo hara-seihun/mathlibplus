@@ -436,3 +436,6 @@ import MathlibPlus.NumberTheory.Claim6643
 import MathlibPlus.Combinatorics.LinearTrianglePacking
 import MathlibPlus.Algebra.CompleteNonzeroShear
 import MathlibPlus.Algebra.Claim21266
+import MathlibPlus.Algebra.Claim9235
+import MathlibPlus.Algebra.Claim10425
+import MathlibPlus.Open.NumberTheory.Claim9755
