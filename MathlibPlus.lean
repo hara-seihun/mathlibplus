@@ -283,3 +283,6 @@ import MathlibPlus.NumberTheory.DivisorCoordinateReflection
 import MathlibPlus.Open.Analysis.FilonTypePolynomialContraction
 import MathlibPlus.Algebra.Claim53774
 import MathlibPlus.NumberTheory.Claim21962
+import MathlibPlus.Combinatorics.ComponentConstancy
+import MathlibPlus.Combinatorics.IsolateCancellation
+import MathlibPlus.NumberTheory.CyclicLogLattice
