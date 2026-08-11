@@ -248,3 +248,4 @@ import MathlibPlus.Combinatorics.FixedSliceProfileCount
 import MathlibPlus.Analysis.BasicFormResonance
 import MathlibPlus.Topology.LocallyFiniteQuasiCompact
 import MathlibPlus.Analysis.FinitePhasePoisson
+import MathlibPlus.Analysis.PartitionRelativeLengths
