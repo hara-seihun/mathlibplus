@@ -179,3 +179,4 @@ import MathlibPlus.Open.Analysis.RadialLoewner.Congruence
 import MathlibPlus.LinearAlgebra.RationalCongruence
 import MathlibPlus.Open.Analysis.BesselK
 import MathlibPlus.Analysis.MomentRatios
+import MathlibPlus.Algebra.CurveDescendedLoewner
