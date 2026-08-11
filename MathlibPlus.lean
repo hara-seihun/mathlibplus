@@ -131,3 +131,4 @@ import MathlibPlus.QuarticCounterfeit
 import MathlibPlus.ExponentialReserve
 import MathlibPlus.CoshCounterfeit
 import MathlibPlus.PrimeIntervals
+import MathlibPlus.Analysis.GammaDiniTransition
