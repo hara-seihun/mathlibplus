@@ -450,3 +450,4 @@ import MathlibPlus.Algebra.Claim48401
 import MathlibPlus.NumberTheory.Claim31044
 import MathlibPlus.Algebra.Claim14831
 import MathlibPlus.Analysis.Claim4662
+import MathlibPlus.Algebra.Claim50036
