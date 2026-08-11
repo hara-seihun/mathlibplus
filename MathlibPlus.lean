@@ -476,3 +476,5 @@ import MathlibPlus.Analysis.Claim14448
 import MathlibPlus.Analysis.GudermannianCocycle
 import MathlibPlus.LinearAlgebra.CohomologyDegreeTwo
 import MathlibPlus.LinearAlgebra.PinnedFirstCellNullity
+import MathlibPlus.Algebra.Claim46875
+import MathlibPlus.GraphTheory.Claim16485
