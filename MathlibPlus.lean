@@ -295,3 +295,4 @@ import MathlibPlus.Analysis.Claim51591Selector
 import MathlibPlus.Analysis.Claim14265BilateralMoment
 import MathlibPlus.Combinatorics.CommonCoreOverlap
 import MathlibPlus.Open.GraphTheory.VertexDeckEdgeReconstruction
+import MathlibPlus.GroupTheory.TwoClosure
