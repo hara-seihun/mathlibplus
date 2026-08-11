@@ -238,3 +238,7 @@ import MathlibPlus.GraphTheory.CharacteristicTwoCurvature
 import MathlibPlus.Analysis.AdjacentCosine
 import MathlibPlus.LinearAlgebra.FiniteVandermondeMoments
 import MathlibPlus.Algebra.C13SectionSizes
+import MathlibPlus.Algebra.SquareTraceMixedWord
+import MathlibPlus.Analysis.ExactEulerWeights
+import MathlibPlus.NumberTheory.CenteredDivisorCoordinate
+import MathlibPlus.LinearAlgebra.ZeroCoreMultiplierAbsorption
