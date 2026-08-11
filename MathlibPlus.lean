@@ -552,3 +552,6 @@ import MathlibPlus.Analysis.Claim40570
 import MathlibPlus.Algebra.Claim4573
 import MathlibPlus.NumberTheory.Claim53256
 import MathlibPlus.MeasureTheory.Claim50667
+import MathlibPlus.Algebra.Claim33646TerminalAnchors
+import MathlibPlus.Analysis.Claim12312ScatteringReparam
+import MathlibPlus.Probability.Claim45861IndependentEdges
