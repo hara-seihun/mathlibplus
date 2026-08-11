@@ -108,3 +108,4 @@ import MathlibPlus.Combinatorics.ComponentSizeMultisets
 import MathlibPlus.Combinatorics.BooleanComponentSeparation
 import MathlibPlus.Algebra.Identities
 import MathlibPlus.Analysis.ExponentialPolynomial
+import MathlibPlus.Arithmetic.DyadicBlock
