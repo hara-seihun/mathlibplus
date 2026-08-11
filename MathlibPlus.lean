@@ -454,3 +454,4 @@ import MathlibPlus.Algebra.Claim50036
 import MathlibPlus.Combinatorics.BoundaryProfileFactorization
 import MathlibPlus.GroupTheory.CayleyCI
 import MathlibPlus.NumberTheory.WeightedDyadicTail
+import MathlibPlus.LinearAlgebra.TraceInvisibleRateGram
