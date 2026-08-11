@@ -551,3 +551,4 @@ import MathlibPlus.Combinatorics.Claim46855
 import MathlibPlus.Analysis.Claim40570
 import MathlibPlus.Algebra.Claim4573
 import MathlibPlus.NumberTheory.Claim53256
+import MathlibPlus.MeasureTheory.Claim50667
