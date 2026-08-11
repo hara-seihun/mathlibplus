@@ -27,3 +27,4 @@ import MathlibPlus.PrimeCountingThreshold
 import MathlibPlus.Analysis.SignedCoherentState
 import MathlibPlus.Algebra.ConnectedCumulant
 import MathlibPlus.LinearAlgebra.CompletedBezoutCofactor
+import MathlibPlus.Open.MomentCurve.TotalPositivity
