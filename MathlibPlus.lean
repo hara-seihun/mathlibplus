@@ -467,3 +467,4 @@ import MathlibPlus.Algebra.Claim4764
 import MathlibPlus.Algebra.Claim29002
 import MathlibPlus.Algebra.Claim10579_26597
 import MathlibPlus.Combinatorics.SimultaneousRegularLayers
+import MathlibPlus.LinearAlgebra.Claim39905
