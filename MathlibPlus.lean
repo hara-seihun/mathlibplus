@@ -426,3 +426,7 @@ import MathlibPlus.Algebra.FiniteFieldBinomial
 import MathlibPlus.Analysis.TrigonometricEllipse
 import MathlibPlus.Analysis.PoissonEntropy
 import MathlibPlus.Algebra.AffineSemigroup
+import MathlibPlus.Analysis.ArithmeticLevelKnots
+import MathlibPlus.LinearAlgebra.SymplecticLieAlgebra
+import MathlibPlus.NumberTheory.PerfectPowerDecompositions
+import MathlibPlus.LinearAlgebra.ProjectiveSixSpace
