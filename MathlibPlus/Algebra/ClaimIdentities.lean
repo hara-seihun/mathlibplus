@@ -40,4 +40,19 @@ theorem exactTargetImprovements :
       target - baseline = 42 / 625000 := by
   norm_num
 
+/-- Claim 11711: a symmetric two-way coupling contributes twice its squared
+off-diagonal entry to the trace of the square. -/
+theorem twoWayCouplingTrace (a e b : ℝ) :
+    Matrix.trace ((!![a, e; e, b] : Matrix (Fin 2) (Fin 2) ℝ) ^ 2) =
+      a ^ 2 + b ^ 2 + 2 * e ^ 2 := by
+  simp [Matrix.trace, pow_two, Matrix.mul_apply, Fin.sum_univ_two]
+  ring
+
+/-- The trace contribution is strict when the coupling is nonzero. -/
+theorem twoWayCouplingTrace_strict (a e b : ℝ) (he : e ≠ 0) :
+    a ^ 2 + b ^ 2 <
+      Matrix.trace ((!![a, e; e, b] : Matrix (Fin 2) (Fin 2) ℝ) ^ 2) := by
+  rw [twoWayCouplingTrace]
+  nlinarith [sq_pos_of_ne_zero he]
+
 end MathlibPlus.Algebra.ClaimIdentities
