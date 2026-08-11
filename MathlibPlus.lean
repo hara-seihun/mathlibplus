@@ -486,3 +486,4 @@ import MathlibPlus.Open.Analysis.ResonanceSafePositiveLevelSet
 import MathlibPlus.Analysis.Claim892
 import MathlibPlus.Combinatorics.TrianglePacking
 import MathlibPlus.Arithmetic.RationalDenominatorScaling
+import MathlibPlus.Analysis.Superoscillation
