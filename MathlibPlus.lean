@@ -334,3 +334,4 @@ import MathlibPlus.AlgebraicGeometry.GeographyChecks
 import MathlibPlus.Algebra.PrimeOrthogonalBlocks
 import MathlibPlus.Open.Analysis.ExplicitNegativeRootPFPolynomial
 import MathlibPlus.Open.Algebra.AffineDeterminantDegree
+import MathlibPlus.Algebra.ElementaryArithmeticClaims
