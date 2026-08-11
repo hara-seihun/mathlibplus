@@ -362,3 +362,4 @@ import MathlibPlus.Combinatorics.DeckFibreIndicator
 import MathlibPlus.Combinatorics.Claim21275
 import MathlibPlus.Open.Algebra.Claim58431
 import MathlibPlus.Open.AnalyticNumberTheory.ReciprocalXiJacobiRelativeLambert
+import MathlibPlus.Open.Analysis.OrthogonalPolynomial.ReciprocalXi.EventualShrinkingPositivityWindow
