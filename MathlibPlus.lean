@@ -344,3 +344,4 @@ import MathlibPlus.Open.Analysis.LocalNumerator
 import MathlibPlus.Analysis.CayleyRate
 import MathlibPlus.LinearAlgebra.UniversalCollinearity
 import MathlibPlus.Analysis.ArthurRayEnergies
+import MathlibPlus.Analysis.CompletedGammaFactor
