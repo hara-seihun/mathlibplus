@@ -293,3 +293,4 @@ import MathlibPlus.Arithmetic.IntegerFactorization
 import MathlibPlus.Combinatorics.NormalizedCarryFamily
 import MathlibPlus.Analysis.Claim51591Selector
 import MathlibPlus.Analysis.Claim14265BilateralMoment
+import MathlibPlus.Combinatorics.CommonCoreOverlap
