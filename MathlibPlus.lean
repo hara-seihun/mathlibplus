@@ -194,3 +194,5 @@ import MathlibPlus.Analysis.Moment.ScaleFreeRatios
 import MathlibPlus.Open.NumberTheory.VerifiedZetaZeros
 import MathlibPlus.ComplexGeometry.ArthurWeight
 import MathlibPlus.Open.RaisedKType
+import MathlibPlus.NumberTheory.HardyZ
+import MathlibPlus.Open.NumberTheory.HardyZ
