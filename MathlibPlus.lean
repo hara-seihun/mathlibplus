@@ -492,3 +492,4 @@ import MathlibPlus.Open.Algebra.ConnectedTriple
 import MathlibPlus.AlgebraicGeometry.ChernNumbers
 import MathlibPlus.Open.Analysis.Binet
 import MathlibPlus.NumberTheory.CompletedZetaRadial
+import MathlibPlus.Open.NumberTheory.ArthurWeight
