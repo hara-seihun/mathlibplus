@@ -126,3 +126,4 @@ import MathlibPlus.CoshTransfer
 import MathlibPlus.RadialHook
 import MathlibPlus.MomentGeometry.NormalizedVariance
 import MathlibPlus.MertensProduct
+import MathlibPlus.MatrixCongruence
