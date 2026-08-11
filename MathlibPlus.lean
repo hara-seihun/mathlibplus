@@ -402,3 +402,6 @@ import MathlibPlus.Algebra.ChernArithmeticAdditional
 import MathlibPlus.LinearAlgebra.ModularFullRank
 import MathlibPlus.Combinatorics.BinaryCarry
 import MathlibPlus.Analysis.ElementaryClaimFormalizations
+import MathlibPlus.Algebra.PolynomialReflection
+import MathlibPlus.Combinatorics.IndependentLeafFactor
+import MathlibPlus.Algebra.TelescopingFractions
