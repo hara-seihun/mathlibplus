@@ -218,3 +218,4 @@ import MathlibPlus.Analysis.EndpointRatio
 import MathlibPlus.Combinatorics.SymmetricFiveColorCayley
 import MathlibPlus.Open.AnalyticNumberTheory.PrimeCounting.FinitePrimeCountingBound247Million
 import MathlibPlus.Open.AnalyticNumberTheory.PrimeSums.GlobalImprovedThetaUpperBound
+import MathlibPlus.Open.AnalyticNumberTheory.PrimeSums.FksAsymptoticThetaEnvelope
