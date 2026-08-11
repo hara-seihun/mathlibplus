@@ -500,3 +500,11 @@ import MathlibPlus.Analysis.Claim45688
 import MathlibPlus.Analysis.Claim47493
 import MathlibPlus.Analysis.Claim49765
 import MathlibPlus.Analysis.Claim10007
+import MathlibPlus.Analysis.Claim17970
+import MathlibPlus.GraphTheory.Claim34444
+import MathlibPlus.Combinatorics.Claim31152
+import MathlibPlus.Analysis.Claim46237
+import MathlibPlus.Combinatorics.Claim23866
+import MathlibPlus.Analysis.Claim54220
+import MathlibPlus.Combinatorics.Claim25961
+import MathlibPlus.Combinatorics.Claim8020
