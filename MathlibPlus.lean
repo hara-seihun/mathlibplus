@@ -430,3 +430,6 @@ import MathlibPlus.Analysis.ArithmeticLevelKnots
 import MathlibPlus.LinearAlgebra.SymplecticLieAlgebra
 import MathlibPlus.NumberTheory.PerfectPowerDecompositions
 import MathlibPlus.LinearAlgebra.ProjectiveSixSpace
+import MathlibPlus.Analysis.Claim1801
+import MathlibPlus.GraphTheory.Claim20718
+import MathlibPlus.NumberTheory.Claim6643
