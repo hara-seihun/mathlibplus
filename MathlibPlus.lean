@@ -278,3 +278,5 @@ import MathlibPlus.Open.Combinatorics.DenseLinkSunflower
 import MathlibPlus.Open.Combinatorics.PartitionGeneratingFunction
 import MathlibPlus.Analysis.NormingFunctional
 import MathlibPlus.Open.NumberTheory.GrahamRearrangement
+import MathlibPlus.Algebra.LeftPeriodSubgroup
+import MathlibPlus.NumberTheory.DivisorCoordinateReflection
