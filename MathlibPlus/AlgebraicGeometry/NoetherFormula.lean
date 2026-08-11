@@ -31,4 +31,10 @@ theorem noether_eulerCharacteristic_of_chern_pair_5_19
   rw [hNoether, hc₁, hc₂]
   norm_num
 
+
+/-- Claim 14601: the displayed Chern pair has sum divisible by twelve. -/
+theorem noether_formula_divisibility_claim14601 :
+    (12 : ℤ) ∣ (3 + 9 : ℤ) := by
+  norm_num
+
 end MathlibPlus.AlgebraicGeometry

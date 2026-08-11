@@ -39,4 +39,19 @@ theorem boolean_separation
   · rintro ⟨color, hne, hconstant⟩ hxy
     exact hne (hconstant x y hxy)
 
+
+/-- Claim 42253: the displayed seven bit masks are distinct masks on a five-point
+    ground set. -/
+theorem explicit_seven_member_mask_family_claim42253 :
+    let p₀ : Fin 5 := 4
+    let p₁ : Fin 5 := 0
+    let p₂ : Fin 5 := 1
+    let G : Finset ℕ := {0, 7, 15, 27, 31}
+    let R₁ : ℕ := 13
+    let R₂ : ℕ := 14
+    let F := G ∪ {R₁, R₂}
+    p₀ = 4 ∧ p₁ = 0 ∧ p₂ = 1 ∧
+      (∀ m ∈ F, m < 2 ^ 5) ∧ F.card = 7 := by
+  decide
+
 end MathlibPlus.Combinatorics.BooleanComponentSeparation
