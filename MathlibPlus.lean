@@ -67,3 +67,5 @@ import MathlibPlus.Open.Analysis.PrimeTheta.FixedRangeObjective
 import MathlibPlus.Open.AnalyticNumberTheory.PrimeCounting.ChebyshevTailAndPsiEnvelope
 import MathlibPlus.Open.AnalyticNumberTheory.PrimeCounting.ExactSharpStartData
 import MathlibPlus.GraphTheory.AutomorphismModule
+import MathlibPlus.LinearAlgebra.RankTwoIntervalReflection
+import MathlibPlus.MeasureTheory.JordanDecomposition
