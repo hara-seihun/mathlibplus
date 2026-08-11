@@ -281,3 +281,5 @@ import MathlibPlus.Open.NumberTheory.GrahamRearrangement
 import MathlibPlus.Algebra.LeftPeriodSubgroup
 import MathlibPlus.NumberTheory.DivisorCoordinateReflection
 import MathlibPlus.Open.Analysis.FilonTypePolynomialContraction
+import MathlibPlus.Algebra.Claim53774
+import MathlibPlus.NumberTheory.Claim21962
