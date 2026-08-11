@@ -337,3 +337,7 @@ import MathlibPlus.Open.Algebra.AffineDeterminantDegree
 import MathlibPlus.Algebra.ElementaryArithmeticClaims
 import MathlibPlus.Analysis.GoldbachAuxiliary
 import MathlibPlus.Open.AnalyticNumberTheory.PrimeCounting.AxlerInfiniteTail
+import MathlibPlus.Algebra.TranslationCore
+import MathlibPlus.NumberTheory.SubcutoffMangoldt
+import MathlibPlus.Combinatorics.PackedFamilyWord
+import MathlibPlus.Open.Analysis.LocalNumerator
