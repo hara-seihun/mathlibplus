@@ -262,3 +262,6 @@ import MathlibPlus.Analysis.ReflectedDyadicStandingWave
 import MathlibPlus.Algebra.TranslationPeriod
 import MathlibPlus.Algebra.ConjugacyOrientation
 import MathlibPlus.Open.Combinatorics.InversePairCayleyCount
+import MathlibPlus.Open.Analysis.HarmonicLogDivisor
+import MathlibPlus.Open.Analysis.BesselKernelBounds
+import MathlibPlus.Open.Algebra.AffinePower
