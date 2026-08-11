@@ -72,3 +72,7 @@ import MathlibPlus.MeasureTheory.JordanDecomposition
 import MathlibPlus.Arithmetic.ProposedBoundParameters
 import MathlibPlus.Analysis.CoefficientChecks
 import MathlibPlus.NumberTheory.PrimeInterval
+import MathlibPlus.Analysis.InverseOperatorStability
+import MathlibPlus.Analysis.SingleSpike
+import MathlibPlus.Analysis.Schoenberg
+import MathlibPlus.LinearAlgebra.SignedPermutationResidual
