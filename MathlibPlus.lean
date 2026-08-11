@@ -260,3 +260,5 @@ import MathlibPlus.Algebra.QuadraticMomentMultiplication
 import MathlibPlus.LinearAlgebra.SymplecticSimilitudePurity
 import MathlibPlus.Analysis.ReflectedDyadicStandingWave
 import MathlibPlus.Algebra.TranslationPeriod
+import MathlibPlus.Algebra.ConjugacyOrientation
+import MathlibPlus.Open.Combinatorics.InversePairCayleyCount
