@@ -265,3 +265,4 @@ import MathlibPlus.Open.Combinatorics.InversePairCayleyCount
 import MathlibPlus.Open.Analysis.HarmonicLogDivisor
 import MathlibPlus.Open.Analysis.BesselKernelBounds
 import MathlibPlus.Open.Algebra.AffinePower
+import MathlibPlus.Open.Analysis.GreenKernel
