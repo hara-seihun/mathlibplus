@@ -50,3 +50,4 @@ import MathlibPlus.Analysis.ZeroIsolation
 import MathlibPlus.Open.Analysis.ReciprocalXi
 import MathlibPlus.MomentGeometry.RankThreeAffine
 import MathlibPlus.LinearAlgebra.InvariantSymmetricForm
+import MathlibPlus.Algebra.ChernArithmetic
