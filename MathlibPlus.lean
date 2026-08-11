@@ -228,3 +228,4 @@ import MathlibPlus.Algebra.AxisPositivePolynomial
 import MathlibPlus.Analysis.FixedExponentialInequality
 import MathlibPlus.Open.NumberTheory.PrimeBetweenPowers
 import MathlibPlus.MomentGeometry.StrictSlackCounterexample
+import MathlibPlus.Analysis.PrimeErrorEnvelopes
