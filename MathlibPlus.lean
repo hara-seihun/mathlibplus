@@ -433,3 +433,5 @@ import MathlibPlus.LinearAlgebra.ProjectiveSixSpace
 import MathlibPlus.Analysis.Claim1801
 import MathlibPlus.GraphTheory.Claim20718
 import MathlibPlus.NumberTheory.Claim6643
+import MathlibPlus.Combinatorics.LinearTrianglePacking
+import MathlibPlus.Algebra.CompleteNonzeroShear
