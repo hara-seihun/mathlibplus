@@ -135,3 +135,4 @@ import MathlibPlus.Analysis.GammaDiniTransition
 import MathlibPlus.Complex.LaurentMoments
 import MathlibPlus.CenteredFactorial
 import MathlibPlus.PrimeThetaConstants
+import MathlibPlus.VKDecay
