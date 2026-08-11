@@ -87,4 +87,21 @@ theorem retained_log_two_pi_normalization
           (B - C₁ * Real.log (2 * Real.pi)) * m := by
       ring
 
+/-- Claim 1587: the displayed Bellotti--Wong leading coefficient arithmetic. -/
+theorem leadingCoefficient_1587 (d a₁ C₁ : ℝ)
+    (hd : d = 18 / 25) (ha₁ : a₁ = 2453 / 2500)
+    (hC₁ : C₁ = d * a₁ / 4) :
+    d = 0.720 ∧
+      a₁ = 0.98120 ∧
+      C₁ = 22077 / 125000 ∧
+      C₁ = 0.176616 := by
+  norm_num [hd, ha₁, hC₁]
+
+/-- Claim 1588: the published decimal is strictly above the exact coefficient. -/
+theorem roundedLeadingCoefficient_1588 (C₁ : ℝ)
+    (hC₁ : C₁ = 22077 / 125000) :
+    0.1767 - C₁ = 21 / 250000 ∧
+      0 < 0.1767 - C₁ := by
+  norm_num [hC₁]
+
 end MathlibPlus.AnalyticNumberTheory.CertificateArithmetic

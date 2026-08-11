@@ -356,3 +356,4 @@ import MathlibPlus.Algebra.PairSumSecondMoment
 import MathlibPlus.Algebra.InversePairedCyclicVertexLedger
 import MathlibPlus.Open.AnalyticNumberTheory.PrimeCounting.ExactFixedHalfLineCoefficient
 import MathlibPlus.Open.GraphTheory.GraphCIQuotient
+import MathlibPlus.Open.NumberTheory.ConsecutivePowerPrimes
