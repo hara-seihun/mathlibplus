@@ -82,3 +82,5 @@ import MathlibPlus.Analysis.ReciprocalIntegerShell
 import MathlibPlus.Analysis.ShellBetaDerivative
 import MathlibPlus.Algebra.CubicLocalFactor
 import MathlibPlus.Algebra.CrossRatio
+import MathlibPlus.Analysis.FiniteDimensionalOrthogonalProjection
+import MathlibPlus.Analysis.VerifiedHeightGaussianWidth
