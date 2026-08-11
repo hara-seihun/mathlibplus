@@ -1,5 +1,6 @@
 -- MathlibPlus root module.
 -- Import every library file here; the admission process keeps this list current.
+import MathlibPlus.LinearAlgebra.SymmetricZMatrix
 import MathlibPlus.Basic
 import MathlibPlus.Open.Basic
 import MathlibPlus.Test.AdmissionSmoke
