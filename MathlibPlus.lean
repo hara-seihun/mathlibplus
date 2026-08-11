@@ -452,3 +452,4 @@ import MathlibPlus.Algebra.Claim14831
 import MathlibPlus.Analysis.Claim4662
 import MathlibPlus.Algebra.Claim50036
 import MathlibPlus.Combinatorics.BoundaryProfileFactorization
+import MathlibPlus.GroupTheory.CayleyCI
