@@ -100,3 +100,6 @@ import MathlibPlus.AlgebraicGeometry.NoetherFormula
 import MathlibPlus.AnalyticNumberTheory.CertificateArithmetic
 import MathlibPlus.Analysis.PoleAmplitude
 import MathlibPlus.LinearAlgebra.DegreeOneMatrixModel
+import MathlibPlus.Algebra.CompletedQuadratic
+import MathlibPlus.Algebra.IntegerEndomorphism
+import MathlibPlus.Algebra.IntervalReflection
