@@ -90,3 +90,5 @@ import MathlibPlus.Algebra.TwoModeExteriorSquare
 import MathlibPlus.Analysis.HyperbolicCosineGreenMode
 import MathlibPlus.Combinatorics.AdjacentLayerSignature
 import MathlibPlus.LinearAlgebra.TwoDimensionalAlternatingSimilitude
+import MathlibPlus.Algebra.ClaimIdentities
+import MathlibPlus.LinearAlgebra.ProjectiveRowDifference
