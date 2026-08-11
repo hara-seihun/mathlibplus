@@ -246,3 +246,4 @@ import MathlibPlus.GroupTheory.DiagonalCentralizer
 import MathlibPlus.NumberTheory.Claim13248
 import MathlibPlus.Combinatorics.FixedSliceProfileCount
 import MathlibPlus.Analysis.BasicFormResonance
+import MathlibPlus.Topology.LocallyFiniteQuasiCompact
