@@ -357,3 +357,5 @@ import MathlibPlus.Algebra.InversePairedCyclicVertexLedger
 import MathlibPlus.Open.AnalyticNumberTheory.PrimeCounting.ExactFixedHalfLineCoefficient
 import MathlibPlus.Open.GraphTheory.GraphCIQuotient
 import MathlibPlus.Open.NumberTheory.ConsecutivePowerPrimes
+import MathlibPlus.Algebra.DiscreteCurvature
+import MathlibPlus.Combinatorics.DeckFibreIndicator
