@@ -33,7 +33,6 @@ theorem commonCoboundaryAggregate
   have hsumA : ∑ e : S, q e • a e = Q • abar := by
     simp_rw [hAdecomp, smul_add]
     rw [Finset.sum_add_distrib]
-    simp only [Finset.sum_smul]
     rw [← Finset.smul_sum]
     rw [hLcancel]
     simp [Q]
@@ -56,7 +55,6 @@ theorem commonCoboundaryAggregate
     rw [map_smul, map_sum]
     simp_rw [map_smul, hAexp, smul_add]
     rw [Finset.sum_add_distrib]
-    simp only [Finset.sum_smul]
     rw [← Finset.smul_sum, ← Finset.smul_sum]
     rw [hLcancel, hsumA]
     field_simp
