@@ -84,3 +84,5 @@ import MathlibPlus.Algebra.CubicLocalFactor
 import MathlibPlus.Algebra.CrossRatio
 import MathlibPlus.Analysis.FiniteDimensionalOrthogonalProjection
 import MathlibPlus.Analysis.VerifiedHeightGaussianWidth
+import MathlibPlus.Algebra.NumberOperatorWedge
+import MathlibPlus.Analysis.ElementaryExponentialBounds
