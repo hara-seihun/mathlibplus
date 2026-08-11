@@ -36,3 +36,4 @@ import MathlibPlus.Analysis.GaussianFactor
 import MathlibPlus.Algebra.PositiveExteriorDisplacement
 import MathlibPlus.Analysis.BoundaryModulus
 import MathlibPlus.Analysis.FKSEnvelopeCoefficient
+import MathlibPlus.Open.NumberTheory.VerifiedHeight
