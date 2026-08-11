@@ -146,3 +146,4 @@ import MathlibPlus.NumberTheory.PsiEnvelope
 import MathlibPlus.Ramsey55
 import MathlibPlus.CoefficientEnvelope
 import MathlibPlus.PureSheetTangent
+import MathlibPlus.AxlerSixthMajorant
