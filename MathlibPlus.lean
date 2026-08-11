@@ -152,3 +152,4 @@ import MathlibPlus.NumberTheory.BellottiGrowth
 import MathlibPlus.AxlerFifthMajorant
 import MathlibPlus.ZeroFreeBoundary
 import MathlibPlus.TodaReserve
+import MathlibPlus.Algebra.DirectEdgeDefect
