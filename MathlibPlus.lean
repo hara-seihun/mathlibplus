@@ -79,3 +79,6 @@ import MathlibPlus.LinearAlgebra.SignedPermutationResidual
 import MathlibPlus.Algebra.ProjectiveStokes
 import MathlibPlus.LinearAlgebra.SkewQuadratic
 import MathlibPlus.Analysis.ReciprocalIntegerShell
+import MathlibPlus.Analysis.ShellBetaDerivative
+import MathlibPlus.Algebra.CubicLocalFactor
+import MathlibPlus.Algebra.CrossRatio
