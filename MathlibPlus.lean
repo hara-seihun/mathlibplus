@@ -445,3 +445,4 @@ import MathlibPlus.GroupTheory.GLCardinalityAudit
 import MathlibPlus.Combinatorics.Claim16692
 import MathlibPlus.Open.Algebra.Claim19222
 import MathlibPlus.NumberTheory.Claim2473
+import MathlibPlus.LinearAlgebra.Claim27875
