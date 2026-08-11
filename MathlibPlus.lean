@@ -37,3 +37,4 @@ import MathlibPlus.Algebra.PositiveExteriorDisplacement
 import MathlibPlus.Analysis.BoundaryModulus
 import MathlibPlus.Analysis.FKSEnvelopeCoefficient
 import MathlibPlus.Open.NumberTheory.VerifiedHeight
+import MathlibPlus.Open.Analysis.CompletedThetaSixMoments
