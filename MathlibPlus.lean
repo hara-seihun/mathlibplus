@@ -304,3 +304,4 @@ import MathlibPlus.Combinatorics.TerminalTargetPermutations
 import MathlibPlus.Open.LinearAlgebra.PolynomialSixChannelReflection
 import MathlibPlus.Open.Combinatorics.InverseClosedMarkerSpectrum
 import MathlibPlus.Open.GroupTheory.OddCycleReflectionInterface
+import MathlibPlus.Analysis.CayleyImageSquared
