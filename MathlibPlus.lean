@@ -495,3 +495,8 @@ import MathlibPlus.NumberTheory.CompletedZetaRadial
 import MathlibPlus.Open.NumberTheory.ArthurWeight
 import MathlibPlus.Open.NumberTheory.Rankin
 import MathlibPlus.LinearAlgebra.CompletedBezoutRankTwo
+import MathlibPlus.Combinatorics.Claim45124
+import MathlibPlus.Analysis.Claim45688
+import MathlibPlus.Analysis.Claim47493
+import MathlibPlus.Analysis.Claim49765
+import MathlibPlus.Analysis.Claim10007
