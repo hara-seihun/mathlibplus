@@ -478,3 +478,4 @@ import MathlibPlus.LinearAlgebra.CohomologyDegreeTwo
 import MathlibPlus.LinearAlgebra.PinnedFirstCellNullity
 import MathlibPlus.Algebra.Claim46875
 import MathlibPlus.GraphTheory.Claim16485
+import MathlibPlus.Combinatorics.Claim33574
