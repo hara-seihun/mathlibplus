@@ -231,3 +231,4 @@ import MathlibPlus.MomentGeometry.StrictSlackCounterexample
 import MathlibPlus.Analysis.PrimeErrorEnvelopes
 import MathlibPlus.Open.Analysis.CompletedTheta
 import MathlibPlus.Analysis.A4Kernel
+import MathlibPlus.Open.Automorphic.Polarization
