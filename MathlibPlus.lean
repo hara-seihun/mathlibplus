@@ -215,3 +215,4 @@ import MathlibPlus.LinearAlgebra.PauliSquares
 import MathlibPlus.Open.GraphTheory.StronglyRegularNonexistence
 import MathlibPlus.Algebra.TranslationDisplacement
 import MathlibPlus.Analysis.EndpointRatio
+import MathlibPlus.Combinatorics.SymmetricFiveColorCayley
