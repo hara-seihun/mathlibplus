@@ -40,3 +40,4 @@ import MathlibPlus.Open.NumberTheory.VerifiedHeight
 import MathlibPlus.Open.Analysis.CompletedThetaSixMoments
 import MathlibPlus.Open.Analysis.Cayley
 import MathlibPlus.MomentGeometry.GammaLawCounterexample
+import MathlibPlus.Open.Analysis.A4CoefficientScaling
