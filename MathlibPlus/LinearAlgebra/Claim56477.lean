@@ -35,7 +35,7 @@ theorem commonCoboundaryAggregate
     rw [Finset.sum_add_distrib]
     rw [← Finset.sum_smul (s := Finset.univ)]
     simp_rw [← Phi.map_smul]
-    rw [← Phi.map_sum]
+    rw [← map_sum]
     rw [hLcancel]
     simp [Q]
   have hnonneg : ∀ f, 0 ≤ (aggregate q Q p) f := by
@@ -57,11 +57,10 @@ theorem commonCoboundaryAggregate
     rw [map_smul, map_sum]
     simp_rw [map_smul, hAexp, smul_add]
     rw [Finset.sum_add_distrib]
-    rw [← Finset.sum_smul (s := Finset.univ)]
     simp_rw [← Psi.map_smul]
-    rw [← Psi.map_sum]
+    rw [← map_sum]
     rw [hLcancel, hsumA]
-    field_simp
+    simp [map_zero, hQ0]
   exact ⟨hnonneg, hLbar, hAbar⟩
 
 end MathlibPlus.LinearAlgebra.Claim56477
