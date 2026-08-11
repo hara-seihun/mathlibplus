@@ -397,3 +397,4 @@ import MathlibPlus.Combinatorics.QuarterTurnParity
 import MathlibPlus.GroupTheory.AbelianizationConjugation
 import MathlibPlus.Open.Analysis.ComplexSuperheat
 import MathlibPlus.Analysis.ComplexSuperheat
+import MathlibPlus.Combinatorics.OddCyclicBinaryTransition
