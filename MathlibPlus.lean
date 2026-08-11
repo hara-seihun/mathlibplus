@@ -122,3 +122,4 @@ import MathlibPlus.RaisedKType
 import MathlibPlus.Mellin.CriticalMultiplier
 import MathlibPlus.BoundaryCluster
 import MathlibPlus.PrimeMertens
+import MathlibPlus.CoshTransfer
