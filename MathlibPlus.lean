@@ -473,3 +473,6 @@ import MathlibPlus.Open.AnalyticNumberTheory.PrimeCounting.Claim929
 import MathlibPlus.Open.Algebra.Claim42107
 import MathlibPlus.Open.Algebra.Claim30628
 import MathlibPlus.Analysis.Claim14448
+import MathlibPlus.Analysis.GudermannianCocycle
+import MathlibPlus.LinearAlgebra.CohomologyDegreeTwo
+import MathlibPlus.LinearAlgebra.PinnedFirstCellNullity
