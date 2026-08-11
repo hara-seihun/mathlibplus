@@ -55,4 +55,77 @@ theorem twoWayCouplingTrace_strict (a e b : ℝ) (he : e ≠ 0) :
   rw [twoWayCouplingTrace]
   nlinarith [sq_pos_of_ne_zero he]
 
+/-- Claim 11771: the two displayed coefficient vectors have the same positive
+frequency-squared energy, while their frequency-squared traces have opposite
+signs.  The unspecified scalar coefficient space is represented by `ℚ`. -/
+theorem positiveHorizontalEnergy_not_signCoherent :
+    let energy : ℚ × ℚ → ℚ := fun c => c.1 ^ 2 + 4 * c.2 ^ 2
+    let trace : ℚ × ℚ → ℚ := fun c => c.1 + 4 * c.2
+    energy (1, 1) = 5 ∧
+      energy (1, -1) = 5 ∧
+      trace (1, 1) = 5 ∧
+      trace (1, -1) = -3 ∧
+      0 < energy (1, 1) ∧
+      0 < energy (1, -1) ∧
+      0 < trace (1, 1) ∧
+      trace (1, -1) < 0 := by
+  norm_num
+
+/-- Claim 13039: for `B > 2`, the displayed delayed-failure factor has the
+three stated complex zeros. -/
+theorem delayedFailureFactor_roots (B : ℝ) (_hB : 2 < B) :
+    let d : ℝ := B ^ 2 + 1
+    let F : ℂ → ℂ := fun z =>
+      (1 + z / 2) *
+        (1 + (2 * (B : ℂ) / (d : ℂ)) * z + z ^ 2 / (d : ℂ))
+    ∀ z : ℂ,
+      F z = 0 ↔
+        z = -2 ∨ z = -(B : ℂ) + Complex.I ∨ z = -(B : ℂ) - Complex.I := by
+  dsimp
+  have hd : B ^ 2 + 1 ≠ 0 := by
+    nlinarith [sq_nonneg B]
+  intro z
+  have hfirst : (1 + z / 2 = 0) ↔ z = -2 := by
+    constructor
+    · intro h
+      linear_combination 2 * h
+    · rintro rfl
+      norm_num
+  have hquad :
+      (1 + (2 * (B : ℂ) / ((B ^ 2 + 1 : ℝ) : ℂ)) * z +
+          z ^ 2 / ((B ^ 2 + 1 : ℝ) : ℂ) = 0) ↔
+        z = -(B : ℂ) + Complex.I ∨ z = -(B : ℂ) - Complex.I := by
+    have hdc : ((B ^ 2 + 1 : ℝ) : ℂ) ≠ 0 := by
+      exact_mod_cast hd
+    have hfactor :
+        1 + (2 * (B : ℂ) / ((B ^ 2 + 1 : ℝ) : ℂ)) * z +
+            z ^ 2 / ((B ^ 2 + 1 : ℝ) : ℂ) =
+          ((z + (B : ℂ) - Complex.I) * (z + (B : ℂ) + Complex.I)) /
+            ((B ^ 2 + 1 : ℝ) : ℂ) := by
+      field_simp [hdc]
+      norm_num [Complex.ofReal_add, Complex.ofReal_pow]
+      ring_nf
+      simp only [Complex.I_sq]
+      ring
+    rw [hfactor]
+    constructor
+    · intro h
+      rcases (div_eq_zero_iff.mp h) with hprod | hden
+      · rcases mul_eq_zero.mp hprod with h₁ | h₂
+        · left
+          linear_combination h₁
+        · right
+          linear_combination h₂
+      · exact False.elim (hdc hden)
+    · rintro (h | h)
+      · rw [h]
+        apply (div_eq_zero_iff).2
+        left
+        ring
+      · rw [h]
+        apply (div_eq_zero_iff).2
+        left
+        ring
+  rw [mul_eq_zero, hfirst, hquad]
+
 end MathlibPlus.Algebra.ClaimIdentities
