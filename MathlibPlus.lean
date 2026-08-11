@@ -316,3 +316,4 @@ import MathlibPlus.Open.Asymptotics.WeightedLambertWLogarithm
 import MathlibPlus.Open.Analysis.OrthogonalPolynomial.ReciprocalXi.TraceCharacteristicFunction
 import MathlibPlus.Analysis.CompletedSource.EulerSupport
 import MathlibPlus.Open.Analysis.CompletedSource.EulerSupport
+import MathlibPlus.Analysis.ReciprocalXiTransform
