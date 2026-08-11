@@ -410,3 +410,5 @@ import MathlibPlus.Analysis.Claim13736And19168
 import MathlibPlus.Analysis.PeriodicLimit
 import MathlibPlus.Asymptotics.SublinearDegree
 import MathlibPlus.Algebra.InwardDirectionalDepth
+import MathlibPlus.Open.Algebra.ReciprocalShiftedHankel
+import MathlibPlus.Open.AnalyticNumberTheory.PrimeSums.GlobalPsiAbsoluteDecay
