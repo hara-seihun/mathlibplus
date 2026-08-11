@@ -325,3 +325,4 @@ import MathlibPlus.MomentGeometry.FinalHankelDefect
 import MathlibPlus.NumberTheory.ZeroFreeInteriorization
 import MathlibPlus.NumberTheory.LiGram
 import MathlibPlus.Complex.CayleyZero
+import MathlibPlus.Algebra.ReciprocalSeries

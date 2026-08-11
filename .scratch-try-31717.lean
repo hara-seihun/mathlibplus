@@ -1,4 +1,4 @@
-import Mathlib
+import MathlibPlus.Basic
 
 #check Nat.pow_le_pow_right
 #check Nat.pow_le_pow_left
