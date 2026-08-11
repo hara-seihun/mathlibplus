@@ -287,3 +287,7 @@ import MathlibPlus.Combinatorics.ComponentConstancy
 import MathlibPlus.Combinatorics.IsolateCancellation
 import MathlibPlus.NumberTheory.CyclicLogLattice
 import MathlibPlus.Open.GraphTheory.InducedEdgeCapacity
+import MathlibPlus.LinearAlgebra.ExplicitFrobeniusSimilitude
+import MathlibPlus.Algebra.AffineInversion
+import MathlibPlus.Arithmetic.IntegerFactorization
+import MathlibPlus.Combinatorics.NormalizedCarryFamily
