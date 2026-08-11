@@ -186,3 +186,4 @@ import MathlibPlus.Open.Analysis.SpecialFunctions.BesselKHadamard
 import MathlibPlus.Open.Analysis.MRSIntegrals
 import MathlibPlus.MomentGeometry.VarianceBoundaryWalls
 import MathlibPlus.Open.AnalyticNumberTheory.HardyZ
+import MathlibPlus.MomentGeometry.RankThreeCounterexample
