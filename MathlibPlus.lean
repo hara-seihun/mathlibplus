@@ -242,3 +242,4 @@ import MathlibPlus.Algebra.SquareTraceMixedWord
 import MathlibPlus.Analysis.ExactEulerWeights
 import MathlibPlus.NumberTheory.CenteredDivisorCoordinate
 import MathlibPlus.LinearAlgebra.ZeroCoreMultiplierAbsorption
+import MathlibPlus.GroupTheory.DiagonalCentralizer
