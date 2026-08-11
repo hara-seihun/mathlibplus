@@ -361,3 +361,4 @@ import MathlibPlus.Algebra.DiscreteCurvature
 import MathlibPlus.Combinatorics.DeckFibreIndicator
 import MathlibPlus.Combinatorics.Claim21275
 import MathlibPlus.Open.Algebra.Claim58431
+import MathlibPlus.Open.AnalyticNumberTheory.ReciprocalXiJacobiRelativeLambert
