@@ -618,3 +618,5 @@ import MathlibPlus.LinearAlgebra.PerfectSplitDuality
 import MathlibPlus.Combinatorics.CubeQ3EdgeCensus
 import MathlibPlus.LinearAlgebra.Claim10500
 import MathlibPlus.GraphTheory.Claim34534
+import MathlibPlus.Algebra.TwoShellCoordinates
+import MathlibPlus.Algebra.RisingFactorialAddIndex
