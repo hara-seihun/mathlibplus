@@ -20,4 +20,13 @@ theorem regular18_order43_edgeCount
   norm_num at hsum ⊢
   omega
 
+/-- A finite simple graph with neither a five-clique nor a five-independent set. -/
+def isGood55 {V : Type*} [Finite V] (G : SimpleGraph V) : Prop :=
+  G.CliqueFree 5 ∧ G.IndepSetFree 5
+
+/-- The independent-set formulation is equivalent to clique-freeness of the complement. -/
+theorem isGood55_iff_compl_cliqueFree {V : Type*} [Finite V] (G : SimpleGraph V) :
+    isGood55 G ↔ G.CliqueFree 5 ∧ Gᶜ.CliqueFree 5 := by
+  simp [isGood55]
+
 end MathlibPlus.Ramsey55

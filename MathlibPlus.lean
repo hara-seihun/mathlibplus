@@ -1375,3 +1375,11 @@ import MathlibPlus.LinearAlgebra.Claim13557
 import MathlibPlus.LinearAlgebra.Claim19395
 import MathlibPlus.LinearAlgebra.Claim28977
 import MathlibPlus.NumberTheory.Claim49094
+import MathlibPlus.Algebra.Claim45271
+import MathlibPlus.Combinatorics.Claim6573
+import MathlibPlus.Open.Analysis.Claim1533
+import MathlibPlus.Analysis.Claim3081
+import MathlibPlus.Algebra.Claim22963
+import MathlibPlus.Combinatorics.Claim22625
+import MathlibPlus.AnalyticNumberTheory.Claim3396
+import MathlibPlus.LinearAlgebra.Claim49572
