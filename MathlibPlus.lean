@@ -987,3 +987,4 @@ import MathlibPlus.Algebra.Claim24468
 import MathlibPlus.Algebra.Claim29363
 import MathlibPlus.Combinatorics.Claim3364
 import MathlibPlus.Algebra.Claim53590
+import MathlibPlus.Algebra.PowerSeriesCoefficientRecurrence
