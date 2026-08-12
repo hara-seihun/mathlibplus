@@ -631,3 +631,6 @@ import MathlibPlus.Open.Combinatorics.DivisorDownset
 import MathlibPlus.Algebra.Claim24955EndpointProducts
 import MathlibPlus.NumberTheory.Claim9562RationalNorm
 import MathlibPlus.Algebra.PrimitiveReciprocalIntegrality
+import MathlibPlus.Analysis.Claim11125
+import MathlibPlus.Combinatorics.Claim17033
+import MathlibPlus.Algebra.Claim1748
