@@ -1180,3 +1180,4 @@ import MathlibPlus.Open.Algebra.CoefficientFunctionSeparationClaim58021
 import MathlibPlus.Open.GraphTheory.RootedGoodGraphClaim44118
 import MathlibPlus.Open.NumberTheory.PublishedDenominatorClaim1719
 import MathlibPlus.NumberTheory.Claim10544
+import MathlibPlus.LinearAlgebra.Claim55205
