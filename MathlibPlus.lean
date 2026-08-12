@@ -1021,3 +1021,4 @@ import MathlibPlus.GroupTheory.Claim28060
 import MathlibPlus.Algebra.Claim19351
 import MathlibPlus.Analysis.Claim42713
 import MathlibPlus.Algebra.Claim28979
+import MathlibPlus.Algebra.FamilyProduct
