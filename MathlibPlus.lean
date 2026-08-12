@@ -799,3 +799,4 @@ import MathlibPlus.Algebra.Claim43798
 import MathlibPlus.GroupTheory.Claim43975
 import MathlibPlus.Open.LinearAlgebra.Claim18084
 import MathlibPlus.Algebra.EdgeOverlap
+import MathlibPlus.Algebra.Claim42809WeightedOperator
