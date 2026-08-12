@@ -1176,3 +1176,6 @@ import MathlibPlus.Combinatorics.Claim10450
 import MathlibPlus.Algebra.Claim11352
 import MathlibPlus.Algebra.Claim15642
 import MathlibPlus.Algebra.Claim27246
+import MathlibPlus.Open.Algebra.CoefficientFunctionSeparationClaim58021
+import MathlibPlus.Open.GraphTheory.RootedGoodGraphClaim44118
+import MathlibPlus.Open.NumberTheory.PublishedDenominatorClaim1719
