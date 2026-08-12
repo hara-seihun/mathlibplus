@@ -1349,3 +1349,11 @@ import MathlibPlus.Analysis.FirstShellFactors
 import MathlibPlus.GroupTheory.OrientationCode
 import MathlibPlus.Topology.ImageClosureSeparation
 import MathlibPlus.Analysis.Claim4207
+import MathlibPlus.LinearAlgebra.Claim17821
+import MathlibPlus.Analysis.Moment.Claim10510
+import MathlibPlus.LinearAlgebra.Claim7761
+import MathlibPlus.LinearAlgebra.PathColumns
+import MathlibPlus.GraphTheory.Claim19928
+import MathlibPlus.Combinatorics.Claim44831
+import MathlibPlus.Combinatorics.Claim35858
+import MathlibPlus.Algebra.Claim28886
