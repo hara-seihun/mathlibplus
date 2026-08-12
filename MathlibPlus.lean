@@ -1041,3 +1041,4 @@ import MathlibPlus.Algebra.CompleteHomogeneousDeterminantClaim4846
 import MathlibPlus.LinearAlgebra.Claim10329
 import MathlibPlus.Algebra.Claim20924
 import MathlibPlus.Analysis.Claim47505
+import MathlibPlus.Open.Analysis.CompletedThetaShellConstruction
