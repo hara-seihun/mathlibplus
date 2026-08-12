@@ -1154,3 +1154,5 @@ import MathlibPlus.Complex.Claim9624
 import MathlibPlus.Combinatorics.Claim26688
 import MathlibPlus.Algebra.Claim23994
 import MathlibPlus.Algebra.Claim48757
+import MathlibPlus.Algebra.Claim18389
+import MathlibPlus.Order.Claim39871
