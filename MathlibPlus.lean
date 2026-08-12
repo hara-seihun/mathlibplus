@@ -566,3 +566,5 @@ import MathlibPlus.Algebra.Claim50893
 import MathlibPlus.Algebra.Claim27694TranslationPeriod
 import MathlibPlus.Algebra.JacobiSourceDecomposition
 import MathlibPlus.Open.AnalyticNumberTheory.PrimeCounting.ShortIntervalAsymptotic
+import MathlibPlus.Algebra.CrossFamilyTranslation
+import MathlibPlus.Algebra.OddDerivativeInversePair
