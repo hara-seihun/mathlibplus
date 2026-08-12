@@ -812,3 +812,4 @@ import MathlibPlus.LinearAlgebra.GoursatPairOrbitClaim52424
 import MathlibPlus.Algebra.Claim57477
 import MathlibPlus.NumberTheory.Claim10734
 import MathlibPlus.Arithmetic.Claim17917
+import MathlibPlus.Combinatorics.ZeroTriangleSigning
