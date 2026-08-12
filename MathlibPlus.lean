@@ -915,3 +915,4 @@ import MathlibPlus.NumberTheory.Claim20213
 import MathlibPlus.Algebra.Claim1953
 import MathlibPlus.Algebra.Claim1194
 import MathlibPlus.GraphTheory.Claim43988
+import MathlibPlus.Analysis.PrimePowerCharacter
