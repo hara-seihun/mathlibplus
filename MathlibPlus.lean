@@ -1256,3 +1256,6 @@ import MathlibPlus.GraphTheory.Claim23400
 import MathlibPlus.GraphTheory.Claim53057
 import MathlibPlus.Analysis.Claim4455
 import MathlibPlus.Algebra.Claim4485
+import MathlibPlus.Algebra.Claim50292
+import MathlibPlus.LinearAlgebra.Claim12833
+import MathlibPlus.LinearAlgebra.Claim7682
