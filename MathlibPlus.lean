@@ -943,3 +943,5 @@ import MathlibPlus.Combinatorics.Claim29431
 import MathlibPlus.GraphTheory.Claim26137
 import MathlibPlus.GroupTheory.Claim41247
 import MathlibPlus.Analysis.Claim57468
+import MathlibPlus.Algebra.Claim11582
+import MathlibPlus.GraphTheory.Claim4434
