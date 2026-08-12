@@ -746,3 +746,4 @@ import MathlibPlus.Analysis.CubicGap53264
 import MathlibPlus.Analysis.TranslatedMoments
 import MathlibPlus.Combinatorics.CanonicalCollision
 import MathlibPlus.Algebra.MultiplierProfile
+import MathlibPlus.Combinatorics.BooleanRankInsertion
