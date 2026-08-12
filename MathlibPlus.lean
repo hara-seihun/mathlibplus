@@ -1042,3 +1042,4 @@ import MathlibPlus.LinearAlgebra.Claim10329
 import MathlibPlus.Algebra.Claim20924
 import MathlibPlus.Analysis.Claim47505
 import MathlibPlus.Open.Analysis.CompletedThetaShellConstruction
+import MathlibPlus.Analysis.RowwiseDeterminantIntegration
