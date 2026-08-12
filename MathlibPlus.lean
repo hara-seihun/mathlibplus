@@ -1032,3 +1032,4 @@ import MathlibPlus.Analysis.CholeskyFreeBlock
 import MathlibPlus.Algebra.FiniteDifference
 import MathlibPlus.NumberTheory.ComplementaryDivisorWeights
 import MathlibPlus.Algebra.RootOrbitRectangle
+import MathlibPlus.Combinatorics.BooleanAffineMinorants
