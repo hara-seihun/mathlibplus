@@ -972,3 +972,4 @@ import MathlibPlus.LinearAlgebra.Claim4598
 import MathlibPlus.Combinatorics.Claim21279
 import MathlibPlus.Algebra.MarkerShiftCancellation
 import MathlibPlus.Analysis.ParityGainGrid
+import MathlibPlus.LinearAlgebra.DiagonalMultiplier
