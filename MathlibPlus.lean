@@ -1053,3 +1053,5 @@ import MathlibPlus.LinearAlgebra.Claim12041
 import MathlibPlus.Analysis.CyclotomicEquilibriumMeasure
 import MathlibPlus.Open.Analysis.CyclotomicEquilibriumMeasure
 import MathlibPlus.Combinatorics.RawProfileCount
+import MathlibPlus.Algebra.CoordinateLineNormalization
+import MathlibPlus.Open.GroupTheory.SquarefreeHolomorph
