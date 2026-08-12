@@ -1298,3 +1298,16 @@ import MathlibPlus.LinearAlgebra.Claim17089
 import MathlibPlus.Analysis.Claim10326
 import MathlibPlus.Combinatorics.Claim46978
 import MathlibPlus.GroupTheory.Claim35707
+import MathlibPlus.Analysis.Claim15644
+import MathlibPlus.GroupTheory.Claim38771
+import MathlibPlus.LinearAlgebra.Claim4428
+import MathlibPlus.Algebra.Claim15208
+import MathlibPlus.LinearAlgebra.Claim17770
+import MathlibPlus.Algebra.Claim20663
+import MathlibPlus.LinearAlgebra.Claim4781
+import MathlibPlus.LinearAlgebra.Claim7558
+import MathlibPlus.Algebra.ClaimDefinitions20260811
+import MathlibPlus.LinearAlgebra.ClaimDefinitions20260811
+import MathlibPlus.Analysis.ClaimDefinitions20260811
+import MathlibPlus.Algebra.Claim13212
+import MathlibPlus.Combinatorics.Claim40144
