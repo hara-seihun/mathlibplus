@@ -790,3 +790,7 @@ import MathlibPlus.GroupTheory.Claim31005
 import MathlibPlus.Algebra.Claim55055
 import MathlibPlus.Analysis.FoldedKernel
 import MathlibPlus.LinearAlgebra.StateTransfer
+import MathlibPlus.Combinatorics.Claim55203
+import MathlibPlus.Algebra.Claim52762
+import MathlibPlus.Analysis.Claim19307
+import MathlibPlus.LinearAlgebra.Claim46084
