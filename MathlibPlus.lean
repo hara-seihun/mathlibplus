@@ -781,3 +781,5 @@ import MathlibPlus.Analysis.ElementaryCoordinateIdentities
 import MathlibPlus.LinearAlgebra.InvariantGram
 import MathlibPlus.RepresentationTheory.LoweringReturn
 import MathlibPlus.Algebra.AffineConjugation
+import MathlibPlus.NumberTheory.Claim34997
+import MathlibPlus.Analysis.Claim4244
