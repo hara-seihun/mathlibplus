@@ -1338,3 +1338,7 @@ import MathlibPlus.Algebra.Claim53726
 import MathlibPlus.Combinatorics.VerifierReceipts1051_22743_1099_54523
 import MathlibPlus.Analysis.Claim13013
 import MathlibPlus.Combinatorics.Claim23716
+import MathlibPlus.LinearAlgebra.Claim11547
+import MathlibPlus.LinearAlgebra.Claim7957
+import MathlibPlus.Algebra.Claim10439
+import MathlibPlus.LinearAlgebra.Claim11076
