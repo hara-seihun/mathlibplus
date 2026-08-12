@@ -780,3 +780,4 @@ import MathlibPlus.Open.Algebra.QuadraticFormsF3
 import MathlibPlus.Analysis.ElementaryCoordinateIdentities
 import MathlibPlus.LinearAlgebra.InvariantGram
 import MathlibPlus.RepresentationTheory.LoweringReturn
+import MathlibPlus.Algebra.AffineConjugation
