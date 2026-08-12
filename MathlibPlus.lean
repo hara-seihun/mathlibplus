@@ -1288,3 +1288,4 @@ import MathlibPlus.Algebra.Claim27244
 import MathlibPlus.Analysis.Claim9505
 import MathlibPlus.Algebra.Claim55347
 import MathlibPlus.Combinatorics.Claim31115_36925
+import MathlibPlus.Analysis.WeilReflectionFixedSet
