@@ -1149,3 +1149,6 @@ import MathlibPlus.GroupTheory.Claim51221
 import MathlibPlus.Algebra.Claim24474
 import MathlibPlus.Combinatorics.Claim4063
 import MathlibPlus.LinearAlgebra.LorentzianSignature
+import MathlibPlus.Topology.Claim13287
+import MathlibPlus.Complex.Claim9624
+import MathlibPlus.Combinatorics.Claim26688
