@@ -824,3 +824,5 @@ import MathlibPlus.Algebra.Claim48021
 import MathlibPlus.Analysis.Claim9799
 import MathlibPlus.GroupTheory.Claim40025
 import MathlibPlus.LinearAlgebra.Claim4959
+import MathlibPlus.Algebra.CoefficientResultantJacobian
+import MathlibPlus.Analysis.FiniteModeParity
