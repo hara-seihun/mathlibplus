@@ -1357,3 +1357,14 @@ import MathlibPlus.GraphTheory.Claim19928
 import MathlibPlus.Combinatorics.Claim44831
 import MathlibPlus.Combinatorics.Claim35858
 import MathlibPlus.Algebra.Claim28886
+import MathlibPlus.Open.Algebra.Claim58022
+import MathlibPlus.Analysis.Claim13710
+import MathlibPlus.Algebra.TranslationShearClaim29695
+import MathlibPlus.GroupTheory.DirectProductDerivativeClaim28503
+import MathlibPlus.GroupTheory.ReflectionTwoTorsionClaim51250
+import MathlibPlus.Combinatorics.Claim16526
+import MathlibPlus.Algebra.Claim26480
+import MathlibPlus.Algebra.Claim9284TypeIVQuotient
+import MathlibPlus.Algebra.Claim7047DivisorIncidence
+import MathlibPlus.Analysis.Claim10385
+import MathlibPlus.Combinatorics.Claim19959
