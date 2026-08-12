@@ -1152,3 +1152,5 @@ import MathlibPlus.LinearAlgebra.LorentzianSignature
 import MathlibPlus.Topology.Claim13287
 import MathlibPlus.Complex.Claim9624
 import MathlibPlus.Combinatorics.Claim26688
+import MathlibPlus.Algebra.Claim23994
+import MathlibPlus.Algebra.Claim48757
