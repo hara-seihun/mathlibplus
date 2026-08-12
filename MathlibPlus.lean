@@ -1064,3 +1064,6 @@ import MathlibPlus.NumberTheory.Claim1372
 import MathlibPlus.Open.Combinatorics.UnionClosedAbundance
 import MathlibPlus.Analysis.Claim1445
 import MathlibPlus.NumberTheory.Claim47280
+import MathlibPlus.Combinatorics.Claim3375
+import MathlibPlus.GroupTheory.Claim54682
+import MathlibPlus.Algebra.Claim30413
