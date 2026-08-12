@@ -931,3 +931,4 @@ import MathlibPlus.Open.AnalyticNumberTheory.ReciprocalXiCentralValues
 import MathlibPlus.Open.AnalyticNumberTheory.ReciprocalXiJacobiAsymptotics
 import MathlibPlus.Open.NumberTheory.VerifiedHeightTransfer
 import MathlibPlus.Algebra.PairState
+import MathlibPlus.Combinatorics.PairPathRelaxation
