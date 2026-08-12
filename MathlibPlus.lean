@@ -640,3 +640,5 @@ import MathlibPlus.Analysis.Claim42870
 import MathlibPlus.GroupTheory.Claim24148
 import MathlibPlus.Combinatorics.Claim51728
 import MathlibPlus.Algebra.Claim16050
+import MathlibPlus.Algebra.HordeRoutineFormalizations
+import MathlibPlus.GroupTheory.HordeRoutineTwoClosure
