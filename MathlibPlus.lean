@@ -665,3 +665,6 @@ import MathlibPlus.Algebra.Claim57111
 import MathlibPlus.GroupTheory.Claim58934
 import MathlibPlus.Algebra.Claim8083
 import MathlibPlus.Combinatorics.Claim30396
+import MathlibPlus.LinearAlgebra.Claim36714Transport
+import MathlibPlus.Analysis.Claim44894
+import MathlibPlus.Algebra.Claim46405
