@@ -1186,3 +1186,4 @@ import MathlibPlus.Analysis.Claim15033
 import MathlibPlus.Analysis.HigherDifferenceMoment
 import MathlibPlus.Analysis.PositiveAdditiveCoshBarrier
 import MathlibPlus.LinearAlgebra.SelectedPrimeConjugation
+import MathlibPlus.GraphTheory.PairCellProfile
