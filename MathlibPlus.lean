@@ -750,3 +750,4 @@ import MathlibPlus.Combinatorics.BooleanRankInsertion
 import MathlibPlus.Analysis.PoissonWeight
 import MathlibPlus.AlgebraicGeometry.NoetherArithmeticClaims
 import MathlibPlus.LinearAlgebra.MaslovDiscriminant
+import MathlibPlus.Combinatorics.SignedMatchingPolynomial
