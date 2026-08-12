@@ -575,3 +575,4 @@ import MathlibPlus.Algebra.AffineParentRelation
 import MathlibPlus.LinearAlgebra.PathBoundary
 import MathlibPlus.Analysis.Claim13000SourceHeight
 import MathlibPlus.Algebra.Claim31289ShiftedTrace
+import MathlibPlus.Algebra.Claim52681ZeroDerivative
