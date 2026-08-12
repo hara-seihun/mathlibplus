@@ -1139,3 +1139,4 @@ import MathlibPlus.Algebra.Claim24950
 import MathlibPlus.Algebra.Claim38342
 import MathlibPlus.Analysis.Claim12546
 import MathlibPlus.Combinatorics.Claim20894
+import MathlibPlus.GraphTheory.StronglyRegularPairProfile
