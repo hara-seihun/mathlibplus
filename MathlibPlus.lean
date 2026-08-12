@@ -571,3 +571,5 @@ import MathlibPlus.Algebra.OddDerivativeInversePair
 import MathlibPlus.NumberTheory.PositiveEulerPurity
 import MathlibPlus.Analysis.RootEvaluation
 import MathlibPlus.GroupTheory.DihedralHalfTurn
+import MathlibPlus.Algebra.AffineParentRelation
+import MathlibPlus.LinearAlgebra.PathBoundary
