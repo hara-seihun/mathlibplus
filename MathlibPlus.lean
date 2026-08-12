@@ -759,3 +759,7 @@ import MathlibPlus.Combinatorics.ProfileAverage
 import MathlibPlus.Open.NumberTheory.LocalDivisorFactor
 import MathlibPlus.Analysis.Claim1678
 import MathlibPlus.Combinatorics.Claim12644
+import MathlibPlus.Algebra.IntegerFrobeniusClock
+import MathlibPlus.LinearAlgebra.ExteriorSquareDeterminant
+import MathlibPlus.GroupTheory.InverseSection
+import MathlibPlus.Analysis.RestrictedCauchySchwarz
