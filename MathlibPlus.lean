@@ -1234,3 +1234,7 @@ import MathlibPlus.NumberTheory.Claim14275
 import MathlibPlus.GroupTheory.Claim38312
 import MathlibPlus.GroupTheory.Claim41900
 import MathlibPlus.GroupTheory.Claim49903
+import MathlibPlus.Analysis.Claim42868
+import MathlibPlus.Combinatorics.Claim16269
+import MathlibPlus.Combinatorics.Claim49067
+import MathlibPlus.Combinatorics.Claim5950
