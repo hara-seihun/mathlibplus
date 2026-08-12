@@ -883,3 +883,4 @@ import MathlibPlus.ComplexGeometry.TransformedOrientationEnergy
 import MathlibPlus.Open.Analysis.SharpLocalTemperedZeroThreshold
 import MathlibPlus.Algebra.Claim52300
 import MathlibPlus.Analysis.Claim17690
+import MathlibPlus.Open.Analysis.Claim5933
