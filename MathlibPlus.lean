@@ -770,3 +770,4 @@ import MathlibPlus.Combinatorics.LargestProperPacking
 import MathlibPlus.Analysis.Claim18826
 import MathlibPlus.Analysis.FiniteWeightedGeometricSum
 import MathlibPlus.AlgebraicGeometry.NoetherInequalityCheck
+import MathlibPlus.Analysis.FourierSquaredCoordinate
