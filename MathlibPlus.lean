@@ -826,3 +826,6 @@ import MathlibPlus.GroupTheory.Claim40025
 import MathlibPlus.LinearAlgebra.Claim4959
 import MathlibPlus.Algebra.CoefficientResultantJacobian
 import MathlibPlus.Analysis.FiniteModeParity
+import MathlibPlus.Algebra.OrthogonalFinitePrimePowers
+import MathlibPlus.Analysis.CubicWallPolynomial
+import MathlibPlus.GroupTheory.TwoPointBlockKernel
