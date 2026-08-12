@@ -855,3 +855,6 @@ import MathlibPlus.Algebra.Claim43169
 import MathlibPlus.NumberTheory.Claim47384
 import MathlibPlus.LinearAlgebra.CompanionSymplectic
 import MathlibPlus.LinearAlgebra.ColumnScaling
+import MathlibPlus.Algebra.Claim8600
+import MathlibPlus.Algebra.Claim32618
+import MathlibPlus.Algebra.Claim37081
