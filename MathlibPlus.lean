@@ -788,3 +788,5 @@ import MathlibPlus.Analysis.Claim3501
 import MathlibPlus.AnalyticNumberTheory.Claim1359
 import MathlibPlus.GroupTheory.Claim31005
 import MathlibPlus.Algebra.Claim55055
+import MathlibPlus.Analysis.FoldedKernel
+import MathlibPlus.LinearAlgebra.StateTransfer
