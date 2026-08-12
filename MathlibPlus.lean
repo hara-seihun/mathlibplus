@@ -953,3 +953,4 @@ import MathlibPlus.LinearAlgebra.FiniteUnionSubspaces
 import MathlibPlus.Analysis.PositiveDirichlet
 import MathlibPlus.Open.Analysis.ExactComplexMultiplierInfimum
 import MathlibPlus.Open.Combinatorics.DeletedVertexLabelledCopy
+import MathlibPlus.GraphTheory.LabelledCopyCount
