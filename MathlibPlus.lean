@@ -1144,3 +1144,4 @@ import MathlibPlus.Combinatorics.SelectedRowsStrictDescent
 import MathlibPlus.Combinatorics.CurrentMergeSupport
 import MathlibPlus.Algebra.Claim19366DiagonalPair
 import MathlibPlus.GroupTheory.Claim27899OddMultiples
+import MathlibPlus.Analysis.SliceNormBoundClaim21915
