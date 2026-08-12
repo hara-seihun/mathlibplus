@@ -598,3 +598,6 @@ import MathlibPlus.Algebra.RootedFactorHomogeneity
 import MathlibPlus.Analysis.Claim4864
 import MathlibPlus.GroupTheory.Claim11729
 import MathlibPlus.LinearAlgebra.Claim8532
+import MathlibPlus.Open.Combinatorics.Claim58847
+import MathlibPlus.Open.GraphTheory.Claim53097
+import MathlibPlus.Open.AnalyticNumberTheory.Claim8285
