@@ -1128,3 +1128,5 @@ import MathlibPlus.AnalyticNumberTheory.Claim1990
 import MathlibPlus.Analysis.Claim8870
 import MathlibPlus.Algebra.C4BlockWeightLedger
 import MathlibPlus.Analysis.ParabolicFreeBlock
+import MathlibPlus.Analysis.Claim22027
+import MathlibPlus.Combinatorics.Claim20574
