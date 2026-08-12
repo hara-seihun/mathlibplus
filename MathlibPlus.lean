@@ -982,3 +982,4 @@ import MathlibPlus.LinearAlgebra.Claim24182
 import MathlibPlus.Combinatorics.Claim29077
 import MathlibPlus.Algebra.OneZeroCayley
 import MathlibPlus.Analysis.AllPassCayleyRelocation
+import MathlibPlus.GraphTheory.DeletedNeighborhoodDegree
