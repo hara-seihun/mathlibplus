@@ -1252,3 +1252,5 @@ import MathlibPlus.Analysis.Claim4805
 import MathlibPlus.GroupTheory.Claim7779
 import MathlibPlus.Analysis.Claim19002
 import MathlibPlus.Analysis.Claim13437
+import MathlibPlus.GraphTheory.Claim23400
+import MathlibPlus.GraphTheory.Claim53057
