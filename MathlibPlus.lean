@@ -683,3 +683,7 @@ import MathlibPlus.Analysis.Claim37963
 import MathlibPlus.LinearAlgebra.Claim7134
 import MathlibPlus.LinearAlgebra.Claim12300
 import MathlibPlus.Algebra.Claim28804
+import MathlibPlus.GroupTheory.Claim17070
+import MathlibPlus.Analysis.Claim20234
+import MathlibPlus.LinearAlgebra.Claim13582
+import MathlibPlus.Logic.Claim42301
