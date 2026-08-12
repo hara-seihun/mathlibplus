@@ -905,3 +905,4 @@ import MathlibPlus.Algebra.Claim45112
 import MathlibPlus.LinearAlgebra.Claim7876
 import MathlibPlus.Analysis.HorizontalEnergy
 import MathlibPlus.Algebra.CavityParallelogram
+import MathlibPlus.Algebra.CorrectedMoveCommutator
