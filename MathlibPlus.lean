@@ -1071,3 +1071,4 @@ import MathlibPlus.Algebra.Claim53778
 import MathlibPlus.Algebra.Claim52072
 import MathlibPlus.LinearAlgebra.Claim56476
 import MathlibPlus.GraphTheory.Claim31488_31773
+import MathlibPlus.Analysis.VerticalConeFactor
