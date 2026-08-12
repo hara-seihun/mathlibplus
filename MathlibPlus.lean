@@ -858,3 +858,7 @@ import MathlibPlus.LinearAlgebra.ColumnScaling
 import MathlibPlus.Algebra.Claim8600
 import MathlibPlus.Algebra.Claim32618
 import MathlibPlus.Algebra.Claim37081
+import MathlibPlus.Analysis.Claim46444
+import MathlibPlus.Algebra.FourCavityMatching
+import MathlibPlus.Algebra.CoordinateCongruence
+import MathlibPlus.LinearAlgebra.SpectatorBoundary
