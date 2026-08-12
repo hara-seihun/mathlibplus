@@ -957,3 +957,5 @@ import MathlibPlus.GraphTheory.LabelledCopyCount
 import MathlibPlus.Algebra.FiniteAdapterExhaustion
 import MathlibPlus.Combinatorics.NonnegativeEqualityProfile
 import MathlibPlus.Algebra.RoutineClaimFormalizations20260811
+import MathlibPlus.Analysis.Claim1523
+import MathlibPlus.Analysis.Claim11514
