@@ -634,3 +634,5 @@ import MathlibPlus.Algebra.PrimitiveReciprocalIntegrality
 import MathlibPlus.Analysis.Claim11125
 import MathlibPlus.Combinatorics.Claim17033
 import MathlibPlus.Algebra.Claim1748
+import MathlibPlus.Analysis.Claim57703
+import MathlibPlus.Open.Algebra.Claim30450
