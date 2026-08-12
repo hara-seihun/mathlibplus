@@ -1092,3 +1092,4 @@ import MathlibPlus.GroupTheory.Claim35673And39943
 import MathlibPlus.GraphTheory.Claim43514
 import MathlibPlus.Algebra.Claim43805
 import MathlibPlus.NumberTheory.MobiusLCMFirstCutoff
+import MathlibPlus.Algebra.Claim43805Theorems
