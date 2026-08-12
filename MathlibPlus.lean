@@ -1181,3 +1181,5 @@ import MathlibPlus.Open.GraphTheory.RootedGoodGraphClaim44118
 import MathlibPlus.Open.NumberTheory.PublishedDenominatorClaim1719
 import MathlibPlus.NumberTheory.Claim10544
 import MathlibPlus.LinearAlgebra.Claim55205
+import MathlibPlus.Algebra.Claim36744
+import MathlibPlus.Analysis.Claim15033
