@@ -869,3 +869,6 @@ import MathlibPlus.Analysis.MellinTailTightClaim3845
 import MathlibPlus.Analysis.LinearExponentialEnvelopeClaim44285
 import MathlibPlus.NumberTheory.Claim35665
 import MathlibPlus.AlgebraicGeometry.Claim46205
+import MathlibPlus.Analysis.Claim48756
+import MathlibPlus.NumberTheory.Claim12700
+import MathlibPlus.GroupTheory.Claim14537
