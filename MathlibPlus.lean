@@ -863,3 +863,5 @@ import MathlibPlus.Algebra.FourCavityMatching
 import MathlibPlus.Algebra.CoordinateCongruence
 import MathlibPlus.LinearAlgebra.SpectatorBoundary
 import MathlibPlus.LinearAlgebra.CharacteristicPolynomialPowerTracesClaim11679
+import MathlibPlus.Analysis.ThetaShellSummandClaim19068
+import MathlibPlus.Open.Analysis.ThetaSourcePositivityClaim19068
