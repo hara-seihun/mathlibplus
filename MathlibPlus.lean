@@ -701,3 +701,6 @@ import MathlibPlus.Open.LinearAlgebra.SymmetricDifferencePullback
 import MathlibPlus.Analysis.Claim49588
 import MathlibPlus.Analysis.Claim51193
 import MathlibPlus.Algebra.Claim53470
+import MathlibPlus.Combinatorics.Claim44806
+import MathlibPlus.GroupTheory.Claim41446
+import MathlibPlus.GroupTheory.Claim29233
