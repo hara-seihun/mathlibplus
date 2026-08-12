@@ -726,3 +726,5 @@ import MathlibPlus.Analysis.Claim40919
 import MathlibPlus.Analysis.Claim57874
 import MathlibPlus.Algebra.Claim59214_59215
 import MathlibPlus.Open.GraphTheory.BinaryRankSixCIDefect
+import MathlibPlus.Algebra.Claim9605
+import MathlibPlus.Combinatorics.Claim10448
