@@ -949,3 +949,7 @@ import MathlibPlus.LinearAlgebra.Claim20129
 import MathlibPlus.Algebra.Claim20741
 import MathlibPlus.LinearAlgebra.Claim14499
 import MathlibPlus.LinearAlgebra.Claim33764
+import MathlibPlus.LinearAlgebra.FiniteUnionSubspaces
+import MathlibPlus.Analysis.PositiveDirichlet
+import MathlibPlus.Open.Analysis.ExactComplexMultiplierInfimum
+import MathlibPlus.Open.Combinatorics.DeletedVertexLabelledCopy
