@@ -1089,3 +1089,4 @@ import MathlibPlus.Algebra.Claim6753
 import MathlibPlus.GroupTheory.Claim26811
 import MathlibPlus.Analysis.Claim35656
 import MathlibPlus.GroupTheory.Claim35673And39943
+import MathlibPlus.GraphTheory.Claim43514
