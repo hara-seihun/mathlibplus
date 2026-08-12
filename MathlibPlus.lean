@@ -741,3 +741,4 @@ import MathlibPlus.NumberTheory.Claim8215
 import MathlibPlus.NumberTheory.Claim29535
 import MathlibPlus.LinearAlgebra.Claim12049
 import MathlibPlus.Algebra.PackingSeries43059
+import MathlibPlus.Algebra.ConstrainedDefect48326
