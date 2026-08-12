@@ -627,3 +627,4 @@ import MathlibPlus.Arithmetic.Claim47930
 import MathlibPlus.LinearAlgebra.Claim11599
 import MathlibPlus.Combinatorics.FrequencyDeficit
 import MathlibPlus.Open.NumberTheory.PrimeTriples
+import MathlibPlus.Open.Combinatorics.DivisorDownset
