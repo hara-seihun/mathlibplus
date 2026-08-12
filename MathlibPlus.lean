@@ -646,3 +646,7 @@ import MathlibPlus.Algebra.Claim32989
 import MathlibPlus.LinearAlgebra.Claim11083
 import MathlibPlus.NumberTheory.Claim20346
 import MathlibPlus.LinearAlgebra.Claim45575
+import MathlibPlus.Analysis.Claim52019
+import MathlibPlus.Open.Combinatorics.Claim20382
+import MathlibPlus.GraphTheory.Claim22877
+import MathlibPlus.Algebra.Claim19615
