@@ -1191,3 +1191,5 @@ import MathlibPlus.Analysis.Claim17995
 import MathlibPlus.Combinatorics.Claim21065And25084
 import MathlibPlus.Analysis.Claim15267
 import MathlibPlus.Algebra.Claim47739
+import MathlibPlus.NumberTheory.Claim51689
+import MathlibPlus.GraphTheory.Claim5750
