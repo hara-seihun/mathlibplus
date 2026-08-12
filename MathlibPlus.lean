@@ -889,3 +889,5 @@ import MathlibPlus.GroupTheory.QualifiedDihedralAction
 import MathlibPlus.Algebra.ExponentialBaseGrowth
 import MathlibPlus.Algebra.ScalarLocalPullbackFactor
 import MathlibPlus.Combinatorics.Claim20576
+import MathlibPlus.NumberTheory.PrimePowerDecomposition
+import MathlibPlus.Analysis.ConditionalBetaMoments
