@@ -1123,3 +1123,6 @@ import MathlibPlus.Analysis.Claim9740
 import MathlibPlus.Combinatorics.Claim24997TernaryState
 import MathlibPlus.Algebra.Claim2747
 import MathlibPlus.Combinatorics.Claim47189
+import MathlibPlus.Algebra.Claim19516
+import MathlibPlus.AnalyticNumberTheory.Claim1990
+import MathlibPlus.Analysis.Claim8870
