@@ -911,3 +911,7 @@ import MathlibPlus.LinearAlgebra.Claim53173
 import MathlibPlus.Analysis.Claim15256_42871_11628_19365
 import MathlibPlus.NumberTheory.AffineTransitiveReduction
 import MathlibPlus.LinearAlgebra.GradedCyclicGeneration
+import MathlibPlus.NumberTheory.Claim20213
+import MathlibPlus.Algebra.Claim1953
+import MathlibPlus.Algebra.Claim1194
+import MathlibPlus.GraphTheory.Claim43988
