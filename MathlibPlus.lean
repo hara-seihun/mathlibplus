@@ -693,3 +693,4 @@ import MathlibPlus.GroupTheory.Claim5832
 import MathlibPlus.Combinatorics.Claim5459
 import MathlibPlus.Analysis.Claim51211
 import MathlibPlus.Algebra.Claim37913
+import MathlibPlus.Analysis.Claim47785
