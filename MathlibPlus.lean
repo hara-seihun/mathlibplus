@@ -948,3 +948,4 @@ import MathlibPlus.GraphTheory.Claim4434
 import MathlibPlus.LinearAlgebra.Claim20129
 import MathlibPlus.Algebra.Claim20741
 import MathlibPlus.LinearAlgebra.Claim14499
+import MathlibPlus.LinearAlgebra.Claim33764
