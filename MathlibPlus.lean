@@ -1271,3 +1271,4 @@ import MathlibPlus.Algebra.Claim18481
 import MathlibPlus.Algebra.Claim6080
 import MathlibPlus.Algebra.Claim6629
 import MathlibPlus.Analysis.Claim13408
+import MathlibPlus.Combinatorics.Claim37932
