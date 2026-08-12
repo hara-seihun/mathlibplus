@@ -1082,3 +1082,4 @@ import MathlibPlus.Algebra.Claim25146
 import MathlibPlus.Combinatorics.Claim31263
 import MathlibPlus.Algebra.Claim10783
 import MathlibPlus.NumberTheory.Claim20169
+import MathlibPlus.AlgebraicGeometry.Claim46841
