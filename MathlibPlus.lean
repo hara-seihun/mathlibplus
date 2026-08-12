@@ -734,3 +734,4 @@ import MathlibPlus.Combinatorics.SplitSupportSaturation
 import MathlibPlus.Algebra.GrassmannPlucker
 import MathlibPlus.Analysis.SlopeBounds
 import MathlibPlus.Combinatorics.ClosureExcess
+import MathlibPlus.NumberTheory.PairedEndpoint
