@@ -1057,3 +1057,4 @@ import MathlibPlus.Algebra.CoordinateLineNormalization
 import MathlibPlus.Open.GroupTheory.SquarefreeHolomorph
 import MathlibPlus.Combinatorics.ThreeLongArmBroom
 import MathlibPlus.Algebra.Claim32121
+import MathlibPlus.GroupTheory.Claim30285
