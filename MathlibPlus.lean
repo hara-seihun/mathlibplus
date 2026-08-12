@@ -669,3 +669,5 @@ import MathlibPlus.LinearAlgebra.Claim36714Transport
 import MathlibPlus.Analysis.Claim44894
 import MathlibPlus.Algebra.Claim46405
 import MathlibPlus.Analysis.Claim53023
+import MathlibPlus.Algebra.Claim4819
+import MathlibPlus.LinearAlgebra.Claim17573
