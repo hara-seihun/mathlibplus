@@ -906,3 +906,4 @@ import MathlibPlus.LinearAlgebra.Claim7876
 import MathlibPlus.Analysis.HorizontalEnergy
 import MathlibPlus.Algebra.CavityParallelogram
 import MathlibPlus.Algebra.CorrectedMoveCommutator
+import MathlibPlus.Open.GroupTheory.RepairedPermutationTable
