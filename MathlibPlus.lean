@@ -731,3 +731,4 @@ import MathlibPlus.Combinatorics.Claim10448
 import MathlibPlus.Analysis.Claim49935
 import MathlibPlus.Combinatorics.QuadraticCurvature
 import MathlibPlus.Combinatorics.SplitSupportSaturation
+import MathlibPlus.Algebra.GrassmannPlucker
