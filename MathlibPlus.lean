@@ -1017,3 +1017,6 @@ import MathlibPlus.Algebra.SparseCurrentGroup
 import MathlibPlus.Algebra.RationalCubicHomotopy
 import MathlibPlus.Combinatorics.UnitTransfer
 import MathlibPlus.Analysis.DyadicTail
+import MathlibPlus.GroupTheory.Claim28060
+import MathlibPlus.Algebra.Claim19351
+import MathlibPlus.Analysis.Claim42713
