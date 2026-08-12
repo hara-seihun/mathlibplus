@@ -1249,3 +1249,4 @@ import MathlibPlus.LinearAlgebra.Claim17907
 import MathlibPlus.Analysis.Claim2794
 import MathlibPlus.Combinatorics.Claim43818
 import MathlibPlus.Analysis.Claim4805
+import MathlibPlus.GroupTheory.Claim7779
