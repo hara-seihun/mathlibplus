@@ -956,3 +956,4 @@ import MathlibPlus.Open.Combinatorics.DeletedVertexLabelledCopy
 import MathlibPlus.GraphTheory.LabelledCopyCount
 import MathlibPlus.Algebra.FiniteAdapterExhaustion
 import MathlibPlus.Combinatorics.NonnegativeEqualityProfile
+import MathlibPlus.Algebra.RoutineClaimFormalizations20260811
