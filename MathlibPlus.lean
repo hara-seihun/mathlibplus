@@ -773,3 +773,5 @@ import MathlibPlus.AlgebraicGeometry.NoetherInequalityCheck
 import MathlibPlus.Analysis.FourierSquaredCoordinate
 import MathlibPlus.Combinatorics.Claim22459
 import MathlibPlus.Combinatorics.Claim6928
+import MathlibPlus.AlgebraicGeometry.Claim14598
+import MathlibPlus.Algebra.Claim17608_18382
