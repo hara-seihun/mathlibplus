@@ -862,3 +862,4 @@ import MathlibPlus.Analysis.Claim46444
 import MathlibPlus.Algebra.FourCavityMatching
 import MathlibPlus.Algebra.CoordinateCongruence
 import MathlibPlus.LinearAlgebra.SpectatorBoundary
+import MathlibPlus.LinearAlgebra.CharacteristicPolynomialPowerTracesClaim11679
