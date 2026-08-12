@@ -920,3 +920,4 @@ import MathlibPlus.Open.Analysis.MittagLefflerResidual
 import MathlibPlus.Analysis.A4BinetContinuum
 import MathlibPlus.Open.Analysis.HCIZ
 import MathlibPlus.Open.RaisedKTypeSelector
+import MathlibPlus.Open.Analysis.RiemannTheta
