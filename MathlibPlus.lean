@@ -1014,3 +1014,4 @@ import MathlibPlus.Analysis.Claim10443
 import MathlibPlus.Analysis.Claim13803
 import MathlibPlus.GraphTheory.TreeGaussBonnet
 import MathlibPlus.Algebra.SparseCurrentGroup
+import MathlibPlus.Algebra.RationalCubicHomotopy
