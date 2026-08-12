@@ -1197,3 +1197,6 @@ import MathlibPlus.RepresentationTheory.Claim12256
 import MathlibPlus.Algebra.Claim55670
 import MathlibPlus.Probability.Claim9279
 import MathlibPlus.GroupTheory.Claim29699
+import MathlibPlus.Analysis.Claim13911
+import MathlibPlus.LinearAlgebra.Claim6498
+import MathlibPlus.Open.Analysis.Claim13911
