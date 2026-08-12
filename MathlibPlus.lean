@@ -922,3 +922,4 @@ import MathlibPlus.Open.Analysis.HCIZ
 import MathlibPlus.Open.RaisedKTypeSelector
 import MathlibPlus.Open.Analysis.RiemannTheta
 import MathlibPlus.Open.Analysis.KTypeSelectorSharp
+import MathlibPlus.Open.AnalyticNumberTheory.ReciprocalXiLogDerivative
