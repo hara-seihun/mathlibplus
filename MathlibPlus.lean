@@ -710,3 +710,7 @@ import MathlibPlus.Analysis.PullFirstClaim4709
 import MathlibPlus.Combinatorics.PullFirstClaim8569
 import MathlibPlus.Combinatorics.PullFirstClaim20458
 import MathlibPlus.Open.Algebra.Claim8007
+import MathlibPlus.Algebra.Claim40175
+import MathlibPlus.Algebra.Claim25145
+import MathlibPlus.LinearAlgebra.Claim4955
+import MathlibPlus.LinearAlgebra.Claim20816
