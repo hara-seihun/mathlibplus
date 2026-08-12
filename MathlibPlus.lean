@@ -928,3 +928,4 @@ import MathlibPlus.Open.Analysis.ReciprocalXiJacobi
 import MathlibPlus.Open.AnalyticNumberTheory.CompletedXi.SquareMapZeroMultiplicity
 import MathlibPlus.Open.AnalyticNumberTheory.ReciprocalXi.ExactLogDerivative
 import MathlibPlus.Open.AnalyticNumberTheory.ReciprocalXiCentralValues
+import MathlibPlus.Open.AnalyticNumberTheory.ReciprocalXiJacobiAsymptotics
