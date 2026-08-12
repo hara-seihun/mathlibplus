@@ -651,3 +651,5 @@ import MathlibPlus.Open.Combinatorics.Claim20382
 import MathlibPlus.GraphTheory.Claim22877
 import MathlibPlus.Algebra.Claim19615
 import MathlibPlus.Analysis.Claim49793Defects
+import MathlibPlus.Combinatorics.Claim21154_31805_42326
+import MathlibPlus.Open.AnalyticNumberTheory.PrimeCounting.ShortIntervalAsymptoticClaim2364
