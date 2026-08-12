@@ -924,3 +924,4 @@ import MathlibPlus.Open.Analysis.RiemannTheta
 import MathlibPlus.Open.Analysis.KTypeSelectorSharp
 import MathlibPlus.Open.AnalyticNumberTheory.ReciprocalXiLogDerivative
 import MathlibPlus.Open.Analysis.JacobiGHSJensen
+import MathlibPlus.Open.Analysis.ReciprocalXiJacobi
