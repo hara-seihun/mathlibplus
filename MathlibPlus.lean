@@ -1157,3 +1157,4 @@ import MathlibPlus.Algebra.Claim48757
 import MathlibPlus.Algebra.Claim18389
 import MathlibPlus.Order.Claim39871
 import MathlibPlus.Open.Analysis.Claim11591
+import MathlibPlus.Open.LinearAlgebra.Claim14738
