@@ -603,3 +603,6 @@ import MathlibPlus.Open.GraphTheory.Claim53097
 import MathlibPlus.Open.AnalyticNumberTheory.Claim8285
 import MathlibPlus.Analysis.Claim52213
 import MathlibPlus.GroupTheory.HallSubgroup
+import MathlibPlus.Analysis.Claim18771
+import MathlibPlus.Open.Asymptotics.Claim15199
+import MathlibPlus.Order.Claim26651
