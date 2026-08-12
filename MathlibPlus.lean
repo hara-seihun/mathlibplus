@@ -932,3 +932,7 @@ import MathlibPlus.Open.AnalyticNumberTheory.ReciprocalXiJacobiAsymptotics
 import MathlibPlus.Open.NumberTheory.VerifiedHeightTransfer
 import MathlibPlus.Algebra.PairState
 import MathlibPlus.Combinatorics.PairPathRelaxation
+import MathlibPlus.Algebra.ExchangeCanonicalVariance
+import MathlibPlus.GraphTheory.TwoTransitiveSimpleGraph
+import MathlibPlus.GroupTheory.RegularAbelianCentralizer
+import MathlibPlus.Combinatorics.UnionIrreducibles
