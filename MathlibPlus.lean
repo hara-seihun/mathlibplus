@@ -630,3 +630,4 @@ import MathlibPlus.Open.NumberTheory.PrimeTriples
 import MathlibPlus.Open.Combinatorics.DivisorDownset
 import MathlibPlus.Algebra.Claim24955EndpointProducts
 import MathlibPlus.NumberTheory.Claim9562RationalNorm
+import MathlibPlus.Algebra.PrimitiveReciprocalIntegrality

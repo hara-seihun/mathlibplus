@@ -49,4 +49,13 @@ theorem not_inTwoClosure_of_orbit_moved
   obtain ⟨x, hx⟩ := hmoved
   exact hx (map_pointStabilizerOrbit_eq G q o hq hqo x)
 
+/-- Two-closure is monotone under subgroup inclusion. -/
+theorem inTwoClosure_mono_claim38366
+    (H A : Subgroup (Equiv.Perm α)) (hHA : H ≤ A)
+    (q : Equiv.Perm α) :
+    inTwoClosure H q → inTwoClosure A q := by
+  intro hq x y
+  obtain ⟨g, hg, hx, hy⟩ := hq x y
+  exact ⟨g, hHA hg, hx, hy⟩
+
 end MathlibPlus.GroupTheory.TwoClosure
