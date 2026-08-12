@@ -1160,3 +1160,4 @@ import MathlibPlus.Open.Analysis.Claim11591
 import MathlibPlus.Open.LinearAlgebra.Claim14738
 import MathlibPlus.MeasureTheory.Claim8708
 import MathlibPlus.Algebra.Claim58679
+import MathlibPlus.Analysis.Claim9639
