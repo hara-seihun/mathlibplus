@@ -743,3 +743,4 @@ import MathlibPlus.LinearAlgebra.Claim12049
 import MathlibPlus.Algebra.PackingSeries43059
 import MathlibPlus.Algebra.ConstrainedDefect48326
 import MathlibPlus.Analysis.CubicGap53264
+import MathlibPlus.Analysis.TranslatedMoments
