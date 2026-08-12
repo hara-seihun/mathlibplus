@@ -593,3 +593,4 @@ import MathlibPlus.GraphTheory.Claim23243
 import MathlibPlus.Analysis.Claim2489ImplicitVelocity
 import MathlibPlus.Analysis.Claim8896TerminalAnchor
 import MathlibPlus.Analysis.Claim8261PrimePowerDepthSum
+import MathlibPlus.Algebra.ExteriorSquareScaling
