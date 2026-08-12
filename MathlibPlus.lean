@@ -561,3 +561,5 @@ import MathlibPlus.Open.Algebra.ScalarTraceLift
 import MathlibPlus.Open.Combinatorics.BooleanComplementSunflower
 import MathlibPlus.Combinatorics.Claim10537
 import MathlibPlus.Analysis.Claim1109
+import MathlibPlus.LinearAlgebra.Claim19436
+import MathlibPlus.Algebra.Claim50893
