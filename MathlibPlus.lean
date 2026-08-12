@@ -1290,3 +1290,5 @@ import MathlibPlus.Algebra.Claim55347
 import MathlibPlus.Combinatorics.Claim31115_36925
 import MathlibPlus.Analysis.WeilReflectionFixedSet
 import MathlibPlus.GraphTheory.Claim3338_16501
+import MathlibPlus.NumberTheory.Claim13385
+import MathlibPlus.Open.Combinatorics.Claim22940
