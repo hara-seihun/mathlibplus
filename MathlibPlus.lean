@@ -757,3 +757,5 @@ import MathlibPlus.Open.Analysis.Claim906
 import MathlibPlus.Analysis.CenteredGammaRatio
 import MathlibPlus.Combinatorics.ProfileAverage
 import MathlibPlus.Open.NumberTheory.LocalDivisorFactor
+import MathlibPlus.Analysis.Claim1678
+import MathlibPlus.Combinatorics.Claim12644
