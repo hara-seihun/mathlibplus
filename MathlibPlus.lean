@@ -996,3 +996,4 @@ import MathlibPlus.Analysis.ArithmeticCellWitness
 import MathlibPlus.Combinatorics.PrivateSignature
 import MathlibPlus.GraphTheory.ModulePartition
 import MathlibPlus.Analysis.ThetaShellTranslation
+import MathlibPlus.Algebra.PluckerCircuit
