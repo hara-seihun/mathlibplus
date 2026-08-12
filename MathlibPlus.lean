@@ -965,3 +965,6 @@ import MathlibPlus.AlgebraicGeometry.NoetherInequalityCoordinatesClaim16643
 import MathlibPlus.Combinatorics.Claim32771
 import MathlibPlus.Open.AnalyticNumberTheory.PrimeCounting.ZeroDensityHandoff
 import MathlibPlus.GraphTheory.ReachabilityCertificate
+import MathlibPlus.Combinatorics.Claim31558
+import MathlibPlus.Analysis.Claim45462
+import MathlibPlus.Combinatorics.Claim27592
