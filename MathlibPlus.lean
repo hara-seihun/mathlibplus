@@ -763,3 +763,4 @@ import MathlibPlus.Algebra.IntegerFrobeniusClock
 import MathlibPlus.LinearAlgebra.ExteriorSquareDeterminant
 import MathlibPlus.GroupTheory.InverseSection
 import MathlibPlus.Analysis.RestrictedCauchySchwarz
+import MathlibPlus.GroupTheory.Claim37155
