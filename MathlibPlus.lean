@@ -1098,3 +1098,4 @@ import MathlibPlus.LinearAlgebra.Claim42397
 import MathlibPlus.Combinatorics.Claim9646
 import MathlibPlus.GroupTheory.Claim41137
 import MathlibPlus.Combinatorics.OrbitStateSpaceClaim45107
+import MathlibPlus.Analysis.ZetaGraphResidual
