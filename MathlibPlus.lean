@@ -783,3 +783,4 @@ import MathlibPlus.RepresentationTheory.LoweringReturn
 import MathlibPlus.Algebra.AffineConjugation
 import MathlibPlus.NumberTheory.Claim34997
 import MathlibPlus.Analysis.Claim4244
+import MathlibPlus.Algebra.Claim9556
