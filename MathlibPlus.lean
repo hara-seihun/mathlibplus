@@ -1012,3 +1012,4 @@ import MathlibPlus.Combinatorics.Claim29410Definitions
 import MathlibPlus.Combinatorics.Claim29410Theorems
 import MathlibPlus.Analysis.Claim10443
 import MathlibPlus.Analysis.Claim13803
+import MathlibPlus.GraphTheory.TreeGaussBonnet
