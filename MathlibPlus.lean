@@ -784,3 +784,7 @@ import MathlibPlus.Algebra.AffineConjugation
 import MathlibPlus.NumberTheory.Claim34997
 import MathlibPlus.Analysis.Claim4244
 import MathlibPlus.Algebra.Claim9556
+import MathlibPlus.Analysis.Claim3501
+import MathlibPlus.AnalyticNumberTheory.Claim1359
+import MathlibPlus.GroupTheory.Claim31005
+import MathlibPlus.Algebra.Claim55055
