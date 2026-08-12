@@ -872,3 +872,5 @@ import MathlibPlus.AlgebraicGeometry.Claim46205
 import MathlibPlus.Analysis.Claim48756
 import MathlibPlus.NumberTheory.Claim12700
 import MathlibPlus.GroupTheory.Claim14537
+import MathlibPlus.Algebra.AffineCavityCrossRatio
+import MathlibPlus.Analysis.ComplexNormSquareIdentity
