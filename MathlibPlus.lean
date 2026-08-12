@@ -1292,3 +1292,6 @@ import MathlibPlus.Analysis.WeilReflectionFixedSet
 import MathlibPlus.GraphTheory.Claim3338_16501
 import MathlibPlus.NumberTheory.Claim13385
 import MathlibPlus.Open.Combinatorics.Claim22940
+import MathlibPlus.Algebra.Claim41330
+import MathlibPlus.LinearAlgebra.Claim57508
+import MathlibPlus.LinearAlgebra.Claim17089
