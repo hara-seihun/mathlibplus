@@ -850,3 +850,4 @@ import MathlibPlus.Algebra.Claim23430
 import MathlibPlus.Algebra.Claim27552
 import MathlibPlus.Algebra.Claim33443
 import MathlibPlus.Combinatorics.Claim42226Definitions
+import MathlibPlus.Combinatorics.Claim42226Theorems
