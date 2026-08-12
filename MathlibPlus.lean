@@ -733,3 +733,4 @@ import MathlibPlus.Combinatorics.QuadraticCurvature
 import MathlibPlus.Combinatorics.SplitSupportSaturation
 import MathlibPlus.Algebra.GrassmannPlucker
 import MathlibPlus.Analysis.SlopeBounds
+import MathlibPlus.Combinatorics.ClosureExcess
