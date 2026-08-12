@@ -578,3 +578,4 @@ import MathlibPlus.Algebra.Claim31289ShiftedTrace
 import MathlibPlus.Algebra.Claim52681ZeroDerivative
 import MathlibPlus.AnalyticNumberTheory.Claim1201
 import MathlibPlus.Analysis.Claim22039
+import MathlibPlus.Algebra.MixedAbelianInversionAtoms
