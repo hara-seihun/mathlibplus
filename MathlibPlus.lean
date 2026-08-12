@@ -804,3 +804,5 @@ import MathlibPlus.GraphTheory.ComponentCopyTuple
 import MathlibPlus.Analysis.PointerFaceCertificate
 import MathlibPlus.Algebra.ProjectiveParabolic
 import MathlibPlus.LinearAlgebra.Claim12953
+import MathlibPlus.Combinatorics.Claim47172
+import MathlibPlus.Combinatorics.Claim30543
