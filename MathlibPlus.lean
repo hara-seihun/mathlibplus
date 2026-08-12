@@ -937,3 +937,6 @@ import MathlibPlus.GraphTheory.TwoTransitiveSimpleGraph
 import MathlibPlus.GroupTheory.RegularAbelianCentralizer
 import MathlibPlus.Combinatorics.UnionIrreducibles
 import MathlibPlus.Analysis.Claim6933
+import MathlibPlus.Analysis.Claim12555
+import MathlibPlus.LinearAlgebra.Claim19257
+import MathlibPlus.Combinatorics.Claim29431
