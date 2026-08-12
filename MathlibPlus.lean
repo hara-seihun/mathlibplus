@@ -1024,3 +1024,5 @@ import MathlibPlus.Algebra.Claim28979
 import MathlibPlus.Algebra.FamilyProduct
 import MathlibPlus.LinearAlgebra.BarycentricCountermode
 import MathlibPlus.NumberTheory.PronicImage
+import MathlibPlus.Analysis.PartitionZeroEnergy
+import MathlibPlus.GroupTheory.OrderNineAction
