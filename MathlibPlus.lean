@@ -1028,3 +1028,5 @@ import MathlibPlus.Analysis.PartitionZeroEnergy
 import MathlibPlus.GroupTheory.OrderNineAction
 import MathlibPlus.Combinatorics.DeletionOriginTriples
 import MathlibPlus.Combinatorics.BinaryColumnPairDistance
+import MathlibPlus.Analysis.CholeskyFreeBlock
+import MathlibPlus.Algebra.FiniteDifference
