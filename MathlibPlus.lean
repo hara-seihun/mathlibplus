@@ -584,3 +584,4 @@ import MathlibPlus.NumberTheory.Claim35773
 import MathlibPlus.Combinatorics.QuadraticPairCardFeature
 import MathlibPlus.Combinatorics.FixedWedgeBooleanEdgeSpace
 import MathlibPlus.GroupTheory.ThreeDihedralConnectionSets
+import MathlibPlus.Open.GraphTheory.VertexDeckReconstructionFin12
