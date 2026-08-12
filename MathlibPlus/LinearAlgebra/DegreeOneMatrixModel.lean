@@ -45,6 +45,86 @@ theorem transposeCompLX_sq_eq_Ad_X (M : Mat2) :
 
 
 /--
+Claim 13657.  Under row-vectorization, the two Weyl multiplications are
+represented by commuting self-adjoint involutions.  Their product acts by
+conjugation with the explicit Pauli matrix `X`.
+-/
+theorem claim13657_weylRelations :
+    let vec : Mat2 → Fin 4 → ℂ := fun M => ![M 0 0, M 0 1, M 1 0, M 1 1]
+    let S : Matrix (Fin 4) (Fin 4) ℂ :=
+      !![0, 0, 1, 0;
+         0, 0, 0, 1;
+         1, 0, 0, 0;
+         0, 1, 0, 0]
+    let T : Matrix (Fin 4) (Fin 4) ℂ :=
+      !![0, 1, 0, 0;
+         1, 0, 0, 0;
+         0, 0, 0, 1;
+         0, 0, 1, 0]
+    let D0 : Matrix (Fin 4) (Fin 4) ℂ := S * T
+    S.IsHermitian ∧ T.IsHermitian ∧ S * S = 1 ∧ T * T = 1 ∧ S * T = T * S ∧
+      (∀ M : Mat2, Matrix.mulVec S (vec M) = vec (R_h M)) ∧
+      (∀ M : Mat2, Matrix.mulVec T (vec M) = vec (R_c M)) ∧
+      (∀ M : Mat2, Matrix.mulVec D0 (vec M) = vec (Ad_X M)) := by
+  let vec : Mat2 → Fin 4 → ℂ := fun M => ![M 0 0, M 0 1, M 1 0, M 1 1]
+  let S : Matrix (Fin 4) (Fin 4) ℂ :=
+    !![0, 0, 1, 0;
+       0, 0, 0, 1;
+       1, 0, 0, 0;
+       0, 1, 0, 0]
+  let T : Matrix (Fin 4) (Fin 4) ℂ :=
+    !![0, 1, 0, 0;
+       1, 0, 0, 0;
+       0, 0, 0, 1;
+       0, 0, 1, 0]
+  let D0 : Matrix (Fin 4) (Fin 4) ℂ := S * T
+  change S.IsHermitian ∧ T.IsHermitian ∧ S * S = 1 ∧ T * T = 1 ∧ S * T = T * S ∧
+      (∀ M : Mat2, Matrix.mulVec S (vec M) = vec (R_h M)) ∧
+      (∀ M : Mat2, Matrix.mulVec T (vec M) = vec (R_c M)) ∧
+      (∀ M : Mat2, Matrix.mulVec D0 (vec M) = vec (Ad_X M))
+  simp only [Matrix.IsHermitian]
+  constructor
+  · ext i j
+    fin_cases i <;> fin_cases j <;> simp [S, Matrix.conjTranspose_apply]
+  constructor
+  · ext i j
+    fin_cases i <;> fin_cases j <;> simp [T, Matrix.conjTranspose_apply]
+  constructor
+  · ext i j
+    fin_cases i <;> fin_cases j <;> simp [S, Matrix.mul_apply, Fin.sum_univ_four]
+  constructor
+  · ext i j
+    fin_cases i <;> fin_cases j <;> simp [T, Matrix.mul_apply, Fin.sum_univ_four]
+  constructor
+  · ext i j
+    fin_cases i <;> fin_cases j <;> simp [S, T, Matrix.mul_apply, Fin.sum_univ_four]
+  constructor
+  · intro M
+    ext i
+    fin_cases i <;>
+      simp [S, R_h, vec, X, Matrix.mulVec, Matrix.vecMul, dotProduct,
+        Fin.sum_univ_four, Fin.sum_univ_two]
+  constructor
+  · intro M
+    ext i
+    fin_cases i <;>
+      simp [T, R_c, vec, X, Matrix.mulVec, Matrix.mul_apply, Matrix.vecMul,
+        dotProduct, Fin.sum_univ_four, Fin.sum_univ_two]
+  · intro M
+    rw [← Matrix.mulVec_mulVec]
+    rw [show Matrix.mulVec T (vec M) = vec (R_c M) by
+      ext i
+      fin_cases i <;>
+        simp [T, R_c, vec, X, Matrix.mulVec, Matrix.mul_apply, Matrix.vecMul,
+          dotProduct, Fin.sum_univ_four, Fin.sum_univ_two]]
+    rw [show Matrix.mulVec S (vec (R_c M)) = vec (R_h (R_c M)) by
+      ext i
+      fin_cases i <;>
+        simp [S, R_h, vec, X, Matrix.mulVec, Matrix.mul_apply, Matrix.vecMul,
+          dotProduct, Fin.sum_univ_four, Fin.sum_univ_two]]
+    simp [R_h, R_c, Ad_X, X, Matrix.mul_assoc]
+
+/--
 Claim 11716.  The two displayed 2-by-2 families have equal characteristic
 polynomials and equal traces of every natural power, while their zero-scalar
 members have different kernels and different nilpotence indices.
