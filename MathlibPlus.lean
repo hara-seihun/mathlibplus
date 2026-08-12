@@ -899,3 +899,4 @@ import MathlibPlus.Analysis.Claim19326
 import MathlibPlus.Algebra.Claim24492
 import MathlibPlus.Analysis.Claim12879
 import MathlibPlus.LinearAlgebra.Claim12827
+import MathlibPlus.LinearAlgebra.CompletedCheckerboardBezoutClaim10593
