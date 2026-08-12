@@ -704,3 +704,9 @@ import MathlibPlus.Algebra.Claim53470
 import MathlibPlus.Combinatorics.Claim44806
 import MathlibPlus.GroupTheory.Claim41446
 import MathlibPlus.GroupTheory.Claim29233
+import MathlibPlus.Algebra.PullFirstClaim6733
+import MathlibPlus.Analysis.PullFirstClaim8478
+import MathlibPlus.Analysis.PullFirstClaim4709
+import MathlibPlus.Combinatorics.PullFirstClaim8569
+import MathlibPlus.Combinatorics.PullFirstClaim20458
+import MathlibPlus.Open.Algebra.Claim8007
