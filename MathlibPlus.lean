@@ -895,3 +895,7 @@ import MathlibPlus.Algebra.SupportFiveVariance
 import MathlibPlus.Analysis.NegativeTwoNodeLoewner
 import MathlibPlus.Arithmetic.Claim56574
 import MathlibPlus.Analysis.Claim8505
+import MathlibPlus.Analysis.Claim19326
+import MathlibPlus.Algebra.Claim24492
+import MathlibPlus.Analysis.Claim12879
+import MathlibPlus.LinearAlgebra.Claim12827
