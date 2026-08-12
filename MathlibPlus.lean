@@ -729,3 +729,4 @@ import MathlibPlus.Open.GraphTheory.BinaryRankSixCIDefect
 import MathlibPlus.Algebra.Claim9605
 import MathlibPlus.Combinatorics.Claim10448
 import MathlibPlus.Analysis.Claim49935
+import MathlibPlus.Combinatorics.QuadraticCurvature
