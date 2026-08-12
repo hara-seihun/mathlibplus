@@ -612,3 +612,7 @@ import MathlibPlus.Combinatorics.Claim22482
 import MathlibPlus.Algebra.Claim52316
 import MathlibPlus.Analysis.Claim47834
 import MathlibPlus.Analysis.Claim48030
+import MathlibPlus.Analysis.LogTwoPiNormalization
+import MathlibPlus.Analysis.ExactWitnessS1
+import MathlibPlus.LinearAlgebra.PerfectSplitDuality
+import MathlibPlus.Combinatorics.CubeQ3EdgeCensus
