@@ -1073,3 +1073,4 @@ import MathlibPlus.LinearAlgebra.Claim56476
 import MathlibPlus.GraphTheory.Claim31488_31773
 import MathlibPlus.Analysis.VerticalConeFactor
 import MathlibPlus.GroupTheory.TwoTorsionHolonomyClaim55151
+import MathlibPlus.LinearAlgebra.RelativeVandermondePerturbation
