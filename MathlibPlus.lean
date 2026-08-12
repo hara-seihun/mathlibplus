@@ -1036,3 +1036,4 @@ import MathlibPlus.Combinatorics.BooleanAffineMinorants
 import MathlibPlus.Algebra.Claim16947
 import MathlibPlus.Analysis.Claim58762
 import MathlibPlus.Analysis.Claim6964Full
+import MathlibPlus.LinearAlgebra.PSSHalfAngleGaugeClaim13659
