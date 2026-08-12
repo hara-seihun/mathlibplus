@@ -662,3 +662,6 @@ import MathlibPlus.Combinatorics.Claim26191
 import MathlibPlus.Analysis.Claim51341
 import MathlibPlus.Analysis.Claim58755
 import MathlibPlus.Algebra.Claim57111
+import MathlibPlus.GroupTheory.Claim58934
+import MathlibPlus.Algebra.Claim8083
+import MathlibPlus.Combinatorics.Claim30396
