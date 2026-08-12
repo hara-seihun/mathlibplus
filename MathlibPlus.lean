@@ -879,3 +879,5 @@ import MathlibPlus.Analysis.VerticalHalfPeriodDini
 import MathlibPlus.Algebra.Claim28034
 import MathlibPlus.LinearAlgebra.Claim11054
 import MathlibPlus.Open.AnalyticNumberTheory.Claim2777
+import MathlibPlus.ComplexGeometry.TransformedOrientationEnergy
+import MathlibPlus.Open.Analysis.SharpLocalTemperedZeroThreshold
