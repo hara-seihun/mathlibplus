@@ -1060,3 +1060,5 @@ import MathlibPlus.Algebra.Claim32121
 import MathlibPlus.GroupTheory.Claim30285
 import MathlibPlus.Analysis.Claim47648
 import MathlibPlus.LinearAlgebra.Claim5777
+import MathlibPlus.NumberTheory.Claim1372
+import MathlibPlus.Open.Combinatorics.UnionClosedAbundance
