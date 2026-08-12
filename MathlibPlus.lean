@@ -802,3 +802,4 @@ import MathlibPlus.Algebra.EdgeOverlap
 import MathlibPlus.Algebra.Claim42809WeightedOperator
 import MathlibPlus.GraphTheory.ComponentCopyTuple
 import MathlibPlus.Analysis.PointerFaceCertificate
+import MathlibPlus.Algebra.ProjectiveParabolic
