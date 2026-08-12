@@ -695,3 +695,6 @@ import MathlibPlus.Analysis.Claim51211
 import MathlibPlus.Algebra.Claim37913
 import MathlibPlus.Analysis.Claim47785
 import MathlibPlus.Combinatorics.Claim27834
+import MathlibPlus.Open.Analysis.CayleyRadiusRate
+import MathlibPlus.Open.Analysis.CenteredOrderFiveDerivativeDeterminant
+import MathlibPlus.Open.LinearAlgebra.SymmetricDifferencePullback
