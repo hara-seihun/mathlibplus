@@ -936,3 +936,4 @@ import MathlibPlus.Algebra.ExchangeCanonicalVariance
 import MathlibPlus.GraphTheory.TwoTransitiveSimpleGraph
 import MathlibPlus.GroupTheory.RegularAbelianCentralizer
 import MathlibPlus.Combinatorics.UnionIrreducibles
+import MathlibPlus.Analysis.Claim6933
