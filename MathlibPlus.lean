@@ -775,3 +775,5 @@ import MathlibPlus.Combinatorics.Claim22459
 import MathlibPlus.Combinatorics.Claim6928
 import MathlibPlus.AlgebraicGeometry.Claim14598
 import MathlibPlus.Algebra.Claim17608_18382
+import MathlibPlus.Open.NumberTheory.PrimeDigitSumSurjectivity
+import MathlibPlus.Open.Algebra.QuadraticFormsF3
