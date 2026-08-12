@@ -1086,3 +1086,5 @@ import MathlibPlus.AlgebraicGeometry.Claim46841
 import MathlibPlus.Analysis.Claim51736
 import MathlibPlus.NumberTheory.Claim3156
 import MathlibPlus.Algebra.Claim6753
+import MathlibPlus.GroupTheory.Claim26811
+import MathlibPlus.Analysis.Claim35656
