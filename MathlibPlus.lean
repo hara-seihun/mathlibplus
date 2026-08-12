@@ -653,3 +653,8 @@ import MathlibPlus.Algebra.Claim19615
 import MathlibPlus.Analysis.Claim49793Defects
 import MathlibPlus.Combinatorics.Claim21154_31805_42326
 import MathlibPlus.Open.AnalyticNumberTheory.PrimeCounting.ShortIntervalAsymptoticClaim2364
+import MathlibPlus.Analysis.Claim48764
+import MathlibPlus.Algebra.Claim52587
+import MathlibPlus.GroupTheory.Claim41543
+import MathlibPlus.LinearAlgebra.Claim20168
+import MathlibPlus.Algebra.Claim29431
