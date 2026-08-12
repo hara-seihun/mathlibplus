@@ -1162,3 +1162,5 @@ import MathlibPlus.MeasureTheory.Claim8708
 import MathlibPlus.Algebra.Claim58679
 import MathlibPlus.Analysis.Claim9639
 import MathlibPlus.Algebra.CoordinateIdentities
+import MathlibPlus.GroupTheory.Claim43852
+import MathlibPlus.Combinatorics.Claim30024
