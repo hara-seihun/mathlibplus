@@ -624,3 +624,4 @@ import MathlibPlus.AlgebraicGeometry.Claim16667_16669_14655
 import MathlibPlus.AlgebraicGeometry.Claim55590
 import MathlibPlus.Arithmetic.Claim20233
 import MathlibPlus.Arithmetic.Claim47930
+import MathlibPlus.LinearAlgebra.Claim11599
