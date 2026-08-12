@@ -747,3 +747,6 @@ import MathlibPlus.Analysis.TranslatedMoments
 import MathlibPlus.Combinatorics.CanonicalCollision
 import MathlibPlus.Algebra.MultiplierProfile
 import MathlibPlus.Combinatorics.BooleanRankInsertion
+import MathlibPlus.Analysis.PoissonWeight
+import MathlibPlus.AlgebraicGeometry.NoetherArithmeticClaims
+import MathlibPlus.LinearAlgebra.MaslovDiscriminant
