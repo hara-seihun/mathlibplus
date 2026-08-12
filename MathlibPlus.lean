@@ -1104,3 +1104,6 @@ import MathlibPlus.LinearAlgebra.Claim17286
 import MathlibPlus.Combinatorics.Claim20661
 import MathlibPlus.Combinatorics.Claim16760
 import MathlibPlus.Combinatorics.Claim42225
+import MathlibPlus.Topology.Claim12355
+import MathlibPlus.Analysis.Claim13004
+import MathlibPlus.Algebra.Claim47027
