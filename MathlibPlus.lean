@@ -1038,3 +1038,5 @@ import MathlibPlus.Analysis.Claim58762
 import MathlibPlus.Analysis.Claim6964Full
 import MathlibPlus.LinearAlgebra.PSSHalfAngleGaugeClaim13659
 import MathlibPlus.Algebra.CompleteHomogeneousDeterminantClaim4846
+import MathlibPlus.LinearAlgebra.Claim10329
+import MathlibPlus.Algebra.Claim20924
