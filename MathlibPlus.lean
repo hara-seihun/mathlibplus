@@ -621,3 +621,4 @@ import MathlibPlus.GraphTheory.Claim34534
 import MathlibPlus.Algebra.TwoShellCoordinates
 import MathlibPlus.Algebra.RisingFactorialAddIndex
 import MathlibPlus.AlgebraicGeometry.Claim16667_16669_14655
+import MathlibPlus.AlgebraicGeometry.Claim55590
