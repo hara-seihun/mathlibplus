@@ -888,3 +888,4 @@ import MathlibPlus.GraphTheory.StarContainment
 import MathlibPlus.GroupTheory.QualifiedDihedralAction
 import MathlibPlus.Algebra.ExponentialBaseGrowth
 import MathlibPlus.Algebra.ScalarLocalPullbackFactor
+import MathlibPlus.Combinatorics.Claim20576
