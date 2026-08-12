@@ -1117,3 +1117,4 @@ import MathlibPlus.GroupTheory.Claim55947
 import MathlibPlus.LinearAlgebra.Claim19259
 import MathlibPlus.Algebra.Claim27457
 import MathlibPlus.Algebra.Claim35768
+import MathlibPlus.AlgebraicGeometry.Claim50486
