@@ -886,3 +886,5 @@ import MathlibPlus.Analysis.Claim17690
 import MathlibPlus.Open.Analysis.Claim5933
 import MathlibPlus.GraphTheory.StarContainment
 import MathlibPlus.GroupTheory.QualifiedDihedralAction
+import MathlibPlus.Algebra.ExponentialBaseGrowth
+import MathlibPlus.Algebra.ScalarLocalPullbackFactor
