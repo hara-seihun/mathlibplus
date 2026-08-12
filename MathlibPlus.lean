@@ -997,3 +997,5 @@ import MathlibPlus.Combinatorics.PrivateSignature
 import MathlibPlus.GraphTheory.ModulePartition
 import MathlibPlus.Analysis.ThetaShellTranslation
 import MathlibPlus.Algebra.PluckerCircuit
+import MathlibPlus.GraphTheory.RootNonneighbors
+import MathlibPlus.GroupTheory.QuinaryAffineNormalizer
