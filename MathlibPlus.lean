@@ -1121,3 +1121,5 @@ import MathlibPlus.AlgebraicGeometry.Claim50486
 import MathlibPlus.NumberTheory.Claim9160
 import MathlibPlus.Analysis.Claim9740
 import MathlibPlus.Combinatorics.Claim24997TernaryState
+import MathlibPlus.Algebra.Claim2747
+import MathlibPlus.Combinatorics.Claim47189
