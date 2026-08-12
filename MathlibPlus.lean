@@ -919,3 +919,4 @@ import MathlibPlus.Analysis.PrimePowerCharacter
 import MathlibPlus.Open.Analysis.MittagLefflerResidual
 import MathlibPlus.Analysis.A4BinetContinuum
 import MathlibPlus.Open.Analysis.HCIZ
+import MathlibPlus.Open.RaisedKTypeSelector
