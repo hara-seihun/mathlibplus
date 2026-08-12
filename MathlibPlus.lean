@@ -777,3 +777,4 @@ import MathlibPlus.AlgebraicGeometry.Claim14598
 import MathlibPlus.Algebra.Claim17608_18382
 import MathlibPlus.Open.NumberTheory.PrimeDigitSumSurjectivity
 import MathlibPlus.Open.Algebra.QuadraticFormsF3
+import MathlibPlus.Analysis.ElementaryCoordinateIdentities
