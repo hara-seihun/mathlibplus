@@ -1079,3 +1079,4 @@ import MathlibPlus.Open.GraphTheory.NoSrg405
 import MathlibPlus.Combinatorics.Claim26092
 import MathlibPlus.Analysis.Claim11335
 import MathlibPlus.Algebra.Claim25146
+import MathlibPlus.Combinatorics.Claim31263
