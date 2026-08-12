@@ -573,3 +573,4 @@ import MathlibPlus.Analysis.RootEvaluation
 import MathlibPlus.GroupTheory.DihedralHalfTurn
 import MathlibPlus.Algebra.AffineParentRelation
 import MathlibPlus.LinearAlgebra.PathBoundary
+import MathlibPlus.Analysis.Claim13000SourceHeight
