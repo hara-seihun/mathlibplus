@@ -845,3 +845,5 @@ import MathlibPlus.Algebra.Claim51152
 import MathlibPlus.Combinatorics.Claim20997
 import MathlibPlus.Combinatorics.LinearDeckRows25740
 import MathlibPlus.Open.GroupTheory.GeneratedSylowOrbitBlocksClaim41783
+import MathlibPlus.Algebra.Claim27203
+import MathlibPlus.Algebra.Claim23430
