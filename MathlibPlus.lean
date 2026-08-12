@@ -650,3 +650,4 @@ import MathlibPlus.Analysis.Claim52019
 import MathlibPlus.Open.Combinatorics.Claim20382
 import MathlibPlus.GraphTheory.Claim22877
 import MathlibPlus.Algebra.Claim19615
+import MathlibPlus.Analysis.Claim49793Defects
