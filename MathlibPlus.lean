@@ -718,3 +718,6 @@ import MathlibPlus.Arithmetic.Claim24860
 import MathlibPlus.NumberTheory.Claim8326
 import MathlibPlus.Algebra.Claim1283
 import MathlibPlus.Combinatorics.Claim3359
+import MathlibPlus.Analysis.Claim20244
+import MathlibPlus.Combinatorics.Claim25555
+import MathlibPlus.AlgebraicGeometry.Claim46908
