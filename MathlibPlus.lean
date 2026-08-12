@@ -589,3 +589,4 @@ import MathlibPlus.Analysis.Claim19058
 import MathlibPlus.GroupTheory.Claim5845
 import MathlibPlus.NumberTheory.Claim57353
 import MathlibPlus.LinearAlgebra.Claim57968
+import MathlibPlus.GraphTheory.Claim23243
