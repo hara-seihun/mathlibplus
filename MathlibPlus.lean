@@ -1008,3 +1008,4 @@ import MathlibPlus.Analysis.Claim54708
 import MathlibPlus.Algebra.Claim1873
 import MathlibPlus.LinearAlgebra.Claim36415
 import MathlibPlus.GroupTheory.Claim37378
+import MathlibPlus.Combinatorics.Claim29410Definitions
