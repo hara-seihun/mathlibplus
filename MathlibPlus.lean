@@ -1368,3 +1368,10 @@ import MathlibPlus.Algebra.Claim9284TypeIVQuotient
 import MathlibPlus.Algebra.Claim7047DivisorIncidence
 import MathlibPlus.Analysis.Claim10385
 import MathlibPlus.Combinatorics.Claim19959
+import MathlibPlus.Combinatorics.Claim28188
+import MathlibPlus.Combinatorics.Claim44178
+import MathlibPlus.Analysis.Claim4629
+import MathlibPlus.LinearAlgebra.Claim13557
+import MathlibPlus.LinearAlgebra.Claim19395
+import MathlibPlus.LinearAlgebra.Claim28977
+import MathlibPlus.NumberTheory.Claim49094
