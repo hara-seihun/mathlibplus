@@ -867,3 +867,5 @@ import MathlibPlus.Analysis.ThetaShellSummandClaim19068
 import MathlibPlus.Open.Analysis.ThetaSourcePositivityClaim19068
 import MathlibPlus.Analysis.MellinTailTightClaim3845
 import MathlibPlus.Analysis.LinearExponentialEnvelopeClaim44285
+import MathlibPlus.NumberTheory.Claim35665
+import MathlibPlus.AlgebraicGeometry.Claim46205
