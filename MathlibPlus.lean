@@ -794,3 +794,7 @@ import MathlibPlus.Combinatorics.Claim55203
 import MathlibPlus.Algebra.Claim52762
 import MathlibPlus.Analysis.Claim19307
 import MathlibPlus.LinearAlgebra.Claim46084
+import MathlibPlus.Algebra.Claim8386
+import MathlibPlus.Algebra.Claim43798
+import MathlibPlus.GroupTheory.Claim43975
+import MathlibPlus.Open.LinearAlgebra.Claim18084
