@@ -736,3 +736,7 @@ import MathlibPlus.Analysis.SlopeBounds
 import MathlibPlus.Combinatorics.ClosureExcess
 import MathlibPlus.NumberTheory.PairedEndpoint
 import MathlibPlus.Combinatorics.DiamondOrbit
+import MathlibPlus.NumberTheory.Claim44305
+import MathlibPlus.NumberTheory.Claim8215
+import MathlibPlus.NumberTheory.Claim29535
+import MathlibPlus.LinearAlgebra.Claim12049
