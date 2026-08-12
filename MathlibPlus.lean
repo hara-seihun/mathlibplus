@@ -988,3 +988,6 @@ import MathlibPlus.Algebra.Claim29363
 import MathlibPlus.Combinatorics.Claim3364
 import MathlibPlus.Algebra.Claim53590
 import MathlibPlus.Algebra.PowerSeriesCoefficientRecurrence
+import MathlibPlus.LinearAlgebra.Claim11114
+import MathlibPlus.Algebra.Claim10188
+import MathlibPlus.NumberTheory.Claim35765
