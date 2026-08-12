@@ -1034,3 +1034,4 @@ import MathlibPlus.NumberTheory.ComplementaryDivisorWeights
 import MathlibPlus.Algebra.RootOrbitRectangle
 import MathlibPlus.Combinatorics.BooleanAffineMinorants
 import MathlibPlus.Algebra.Claim16947
+import MathlibPlus.Analysis.Claim58762
