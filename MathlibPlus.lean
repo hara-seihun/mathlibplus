@@ -830,3 +830,5 @@ import MathlibPlus.Algebra.OrthogonalFinitePrimePowers
 import MathlibPlus.Analysis.CubicWallPolynomial
 import MathlibPlus.GroupTheory.TwoPointBlockKernel
 import MathlibPlus.AnalyticNumberTheory.PrimeCounting.CompactFourCorrection
+import MathlibPlus.Combinatorics.Claim52187
+import MathlibPlus.Combinatorics.Claim26078
