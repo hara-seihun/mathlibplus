@@ -687,3 +687,4 @@ import MathlibPlus.GroupTheory.Claim17070
 import MathlibPlus.Analysis.Claim20234
 import MathlibPlus.LinearAlgebra.Claim13582
 import MathlibPlus.Logic.Claim42301
+import MathlibPlus.Analysis.Claim7404CompletedBezout
