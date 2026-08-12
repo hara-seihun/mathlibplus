@@ -1049,3 +1049,4 @@ import MathlibPlus.Combinatorics.Claim20525
 import MathlibPlus.Algebra.Claim46851
 import MathlibPlus.LinearAlgebra.Claim10389
 import MathlibPlus.Combinatorics.Claim24070
+import MathlibPlus.LinearAlgebra.Claim12041
