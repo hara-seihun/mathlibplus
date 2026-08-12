@@ -1002,3 +1002,4 @@ import MathlibPlus.GroupTheory.QuinaryAffineNormalizer
 import MathlibPlus.LinearAlgebra.SemisimpleJordanCounterexample
 import MathlibPlus.Algebra.MonicReciprocal
 import MathlibPlus.Analysis.Claim21975
+import MathlibPlus.Analysis.Claim2878Endpoint
