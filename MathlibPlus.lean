@@ -894,3 +894,4 @@ import MathlibPlus.Analysis.ConditionalBetaMoments
 import MathlibPlus.Algebra.SupportFiveVariance
 import MathlibPlus.Analysis.NegativeTwoNodeLoewner
 import MathlibPlus.Arithmetic.Claim56574
+import MathlibPlus.Analysis.Claim8505
