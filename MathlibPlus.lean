@@ -590,3 +590,6 @@ import MathlibPlus.GroupTheory.Claim5845
 import MathlibPlus.NumberTheory.Claim57353
 import MathlibPlus.LinearAlgebra.Claim57968
 import MathlibPlus.GraphTheory.Claim23243
+import MathlibPlus.Analysis.Claim2489ImplicitVelocity
+import MathlibPlus.Analysis.Claim8896TerminalAnchor
+import MathlibPlus.Analysis.Claim8261PrimePowerDepthSum
