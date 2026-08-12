@@ -1148,3 +1148,4 @@ import MathlibPlus.Analysis.SliceNormBoundClaim21915
 import MathlibPlus.GroupTheory.Claim51221
 import MathlibPlus.Algebra.Claim24474
 import MathlibPlus.Combinatorics.Claim4063
+import MathlibPlus.LinearAlgebra.LorentzianSignature
