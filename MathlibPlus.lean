@@ -1238,3 +1238,7 @@ import MathlibPlus.Analysis.Claim42868
 import MathlibPlus.Combinatorics.Claim16269
 import MathlibPlus.Combinatorics.Claim49067
 import MathlibPlus.Combinatorics.Claim5950
+import MathlibPlus.Analysis.Claim2683
+import MathlibPlus.Analysis.Claim14200
+import MathlibPlus.Analysis.Claim22041
+import MathlibPlus.LinearAlgebra.Claim14800
