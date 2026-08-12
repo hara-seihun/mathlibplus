@@ -837,3 +837,7 @@ import MathlibPlus.AnalyticNumberTheory.PrimeCounting.ArchimedeanLevyDensityClai
 import MathlibPlus.LinearAlgebra.ThreeChannelSeparationClaims
 import MathlibPlus.Algebra.PathPalindromeMatchingClaims
 import MathlibPlus.GroupTheory.Claim21810
+import MathlibPlus.Analysis.Claim13778
+import MathlibPlus.Open.NumberTheory.Claim17541
+import MathlibPlus.Open.Analysis.Claim4325
+import MathlibPlus.Open.NumberTheory.Claim45425
