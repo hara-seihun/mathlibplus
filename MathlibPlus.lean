@@ -581,3 +581,4 @@ import MathlibPlus.Analysis.Claim22039
 import MathlibPlus.Algebra.MixedAbelianInversionAtoms
 import MathlibPlus.Analysis.AdaptiveTreeFourierData
 import MathlibPlus.NumberTheory.Claim35773
+import MathlibPlus.Combinatorics.QuadraticPairCardFeature
