@@ -1231,3 +1231,6 @@ import MathlibPlus.Algebra.Claim12505
 import MathlibPlus.Algebra.Claim16416
 import MathlibPlus.Analysis.Claim8236
 import MathlibPlus.NumberTheory.Claim14275
+import MathlibPlus.GroupTheory.Claim38312
+import MathlibPlus.GroupTheory.Claim41900
+import MathlibPlus.GroupTheory.Claim49903
