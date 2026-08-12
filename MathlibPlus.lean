@@ -917,3 +917,4 @@ import MathlibPlus.Algebra.Claim1194
 import MathlibPlus.GraphTheory.Claim43988
 import MathlibPlus.Analysis.PrimePowerCharacter
 import MathlibPlus.Open.Analysis.MittagLefflerResidual
+import MathlibPlus.Analysis.A4BinetContinuum
