@@ -929,3 +929,4 @@ import MathlibPlus.Open.AnalyticNumberTheory.CompletedXi.SquareMapZeroMultiplici
 import MathlibPlus.Open.AnalyticNumberTheory.ReciprocalXi.ExactLogDerivative
 import MathlibPlus.Open.AnalyticNumberTheory.ReciprocalXiCentralValues
 import MathlibPlus.Open.AnalyticNumberTheory.ReciprocalXiJacobiAsymptotics
+import MathlibPlus.Open.NumberTheory.VerifiedHeightTransfer
