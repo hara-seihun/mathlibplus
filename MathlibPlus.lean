@@ -800,3 +800,4 @@ import MathlibPlus.GroupTheory.Claim43975
 import MathlibPlus.Open.LinearAlgebra.Claim18084
 import MathlibPlus.Algebra.EdgeOverlap
 import MathlibPlus.Algebra.Claim42809WeightedOperator
+import MathlibPlus.GraphTheory.ComponentCopyTuple
