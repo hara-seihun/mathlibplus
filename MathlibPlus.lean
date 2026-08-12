@@ -587,3 +587,5 @@ import MathlibPlus.GroupTheory.ThreeDihedralConnectionSets
 import MathlibPlus.Open.GraphTheory.VertexDeckReconstructionFin12
 import MathlibPlus.Analysis.Claim19058
 import MathlibPlus.GroupTheory.Claim5845
+import MathlibPlus.NumberTheory.Claim57353
+import MathlibPlus.LinearAlgebra.Claim57968
