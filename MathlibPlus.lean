@@ -991,3 +991,7 @@ import MathlibPlus.Algebra.PowerSeriesCoefficientRecurrence
 import MathlibPlus.LinearAlgebra.Claim11114
 import MathlibPlus.Algebra.Claim10188
 import MathlibPlus.NumberTheory.Claim35765
+import MathlibPlus.Algebra.SesquilinearExpansion
+import MathlibPlus.Analysis.ArithmeticCellWitness
+import MathlibPlus.Combinatorics.PrivateSignature
+import MathlibPlus.GraphTheory.ModulePartition
