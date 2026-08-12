@@ -955,3 +955,4 @@ import MathlibPlus.Open.Analysis.ExactComplexMultiplierInfimum
 import MathlibPlus.Open.Combinatorics.DeletedVertexLabelledCopy
 import MathlibPlus.GraphTheory.LabelledCopyCount
 import MathlibPlus.Algebra.FiniteAdapterExhaustion
+import MathlibPlus.Combinatorics.NonnegativeEqualityProfile
