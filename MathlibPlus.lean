@@ -617,3 +617,4 @@ import MathlibPlus.Analysis.ExactWitnessS1
 import MathlibPlus.LinearAlgebra.PerfectSplitDuality
 import MathlibPlus.Combinatorics.CubeQ3EdgeCensus
 import MathlibPlus.LinearAlgebra.Claim10500
+import MathlibPlus.GraphTheory.Claim34534
