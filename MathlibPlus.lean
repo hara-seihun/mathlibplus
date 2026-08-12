@@ -1022,3 +1022,5 @@ import MathlibPlus.Algebra.Claim19351
 import MathlibPlus.Analysis.Claim42713
 import MathlibPlus.Algebra.Claim28979
 import MathlibPlus.Algebra.FamilyProduct
+import MathlibPlus.LinearAlgebra.BarycentricCountermode
+import MathlibPlus.NumberTheory.PronicImage
