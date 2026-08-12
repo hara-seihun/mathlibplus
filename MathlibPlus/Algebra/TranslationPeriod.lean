@@ -100,5 +100,39 @@ theorem fullTranslationPeriodAperiodicQuotient (X : Set B) :
       exact hzmem
     exact AddMonoidHom.mem_ker.mp hzker
 
+/-- Claim 41936: every nonempty proper subset of `C₇` has trivial translation period. -/
+theorem claim41936 (U : Set (ZMod 7)) (hne : U.Nonempty)
+    (hproper : U ≠ Set.univ) :
+    ∀ t : ZMod 7, translateSet U t = U → t = 0 := by
+  letI : Fact (Nat.Prime 7) := ⟨by norm_num⟩
+  intro t ht
+  by_contra ht0
+  let P := periodSubgroup U
+  have htP : t ∈ P := ht
+  have hPtop : P = ⊤ := by
+    apply (AddSubgroup.eq_top_iff' P).2
+    intro y
+    obtain ⟨n, hn⟩ :=
+      (AddSubgroup.mem_zmultiples_iff).mp
+        (mem_zmultiples_of_prime_card (p := 7) (g := t) (g' := y)
+          (Nat.card_zmod 7) ht0)
+    exact hn ▸ P.zsmul_mem htP n
+  have hperiod : ∀ y : ZMod 7, translateSet U y = U := by
+    intro y
+    have hy : y ∈ P := by
+      rw [hPtop]
+      exact AddSubgroup.mem_top y
+    exact hy
+  obtain ⟨x, hx⟩ := hne
+  apply hproper
+  apply Set.eq_univ_of_forall
+  intro y
+  have hmem : x + (y - x) ∈ U := by
+    have htrans : x + (y - x) ∈ translateSet U (y - x) := by
+      exact ⟨x, hx, rfl⟩
+    rw [hperiod (y - x)] at htrans
+    exact htrans
+  simpa [sub_eq_add_neg, add_assoc, add_comm, add_left_comm] using hmem
+
 end
 end MathlibPlus.Algebra.TranslationPeriod
