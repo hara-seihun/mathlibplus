@@ -609,3 +609,4 @@ import MathlibPlus.Order.Claim26651
 import MathlibPlus.Algebra.Claim24697
 import MathlibPlus.LinearAlgebra.Claim11106
 import MathlibPlus.Combinatorics.Claim22482
+import MathlibPlus.Algebra.Claim52316
