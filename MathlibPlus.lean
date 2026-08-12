@@ -843,3 +843,4 @@ import MathlibPlus.Open.Analysis.Claim4325
 import MathlibPlus.Open.NumberTheory.Claim45425
 import MathlibPlus.Algebra.Claim51152
 import MathlibPlus.Combinatorics.Claim20997
+import MathlibPlus.Combinatorics.LinearDeckRows25740
