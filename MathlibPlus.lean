@@ -1130,3 +1130,4 @@ import MathlibPlus.Algebra.C4BlockWeightLedger
 import MathlibPlus.Analysis.ParabolicFreeBlock
 import MathlibPlus.Analysis.Claim22027
 import MathlibPlus.Combinatorics.Claim20574
+import MathlibPlus.Algebra.FirstNonzeroCoeff
