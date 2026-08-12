@@ -1194,3 +1194,4 @@ import MathlibPlus.Algebra.Claim47739
 import MathlibPlus.NumberTheory.Claim51689
 import MathlibPlus.GraphTheory.Claim5750
 import MathlibPlus.RepresentationTheory.Claim12256
+import MathlibPlus.Algebra.Claim55670
