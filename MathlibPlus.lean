@@ -909,3 +909,5 @@ import MathlibPlus.Algebra.CorrectedMoveCommutator
 import MathlibPlus.Open.GroupTheory.RepairedPermutationTable
 import MathlibPlus.LinearAlgebra.Claim53173
 import MathlibPlus.Analysis.Claim15256_42871_11628_19365
+import MathlibPlus.NumberTheory.AffineTransitiveReduction
+import MathlibPlus.LinearAlgebra.GradedCyclicGeneration
