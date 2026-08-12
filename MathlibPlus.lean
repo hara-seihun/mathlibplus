@@ -1275,3 +1275,12 @@ import MathlibPlus.Combinatorics.Claim37932
 import MathlibPlus.Algebra.Claim11446And24580
 import MathlibPlus.Combinatorics.Claim22656
 import MathlibPlus.Combinatorics.Claim9122
+import MathlibPlus.NumberTheory.Claim20344
+import MathlibPlus.Combinatorics.Claim20456
+import MathlibPlus.NumberTheory.Claim21413
+import MathlibPlus.Algebra.Claim28799
+import MathlibPlus.GraphTheory.Claim50675
+import MathlibPlus.Combinatorics.Claim21060
+import MathlibPlus.Combinatorics.Claim21084
+import MathlibPlus.Analysis.Claim1632
+import MathlibPlus.Combinatorics.Claim38414
