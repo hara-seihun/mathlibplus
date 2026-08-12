@@ -628,3 +628,5 @@ import MathlibPlus.LinearAlgebra.Claim11599
 import MathlibPlus.Combinatorics.FrequencyDeficit
 import MathlibPlus.Open.NumberTheory.PrimeTriples
 import MathlibPlus.Open.Combinatorics.DivisorDownset
+import MathlibPlus.Algebra.Claim24955EndpointProducts
+import MathlibPlus.NumberTheory.Claim9562RationalNorm
