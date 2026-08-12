@@ -1228,3 +1228,5 @@ import MathlibPlus.Algebra.Claim58673
 import MathlibPlus.Algebra.Claim39344
 import MathlibPlus.Combinatorics.DoubledEulerCurvatureClaim5172
 import MathlibPlus.Algebra.Claim12505
+import MathlibPlus.Algebra.Claim16416
+import MathlibPlus.Analysis.Claim8236
