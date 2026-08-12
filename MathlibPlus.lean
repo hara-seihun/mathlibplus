@@ -1026,3 +1026,4 @@ import MathlibPlus.LinearAlgebra.BarycentricCountermode
 import MathlibPlus.NumberTheory.PronicImage
 import MathlibPlus.Analysis.PartitionZeroEnergy
 import MathlibPlus.GroupTheory.OrderNineAction
+import MathlibPlus.Combinatorics.DeletionOriginTriples
