@@ -961,3 +961,4 @@ import MathlibPlus.Analysis.Claim1523
 import MathlibPlus.Analysis.Claim11514
 import MathlibPlus.Open.Analysis.ExactNormMinimizer1557
 import MathlibPlus.Open.NumberTheory.UniformFiniteFieldFactorDegree13251
+import MathlibPlus.AlgebraicGeometry.NoetherInequalityCoordinatesClaim16643
