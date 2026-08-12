@@ -595,3 +595,4 @@ import MathlibPlus.Analysis.Claim8896TerminalAnchor
 import MathlibPlus.Analysis.Claim8261PrimePowerDepthSum
 import MathlibPlus.Algebra.ExteriorSquareScaling
 import MathlibPlus.Algebra.RootedFactorHomogeneity
+import MathlibPlus.Analysis.Claim4864
