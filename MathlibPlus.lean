@@ -671,3 +671,7 @@ import MathlibPlus.Algebra.Claim46405
 import MathlibPlus.Analysis.Claim53023
 import MathlibPlus.Algebra.Claim4819
 import MathlibPlus.LinearAlgebra.Claim17573
+import MathlibPlus.Algebra.Claim34990
+import MathlibPlus.Algebra.Claim17460
+import MathlibPlus.Analysis.Claim6975
+import MathlibPlus.Analysis.Claim52029
