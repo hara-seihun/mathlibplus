@@ -597,3 +597,4 @@ import MathlibPlus.Algebra.ExteriorSquareScaling
 import MathlibPlus.Algebra.RootedFactorHomogeneity
 import MathlibPlus.Analysis.Claim4864
 import MathlibPlus.GroupTheory.Claim11729
+import MathlibPlus.LinearAlgebra.Claim8532
