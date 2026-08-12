@@ -1220,3 +1220,4 @@ import MathlibPlus.GroupTheory.Claim39862
 import MathlibPlus.NumberTheory.Claim50193
 import MathlibPlus.Algebra.Claim4935
 import MathlibPlus.Combinatorics.Claim5537
+import MathlibPlus.Combinatorics.Claim42317
