@@ -977,3 +977,4 @@ import MathlibPlus.LinearAlgebra.Claim12335
 import MathlibPlus.LinearAlgebra.Claim12001
 import MathlibPlus.Algebra.Claim9557
 import MathlibPlus.Analysis.Claim11843
+import MathlibPlus.Combinatorics.SpiderWeights
