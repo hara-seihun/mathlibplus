@@ -607,3 +607,5 @@ import MathlibPlus.Analysis.Claim18771
 import MathlibPlus.Open.Asymptotics.Claim15199
 import MathlibPlus.Order.Claim26651
 import MathlibPlus.Algebra.Claim24697
+import MathlibPlus.LinearAlgebra.Claim11106
+import MathlibPlus.Combinatorics.Claim22482
