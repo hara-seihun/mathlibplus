@@ -580,3 +580,4 @@ import MathlibPlus.AnalyticNumberTheory.Claim1201
 import MathlibPlus.Analysis.Claim22039
 import MathlibPlus.Algebra.MixedAbelianInversionAtoms
 import MathlibPlus.Analysis.AdaptiveTreeFourierData
+import MathlibPlus.NumberTheory.Claim35773
