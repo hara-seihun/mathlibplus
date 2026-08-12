@@ -716,3 +716,5 @@ import MathlibPlus.LinearAlgebra.Claim4955
 import MathlibPlus.LinearAlgebra.Claim20816
 import MathlibPlus.Arithmetic.Claim24860
 import MathlibPlus.NumberTheory.Claim8326
+import MathlibPlus.Algebra.Claim1283
+import MathlibPlus.Combinatorics.Claim3359
