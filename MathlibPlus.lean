@@ -1142,3 +1142,5 @@ import MathlibPlus.Combinatorics.Claim20894
 import MathlibPlus.GraphTheory.StronglyRegularPairProfile
 import MathlibPlus.Combinatorics.SelectedRowsStrictDescent
 import MathlibPlus.Combinatorics.CurrentMergeSupport
+import MathlibPlus.Algebra.Claim19366DiagonalPair
+import MathlibPlus.GroupTheory.Claim27899OddMultiples
