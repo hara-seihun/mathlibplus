@@ -1005,3 +1005,6 @@ import MathlibPlus.Analysis.Claim21975
 import MathlibPlus.Analysis.Claim2878Endpoint
 import MathlibPlus.Combinatorics.Claim49344
 import MathlibPlus.Analysis.Claim54708
+import MathlibPlus.Algebra.Claim1873
+import MathlibPlus.LinearAlgebra.Claim36415
+import MathlibPlus.GroupTheory.Claim37378
