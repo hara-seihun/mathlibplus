@@ -602,3 +602,4 @@ import MathlibPlus.Open.Combinatorics.Claim58847
 import MathlibPlus.Open.GraphTheory.Claim53097
 import MathlibPlus.Open.AnalyticNumberTheory.Claim8285
 import MathlibPlus.Analysis.Claim52213
+import MathlibPlus.GroupTheory.HallSubgroup
