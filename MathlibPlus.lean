@@ -1212,3 +1212,7 @@ import MathlibPlus.Algebra.Claim7737
 import MathlibPlus.Algebra.Claim30174
 import MathlibPlus.Combinatorics.Claim25670
 import MathlibPlus.Combinatorics.Claim48010
+import MathlibPlus.Analysis.Claim11285
+import MathlibPlus.Open.Analysis.Claim11285
+import MathlibPlus.Combinatorics.Claim25060
+import MathlibPlus.Analysis.Claim49137
