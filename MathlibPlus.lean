@@ -1200,3 +1200,6 @@ import MathlibPlus.GroupTheory.Claim29699
 import MathlibPlus.Analysis.Claim13911
 import MathlibPlus.LinearAlgebra.Claim6498
 import MathlibPlus.Open.Analysis.Claim13911
+import MathlibPlus.Analysis.Claim47684
+import MathlibPlus.Analysis.Claim48131
+import MathlibPlus.Algebra.Claim58522
