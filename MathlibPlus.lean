@@ -816,3 +816,5 @@ import MathlibPlus.Combinatorics.ZeroTriangleSigning
 import MathlibPlus.Analysis.CompletedCurvatureNumerators
 import MathlibPlus.Algebra.FiniteDifferenceNormalization
 import MathlibPlus.NumberTheory.CarryRecurrence
+import MathlibPlus.NumberTheory.ReciprocalDivisorCauchy
+import MathlibPlus.Open.GraphTheory.OrderFourteenStructuralSieve
