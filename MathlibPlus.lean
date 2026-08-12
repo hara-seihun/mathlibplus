@@ -1113,3 +1113,4 @@ import MathlibPlus.LinearAlgebra.Claim9637OrthogonalBlockRotations
 import MathlibPlus.Algebra.ShellDivision
 import MathlibPlus.NumberTheory.Claim31959
 import MathlibPlus.LinearAlgebra.Claim11819
+import MathlibPlus.GroupTheory.Claim55947
