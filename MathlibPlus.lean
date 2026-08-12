@@ -1342,3 +1342,10 @@ import MathlibPlus.LinearAlgebra.Claim11547
 import MathlibPlus.LinearAlgebra.Claim7957
 import MathlibPlus.Algebra.Claim10439
 import MathlibPlus.LinearAlgebra.Claim11076
+import MathlibPlus.Algebra.Claim21429FixedReference
+import MathlibPlus.NumberTheory.Claim45358Shift
+import MathlibPlus.Analysis.CoordinateProjection
+import MathlibPlus.Analysis.FirstShellFactors
+import MathlibPlus.GroupTheory.OrientationCode
+import MathlibPlus.Topology.ImageClosureSeparation
+import MathlibPlus.Analysis.Claim4207
