@@ -1164,3 +1164,4 @@ import MathlibPlus.Analysis.Claim9639
 import MathlibPlus.Algebra.CoordinateIdentities
 import MathlibPlus.GroupTheory.Claim43852
 import MathlibPlus.Combinatorics.Claim30024
+import MathlibPlus.Algebra.Claim15385
