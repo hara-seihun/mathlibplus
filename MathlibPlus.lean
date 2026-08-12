@@ -768,3 +768,5 @@ import MathlibPlus.Combinatorics.Claim51274
 import MathlibPlus.Arithmetic.DivisibleBaseCarry
 import MathlibPlus.Combinatorics.LargestProperPacking
 import MathlibPlus.Analysis.Claim18826
+import MathlibPlus.Analysis.FiniteWeightedGeometricSum
+import MathlibPlus.AlgebraicGeometry.NoetherInequalityCheck
