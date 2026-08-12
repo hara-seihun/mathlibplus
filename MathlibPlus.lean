@@ -606,3 +606,4 @@ import MathlibPlus.GroupTheory.HallSubgroup
 import MathlibPlus.Analysis.Claim18771
 import MathlibPlus.Open.Asymptotics.Claim15199
 import MathlibPlus.Order.Claim26651
+import MathlibPlus.Algebra.Claim24697
