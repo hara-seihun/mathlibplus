@@ -1118,3 +1118,4 @@ import MathlibPlus.LinearAlgebra.Claim19259
 import MathlibPlus.Algebra.Claim27457
 import MathlibPlus.Algebra.Claim35768
 import MathlibPlus.AlgebraicGeometry.Claim50486
+import MathlibPlus.NumberTheory.Claim9160
