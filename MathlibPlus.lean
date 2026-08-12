@@ -568,3 +568,6 @@ import MathlibPlus.Algebra.JacobiSourceDecomposition
 import MathlibPlus.Open.AnalyticNumberTheory.PrimeCounting.ShortIntervalAsymptotic
 import MathlibPlus.Algebra.CrossFamilyTranslation
 import MathlibPlus.Algebra.OddDerivativeInversePair
+import MathlibPlus.NumberTheory.PositiveEulerPurity
+import MathlibPlus.Analysis.RootEvaluation
+import MathlibPlus.GroupTheory.DihedralHalfTurn
