@@ -2365,3 +2365,4 @@ import MathlibPlus.Open.Algebra.NewResearch2FlaggedMinors
 import MathlibPlus.Open.Algebra.NewResearch2Hook
 import MathlibPlus.Open.Algebra.NewResearch2ThreeRow
 import MathlibPlus.Open.Combinatorics.BinaryPrefixTilt
+import MathlibPlus.Open.Analysis.ReflectedAtomBatch
