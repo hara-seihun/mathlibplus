@@ -2372,3 +2372,6 @@ import MathlibPlus.Open.Algebraic.ReciprocalBatch
 import MathlibPlus.Open.Analysis.CriticalParameter
 import MathlibPlus.Open.Analysis.VolterraHankel
 import MathlibPlus.Open.NewResearch2.Q0010
+import MathlibPlus.Open.Combinatorics.NewResearch2DeficitSeventeen
+import MathlibPlus.Open.GraphTheory.NewResearch2GraphShell
+import MathlibPlus.Open.Algebra.NewResearch2SchurRing
