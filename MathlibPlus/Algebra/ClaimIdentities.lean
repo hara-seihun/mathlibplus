@@ -147,4 +147,16 @@ theorem orderedIndependentPairsF3 :
           26 * 24 = 624 := by
   native_decide
 
+
+/-- Claim 24666: the displayed rooted-factor parallelogram polynomial expands
+into the six monomials recorded by the source.  The rooted-tree factor
+carriers are kept as an alignment boundary. -/
+theorem rootedFactorParallelogram_normalForm_claim24666
+    {R : Type*} [CommRing R] (z x₁ x₂ x₃ : R) :
+    z * (x₁ * x₃ - x₂ ^ 2) + z ^ 2 * (x₁ * x₂ + x₃) -
+        z ^ 3 * (x₁ ^ 2 + x₂) =
+      z * x₁ * x₃ - z * x₂ ^ 2 + z ^ 2 * x₁ * x₂ + z ^ 2 * x₃ -
+        z ^ 3 * x₁ ^ 2 - z ^ 3 * x₂ := by
+  ring
+
 end MathlibPlus.Algebra.ClaimIdentities
