@@ -2361,3 +2361,6 @@ import MathlibPlus.Open.GraphTheory.NR2FormalizationK0137
 import MathlibPlus.Open.KocayTreeCore
 import MathlibPlus.Open.TreeOperators
 import MathlibPlus.Open.AnalyticTails
+import MathlibPlus.Open.Algebra.NewResearch2FlaggedMinors
+import MathlibPlus.Open.Algebra.NewResearch2Hook
+import MathlibPlus.Open.Algebra.NewResearch2ThreeRow
