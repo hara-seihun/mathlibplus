@@ -34,4 +34,23 @@ noncomputable def transformExpression (c : ℝ) (z : ℂ) : ℂ :=
       (modifiedBesselK ((Complex.I * z + 5 / 2) / 2) (2 * Real.pi) +
         modifiedBesselK ((Complex.I * z - 5 / 2) / 2) (2 * Real.pi))
 
+/-- The Macdonald order-reflection identity from claim 17964. -/
+theorem modifiedBesselK_orderReflection_claim17964 (τ A : ℝ) :
+    modifiedBesselK (Complex.I * (τ : ℂ) / 2) (A : ℂ) =
+      modifiedBesselK (-Complex.I * (τ : ℂ) / 2) (A : ℂ) := by
+  unfold modifiedBesselK
+  have h := (_root_.MeasureTheory.Measure.measurePreserving_neg
+      (_root_.MeasureTheory.MeasureSpace.volume : _root_.MeasureTheory.Measure ℝ)).integral_comp
+    (Homeomorph.neg ℝ).measurableEmbedding
+    (fun x : ℝ => Complex.exp
+      (-((A : ℂ)) * Complex.cosh (x : ℂ) +
+        (Complex.I * (τ : ℂ) / 2) * (x : ℂ)))
+  rw [← h]
+  congr 1
+  apply _root_.MeasureTheory.integral_congr_ae
+  filter_upwards [] with x
+  congr 1
+  rw [Complex.ofReal_neg, Complex.cosh_neg]
+  ring
+
 end MathlibPlus.Analysis.CDialCounterfeit
