@@ -19,5 +19,6 @@ namespace MathlibPlus.Analysis.Claim2312
   rw [integral_sub h₄_int hscale]
   rw [integral_const_mul]
   field_simp
+  ring
 
 end MathlibPlus.Analysis.Claim2312
