@@ -92,3 +92,18 @@ theorem primitiveRankFourCoefficient_negative_claim15752 (c : ℚ)
   norm_num
 
 end MathlibPlus.Analysis.Claim15752
+
+namespace MathlibPlus.Combinatorics.Claim50537
+
+/-- A convex mixture of the two displayed sign rows remains coordinatewise in
+`[-1,1]` when its rational weight lies in `[0,1]`. -/
+theorem truthTableMixtureBounds_claim50537 (t : ℚ) (ht0 : 0 ≤ t) (ht1 : t ≤ 1) :
+    let h : Fin 8 → ℚ := ![1, -1, 1, -1, 1, -1, 1, -1]
+    let k : Fin 8 → ℚ := ![1, 1, -1, -1, -1, -1, 1, 1]
+    let u : Fin 8 → ℚ := fun i => t * h i + (1 - t) * k i
+    ∀ i : Fin 8, (-1 : ℚ) ≤ u i ∧ u i ≤ 1 := by
+  dsimp
+  intro i
+  fin_cases i <;> simp <;> (first | (constructor <;> linarith) | linarith)
+
+end MathlibPlus.Combinatorics.Claim50537

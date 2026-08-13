@@ -62,4 +62,47 @@ theorem cancellationAtZeroAndOne (n : ℕ) (hn : 1 ≤ n) :
     field_simp
     norm_num [Nat.cast_add]
 
+/--
+Claim 7237: on one composed Dirichlet-series summand, the shared dilation
+logarithm cancels under the ordered difference of the two logarithmic
+parameters.  The constant term contributes the final `-c` factor.
+-/
+theorem orderedLogDifferentialKernel_claim7237
+    (n m d : ℕ) (w v c : ℝ)
+    (_hn : 0 < n) (_hm : 0 < m) (_hd : 0 < d) :
+    let term : ℝ → ℝ → ℝ := fun w v =>
+      Real.exp
+        (-w * (Real.log (n : ℝ) + Real.log (d : ℝ)) -
+          v * (Real.log (m : ℝ) + Real.log (d : ℝ)))
+    deriv (fun w' => term w' v) w - deriv (fun v' => term w v') v - c * term w v =
+      (Real.log (m : ℝ) - Real.log (n : ℝ) - c) * term w v := by
+  dsimp
+  let an : ℝ := Real.log (n : ℝ) + Real.log (d : ℝ)
+  let am : ℝ := Real.log (m : ℝ) + Real.log (d : ℝ)
+  have hinner_w :
+      HasDerivAt (fun x : ℝ => -x * an - v * am) (-an) w := by
+    simpa [mul_comm, mul_left_comm, mul_assoc] using
+      (((hasDerivAt_id w).const_mul (-an)).sub_const (v * am))
+  have hinner_v :
+      HasDerivAt (fun x : ℝ => -w * an - x * am) (-am) v := by
+    convert ((hasDerivAt_const v (-w * an)).sub
+      ((hasDerivAt_id v).const_mul am)) using 1 <;> try rfl
+    · funext x
+      simp only [Pi.sub_apply, id_eq]
+      ring
+    · ring
+  have hw := (Real.hasDerivAt_exp (-w * an - v * am)).comp w hinner_w
+  have hv := (Real.hasDerivAt_exp (-w * an - v * am)).comp v hinner_v
+  have hderiv_w :
+      deriv (fun x : ℝ => Real.exp (-x * an - v * am)) w =
+        Real.exp (-w * an - v * am) * (-an) := by
+    simpa using hw.deriv
+  have hderiv_v :
+      deriv (fun x : ℝ => Real.exp (-w * an - x * am)) v =
+        Real.exp (-w * an - v * am) * (-am) := by
+    simpa using hv.deriv
+  rw [hderiv_w, hderiv_v]
+  dsimp [an, am]
+  ring
+
 end MathlibPlus.Analysis.ElementaryClaimFormalizations
