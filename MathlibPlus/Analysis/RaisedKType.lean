@@ -66,4 +66,46 @@ theorem criticalLineModulusPhase {k : ℝ} (_hk : 0 < k) (m : ℕ) (t : ℝ) :
       totalPhase k m t = t * Real.log 2 + phase k m t := by
   exact ⟨rfl, rfl, rfl⟩
 
+/-- The explicit reflected K-type product is positive and strictly less than
+one whenever at least one factor is present.  This is the elementary
+finite-product part of admitted claim 7807. -/
+theorem rhoSq_pos_lt_one_claim7807
+    (k m : ℕ) (t : ℝ) (hm : 0 < m) :
+    0 < rhoSq (k : ℝ) m t ∧ rhoSq (k : ℝ) m t < 1 := by
+  dsimp [rhoSq, lowerShift, upperShift]
+  have hfactor_pos : ∀ r : ℕ, 0 <
+      ((((k : ℝ) + 2 * r + (1 / 2 : ℝ)) ^ 2 + t ^ 2) /
+        (((k : ℝ) + 2 * r + (3 / 2 : ℝ)) ^ 2 + t ^ 2)) := by
+    intro r
+    have hx : 0 ≤ (k : ℝ) + 2 * r + (1 / 2 : ℝ) := by positivity
+    have hnum : 0 < ((k : ℝ) + 2 * r + (1 / 2 : ℝ)) ^ 2 + t ^ 2 := by
+      nlinarith [sq_nonneg ((k : ℝ) + 2 * r + (1 / 2 : ℝ))]
+    have hden : 0 < ((k : ℝ) + 2 * r + (3 / 2 : ℝ)) ^ 2 + t ^ 2 := by
+      nlinarith [sq_nonneg ((k : ℝ) + 2 * r + (3 / 2 : ℝ))]
+    exact div_pos hnum hden
+  have hfactor_lt : ∀ r : ℕ,
+      ((((k : ℝ) + 2 * r + (1 / 2 : ℝ)) ^ 2 + t ^ 2) /
+        (((k : ℝ) + 2 * r + (3 / 2 : ℝ)) ^ 2 + t ^ 2)) < 1 := by
+    intro r
+    have hx : 0 ≤ (k : ℝ) + 2 * r + (1 / 2 : ℝ) := by positivity
+    have hden : 0 < ((k : ℝ) + 2 * r + (3 / 2 : ℝ)) ^ 2 + t ^ 2 := by
+      nlinarith [sq_nonneg ((k : ℝ) + 2 * r + (3 / 2 : ℝ))]
+    apply (div_lt_one hden).2
+    nlinarith
+  constructor
+  · exact Finset.prod_pos (fun r hr => hfactor_pos r)
+  · have hprod := Finset.prod_lt_prod
+        (s := Finset.range m)
+        (f := fun r : ℕ =>
+          (((k : ℝ) + 2 * r + (1 / 2 : ℝ)) ^ 2 + t ^ 2) /
+            (((k : ℝ) + 2 * r + (3 / 2 : ℝ)) ^ 2 + t ^ 2))
+        (g := fun _ : ℕ => (1 : ℝ))
+        (fun r hr => hfactor_pos r)
+        (fun r hr => (hfactor_lt r).le)
+        (by
+          refine ⟨0, ?_, ?_⟩
+          · simpa using hm
+          · simpa using hfactor_lt 0)
+    simpa using hprod
+
 end MathlibPlus.Analysis.RaisedKType
