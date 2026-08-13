@@ -2358,3 +2358,6 @@ import MathlibPlus.Open.Analysis.NR2SuperheatDrain
 import MathlibPlus.Open.Analysis.PrimePowerSpectrum
 import MathlibPlus.Open.NewResearch2.AlternantCharlier
 import MathlibPlus.Open.GraphTheory.NR2FormalizationK0137
+import MathlibPlus.Open.KocayTreeCore
+import MathlibPlus.Open.TreeOperators
+import MathlibPlus.Open.AnalyticTails
