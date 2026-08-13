@@ -14,4 +14,23 @@ theorem literalMinusZipper_identity :
   intro w
   ext <;> simp <;> ring
 
+
 end MathlibPlus.Algebra.Claim19516
+
+namespace MathlibPlus.Algebra
+
+/-- Under the scalar augmentation sending both connectivity generators to one,
+the contact and zipper expressions both evaluate to `2 * w`. -/
+theorem scalar_augmentation_erases_discrepancy_claim19518
+    {R A : Type*} [Ring R] [Ring A]
+    (ε : R →+* A) (S T : R) (w : A)
+    (hS : ε S = 1) (hT : ε T = 1) :
+    (w * ε S + w * ε T = 2 * w) ∧
+      (ε S + (2 * w - 1) * ε T = 2 * w) := by
+  constructor
+  · simp only [hS, hT, mul_one]
+    rw [two_mul]
+  · simp only [hS, hT, mul_one]
+    exact add_sub_cancel 1 (2 * w)
+
+end MathlibPlus.Algebra
