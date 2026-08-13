@@ -72,4 +72,46 @@ theorem dyadicWeightStrictDecrease :
       _ < (j : ℝ) / (2 : ℝ) ^ j :=
         (div_lt_div_iff_of_pos_right hpow).2 hstep
 
+
+/-- The displayed `P₃` scalar-blindness normal forms have a nonzero source
+residual, a vanishing first normal-form expression, and a nonzero second one.
+The source's root-forgetting maps are not silently reconstructed; this is the
+kernel-checked multivariate-polynomial residue. -/
+theorem scalarBlindnessResidue_claim56343 :
+    let R := MvPolynomial (Fin 4) ℚ
+    let x₁ : R := MvPolynomial.X 0
+    let x₂ : R := MvPolynomial.X 1
+    let x₃ : R := MvPolynomial.X 2
+    let z : R := MvPolynomial.X 3
+    let P : R := x₁ ^ 2 + x₂ + z * (x₁ + z)
+    let Q : R := (x₁ + z) ^ 2
+    let D : R := P - Q
+    D ≠ 0 ∧
+      D = x₂ - z * x₁ ∧
+      x₁ * x₂ - x₂ * x₁ = 0 ∧
+      x₂ ^ 2 - x₁ * x₃ ≠ 0 := by
+  dsimp
+  have hD : MvPolynomial.X (1 : Fin 4) - MvPolynomial.X 3 * MvPolynomial.X 0 ≠
+      (0 : MvPolynomial (Fin 4) ℚ) := by
+    intro h
+    have he := congrArg
+      (MvPolynomial.eval (![0, 1, 0, 0] : Fin 4 → ℚ)) h
+    norm_num [MvPolynomial.eval_X] at he
+  have hE : MvPolynomial.X (1 : Fin 4) ^ 2 -
+      MvPolynomial.X 0 * MvPolynomial.X 2 ≠
+      (0 : MvPolynomial (Fin 4) ℚ) := by
+    intro h
+    have he := congrArg
+      (MvPolynomial.eval (![0, 1, 0, 0] : Fin 4 → ℚ)) h
+    norm_num [MvPolynomial.eval_X] at he
+  have hdiff :
+      (MvPolynomial.X (0 : Fin 4) : MvPolynomial (Fin 4) ℚ) ^ 2 + MvPolynomial.X 1 +
+          MvPolynomial.X 3 * (MvPolynomial.X 0 + MvPolynomial.X 3) -
+          (MvPolynomial.X 0 + MvPolynomial.X 3) ^ 2 =
+        MvPolynomial.X 1 - MvPolynomial.X 3 * MvPolynomial.X 0 := by
+    ring
+  refine ⟨?_, hdiff, by ring, hE⟩
+  · rw [hdiff]
+    exact hD
+
 end MathlibPlus.Algebra.ElementaryArithmeticClaims
