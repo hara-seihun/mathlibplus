@@ -39,4 +39,22 @@ theorem negTwoBetaDerivative (α β t : ℝ) :
   simp [shellProfile]
   ring
 
+
+open Polynomial
+
+/-- The coefficient-transform operator for one differentiated shell. -/
+noncomputable def shellTransform (Q : Polynomial ℝ) : Polynomial ℝ :=
+  (1 / 2 : ℝ) • Q + (2 : ℝ) • (X * derivative Q) - (2 : ℝ) • (X * Q)
+
+/-- The polynomial at shell age zero in the packet's normalization. -/
+noncomputable def q0 : Polynomial ℝ := (4 : ℝ) • X ^ 2 - (6 : ℝ) • X
+
+/-- The first transformed polynomial displayed in the packet. -/
+noncomputable def q1 : Polynomial ℝ :=
+  (-15 : ℝ) • X + (30 : ℝ) • X ^ 2 - (8 : ℝ) • X ^ 3
+
+/-- The second transformed polynomial displayed in the packet. -/
+noncomputable def q2 : Polynomial ℝ :=
+  (-(75 / 2 : ℝ)) • X + (165 : ℝ) • X ^ 2 -
+    (112 : ℝ) • X ^ 3 + (16 : ℝ) • X ^ 4
 end MathlibPlus.Analysis.ShellBetaDerivative
