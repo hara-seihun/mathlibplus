@@ -9,6 +9,7 @@ import MathlibPlus.AlgebraicGeometry.ChernPair13_11
 import MathlibPlus.Basic
 import MathlibPlus.Open.Basic
 import MathlibPlus.Test.AdmissionSmoke
+import MathlibPlus.Analysis.Claim14159
 
 import MathlibPlus.MomentGeometry.AlgebraicWitnesses
 import MathlibPlus.CenterOrthogonal
@@ -2237,3 +2238,20 @@ import MathlibPlus.Algebra.Claim35248
 import MathlibPlus.Analysis.Claim18465
 import MathlibPlus.GraphTheory.VertexDeckEdgeReconstructionProved
 import MathlibPlus.Open.GraphTheory.IrreducibleOrderThreeSharpValencyFourCIDefect
+import MathlibPlus.Combinatorics.ComponentPartitionDefectClaim24789
+import MathlibPlus.Analysis.Claim18023
+import MathlibPlus.GroupTheory.CoprimeFactorsCharacteristicHallFactorsClaim37947
+import MathlibPlus.Analysis.BernsteinCellMoments
+import MathlibPlus.Open.Probability.DenominatorElevenAllLightSupportFourDepthTwoFiveCubeArea
+import MathlibPlus.Open.GraphTheory.ScalarPrimeSquareArbitraryVerticalLayerShearsHaveUniversalAutomorphismShadow
+import MathlibPlus.Combinatorics.Claim27658
+import MathlibPlus.LinearAlgebra.Claim17749
+import MathlibPlus.LinearAlgebra.Claim21563
+import MathlibPlus.Combinatorics.KocayEdgeRedundancyClaim4983
+import MathlibPlus.Analysis.Claim49882
+import MathlibPlus.Open.GraphTheory.CyclicOrderEightUndirectedCI
+import MathlibPlus.Open.Combinatorics.DepthTwoBooleanDecisionTree
+import MathlibPlus.Combinatorics.Claim46289And45225
+import MathlibPlus.LinearAlgebra.Claim17587
+import MathlibPlus.LinearAlgebra.Claim17256
+import MathlibPlus.Combinatorics.Claim25033
