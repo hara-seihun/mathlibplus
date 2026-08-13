@@ -53,4 +53,17 @@ theorem zerothShiftMoments :
     classical
     simp [measureShiftMoment, measureMass]
 
+/-- Every translated integer-packet atom moves by `a` and retains its exponent. -/
+theorem shiftPacket_atom (a alpha : ℝ) (p : IntegerShiftPacket) :
+    (Finsupp.mapDomain (fun beta => beta + a) p) (alpha + a) = p alpha := by
+  apply Finsupp.mapDomain_apply
+  intro x y hxy
+  linarith
+
+/-- A translated atom is in the translated support exactly when its source atom is. -/
+theorem mem_support_shiftPacket_iff (a alpha : ℝ) (p : IntegerShiftPacket) :
+    alpha + a ∈ (Finsupp.mapDomain (fun beta => beta + a) p).support ↔
+      alpha ∈ p.support := by
+  simp only [Finsupp.mem_support_iff, ne_eq, shiftPacket_atom]
+
 end MathlibPlus.Analysis.ShiftPacket
