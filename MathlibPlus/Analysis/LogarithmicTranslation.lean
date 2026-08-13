@@ -81,4 +81,34 @@ theorem logarithmicTranslation_scalar_defect_claim9812 (a : ℝ) (_ha : a ≠ 0)
     rw [abs_sub_comm]
   simpa [hfactor] using h
 
+/-- The positive-rational logarithmic translation representation from claim
+48147. The existing `logarithmicTranslation` is the unitary representative
+on the complex `L²` quotient; this theorem restricts its parameter group to
+positive rationals and records its pointwise representative almost everywhere.
+-/
+theorem rationalLogarithmicTranslation_claim48147
+    (r s : ℚ) (hr : 0 < r) (hs : 0 < s) (f : H) :
+    (logarithmicTranslation (Real.log (r : ℝ)) f =ᵐ[(volume : Measure ℝ)]
+        fun u : ℝ => f (u + Real.log (r : ℝ))) ∧
+      (‖logarithmicTranslation (Real.log (r : ℝ)) f‖ = ‖f‖) ∧
+      logarithmicTranslation (Real.log (r : ℝ))
+          (logarithmicTranslation (Real.log (s : ℝ)) f) =
+        logarithmicTranslation (Real.log ((r * s : ℚ) : ℝ)) f := by
+  refine ⟨logarithmicTranslation_coeFn _ _, ?_⟩
+  constructor
+  · exact logarithmicTranslation_norm _ _
+  · change logarithmicTranslationLinear (Real.log (r : ℝ))
+        (logarithmicTranslationLinear (Real.log (s : ℝ)) f) =
+      logarithmicTranslationLinear (Real.log ((r * s : ℚ) : ℝ)) f
+    rw [logarithmicTranslationLinear_comp]
+    have hr' : (0 : ℝ) < (r : ℝ) := by exact_mod_cast hr
+    have hs' : (0 : ℝ) < (s : ℝ) := by exact_mod_cast hs
+    have hrne : (r : ℝ) ≠ 0 := ne_of_gt hr'
+    have hsne : (s : ℝ) ≠ 0 := ne_of_gt hs'
+    have hlog : Real.log ((r * s : ℚ) : ℝ) =
+        Real.log (s : ℝ) + Real.log (r : ℝ) := by
+      rw [Rat.cast_mul, Real.log_mul hrne hsne]
+      exact add_comm _ _
+    rw [hlog]
+
 end MathlibPlus.Analysis.LogarithmicTranslation
