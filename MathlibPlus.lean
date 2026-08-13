@@ -2371,3 +2371,4 @@ import MathlibPlus.Open.Analysis.EpsilonCounterexampleBatch
 import MathlibPlus.Open.Algebraic.ReciprocalBatch
 import MathlibPlus.Open.Analysis.CriticalParameter
 import MathlibPlus.Open.Analysis.VolterraHankel
+import MathlibPlus.Open.NewResearch2.Q0010
