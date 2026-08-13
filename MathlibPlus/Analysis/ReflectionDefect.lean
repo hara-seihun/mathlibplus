@@ -15,4 +15,8 @@ theorem reflectionDefect_vanishes_iff (b : ℝ) :
     rw [hb]
     norm_num
 
+/-- Claim 4617: a complex-valued function has the xi reflection symmetry. -/
+def HasXiReflection (xi : ℂ → ℂ) : Prop :=
+  ∀ z : ℂ, xi (1 - z) = xi z
+
 end MathlibPlus.Analysis

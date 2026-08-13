@@ -47,4 +47,50 @@ theorem denominator4824Improvement :
       nlinarith
     linarith
 
+
+/-- Claim 1008's denominator/amplitude convention and its strict region
+monotonicity.  This records the vocabulary and the logical nesting of the
+zero-free regions without asserting a new zeta zero-free theorem. -/
+theorem classicalRegionDenominatorMonotonicity_claim1008
+    (H Rsmall Rlarge : ℝ)
+    (hH : 1 < H) (hsmall : 0 < Rsmall) (hlarge : Rsmall < Rlarge) :
+    (1 / Rlarge < 1 / Rsmall) ∧
+      (∀ t : ℝ, H ≤ t →
+        1 - 1 / (Rsmall * Real.log t) <
+          1 - 1 / (Rlarge * Real.log t)) ∧
+      ((∀ (t σ : ℝ), H ≤ t →
+          1 - 1 / (Rsmall * Real.log t) < σ →
+          riemannZeta ((σ : ℂ) + (t : ℂ) * Complex.I) ≠ 0) →
+        ∀ (t σ : ℝ), H ≤ t →
+          1 - 1 / (Rlarge * Real.log t) < σ →
+          riemannZeta ((σ : ℂ) + (t : ℂ) * Complex.I) ≠ 0) := by
+  have hRlarge : 0 < Rlarge := lt_trans hsmall hlarge
+  constructor
+  · rw [div_lt_div_iff₀ hRlarge hsmall]
+    nlinarith
+  constructor
+  · intro t ht
+    have ht1 : 1 < t := lt_of_lt_of_le hH ht
+    have hlog : 0 < Real.log t := Real.log_pos ht1
+    have hsmallD : 0 < Rsmall * Real.log t := mul_pos hsmall hlog
+    have hlargeD : 0 < Rlarge * Real.log t := mul_pos hRlarge hlog
+    have hrecip :
+        1 / (Rlarge * Real.log t) <
+          1 / (Rsmall * Real.log t) := by
+      rw [div_lt_div_iff₀ hlargeD hsmallD]
+      nlinarith
+    linarith
+  · intro hvalid t σ ht hσ
+    apply hvalid t σ ht
+    have ht1 : 1 < t := lt_of_lt_of_le hH ht
+    have hlog : 0 < Real.log t := Real.log_pos ht1
+    have hsmallD : 0 < Rsmall * Real.log t := mul_pos hsmall hlog
+    have hlargeD : 0 < Rlarge * Real.log t := mul_pos hRlarge hlog
+    have hrecip :
+        1 / (Rlarge * Real.log t) <
+          1 / (Rsmall * Real.log t) := by
+      rw [div_lt_div_iff₀ hlargeD hsmallD]
+      nlinarith
+    linarith
+
 end MathlibPlus.ZeroFreeRegion

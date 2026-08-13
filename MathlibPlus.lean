@@ -1295,6 +1295,7 @@ import MathlibPlus.Algebra.Claim27244
 import MathlibPlus.Analysis.Claim9505
 import MathlibPlus.Algebra.Claim55347
 import MathlibPlus.Combinatorics.Claim31115_36925
+<<<<<<< ours
 import MathlibPlus.Analysis.WeilReflectionFixedSet
 import MathlibPlus.GraphTheory.Claim3338_16501
 import MathlibPlus.NumberTheory.Claim13385
@@ -2255,3 +2256,23 @@ import MathlibPlus.Combinatorics.Claim46289And45225
 import MathlibPlus.LinearAlgebra.Claim17587
 import MathlibPlus.LinearAlgebra.Claim17256
 import MathlibPlus.Combinatorics.Claim25033
+import MathlibPlus.LinearAlgebra.Claim53836
+import MathlibPlus.Analysis.Claim9634
+import MathlibPlus.NumberTheory.Claim40564
+import MathlibPlus.Analysis.Claim14066
+import MathlibPlus.GroupTheory.Claim39715
+import MathlibPlus.GraphTheory.Claim43989
+import MathlibPlus.Algebra.AffineFiberClaim6053
+import MathlibPlus.Analysis.Claim7000
+import MathlibPlus.LinearAlgebra.Claim55459
+=======
+
+import MathlibPlus.GraphTheory.Claim27031
+>>>>>>> theirs
+import MathlibPlus.GroupTheory.Claim25593
+import MathlibPlus.GraphTheory.SelfInverseFiberSwap
+import MathlibPlus.Analysis.Claim15798
+import MathlibPlus.Combinatorics.Claim5478
+import MathlibPlus.Analysis.Claim17618
+import MathlibPlus.Algebra.Claim16744
+import MathlibPlus.Open.GraphTheory.CyclicSixteenUndirectedCIDefectMinimumClassification
