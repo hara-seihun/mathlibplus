@@ -720,6 +720,7 @@ import MathlibPlus.LinearAlgebra.Claim4955
 import MathlibPlus.LinearAlgebra.Claim20816
 import MathlibPlus.Arithmetic.Claim24860
 import MathlibPlus.NumberTheory.Claim8326
+import MathlibPlus.NumberTheory.Claim9616
 import MathlibPlus.Algebra.Claim1283
 import MathlibPlus.Combinatorics.Claim3359
 import MathlibPlus.Analysis.Claim20244
@@ -1170,6 +1171,7 @@ import MathlibPlus.GroupTheory.Claim43852
 import MathlibPlus.Combinatorics.Claim30024
 import MathlibPlus.Algebra.Claim15385
 import MathlibPlus.Open.AnalyticNumberTheory.YangZeroFreeRegion
+<<<<<<< ours
 import MathlibPlus.Combinatorics.Claim36323
 import MathlibPlus.Algebra.Claim59150
 import MathlibPlus.Algebra.Claim54396
@@ -2170,3 +2172,26 @@ import MathlibPlus.Open.GraphTheory.BinaryRankTwoTernaryRankTwoUndirectedCIFiber
 import MathlibPlus.Open.Probability.AllLightFourCubeWeightGridThroughTwenty
 import MathlibPlus.Analysis.Claim2312
 import MathlibPlus.Open.GraphTheory.CyclicNinetyOneScalarOrderThreeValencyTenCI
+import MathlibPlus.Analysis.ThetaShellEquivalence
+import MathlibPlus.GraphTheory.Claim9067
+import MathlibPlus.Analysis.Claim18774
+import MathlibPlus.AnalyticNumberTheory.PrimeSums.PreviouslyPublishedThetaAmplitudeEquivalence
+import MathlibPlus.NumberTheory.Claim17166
+=======
+
+import MathlibPlus.Open.GraphTheory.C2TimesC3CubeUndirectedCI
+>>>>>>> theirs
+import MathlibPlus.Analysis.Claim22006
+import MathlibPlus.Analysis.Claim3947
+import MathlibPlus.Open.AnalyticNumberTheory.PrimeCounting.GlobalCoefficient6097Implies6098
+import MathlibPlus.Open.Probability.QuadraticFourierSmithSevenHalvesFailure
+import MathlibPlus.Analysis.GlobalPsiNormalizedEnvelopeEquivalence
+import MathlibPlus.Analysis.Claim11312
+import MathlibPlus.Open.Probability.RadialBooleanFiveCubeNearSaturation
+import MathlibPlus.Combinatorics.Claim47899
+import MathlibPlus.Open.Probability.FourAtomPairingWeightSevenThroughTwelve
+import MathlibPlus.GraphTheory.Claim38511
+import MathlibPlus.Algebra.Claim42889
+import MathlibPlus.Analysis.Claim51340
+import MathlibPlus.Combinatorics.Claim30272
+import MathlibPlus.LinearAlgebra.ProjectiveDeterminantReindex
