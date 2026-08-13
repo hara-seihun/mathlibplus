@@ -2356,3 +2356,4 @@ import MathlibPlus.Combinatorics.Claim9116_23216_52896
 import MathlibPlus.NumberTheory.ComplementaryBlock
 import MathlibPlus.Open.Analysis.NR2SuperheatDrain
 import MathlibPlus.Open.Analysis.PrimePowerSpectrum
+import MathlibPlus.Open.NewResearch2.AlternantCharlier
