@@ -111,3 +111,38 @@ theorem finitePrimeJumpTail_uniqueMax
       simpa [hxa]
 
 end MathlibPlus.NumberTheory.PrimeCounting
+
+namespace MathlibPlus.NumberTheory.PrimeCounting
+
+/-- Claim 1121: a unique maximizer gives the exact non-strict threshold and the
+strict/non-strict behavior on either side of the endpoint value. -/
+theorem exactThresholdAndStrictClassification_claim1121
+    (A : ℝ → ℝ) (x₀ : ℝ)
+    (hmax : ∀ x, x₀ ≤ x → A x ≤ A x₀)
+    (huniq : ∀ x, x₀ ≤ x → A x = A x₀ → x = x₀) :
+    (∀ c : ℝ, (∀ x, x₀ ≤ x → A x ≤ c) ↔ A x₀ ≤ c) ∧
+      (∀ x, x₀ ≤ x → (A x = A x₀ ↔ x = x₀)) ∧
+      (∀ c, A x₀ < c → ∀ x, x₀ ≤ x → A x < c) ∧
+      (∀ c, c < A x₀ → ¬ (∀ x, x₀ ≤ x → A x ≤ c)) := by
+  constructor
+  · intro c
+    constructor
+    · intro hc
+      exact hc x₀ le_rfl
+    · intro hc x hx
+      exact (hmax x hx).trans hc
+  constructor
+  · intro x hx
+    constructor
+    · intro heq
+      exact huniq x hx heq
+    · intro hxeq
+      simpa [hxeq]
+  constructor
+  · intro c hxc x hx
+    exact (hmax x hx).trans_lt hxc
+  · intro c hca hc
+    have hbad := hc x₀ le_rfl
+    exact (not_lt_of_ge hbad) hca
+
+end MathlibPlus.NumberTheory.PrimeCounting
