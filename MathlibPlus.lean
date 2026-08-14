@@ -2873,3 +2873,5 @@ import MathlibPlus.Open.Research.Pauli
 import MathlibPlus.Open.Research.TraceGaussian
 import MathlibPlus.Open.Research.AdmittedBatch019ffedd
 import MathlibPlus.Open.ResearchFormalization.Batch019ffedb7e78
+import MathlibPlus.Open.Research.FormalizationDensityBatch
+import MathlibPlus.Open.Research.FormalizationPascalBatch
