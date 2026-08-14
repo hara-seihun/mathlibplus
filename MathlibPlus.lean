@@ -2434,3 +2434,4 @@ import MathlibPlus.Open.NewResearch2.Theta
 import MathlibPlus.Open.NewResearch2.CompletedKernel
 import MathlibPlus.Open.NewResearch2.ModularLaguerre
 import MathlibPlus.Open.NewResearch2.ThetaKernel
+import MathlibPlus.Open.Probability.SchurComplement
