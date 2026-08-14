@@ -3319,3 +3319,4 @@ import MathlibPlus.Open.SectionTransporterBatch
 import MathlibPlus.Open.HallMarkerBatch
 import MathlibPlus.Open.ResearchBatch.HiddenTriadGraphs
 import MathlibPlus.Open.ResearchBatch.SelectorCommutators
+import MathlibPlus.Open.R3923.IncidentParentEdgeBoundary
