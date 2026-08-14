@@ -3625,3 +3625,5 @@ import MathlibPlus.Open.Research.BatchLinearGrowth
 import MathlibPlus.Open.Analysis.FiniteLawLambdaSignMatrixOptimal
 import MathlibPlus.Open.Combinatorics.Claim5604
 import MathlibPlus.Open.Research.FiniteGroupOrbit59876
+import MathlibPlus.Open.Analysis.BatchMellin
+import MathlibPlus.Open.Combinatorics.BatchSemidirectOrbits
