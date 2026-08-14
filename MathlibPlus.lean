@@ -2984,3 +2984,4 @@ import MathlibPlus.Open.ResearchFormalization.R0695ScalarBoundary
 import MathlibPlus.Open.Research.AdmittedBatchR0148
 import MathlibPlus.Open.Research.AdmittedBatchR0149
 import MathlibPlus.Open.ResearchFormalization.StaircaseUnate
+import MathlibPlus.Open.Analysis.HeatKernelBatch019ffee163e2
