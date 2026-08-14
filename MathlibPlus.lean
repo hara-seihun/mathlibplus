@@ -2578,3 +2578,4 @@ import MathlibPlus.Open.Analysis.BooleanChamberBatch
 import MathlibPlus.Open.Analysis.CloneQuadraticBatch
 import MathlibPlus.Open.GroupTheory.PermutationEGroupBatch
 import MathlibPlus.Open.Probability.PersistentPathBatch
+import MathlibPlus.Open.NewResearch2.FormalizationBatchR0758Luna
