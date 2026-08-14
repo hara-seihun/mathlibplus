@@ -2684,3 +2684,6 @@ import MathlibPlus.Open.AlgebraicGeometry.FermatQuinticBatch
 import MathlibPlus.Open.Analysis.ChebyshevPivotBatch
 import MathlibPlus.Open.Combinatorics.StarSunflowerBatch
 import MathlibPlus.Open.NumberTheory.ZetaBatch
+import MathlibPlus.Open.Research.FormalizationR0375
+import MathlibPlus.Open.Research.FormalizationR0377
+import MathlibPlus.Open.Research.FormalizationR0384
