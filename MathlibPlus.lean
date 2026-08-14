@@ -2622,3 +2622,4 @@ import MathlibPlus.Open.GraphTheory.LooplessCayleyComplement
 import MathlibPlus.Open.GraphTheory.Q5x4Model
 import MathlibPlus.Open.GraphTheory.Q5x4Shears
 import MathlibPlus.Open.GraphTheory.ScalarOrderThreeCI
+import MathlibPlus.Open.GraphTheory.R1807LinearAffine
