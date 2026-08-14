@@ -3067,3 +3067,5 @@ import MathlibPlus.Open.Analysis.ResearchFormalizationO0131
 import MathlibPlus.Open.Analysis.BoundedCoreSchedule
 import MathlibPlus.Open.GraphTheory.Q0090
 import MathlibPlus.Open.RepeatedLabelState
+import MathlibPlus.Open.Arithmetic.Batch12699
+import MathlibPlus.Open.Analysis.AdmittedClaim12497
