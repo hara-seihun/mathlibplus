@@ -2888,3 +2888,4 @@ import MathlibPlus.Open.FormalizationBatch.UnionSemilattice
 import MathlibPlus.Open.FormalizationBatch.SphericalSupport
 import MathlibPlus.Open.FormalizationBatch.ToeplitzWronskian
 import MathlibPlus.Open.ResearchFormalization.R0539_R0536
+import MathlibPlus.Open.Research.FormalizationBatch2280
