@@ -3047,3 +3047,5 @@ import MathlibPlus.Open.GroupTheory.Order108
 import MathlibPlus.Open.ResearchFormalizationBatch019ffedf141b77c7b96e46e312eadae9
 import MathlibPlus.Open.ResearchFormalization.OrbitalTransporter
 import MathlibPlus.Open.Analysis.ResearchFormalizationBatch17855
+import MathlibPlus.Open.Research.FormalizationBatch33855
+import MathlibPlus.Open.Research.FormalizationBatch1586
