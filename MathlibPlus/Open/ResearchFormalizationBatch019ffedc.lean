@@ -1,5 +1,6 @@
 import Mathlib
 
+<<<<<<< ours
 open scoped BigOperators ENNReal
 open MeasureTheory
 open Polynomial
@@ -251,3 +252,61 @@ def mahlerMeasureOfPositivePowers : Prop :=
       algebraicMahlerMeasure β ^ m = β ^ (3 * m))
 
 end MathlibPlus.Open.ResearchFormalizationBatch
+=======
+namespace MathlibPlus.Open.ResearchFormalizationBatch019ffedc
+
+noncomputable section
+
+/-- The ratio sequence used in the theta-ratio curvature statements. -/
+def thetaRatio (t : ℕ → ℝ) (n : ℕ) : ℝ :=
+  t (n + 1) / t n
+
+/-- The logarithmic ratio sequence `f_n = log ρ_n`. -/
+def logarithmicRatio (t : ℕ → ℝ) (n : ℕ) : ℝ :=
+  Real.log (thetaRatio t n)
+
+/-- The forward difference `Δ f_n`. -/
+def forwardDifference (f : ℕ → ℝ) (n : ℕ) : ℝ :=
+  f (n + 1) - f n
+
+/-- Iterated forward differences, with `Δ^0 f = f`. -/
+def iteratedForwardDifference : ℕ → (ℕ → ℝ) → ℕ → ℝ
+  | 0, f, n => f n
+  | r + 1, f, n =>
+      iteratedForwardDifference r f (n + 1) -
+        iteratedForwardDifference r f n
+
+/-- Curvature is always interpreted as an iterated forward difference of `f`. -/
+def logarithmicCurvature (t : ℕ → ℝ) (r n : ℕ) : ℝ :=
+  iteratedForwardDifference r (fun m => logarithmicRatio t m) n
+
+/-- Claim 15754: the positive-sequence notation and curvature convention. -/
+def thetaRatioAndCurvatureSequences : Prop :=
+  ∀ (t : ℕ → ℝ),
+    (∀ n, 0 < t n) →
+      (∀ n, thetaRatio t n = t (n + 1) / t n) ∧
+        (∀ n, logarithmicRatio t n = Real.log (thetaRatio t n)) ∧
+        (∀ r n,
+          logarithmicCurvature t r n =
+            iteratedForwardDifference r
+              (fun m => Real.log (thetaRatio t m)) n)
+
+/-- The density in the factorial Hausdorff-moment identity. -/
+def factorialHausdorffMomentDensity (n : ℕ) (x : ℝ) : ℝ :=
+  x ^ n * (1 - x) / (-Real.log x)
+
+/-- Claim 15759: the explicit positive moment identity and its positivity. -/
+def factorialComponentPositiveMoment : Prop :=
+  ∀ n : ℕ,
+    2 * Real.log (((n : ℝ) + 2) / ((n : ℝ) + 1)) =
+        2 * (∫ x in Set.Ioo (0 : ℝ) 1,
+          factorialHausdorffMomentDensity n x) ∧
+      (∀ x ∈ Set.Ioo (0 : ℝ) 1,
+        0 ≤ factorialHausdorffMomentDensity n x) ∧
+      0 < ∫ x in Set.Ioo (0 : ℝ) 1,
+        factorialHausdorffMomentDensity n x
+
+end
+
+end MathlibPlus.Open.ResearchFormalizationBatch019ffedc
+>>>>>>> theirs

@@ -2978,3 +2978,5 @@ import MathlibPlus.Open.ResearchFormalization.Q0057GeneralizedDegreePolynomial
 import MathlibPlus.Open.FormalizationBatch.LeafCorona
 import MathlibPlus.Open.ResearchFormalizationBatch_01a000d8_acb7_756f_b736_0e7d3a7e5309
 import MathlibPlus.Open.R1081.FactorGraphs_01a000db_a016_792b_b33f_00a9410f47c6
+import MathlibPlus.Open.ResearchFormalizationBatch.Graphs
+import MathlibPlus.Open.ResearchFormalizationBatch.Laplacian
