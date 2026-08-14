@@ -3439,3 +3439,8 @@ import MathlibPlus.Open.ResearchBatch.D0136
 import MathlibPlus.Open.ResearchBatch.D0140
 import MathlibPlus.Open.Research.K0032
 import MathlibPlus.Open.Research.K0033
+import MathlibPlus.Open.ResearchFormalization.C8Routing
+import MathlibPlus.Open.ResearchFormalization.CayleySignature
+import MathlibPlus.Open.ResearchFormalization.Diamond
+import MathlibPlus.Open.ResearchFormalization.ReconstructionFixture
+import MathlibPlus.Open.ResearchFormalization.SignedGap
