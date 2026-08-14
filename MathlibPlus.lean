@@ -3072,3 +3072,8 @@ import MathlibPlus.Open.Analysis.AdmittedClaim12497
 import MathlibPlus.Open.ResearchFormalization.Batch_01a000dc46be72188073354b77a18a129
 import MathlibPlus.Open.Analysis.KarlinClaim962
 import MathlibPlus.Open.ResearchFormalization.BatchR0602
+import MathlibPlus.Open.GraphTheory.R1168TranslationProfile
+import MathlibPlus.Open.ResearchFormalization.TreeOverlap
+import MathlibPlus.Open.ResearchFormalization.MarkedQuotientConnection
+import MathlibPlus.Open.Analysis.OneSeparatedShift
+import MathlibPlus.Open.Combinatorics.CommonIsolateTransfer

@@ -1,6 +1,7 @@
 import Mathlib
 <<<<<<< ours
 <<<<<<< ours
+<<<<<<< ours
 import Mathlib.NumberTheory.ArithmeticFunction
 
 open scoped BigOperators
@@ -145,6 +146,28 @@ def prime_torsion_complex_retains_norm : Prop :=
       LinearMap.det dZ = (p : ℤ) ∧
       Nonempty ((ℤ ⧸ LinearMap.range dZ) ≃ₗ[ℤ] ZMod p) ∧
       Function.Bijective dC
+
+end MathlibPlus.Open.ResearchFormalizationBatch01
+>>>>>>> theirs
+=======
+
+namespace MathlibPlus.Open.ResearchFormalizationBatch01
+
+/-- The centered counterfeit function and its off-axis zero description. -/
+noncomputable def Xminus (z : ℂ) : ℂ :=
+  2 * Complex.cosh ((Real.log 9 : ℂ) * z) + (7 : ℂ) / 3
+
+def claim_12792 : Prop :=
+  (∀ z : ℂ,
+      Xminus z = 0 ↔
+        ∃ k : ℤ,
+          (Real.log 9 : ℂ) * z =
+              (Real.arcosh (7 / 6) : ℂ) +
+                ((2 * (k : ℂ) + 1) * (Real.pi : ℂ) * Complex.I) ∨
+          (Real.log 9 : ℂ) * z =
+              -(Real.arcosh (7 / 6) : ℂ) +
+                ((2 * (k : ℂ) + 1) * (Real.pi : ℂ) * Complex.I)) ∧
+  (∀ z : ℂ, Xminus z = 0 → z.re ≠ 0)
 
 end MathlibPlus.Open.ResearchFormalizationBatch01
 >>>>>>> theirs
