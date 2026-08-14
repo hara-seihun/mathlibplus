@@ -2825,3 +2825,4 @@ import MathlibPlus.Open.ResearchFormalization.ProjectiveDiscriminant
 import MathlibPlus.Open.Research.FormalizationBatchOrbitalAndBlockKernels
 import MathlibPlus.Open.ResearchFormalizationBatch.R2725
 import MathlibPlus.Open.Research.LiteralQuotientFormalizationBatch
+import MathlibPlus.Open.ResearchFormalization.R0334
