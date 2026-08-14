@@ -2772,3 +2772,4 @@ import MathlibPlus.Open.Research.Suborbit019ffedd
 import MathlibPlus.Open.ResearchFormalization.Batch_019ffedc_fb23_7075_84dc_54cb1aa49011
 import MathlibPlus.Open.ResearchFormalization.BatchAlgebra
 import MathlibPlus.Open.ResearchFormalization.BatchGraph
+import MathlibPlus.Open.ResearchFormalizationBatch019ffee1
