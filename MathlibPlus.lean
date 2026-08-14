@@ -3289,3 +3289,9 @@ import MathlibPlus.Open.ResearchFormalizationBatch01a000fa
 import MathlibPlus.Open.R4914.Admitted55021
 import MathlibPlus.Open.R5024.Admitted55056
 import MathlibPlus.Open.R5039.Admitted55039
+import MathlibPlus.Open.Research.FormalizationBatch01a000fa
+import MathlibPlus.Open.ResearchBatchConnectedSector
+import MathlibPlus.Open.ResearchBatchF7
+import MathlibPlus.Open.ResearchBatchGroupAlgebra
+import MathlibPlus.Open.ResearchBatchHallControls
+import MathlibPlus.Open.ResearchBatchOrbitalPartition
