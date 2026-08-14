@@ -2719,3 +2719,4 @@ import MathlibPlus.Open.ResearchFormalizationBatch019ffedc
 import MathlibPlus.Open.ResearchFormalization.SymbolsBatch019ffedc
 import MathlibPlus.Open.ResearchFormalization.ThetaBatch019ffedc
 import MathlibPlus.Open.ResearchFormalization.Batch019ffedc.PhaseCurvature
+import MathlibPlus.Open.ResearchFormalization.K0100
