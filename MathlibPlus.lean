@@ -3606,3 +3606,4 @@ import MathlibPlus.Open.Analysis.PerturbationEnvelope
 import MathlibPlus.Open.Combinatorics.TraceAndCayleyBatch
 import MathlibPlus.Open.Analysis.SuperoscillationEndpointCost
 import MathlibPlus.Open.Frontier.VarianceAndInterval
+import MathlibPlus.Open.Analysis.CoordinateBoundaryLocalization
