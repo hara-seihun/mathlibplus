@@ -2797,3 +2797,6 @@ import MathlibPlus.Open.Analysis.FormalizationBatch.PositiveCones
 import MathlibPlus.Open.Analysis.FormalizationBatch.PerronBounds
 import MathlibPlus.Open.Combinatorics.FormalizationBatch.RankFour
 import MathlibPlus.Open.ResearchFormalizationBatch.R0667
+import MathlibPlus.Open.ResearchFormalizationBatch.Gaussian
+import MathlibPlus.Open.ResearchFormalizationBatch.Shell
+import MathlibPlus.Open.ResearchFormalizationBatch.Robin
