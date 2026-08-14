@@ -192,3 +192,90 @@ theorem alteredSlacks_claim48189 (r : ℕ) :
                 2256 * (r : ℚ) + 720) / 720) := by ring
 
 end MathlibPlus.Combinatorics
+
+
+namespace MathlibPlus.Combinatorics.Claim48017
+
+/-- The first five coefficients of the one-long-arm broom independence polynomial. -/
+theorem alteredCoefficients_claim48017 (r : ℕ) :
+    let I_B_r : Polynomial ℚ :=
+      (1 + Polynomial.X) ^ r * (1 + 3 * Polynomial.X + Polynomial.X ^ 2) +
+        Polynomial.X * (1 + 2 * Polynomial.X)
+    let g₀ : ℚ := I_B_r.coeff 0
+    let g₁ : ℚ := I_B_r.coeff 1
+    let g₂ : ℚ := I_B_r.coeff 2
+    let g₃ : ℚ := I_B_r.coeff 3
+    let g₄ : ℚ := I_B_r.coeff 4
+    g₀ = 1 ∧
+      g₁ = r + 4 ∧
+      g₂ = ((r : ℚ) + 2) * ((r : ℚ) + 3) / 2 ∧
+      g₃ = (r : ℚ) * ((r : ℚ)^2 + 6 * r - 1) / 6 ∧
+      g₄ = (r : ℚ) * ((r : ℚ) - 1) * ((r : ℚ)^2 + 7 * r - 6) / 24 := by
+  dsimp
+  have choose2_formula : ∀ n : ℕ, (n.choose 2 : ℚ) =
+      ((n : ℚ) * ((n : ℚ) - 1)) / 2 := by
+    intro n
+    induction n with
+    | zero => norm_num
+    | succ n ih =>
+      rw [Nat.choose_succ_succ n 1]
+      simp only [Nat.cast_add, Nat.choose_one_right]
+      rw [ih]
+      ring
+  have choose3_formula : ∀ n : ℕ, (n.choose 3 : ℚ) =
+      ((n : ℚ) * ((n : ℚ) - 1) * ((n : ℚ) - 2)) / 6 := by
+    intro n
+    induction n with
+    | zero => norm_num
+    | succ n ih =>
+      rw [Nat.choose_succ_succ n 2]
+      simp only [Nat.cast_add]
+      change (n.choose 2 : ℚ) + (n.choose 3 : ℚ) = _
+      rw [choose2_formula, ih]
+      ring
+  have choose4_formula : ∀ n : ℕ, (n.choose 4 : ℚ) =
+      ((n : ℚ) * ((n : ℚ) - 1) * ((n : ℚ) - 2) * ((n : ℚ) - 3)) / 24 := by
+    intro n
+    induction n with
+    | zero => norm_num
+    | succ n ih =>
+      rw [Nat.choose_succ_succ n 3]
+      simp only [Nat.cast_add]
+      change (n.choose 3 : ℚ) + (n.choose 4 : ℚ) = _
+      rw [choose3_formula, ih]
+      ring
+  have hbase :
+      (1 + 3 * Polynomial.X + Polynomial.X ^ 2 : Polynomial ℚ) =
+        1 + 3 * Polynomial.X + Polynomial.X ^ 2 := by ring
+  have hleaf :
+      Polynomial.X * (1 + 2 * Polynomial.X : Polynomial ℚ) =
+        Polynomial.X + 2 * Polynomial.X ^ 2 := by ring
+  have hcoeff :
+      ((1 + Polynomial.X : Polynomial ℚ) ^ r *
+          (1 + 3 * Polynomial.X + Polynomial.X ^ 2) +
+          Polynomial.X * (1 + 2 * Polynomial.X) ).coeff 0 = 1 ∧
+      ((1 + Polynomial.X : Polynomial ℚ) ^ r *
+          (1 + 3 * Polynomial.X + Polynomial.X ^ 2) +
+          Polynomial.X * (1 + 2 * Polynomial.X) ).coeff 1 =
+        (r : ℚ) + 4 ∧
+      ((1 + Polynomial.X : Polynomial ℚ) ^ r *
+          (1 + 3 * Polynomial.X + Polynomial.X ^ 2) +
+          Polynomial.X * (1 + 2 * Polynomial.X) ).coeff 2 =
+        ((r : ℚ) + 2) * ((r : ℚ) + 3) / 2 ∧
+      ((1 + Polynomial.X : Polynomial ℚ) ^ r *
+          (1 + 3 * Polynomial.X + Polynomial.X ^ 2) +
+          Polynomial.X * (1 + 2 * Polynomial.X) ).coeff 3 =
+        (r : ℚ) * ((r : ℚ)^2 + 6 * r - 1) / 6 ∧
+      ((1 + Polynomial.X : Polynomial ℚ) ^ r *
+          (1 + 3 * Polynomial.X + Polynomial.X ^ 2) +
+          Polynomial.X * (1 + 2 * Polynomial.X) ).coeff 4 =
+        (r : ℚ) * ((r : ℚ) - 1) * ((r : ℚ)^2 + 7 * r - 6) / 24 := by
+    rw [hleaf]
+    simp [Polynomial.coeff_add, Polynomial.coeff_mul, Polynomial.coeff_one,
+      Polynomial.coeff_one_add_X_pow, Polynomial.coeff_X_one,
+      Polynomial.coeff_X_of_ne_one, choose2_formula, choose3_formula,
+      choose4_formula, Finset.HasAntidiagonal.antidiagonal] <;> ring_nf <;> simp
+  exact hcoeff
+
+
+end MathlibPlus.Combinatorics.Claim48017
