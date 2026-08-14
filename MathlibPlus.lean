@@ -3017,3 +3017,4 @@ import MathlibPlus.Open.Research.BatchR1599A7
 import MathlibPlus.Open.Research.BatchR1600Graph
 import MathlibPlus.Open.Research.BatchR1600Perfect
 import MathlibPlus.Open.ResearchFormalizationBatch019ffedf73b6
+import MathlibPlus.Open.ResearchFormalizationBatch01
