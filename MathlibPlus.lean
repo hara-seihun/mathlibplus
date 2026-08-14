@@ -3238,3 +3238,7 @@ import MathlibPlus.Open.ResearchFormalization.MatrixChannels
 import MathlibPlus.Open.Research.Rosser
 import MathlibPlus.Open.ResearchFormalization.BatchHenon_01a000ea
 import MathlibPlus.Open.ResearchFormalization.BatchInterpolation_01a000ea
+import MathlibPlus.Open.Algebra.RankSixRepairBatch
+import MathlibPlus.Open.Finite.Order72Valency18Batch
+import MathlibPlus.Open.Research.Batch01Analysis
+import MathlibPlus.Open.Research.Batch01Arithmetic
