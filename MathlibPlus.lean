@@ -3007,3 +3007,5 @@ import MathlibPlus.Open.ResearchFormalization.R0031
 import MathlibPlus.Open.ResearchFormalization.BatchR1258
 import MathlibPlus.Open.ResearchFormalization.ProfileHighDegree
 import MathlibPlus.Open.Research.FormalizationBatchFeshbach
+import MathlibPlus.Open.ResearchFormalization.K0106
+import MathlibPlus.Open.ResearchFormalization.Batch0315
