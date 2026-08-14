@@ -2453,3 +2453,6 @@ import MathlibPlus.Open.ResearchFormalization.RootedCensus
 import MathlibPlus.Open.GraphTheory.NR2Cayley
 import MathlibPlus.Open.Analysis.NewResearch2BatchC0187
 import MathlibPlus.Open.GraphTheory.SupportFourDisplacementBatch
+import MathlibPlus.Open.Research1499
+import MathlibPlus.Open.Research1500
+import MathlibPlus.Open.Research1587
