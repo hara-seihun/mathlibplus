@@ -3337,3 +3337,4 @@ import MathlibPlus.Open.ResearchFormalization.FiniteBatch01a000fb7fc6737381bd8d6
 import MathlibPlus.Open.ResearchFormalization.GraphGram
 import MathlibPlus.Open.ResearchFormalization.PolyCounterexample
 import MathlibPlus.Open.AnalyticNumberTheory.CertificateArithmetic.RetainedNormalization1589
+import MathlibPlus.Open.ResearchFormalization.R3744Fixture
