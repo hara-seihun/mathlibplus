@@ -3116,3 +3116,5 @@ import MathlibPlus.Open.ResearchFormalizationBatch.PolynomialMatrices
 import MathlibPlus.Open.Research.ReciprocalSemidirect_01a000eb5ab8
 import MathlibPlus.Open.ResearchFormalizationBatch_01a000eb8e2b7983b4fa777bb174bb2d
 import MathlibPlus.Open.Analysis.BatchK0129
+import MathlibPlus.Open.StressSupport
+import MathlibPlus.Open.NumberTheory.AdmittedPrimeEdgeBatch
