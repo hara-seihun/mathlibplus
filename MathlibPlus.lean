@@ -3537,3 +3537,4 @@ import MathlibPlus.Open.ResearchFormalizationBatch.Profiles
 import MathlibPlus.Open.Asymptotics.SubexponentialCompactProfileGain
 import MathlibPlus.Open.GammaHalfRankFourSharpLogCells
 import MathlibPlus.Open.Combinatorics.ResearchFormalizationC0207Claim3029
+import MathlibPlus.Open.Research.FormalizationBatch3263
