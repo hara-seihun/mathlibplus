@@ -2882,3 +2882,8 @@ import MathlibPlus.Open.ResearchFormalization.Batch019ffedd
 import MathlibPlus.Open.ResearchFormalization.PartialFractionIsolation
 import MathlibPlus.Open.Research.FormalizationBatch019ffee272fc765a
 import MathlibPlus.Open.ResearchFormalization.GeometricKernel
+import MathlibPlus.Open.FormalizationBatch.ArakelovQ
+import MathlibPlus.Open.FormalizationBatch.IncidenceKernel
+import MathlibPlus.Open.FormalizationBatch.UnionSemilattice
+import MathlibPlus.Open.FormalizationBatch.SphericalSupport
+import MathlibPlus.Open.FormalizationBatch.ToeplitzWronskian
