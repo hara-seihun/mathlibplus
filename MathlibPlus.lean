@@ -3519,3 +3519,4 @@ import MathlibPlus.Open.ResearchFormalization.BatchTransport
 import MathlibPlus.Open.ResearchFormalization.BatchVoltage
 import MathlibPlus.Open.PrimeCounting.PublishedEndpoint1149
 import MathlibPlus.Open.ResearchFormalization.C0089
+import MathlibPlus.Open.Analysis.StrictCoefficientRepairAtPublishedStart
