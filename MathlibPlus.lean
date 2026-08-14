@@ -3465,3 +3465,5 @@ import MathlibPlus.Open.ResearchFormalization.Batch
 import MathlibPlus.Open.ResearchFormalization.BatchGraphs01
 import MathlibPlus.Open.ResearchFormalization.BatchLinear01
 import MathlibPlus.Open.Research.UnionClosedBatch
+import MathlibPlus.Open.Research.FormalizationBatchK0190
+import MathlibPlus.Open.Research.FormalizationBatchSemidirect
