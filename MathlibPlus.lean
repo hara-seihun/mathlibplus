@@ -3394,3 +3394,4 @@ import MathlibPlus.Open.AdmittedBatch.Stirling
 import MathlibPlus.Open.AdmittedBatch.Henon
 import MathlibPlus.Open.AdmittedBatch.Lehmer
 import MathlibPlus.Open.Analysis.SignOscillationPowerLocks
+import MathlibPlus.Open.Analysis.LayerCake
