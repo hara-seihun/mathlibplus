@@ -2488,3 +2488,10 @@ import MathlibPlus.Open.Research.R2214CayleyData
 import MathlibPlus.Open.Research.R2246FiberLifts
 import MathlibPlus.Open.Analysis.DeBruijnNewmanClaim1035
 import MathlibPlus.Open.NewResearch2.C0111Formalization
+import MathlibPlus.Open.Analysis.ReciprocalDivisorBatch
+import MathlibPlus.Open.Analysis.ShellEdgeBatch
+import MathlibPlus.Open.LinearAlgebra.FactorialKreinBatch
+import MathlibPlus.Open.LinearAlgebra.LagrangianScatteringBatch
+import MathlibPlus.Open.NewResearch2.R0526
+import MathlibPlus.Open.Research.MixedArmBoundary
+import MathlibPlus.Open.LinearAlgebra.AdmittedBatchD0084
