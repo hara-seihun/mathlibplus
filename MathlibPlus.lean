@@ -3627,3 +3627,4 @@ import MathlibPlus.Open.Combinatorics.Claim5604
 import MathlibPlus.Open.Research.FiniteGroupOrbit59876
 import MathlibPlus.Open.Analysis.BatchMellin
 import MathlibPlus.Open.Combinatorics.BatchSemidirectOrbits
+import MathlibPlus.Open.ResearchBatch.GraphBounds
