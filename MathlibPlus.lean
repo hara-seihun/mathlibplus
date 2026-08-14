@@ -2816,3 +2816,5 @@ import MathlibPlus.Open.Research.AlternatingProjection
 import MathlibPlus.Open.Research.EdgeLengthJets
 import MathlibPlus.Open.Research.OrderedPathModes
 import MathlibPlus.Open.Combinatorics.ResearchFormalizationC0207
+import MathlibPlus.Open.Research.R1159Formalization
+import MathlibPlus.Open.Research.R1162Formalization
