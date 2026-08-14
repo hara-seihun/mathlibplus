@@ -3256,3 +3256,5 @@ import MathlibPlus.Open.ResearchFormalization.R0849
 import MathlibPlus.Open.ResearchFormalization.R1067
 import MathlibPlus.Open.ResearchFormalization.R1275
 import MathlibPlus.Open.Research.R1378Batch
+import MathlibPlus.Open.ResearchBatch.QWronskians
+import MathlibPlus.Open.ResearchBatch.TNCompounds
