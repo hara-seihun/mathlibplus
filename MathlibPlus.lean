@@ -2832,3 +2832,6 @@ import MathlibPlus.Open.Research.Batch1457
 import MathlibPlus.Open.Research.Batch1464
 import MathlibPlus.Open.Combinatorics.CycleIndex
 import MathlibPlus.Open.Graph.ExtensionCriterion
+import MathlibPlus.Open.ResearchFormalization.Logistic
+import MathlibPlus.Open.Research.QuadraticBatch
+import MathlibPlus.Open.RelativeDerivative
