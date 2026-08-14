@@ -3277,3 +3277,5 @@ import MathlibPlus.Open.FormalizationBatch.SpiderFormula
 import MathlibPlus.Open.ResearchFormalization.BatchMarkers01a000fb8bcf76a7ab1c5f1caf00735e
 import MathlibPlus.Open.ResearchFormalization.Batch01a000fad6f07e648e50ee698889a078Finite
 import MathlibPlus.Open.ResearchFormalization.Batch01a000fad6f07e648e50ee698889a078Q220
+import MathlibPlus.Open.Analysis.DensityIntervalBatch
+import MathlibPlus.Open.Combinatorics.CubeEdgeBatch
