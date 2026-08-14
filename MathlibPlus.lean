@@ -3064,3 +3064,4 @@ import MathlibPlus.Open.Hall.RelationJetInvariantForms
 import MathlibPlus.Open.ResearchFormalization.ScalarRootClosure
 import MathlibPlus.Open.Graphs.AutomorphismPairing
 import MathlibPlus.Open.Analysis.ResearchFormalizationO0131
+import MathlibPlus.Open.Analysis.BoundedCoreSchedule
