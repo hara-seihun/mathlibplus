@@ -3264,3 +3264,5 @@ import MathlibPlus.Open.ResearchFormalizationBatch.F7
 import MathlibPlus.Open.ResearchFormalizationBatch.MarkedShear
 import MathlibPlus.Open.ResearchFormalization.BatchGeometry
 import MathlibPlus.Open.ResearchFormalization.BatchSignLaw
+import MathlibPlus.Open.Research.FormalizationBatchCharacteristicP
+import MathlibPlus.Open.Research.FormalizationBatchTernaryHenon
