@@ -3341,3 +3341,4 @@ import MathlibPlus.Open.ResearchFormalization.R3744Fixture
 import MathlibPlus.Open.ResearchClaim58751
 import MathlibPlus.Open.ResearchFormalization.GramAndConcreteClaims_01a000fb83c17c63ae94a6e9e4721245
 import MathlibPlus.Open.ResearchFormalization.BoundedTreeClass_01a000fb83c17c63ae94a6e9e4721245
+import MathlibPlus.Open.ProjectsResearch.Batch01
