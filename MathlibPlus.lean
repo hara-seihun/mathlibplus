@@ -2508,3 +2508,5 @@ import MathlibPlus.Open.LinearAlgebra.R1845CarryChart
 import MathlibPlus.Open.LinearAlgebra.SupportSaturationFiniteCheck
 import MathlibPlus.Open.NR2.O0297
 import MathlibPlus.Open.Algebra.ResearchWalshCharacters
+import MathlibPlus.Open.Probability.PosteriorVarianceGamma
+import MathlibPlus.Open.GraphTheory.R3537MaxCut
