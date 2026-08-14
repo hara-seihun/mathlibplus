@@ -3244,3 +3244,6 @@ import MathlibPlus.Open.Research.Batch01Analysis
 import MathlibPlus.Open.Research.Batch01Arithmetic
 import MathlibPlus.Open.ResearchFormalizationArithmetic
 import MathlibPlus.Open.ResearchFormalization.Batch_01a000fb6fe179e0984718061adada86
+import MathlibPlus.Open.ResearchFormalizationBatch_01a000fa
+import MathlibPlus.Open.Research.R2209
+import MathlibPlus.Open.Research.R2211
