@@ -3228,3 +3228,4 @@ import MathlibPlus.Open.ResearchFormalization.FiniteField
 import MathlibPlus.Open.ResearchFormalization.Quadratic
 import MathlibPlus.Open.ResearchFormalization.LineUnion
 import MathlibPlus.Open.ResearchFormalization.Batch2630
+import MathlibPlus.Open.ResearchFormalizationBatch01.Displacement
