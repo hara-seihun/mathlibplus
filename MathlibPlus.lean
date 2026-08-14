@@ -3247,3 +3247,5 @@ import MathlibPlus.Open.ResearchFormalization.Batch_01a000fb6fe179e0984718061ada
 import MathlibPlus.Open.ResearchFormalizationBatch_01a000fa
 import MathlibPlus.Open.Research.R2209
 import MathlibPlus.Open.Research.R2211
+import MathlibPlus.Open.Research.InterpolationAlmostEverywhere
+import MathlibPlus.Open.ResearchFormalizationBatch01a000fb
