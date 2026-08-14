@@ -2716,3 +2716,6 @@ import MathlibPlus.Open.Research.Batch_019ffedc.Lambert
 import MathlibPlus.Open.Research.Batch_019ffedc.PF2
 import MathlibPlus.Open.Research.Batch_019ffedc.Pauli
 import MathlibPlus.Open.ResearchFormalizationBatch019ffedc
+import MathlibPlus.Open.ResearchFormalization.SymbolsBatch019ffedc
+import MathlibPlus.Open.ResearchFormalization.ThetaBatch019ffedc
+import MathlibPlus.Open.ResearchFormalization.Batch019ffedc.PhaseCurvature
