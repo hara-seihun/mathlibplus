@@ -1,5 +1,6 @@
 import Mathlib
 <<<<<<< ours
+<<<<<<< ours
 import Mathlib.NumberTheory.ArithmeticFunction
 
 open scoped BigOperators
@@ -125,4 +126,25 @@ end
 
 end ResearchFormalizationBatch01
 end MathlibPlus.Open
+>>>>>>> theirs
+=======
+
+namespace MathlibPlus.Open.ResearchFormalizationBatch01
+
+/-- Claim 11670, expressed on the explicit two-term complexes over `ℤ` and `ℂ`.
+The differential is multiplication by `p`; its cokernel is the stated `𝔽_p`,
+its rank-one determinant is `p`, and its complexified differential is an
+isomorphism, which is the acyclicity assertion after complexification. -/
+def prime_torsion_complex_retains_norm : Prop :=
+  ∀ p : ℕ, p.Prime →
+    let dZ : ℤ →ₗ[ℤ] ℤ := LinearMap.mulRight ℤ (p : ℤ)
+    let dC : ℂ →ₗ[ℂ] ℂ := LinearMap.mulRight ℂ (p : ℂ)
+    Module.Free ℤ ℤ ∧
+      Module.Finite ℤ ℤ ∧
+      Function.Injective dZ ∧
+      LinearMap.det dZ = (p : ℤ) ∧
+      Nonempty ((ℤ ⧸ LinearMap.range dZ) ≃ₗ[ℤ] ZMod p) ∧
+      Function.Bijective dC
+
+end MathlibPlus.Open.ResearchFormalizationBatch01
 >>>>>>> theirs
