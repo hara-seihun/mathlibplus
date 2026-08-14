@@ -3195,3 +3195,4 @@ import MathlibPlus.Open.ResearchFormalization.CayleyCI
 import MathlibPlus.Open.ResearchFormalization.Endpoint
 import MathlibPlus.Open.ResearchFormalization.GraphClosure
 import MathlibPlus.Open.ResearchFormalization.Wreath
+import MathlibPlus.Open.ResearchFormalization.EndpointBatch
