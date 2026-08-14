@@ -2633,3 +2633,6 @@ import MathlibPlus.Open.Analysis.Section4RemainderClaim1565
 import MathlibPlus.Open.ResearchBatch.ConvexHull
 import MathlibPlus.Open.ResearchBatch.Henon
 import MathlibPlus.Open.ResearchBatch.UForest
+import MathlibPlus.Open.NewResearch2.Analysis.EndpointLocalLowCancellationPhaseVolumeTrain
+import MathlibPlus.Open.NewResearch2.R0538DyadicAggregation
+import MathlibPlus.Open.NewResearch2.R0541DoubleSpiderRigidity
