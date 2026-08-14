@@ -3651,3 +3651,6 @@ import MathlibPlus.Open.Graphs.BasisTranspose
 import MathlibPlus.Open.Combinatorics.Claim5457
 import MathlibPlus.Open.ResearchFormalization.ContractionRadius
 import MathlibPlus.Open.ResearchFormalizationD0079
+import MathlibPlus.Open.NumberTheory.UnsampledCellNullspaceClaim2475
+import MathlibPlus.Open.Algebra.LeftAndRightTensorLengtheningClaim5282
+import MathlibPlus.Open.Analysis.AskedInjectivityFiniteSampleObstructionClaim59907
