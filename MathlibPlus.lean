@@ -3158,3 +3158,6 @@ import MathlibPlus.Open.Research.FormalizationBatchQ0010
 import MathlibPlus.Open.Research.ScalarAlgebra
 import MathlibPlus.Open.ResearchFormalization.RankFourFan
 import MathlibPlus.Open.Research.AdmittedBlocks
+import MathlibPlus.Open.Research.CIAtlas
+import MathlibPlus.Open.Research.OrbitalCriteria
+import MathlibPlus.Open.Research.QuadraticClosures
