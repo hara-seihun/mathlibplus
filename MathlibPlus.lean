@@ -2727,3 +2727,5 @@ import MathlibPlus.Open.ResearchFormalization.Batch0117
 import MathlibPlus.Open.AlgebraicPauli
 import MathlibPlus.Open.ResearchFormalization.NewtonBatch
 import MathlibPlus.Open.ResearchFormalization.RadauBatch
+import MathlibPlus.Open.Research.FormalizationBatch.LocalScalar
+import MathlibPlus.Open.Research.FormalizationBatch.SquarefreeToggle
