@@ -2616,3 +2616,9 @@ import MathlibPlus.Open.Algebra.NonzeroShearClaims
 import MathlibPlus.Open.GraphTheory.AdmittedCubeFunctionInequalities
 import MathlibPlus.Open.NumberTheory.AdmittedIntervalCovariance
 import MathlibPlus.Open.Algebra.SolidCompanionBatch
+import MathlibPlus.Open.Analysis.ExactThreeCombFejerIdentity
+import MathlibPlus.Open.GraphTheory.C3SquareD10Facts
+import MathlibPlus.Open.GraphTheory.LooplessCayleyComplement
+import MathlibPlus.Open.GraphTheory.Q5x4Model
+import MathlibPlus.Open.GraphTheory.Q5x4Shears
+import MathlibPlus.Open.GraphTheory.ScalarOrderThreeCI
