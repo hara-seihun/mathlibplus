@@ -2561,3 +2561,5 @@ import MathlibPlus.Open.Combinatorics.ProjectsResearchOrbit45143_45145
 import MathlibPlus.Open.Combinatorics.ProjectsResearchSunflower45176_45179
 import MathlibPlus.Open.Combinatorics.ProjectsResearchTransversal45261_45264
 import MathlibPlus.Open.ResearchFormalization.Batch_019ffedc_1d0d_79cc_8c95_9a98386c59fd
+import MathlibPlus.Open.Analysis.CellwiseTransport
+import MathlibPlus.Open.Probability.CommonLeaf
