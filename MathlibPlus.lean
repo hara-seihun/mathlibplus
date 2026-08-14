@@ -3124,3 +3124,4 @@ import MathlibPlus.Open.Research.FormalizationBatchC3
 import MathlibPlus.Open.ResearchFormalization.HexagonClosure
 import MathlibPlus.Open.Research.AGL4Batch
 import MathlibPlus.Open.Research.SupportFourBatch
+import MathlibPlus.Open.ResearchFormalization.PathFour
