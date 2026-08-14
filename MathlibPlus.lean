@@ -3077,3 +3077,4 @@ import MathlibPlus.Open.ResearchFormalization.TreeOverlap
 import MathlibPlus.Open.ResearchFormalization.MarkedQuotientConnection
 import MathlibPlus.Open.Analysis.OneSeparatedShift
 import MathlibPlus.Open.Combinatorics.CommonIsolateTransfer
+import MathlibPlus.Open.ResearchFormalization.BatchC0096
