@@ -3410,3 +3410,5 @@ import MathlibPlus.Open.Research.FormalizationBatch.Analytic
 import MathlibPlus.Open.Research.FormalizationBatch.Arithmetic
 import MathlibPlus.Open.BpsBatch
 import MathlibPlus.Open.SelectorBatch
+import MathlibPlus.Open.Research.CayleyZMod9
+import MathlibPlus.Open.Research.StripCorrections
