@@ -2755,3 +2755,4 @@ import MathlibPlus.Open.Research.R1128
 import MathlibPlus.Open.Research.R1130
 import MathlibPlus.Open.DihCharacterBatch
 import MathlibPlus.Open.Q60Batch
+import MathlibPlus.Open.ResearchFormalizationBatchR1409
