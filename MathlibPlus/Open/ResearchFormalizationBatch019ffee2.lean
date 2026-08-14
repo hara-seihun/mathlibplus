@@ -1,6 +1,7 @@
 import Mathlib
 
 <<<<<<< ours
+<<<<<<< ours
 namespace MathlibPlus.Open.ResearchFormalizationBatch
 
 /-- The carrier and multiplication displayed in the prime-field semidirect setup. -/
@@ -211,6 +212,125 @@ def dyadicAmbiguityMomentGap : Prop :=
     binaryFirstMoment d₁ - binaryFirstMoment d₀ =
       2 / (2 : ℝ) ^ p ∧
     binaryFirstMoment d₁ ≠ binaryFirstMoment d₀
+
+end MathlibPlus.Open.ResearchFormalizationBatch019ffee2
+>>>>>>> theirs
+=======
+namespace MathlibPlus.Open.ResearchFormalizationBatch019ffee2
+
+/-- The right regular subgroup on the underlying set of a group. -/
+def rightRegularSubgroup (G : Type*) [Group G] : Subgroup (Equiv.Perm G) :=
+  Subgroup.closure (Set.range (fun g : G => Equiv.mulRight g))
+
+/-- The directed orbital of an ordered pair under a permutation group. -/
+def directedOrbital {G : Type*} [Group G]
+    (K : Subgroup (Equiv.Perm G)) (x y : G) : Set (G × G) :=
+  {p | ∃ k : K, p = ((k : Equiv.Perm G) x, (k : Equiv.Perm G) y)}
+
+/-- Setwise preservation of every directed orbital. -/
+def preservesDirectedOrbitals {G : Type*} [Group G]
+    (K : Subgroup (Equiv.Perm G)) (f : Equiv.Perm G) : Prop :=
+  ∀ x y a b : G,
+    ((a, b) ∈ directedOrbital K x y ↔
+      (f a, f b) ∈ directedOrbital K x y)
+
+/-- Binary 2-closedness, with the orbital criterion made explicit. -/
+def isTwoClosed {G : Type*} [Group G]
+    (K : Subgroup (Equiv.Perm G)) : Prop :=
+  ∀ f : Equiv.Perm G, preservesDirectedOrbitals K f → f ∈ K
+
+/-- A subgroup of permutations is a regular copy of `G` when it acts
+regularly on `G` and is group-isomorphic to `G`. -/
+def isRegularCopy {G : Type*} [Group G]
+    (L : Subgroup (Equiv.Perm G)) : Prop :=
+  (∀ x y : G, ∃! l : L, (l : Equiv.Perm G) x = y) ∧
+    ∃ e : G ≃* L, ∀ x y : G, e (x * y) = e x * e y
+
+def conjugateSubgroup {G : Type*} [Group G]
+    (g : Equiv.Perm G) (L : Subgroup (Equiv.Perm G)) : Subgroup (Equiv.Perm G) :=
+  Subgroup.map ((MulAut.conj g).toMonoidHom) L
+
+/-- Claim 39869, as the exact membership predicate for `Sup₂(G_R)`. -/
+def claim39869_2_closed_overgroup_membership
+    (G : Type*) [Finite G] [Group G]
+    (K : Subgroup (Equiv.Perm G)) : Prop :=
+  isTwoClosed K ∧ rightRegularSubgroup G ≤ K
+
+def regularCopyPreorder {G : Type*} [Group G]
+    (K₁ K₂ : Subgroup (Equiv.Perm G)) : Prop :=
+  K₁ ≤ K₂ ∧
+    ∀ L : Subgroup (Equiv.Perm G),
+      L ≤ K₂ → isRegularCopy L →
+      ∃ g : K₂, conjugateSubgroup (g : Equiv.Perm G) L ≤ K₁
+
+/-- Claim 39870: the regular-copy relation is a partial order on the
+2-closed overgroups containing the right regular subgroup. -/
+def claim39870_regular_copy_preorder_partial_order
+    (G : Type*) [Finite G] [Group G] : Prop :=
+  (∀ K : Subgroup (Equiv.Perm G),
+      claim39869_2_closed_overgroup_membership G K →
+      regularCopyPreorder K K) ∧
+  (∀ K₁ K₂ K₃ : Subgroup (Equiv.Perm G),
+      claim39869_2_closed_overgroup_membership G K₁ →
+      claim39869_2_closed_overgroup_membership G K₂ →
+      claim39869_2_closed_overgroup_membership G K₃ →
+      regularCopyPreorder K₁ K₂ →
+      regularCopyPreorder K₂ K₃ →
+      regularCopyPreorder K₁ K₃) ∧
+  (∀ K₁ K₂ : Subgroup (Equiv.Perm G),
+      claim39869_2_closed_overgroup_membership G K₁ →
+      claim39869_2_closed_overgroup_membership G K₂ →
+      regularCopyPreorder K₁ K₂ →
+      regularCopyPreorder K₂ K₁ →
+      K₁ = K₂)
+
+/-- Claim 39875: every 2-closed overgroup of the regular copy of
+`C₄ × C_p²` has one conjugacy class of regular copies. -/
+def claim39875_all_2_closed_overgroups_one_regular_class : Prop :=
+  ∀ (p : ℕ), Nat.Prime p → Odd p →
+    let G := Multiplicative (ZMod 4 × ZMod p × ZMod p)
+    ∀ X : Subgroup (Equiv.Perm G),
+      isTwoClosed X → rightRegularSubgroup G ≤ X →
+      ∀ L : Subgroup (Equiv.Perm G),
+        L ≤ X → isRegularCopy L →
+        ∃ g : X, conjugateSubgroup (g : Equiv.Perm G) L = rightRegularSubgroup G
+
+/-- The directed colored Cayley-relation formulation used for `CI^(2)`.
+The tuple index is finite, and the isomorphism of tuples is arbitrary before
+requiring a group automorphism. -/
+def directedCayleyTupleCI (G : Type*) [Group G] : Prop :=
+  ∀ (m : ℕ) (S T : Fin m → Set G) (f : Equiv.Perm G),
+    (∀ (i : Fin m) (x y : G),
+      (x⁻¹ * y ∈ S i ↔ (f x)⁻¹ * f y ∈ T i)) →
+    ∃ φ : G ≃* G, ∀ (i : Fin m) (x y : G),
+      (x⁻¹ * y ∈ S i ↔ (φ x)⁻¹ * φ y ∈ T i)
+
+/-- Claim 39876: the odd-prime `C₄ × C_p²` family has the stated binary
+relational CI property. -/
+def claim39876_C4_mul_Cp_sq_CI2 : Prop :=
+  ∀ (p : ℕ), Nat.Prime p → Odd p →
+    directedCayleyTupleCI
+      (Multiplicative (ZMod 4 × ZMod p × ZMod p))
+
+/-- Claim 39897: distinct-prime squares have the same binary-relational
+property, including the displayed `C₂² × C₃²` instance. -/
+def claim39897_distinct_prime_square_CI2 : Prop :=
+  (∀ (p q : ℕ), Nat.Prime p → Nat.Prime q → p ≠ q →
+    directedCayleyTupleCI
+      (Multiplicative (ZMod p × ZMod p × ZMod q × ZMod q))) ∧
+  directedCayleyTupleCI
+    (Multiplicative (ZMod 2 × ZMod 2 × ZMod 3 × ZMod 3))
+
+/-- The affine local charts on the cyclic prime-sized block are the affine
+permutations `x ↦ a * x + b` with unit multiplier. -/
+def affineLocalChart (q : ℕ) (f : Equiv.Perm (ZMod q)) : Prop :=
+  ∃ a b : ZMod q, IsUnit a ∧ ∀ x : ZMod q, f x = a * x + b
+
+/-- Claim 39879: a required local pair has one nonidentity affine chart and
+one chart outside the affine group. -/
+def claim39879_affine_and_nonaffine_local_charts
+    (q : ℕ) (σ τ : Equiv.Perm (ZMod q)) : Prop :=
+  Nat.Prime q ∧ σ ≠ 1 ∧ affineLocalChart q σ ∧ ¬affineLocalChart q τ
 
 end MathlibPlus.Open.ResearchFormalizationBatch019ffee2
 >>>>>>> theirs
