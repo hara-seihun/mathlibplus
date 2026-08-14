@@ -3197,3 +3197,8 @@ import MathlibPlus.Open.ResearchFormalization.GraphClosure
 import MathlibPlus.Open.ResearchFormalization.Wreath
 import MathlibPlus.Open.ResearchFormalization.EndpointBatch
 import MathlibPlus.Open.Research.BatchMellin
+import MathlibPlus.Open.Research.FormalizationBatch.R0443_R0446
+import MathlibPlus.Open.Research.FormalizationBatch.R0446_Curvature
+import MathlibPlus.Open.Research.FormalizationBatch.R0448
+import MathlibPlus.Open.Research.FormalizationBatch.R0455
+import MathlibPlus.Open.Research.FormalizationBatch.R0455_Cyclotomic
