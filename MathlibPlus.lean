@@ -3093,3 +3093,4 @@ import MathlibPlus.Open.ResearchFormalization.R1107
 import MathlibPlus.Open.ResearchFormalization.SquareGrid
 import MathlibPlus.Open.ResearchFormalizationBatch_01a000d9
 import MathlibPlus.Open.ResearchFormalization.Batch01
+import MathlibPlus.Open.ResearchFormalization.BatchOrbit
