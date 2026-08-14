@@ -2745,3 +2745,5 @@ import MathlibPlus.Open.Research.PoissonTuran
 import MathlibPlus.Open.ResearchFormalizationBatch019ffedc64ac79c92719c0ad336498c.ProductActions
 import MathlibPlus.Open.ResearchFormalizationBatch019ffedc64ac79c92719c0ad336498c.Ramsey
 import MathlibPlus.Open.ResearchFormalization.BatchR2558
+import MathlibPlus.Open.Analysis.JacobiBatch019ffedc
+import MathlibPlus.Open.Topology.PadicObstruction019ffedc
