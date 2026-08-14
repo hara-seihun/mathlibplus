@@ -2608,3 +2608,6 @@ import MathlibPlus.Open.Probability.ResearchBatch
 import MathlibPlus.Open.Analysis.ResearchPrimePhaseDisk
 import MathlibPlus.Open.NR2Formalization.RepairO0054
 import MathlibPlus.Open.Algebra.PhysicalBracket
+import MathlibPlus.Open.Algebra.BatchMomentConstraints42145
+import MathlibPlus.Open.Combinatorics.BatchIntervalImprovements42204
+import MathlibPlus.Open.LinearAlgebra.BatchLatticeSpectral42156
