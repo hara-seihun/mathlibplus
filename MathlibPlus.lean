@@ -3386,3 +3386,5 @@ import MathlibPlus.Open.NumberTheory.DivisorBoundBatch
 import MathlibPlus.Open.Analysis.InteriorEdgeLawNormalizedCollisionStability
 import MathlibPlus.Open.ResearchFormalizationBatch_01a00154
 import MathlibPlus.Open.Analysis.AdjacentGaussianRemainders
+import MathlibPlus.Open.ResearchFormalization.BatchGroupClaims
+import MathlibPlus.Open.ResearchFormalization.BatchGraphClaim
