@@ -2805,3 +2805,4 @@ import MathlibPlus.Open.ResearchFormalization.R1022
 import MathlibPlus.Open.Research.AdmittedBatchPrimeBounds
 import MathlibPlus.Open.Research.AdmittedBatchReciprocalRoots
 import MathlibPlus.Open.Research.AdmittedBatchZeroConvergence
+import MathlibPlus.Open.ResearchFormalization.MixedAffineBatch
