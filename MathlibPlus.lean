@@ -3146,3 +3146,7 @@ import MathlibPlus.Open.Analysis.RepairedProfile
 import MathlibPlus.Open.Analysis.ThetaShellFormalizationBatch
 import MathlibPlus.Open.ResearchFormalizationBatch_01a000eb
 import MathlibPlus.Open.ResearchFormalization.AdmittedBatch_01a000eb525ca7c34f4fffd55f6717fb0
+import MathlibPlus.Open.ResearchFormalization.BatchArithmeticCells
+import MathlibPlus.Open.ResearchFormalization.BatchGammaJets
+import MathlibPlus.Open.ResearchFormalization.BatchPrimeReversal
+import MathlibPlus.Open.ResearchFormalization.BatchVandermonde
