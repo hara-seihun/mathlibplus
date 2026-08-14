@@ -2549,3 +2549,6 @@ import MathlibPlus.Open.Analysis.RectangleTransform2246
 import MathlibPlus.Open.Algebra.RadicalMobiusClaims8369_8370
 import MathlibPlus.Open.GraphTheory.AdmittedBatch54734
 import MathlibPlus.Open.GroupTheory.AdmittedBatch54752
+import MathlibPlus.Open.Analysis.ArithmeticNewtonTail
+import MathlibPlus.NumberTheory.Claim9739
+import MathlibPlus.Open.Graph.BooleanAttachment
