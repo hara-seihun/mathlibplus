@@ -2472,3 +2472,7 @@ import MathlibPlus.Open.AnalyticNumberTheory.DirichletCoefficientBatch
 import MathlibPlus.Open.GraphTheory.FiniteCIBatch
 import MathlibPlus.Open.Analysis.KarlinClaims963_974
 import MathlibPlus.Open.Probability.AdmittedCyclicMultiplexer
+import MathlibPlus.Open.Analysis.ResearchFormalizationR0184
+import MathlibPlus.Open.Analysis.ResearchFormalizationR0192
+import MathlibPlus.Open.Analysis.ResearchFormalizationR0195
+import MathlibPlus.Open.Analysis.ResearchFormalizationR0266
