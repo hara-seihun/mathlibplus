@@ -2677,3 +2677,6 @@ import MathlibPlus.Open.Combinatorics.ResearchFormalizationBooleanCube
 import MathlibPlus.Open.GraphTheory.ResearchFormalizationC12Spectrum
 import MathlibPlus.Open.Research.BranchFiltrationBatch019ffedbAa17
 import MathlibPlus.Analysis.Claim12086
+import MathlibPlus.Open.ResearchFormalization.C0297
+import MathlibPlus.Open.ResearchFormalization.D0036
+import MathlibPlus.Open.ResearchFormalization.D0070
