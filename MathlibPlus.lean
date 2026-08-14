@@ -2547,3 +2547,5 @@ import MathlibPlus.Open.ConeLiftBatch
 import MathlibPlus.Algebra.Claim27079
 import MathlibPlus.Open.Analysis.RectangleTransform2246
 import MathlibPlus.Open.Algebra.RadicalMobiusClaims8369_8370
+import MathlibPlus.Open.GraphTheory.AdmittedBatch54734
+import MathlibPlus.Open.GroupTheory.AdmittedBatch54752
