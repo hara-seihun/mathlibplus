@@ -3354,3 +3354,4 @@ import MathlibPlus.Open.Research.FormalizationBatch01
 import MathlibPlus.Open.DenominatorDivisibility
 import MathlibPlus.Open.AreaFiveCupCoordinates
 import MathlibPlus.Open.Graph.AdmittedBatch
+import MathlibPlus.Open.Research.R1645.RankOneNonlinear
