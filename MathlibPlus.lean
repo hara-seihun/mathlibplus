@@ -2422,3 +2422,8 @@ import MathlibPlus.Open.Algebra.ResearchStrongOrderingBatch
 import MathlibPlus.Open.NewResearch2.R0452
 import MathlibPlus.Open.SemilatticeTraceDrain
 import MathlibPlus.Open.NewResearch2.O0084
+import MathlibPlus.Open.Geometry.NewResearch2BatchQ0124
+import MathlibPlus.Open.Analysis.GammaJetBatch
+import MathlibPlus.Open.Analysis.TypeBKernelBatch
+import MathlibPlus.Open.GraphTheory.TernaryCI
+import MathlibPlus.Open.NewResearch2.R0831
