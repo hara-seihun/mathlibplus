@@ -2478,3 +2478,5 @@ import MathlibPlus.Open.Analysis.ResearchFormalizationR0195
 import MathlibPlus.Open.Analysis.ResearchFormalizationR0266
 import MathlibPlus.Open.Probability.ResearchSignedLiterals
 import MathlibPlus.Open.Research.Batch.C9
+import MathlibPlus.Open.Analysis.DoubleZeroWalls.BatchC0160
+import MathlibPlus.Open.AnalyticNumberTheory.PrimeCounting.ExplicitFormulaC0090FormalizationBatch
