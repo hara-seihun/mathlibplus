@@ -2596,3 +2596,4 @@ import MathlibPlus.Open.Analysis.ConfluentActionMomentMatrix
 import MathlibPlus.Open.NewResearch2.K0137
 import MathlibPlus.Open.Combinatorics.DTreeUPolynomial
 import MathlibPlus.Open.Geometry.GridBatch
+import MathlibPlus.Analysis.Claim8900
