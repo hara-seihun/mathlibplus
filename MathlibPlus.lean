@@ -2830,3 +2830,5 @@ import MathlibPlus.Open.Geometry.RepairedDefectBatch
 import MathlibPlus.Open.ResearchFormalization.ScalarRootedFactors
 import MathlibPlus.Open.Research.Batch1457
 import MathlibPlus.Open.Research.Batch1464
+import MathlibPlus.Open.Combinatorics.CycleIndex
+import MathlibPlus.Open.Graph.ExtensionCriterion
