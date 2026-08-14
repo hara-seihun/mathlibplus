@@ -3186,3 +3186,6 @@ import MathlibPlus.Open.ResearchFormalization.BatchMatrix
 import MathlibPlus.Open.ResearchFormalization.BatchOperators
 import MathlibPlus.Open.Research.FormalizationBatch_01a000fb_173e_71da_9ae4_5396d288d22b_Morris
 import MathlibPlus.Open.ResearchFormalization.BatchWeighted_01a000fb
+import MathlibPlus.Open.Combinatorics.SingletonSupportBatch
+import MathlibPlus.Open.Combinatorics.TreeAttachmentBatch
+import MathlibPlus.Open.GroupTheory.CayleyCIBatch
