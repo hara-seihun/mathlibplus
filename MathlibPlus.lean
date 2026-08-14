@@ -2417,3 +2417,4 @@ import MathlibPlus.Open.Probability.PairSquareBatch
 import MathlibPlus.Open.GroupTheory.NR2CayleyCI
 import MathlibPlus.Open.Algebra.ComponentPolynomialBatch
 import MathlibPlus.Open.Arithmetic.CRTFiberBatch
+import MathlibPlus.Open.GraphTheory.LabeledSubgraphCopies
