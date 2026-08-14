@@ -2780,3 +2780,4 @@ import MathlibPlus.Open.Research.BatchDerivative
 import MathlibPlus.Open.Research.FiberSupport
 import MathlibPlus.Open.Research.RookGraphs
 import MathlibPlus.Open.ResearchFormalization.Batch019ffedc
+import MathlibPlus.Open.ResearchFormalizationGraphBatch_019ffedf_0cbd_780c_adc8_5aa298ebf277
