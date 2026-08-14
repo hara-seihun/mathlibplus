@@ -3004,3 +3004,6 @@ import MathlibPlus.Open.ResearchBatchR1716
 import MathlibPlus.Open.ResearchFormalization.LowerEdgeShadows
 import MathlibPlus.Open.ResearchFormalization.Batch019ffee1.HallKernel
 import MathlibPlus.Open.ResearchFormalization.R0031
+import MathlibPlus.Open.ResearchFormalization.BatchR1258
+import MathlibPlus.Open.ResearchFormalization.ProfileHighDegree
+import MathlibPlus.Open.Research.FormalizationBatchFeshbach
