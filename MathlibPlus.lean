@@ -2941,3 +2941,4 @@ import MathlibPlus.Open.Research.FormalizationBatch_019ffedc.FiniteWindowSymbols
 import MathlibPlus.Open.ResearchFormalization.R1227
 import MathlibPlus.Open.ResearchFormalization.R1229
 import MathlibPlus.Open.ResearchFormalization.R1230
+import MathlibPlus.Open.Research.FormalizationBatchK0039
