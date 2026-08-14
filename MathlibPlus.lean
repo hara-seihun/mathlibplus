@@ -2942,3 +2942,4 @@ import MathlibPlus.Open.ResearchFormalization.R1227
 import MathlibPlus.Open.ResearchFormalization.R1229
 import MathlibPlus.Open.ResearchFormalization.R1230
 import MathlibPlus.Open.Research.FormalizationBatchK0039
+import MathlibPlus.Open.ResearchFormalizationBatch_019ffee2
