@@ -3029,3 +3029,6 @@ import MathlibPlus.LinearAlgebra.TerminalConeCounterexample
 import MathlibPlus.Open.AnalyticNumberTheory.LunaRenewal
 import MathlibPlus.Open.Research.PairedVerticalConeFactor
 import MathlibPlus.GraphTheory.Claim3336
+import MathlibPlus.Open.ResearchFormalizationBatch1664
+import MathlibPlus.Open.Analysis.AdmittedHermite2392
+import MathlibPlus.Open.Groups.CyclicFourMinimumTwo
