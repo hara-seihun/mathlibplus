@@ -2700,3 +2700,10 @@ import MathlibPlus.Open.Research.O0017
 import MathlibPlus.Open.Research.O0019
 import MathlibPlus.Open.Research.O0020
 import MathlibPlus.Open.Research.Batch019ffedbE1987ac280048652e58f50f4Sign
+import MathlibPlus.Open.Algebra.DaggerBatch
+import MathlibPlus.Open.Analysis.FairSignBatch
+import MathlibPlus.Open.Analysis.PhaseBoundaryBatch
+import MathlibPlus.Open.Analysis.PrimeAtomBatch
+import MathlibPlus.Open.Analysis.RealZeroStabilityBatch
+import MathlibPlus.Open.ResearchFormalization.PolyaFrequencyBatch
+import MathlibPlus.Open.ResearchFormalization.GraphTypeCountBatch
