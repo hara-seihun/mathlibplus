@@ -1,5 +1,6 @@
 import Mathlib
 
+<<<<<<< ours
 namespace MathlibPlus.Open.ResearchFormalizationBatch019ffedd
 
 noncomputable section
@@ -144,3 +145,200 @@ def claim18570 : Prop :=
 end
 
 end MathlibPlus.Open.ResearchFormalizationBatch019ffedd
+=======
+open scoped BigOperators
+
+namespace MathlibPlus.Open.ResearchFormalizationBatch
+
+def graphXor {V : Type} (G H : SimpleGraph V) : SimpleGraph V :=
+  SimpleGraph.fromRel (fun x y =>
+    (G.Adj x y ∧ ¬ H.Adj x y) ∨ (H.Adj x y ∧ ¬ G.Adj x y))
+
+def graphDifference {V : Type} (G H : SimpleGraph V) : SimpleGraph V :=
+  SimpleGraph.fromRel (fun x y => G.Adj x y ∧ ¬ H.Adj x y)
+
+def starAt {n : ℕ} (G : SimpleGraph (Fin n)) (v : Fin n) :
+    SimpleGraph (Fin n) :=
+  SimpleGraph.fromRel (fun x y => G.Adj x y ∧ (x = v ∨ y = v))
+
+def isSpanning {n : ℕ} (G : SimpleGraph (Fin n)) : Prop :=
+  G.support = Set.univ
+
+noncomputable def isolateCount {n : ℕ} (G : SimpleGraph (Fin n)) : ℕ :=
+  n - Set.ncard G.support
+
+noncomputable def supportOverlap {n : ℕ} (A B : SimpleGraph (Fin n)) : ℕ :=
+  Set.ncard A.support + Set.ncard B.support - n
+
+def hasIsolate {n : ℕ} (G : SimpleGraph (Fin n)) : Prop :=
+  ∃ v, v ∉ G.support
+
+def isMatchingGraph {n : ℕ} (G : SimpleGraph (Fin n)) : Prop :=
+  ∀ v, (G.neighborSet v).ncard ≤ 1
+
+noncomputable def claim21241 {n : ℕ} (A B : SimpleGraph (Fin n)) : Prop :=
+  isolateCount A = n - Set.ncard A.support ∧
+    isolateCount B = n - Set.ncard B.support ∧
+    supportOverlap A B = Set.ncard A.support + Set.ncard B.support - n ∧
+    hasIsolate A ∧ hasIsolate B ∧
+    (isolateCount A ≥ 2 ∨ isolateCount B ≥ 2) ∧
+    isSpanning (graphXor A B)
+
+def claim21242 : Prop :=
+  ∀ (n : ℕ) (A B : SimpleGraph (Fin n)),
+    hasIsolate A →
+    hasIsolate B →
+    (isolateCount A ≥ 2 ∨ isolateCount B ≥ 2) →
+    isSpanning (graphXor A B) →
+    supportOverlap A B ≤ n - 3
+
+def claim21243 : Prop :=
+  ∀ (n : ℕ) (C : SimpleGraph (Fin n)) (u v w : Fin n),
+    isSpanning C →
+    u ≠ w →
+    (Cᶜ).Adj u v →
+    (Cᶜ).Adj v w →
+    ∃ A B : SimpleGraph (Fin n),
+      A = starAt C v ∧
+        B = graphXor C A ∧
+        u ∉ A.support ∧
+        w ∉ A.support ∧
+        v ∉ B.support ∧
+        graphXor A B = C
+
+def claim21244 : Prop :=
+  ∀ (n : ℕ) (C M A B : SimpleGraph (Fin n)) (u v : Fin n),
+    isMatchingGraph M →
+    C = graphDifference (SimpleGraph.completeGraph (Fin n)) M →
+    graphXor A B = C →
+    u ∉ A.support →
+    v ∉ B.support →
+    u ≠ v ∧
+      M.Adj u v ∧
+      (∀ x, x ≠ u → x ≠ v → x ∈ A.support ∧ x ∈ B.support) ∧
+      A.support = {x | x ≠ u} ∧
+      B.support = {x | x ≠ v}
+
+def claim21245 : Prop :=
+  ∀ (n : ℕ) (C : SimpleGraph (Fin n)),
+    isSpanning C →
+    ((∃ A B : SimpleGraph (Fin n),
+        hasIsolate A ∧
+          hasIsolate B ∧
+          (isolateCount A ≥ 2 ∨ isolateCount B ≥ 2) ∧
+          graphXor A B = C) ↔
+      ¬ isMatchingGraph Cᶜ)
+
+abbrev MatchingEdge (n : ℕ) := {s : Finset (Fin n) // s.card = 2}
+
+def matchingEdgeOf {n : ℕ} (G : SimpleGraph (Fin n)) (e : MatchingEdge n) : Prop :=
+  ∀ ⦃x y : Fin n⦄, x ∈ e.1 → y ∈ e.1 → x ≠ y → G.Adj x y
+
+def isEdgeMatching {n : ℕ} (M : Finset (MatchingEdge n)) : Prop :=
+  ∀ ⦃e f : MatchingEdge n⦄,
+    e ∈ M → f ∈ M → e ≠ f → Disjoint e.1 f.1
+
+noncomputable def allMatchings (n : ℕ) : Finset (Finset (MatchingEdge n)) := by
+  classical
+  exact Finset.univ.filter (fun M => isEdgeMatching M)
+
+noncomputable def matchingSign {n : ℕ} (G : SimpleGraph (Fin n))
+    (M : Finset (MatchingEdge n)) : ℤ := by
+  classical
+  exact ∏ e ∈ M, if matchingEdgeOf G e then (-1 : ℤ) else 1
+
+noncomputable def signedMatchingPolynomial {n : ℕ} (G : SimpleGraph (Fin n)) :
+    Polynomial ℤ := by
+  classical
+  exact ∑ M ∈ allMatchings n,
+    Polynomial.monomial M.card (matchingSign G M)
+
+noncomputable def graphEdgeCount {n : ℕ} (G : SimpleGraph (Fin n)) : ℕ := by
+  classical
+  exact (Finset.univ.filter (fun e : MatchingEdge n => matchingEdgeOf G e)).card
+
+abbrev GraphAutomorphism {n : ℕ} (G : SimpleGraph (Fin n)) :=
+  {σ : Equiv.Perm (Fin n) // ∀ x y, G.Adj (σ x) (σ y) ↔ G.Adj x y}
+
+noncomputable def sigma {n : ℕ} (G : SimpleGraph (Fin n)) :
+    Fin (n / 2 + 1) → ℚ := by
+  classical
+  exact fun q =>
+    ((Nat.factorial n : ℚ) / (Fintype.card (GraphAutomorphism G) : ℚ)) *
+      ((-1 : ℚ) ^ graphEdgeCount G) *
+      ((signedMatchingPolynomial G).coeff q.1 : ℚ)
+
+def claim21250 : Prop := by
+  classical
+  exact ∀ (n : ℕ) (G : SimpleGraph (Fin n)),
+    signedMatchingPolynomial G =
+        (∑ M ∈ allMatchings n,
+          Polynomial.monomial M.card (matchingSign G M)) ∧
+      ∀ q : Fin (n / 2 + 1),
+        sigma G q =
+          ((Nat.factorial n : ℚ) /
+              (Fintype.card (GraphAutomorphism G) : ℚ)) *
+            ((-1 : ℚ) ^ graphEdgeCount G) *
+            ((signedMatchingPolynomial G).coeff q.1 : ℚ)
+
+def isPair {V : Type} (a b x y : V) : Prop :=
+  (a = x ∧ b = y) ∨ (a = y ∧ b = x)
+
+noncomputable def faceGraph {n : ℕ} (H : SimpleGraph (Fin n))
+    (x u v : Fin n) (ε η : Bool) : SimpleGraph (Fin n) := by
+  classical
+  exact SimpleGraph.fromRel (fun a b =>
+    if isPair a b x u then ε = true
+    else if isPair a b x v then η = true
+    else H.Adj a b)
+
+def claim21253 : Prop :=
+  ∀ (n : ℕ) (x u v : Fin n) (H : SimpleGraph (Fin n)),
+    x ≠ u → x ≠ v → u ≠ v →
+    (∑ ε : Bool, ∑ η : Bool, sigma (faceGraph H x u v ε η)) = 0
+
+def unionProduct {α : Type} [DecidableEq α]
+    (A B : Finset (Finset α)) : Finset (Finset α) :=
+  A.biUnion (fun a : Finset α =>
+    B.image (fun b : Finset α => (a ∪ b : Finset α)))
+
+def claim21271 : Prop :=
+  ∀ {α : Type} [DecidableEq α] (A B : Finset (Finset α)),
+    unionProduct A B =
+      A.biUnion (fun a : Finset α =>
+        B.image (fun b : Finset α => (a ∪ b : Finset α)))
+
+def unionClosed {α : Type} [DecidableEq α] (F : Finset (Finset α)) : Prop :=
+  ∀ ⦃s t : Finset α⦄, s ∈ F → t ∈ F → s ∪ t ∈ F
+
+def emptyTotalIntersection {α : Type} (F : Finset (Finset α)) : Prop :=
+  ∀ x : α, ∃ s, s ∈ F ∧ x ∉ s
+
+def hasFamilyBottom {α : Type} (F : Finset (Finset α)) : Prop :=
+  ∃ s, s ∈ F ∧ ∀ t, t ∈ F → s ⊆ t
+
+def claim21272 : Prop :=
+  ∀ {α : Type} [DecidableEq α] (A B : Finset (Finset α)),
+    A.Nonempty →
+    B.Nonempty →
+    unionClosed A →
+    unionClosed B →
+    (∅ : Finset α) ∉ A →
+    (∅ : Finset α) ∉ B →
+    emptyTotalIntersection A →
+    emptyTotalIntersection B →
+    (unionProduct A B).card = 7 →
+    Nat.min A.card B.card ≤ 18
+
+def claim21274 : Prop :=
+  ∀ {α : Type} [DecidableEq α] (A B : Finset (Finset α)),
+    (∅ : Finset α) ∉ A →
+    (∅ : Finset α) ∉ B →
+    emptyTotalIntersection A →
+    emptyTotalIntersection B →
+    emptyTotalIntersection (unionProduct A B) ∧
+      (∀ s, s ∈ unionProduct A B → s.Nonempty) ∧
+      ¬ hasFamilyBottom (unionProduct A B)
+
+end MathlibPlus.Open.ResearchFormalizationBatch
+>>>>>>> theirs
