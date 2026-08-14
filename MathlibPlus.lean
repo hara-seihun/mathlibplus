@@ -3585,3 +3585,4 @@ import MathlibPlus.Open.LinearAlgebra.Claim4954
 import MathlibPlus.Open.LinearAlgebra.FiniteToeplitzMoment.JacobiChipFactorization
 import MathlibPlus.Open.LengthTwoEdgeSpecialCases
 import MathlibPlus.Open.ResearchFormalization.Batch_01a001aa_74c1_788e_806d_507cd315e3c6
+import MathlibPlus.Open.ResearchFormalizationBatch_01a001ac_7d55_7d4a_8f44_f4a292b299c9
