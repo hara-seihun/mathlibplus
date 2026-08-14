@@ -3321,3 +3321,11 @@ import MathlibPlus.Open.ResearchBatch.HiddenTriadGraphs
 import MathlibPlus.Open.ResearchBatch.SelectorCommutators
 import MathlibPlus.Open.R3923.IncidentParentEdgeBoundary
 import MathlibPlus.Open.ResearchFormalization.ScalarBatch01
+import MathlibPlus.Open.Research.FormalizationBatch_01a000fa
+import MathlibPlus.Open.Combinatorics.Claim49289
+import MathlibPlus.Open.Research.BatchR2610
+import MathlibPlus.Open.R3393BaseExpansion
+import MathlibPlus.Open.R3406FourPrimeGate
+import MathlibPlus.Open.ResearchFormalize.ToyLaurent
+import MathlibPlus.Open.ResearchFormalize.SpiderIndependence
+import MathlibPlus.Open.Analysis.KernelPiNegativeRankTwoNearZero

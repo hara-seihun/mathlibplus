@@ -1,5 +1,6 @@
 import Mathlib
 
+<<<<<<< ours
 open scoped BigOperators
 
 namespace MathlibPlus.Open.ResearchFormalizationBatch_01a000fb
@@ -318,3 +319,98 @@ def claim_53367 : Prop :=
 end
 
 end MathlibPlus.Open.ResearchFormalizationBatch_01a000fb
+=======
+namespace MathlibPlus.Open.ResearchFormalizationBatch01
+
+open MeasureTheory
+open scoped BigOperators
+noncomputable section
+
+/-- A literal finite exponential sum with complex coefficients and real carriers. -/
+def LiteralFiniteExponentialSum (S : ℝ → ℂ) : Prop :=
+  ∃ n : ℕ, ∃ c : Fin n → ℂ, ∃ carrier : Fin n → ℝ,
+    ∀ x : ℝ,
+      S x = ∑ k, c k * Complex.exp (Complex.I * (carrier k : ℂ) * (x : ℂ))
+
+/-- Claim 53704: no normalized nonnegative convolution kernel is a universal
+majorant for all literal finite exponential sums. -/
+def NoUniversalNormalizedPositiveConvolutionMajorant : Prop :=
+  ¬ ∃ K : ℝ → ℝ,
+      Integrable K ∧
+        (∀ u : ℝ, 0 ≤ K u) ∧
+        (∫ u, K u) = 1 ∧
+        ∀ S : ℝ → ℂ,
+          LiteralFiniteExponentialSum S →
+            ∀ x : ℝ,
+              (‖S x‖) ^ 2 ≤
+                ∫ u, K u * (‖S (x - u)‖) ^ 2
+
+/-- Claim 53710: the finite graph data and its existential rank-one exit goal. -/
+def StrictHostDescentGraphWithRankOneGoal
+    (V : Type*) [Fintype V]
+    (edge : V → V → Prop) (entry exit : V → Prop)
+    (rank filtration : V → ℕ) : Prop :=
+  (∃ v : V, entry v) ∧
+    (∀ v : V, exit v → rank v = 1) ∧
+    (∀ u v : V, edge u v → filtration v < filtration u) ∧
+    (∃ u v : V, entry u ∧ exit v ∧ Relation.ReflTransGen edge u v)
+
+/-- The phase of an integer frequency at a real torus point. -/
+def IntegerFrequencyPhase {n : ℕ}
+    (frequency : Fin n → ℤ) (θ : Fin n → ℝ) : ℝ :=
+  ∑ i, (frequency i : ℝ) * θ i
+
+/-- A finite real trigonometric polynomial, represented by finitely supported
+integer frequencies. -/
+def RealTrigPolynomial {n : ℕ}
+    (coefficients : (Fin n → ℤ) →₀ ℝ) (θ : Fin n → ℝ) : ℂ :=
+  ∑ frequency ∈ coefficients.support,
+    (coefficients frequency : ℂ) *
+      Complex.exp (Complex.I * (IntegerFrequencyPhase frequency θ : ℂ))
+
+/-- The nonzero frequency differences of a finitely supported coefficient map. -/
+def DifferenceSupport {n : ℕ}
+    (coefficients : (Fin n → ℤ) →₀ ℝ) : Finset (Fin n → ℤ) :=
+  ((coefficients.support.product coefficients.support).image
+      (fun pair => pair.1 - pair.2)).erase 0
+
+/-- A finite set chooses one representative from each pair {d,-d} of nonzero
+frequency differences. -/
+def IsDifferenceRepresentativeSet {n : ℕ}
+    (coefficients : (Fin n → ℤ) →₀ ℝ)
+    (representatives : Finset (Fin n → ℤ)) : Prop :=
+  representatives ⊆ DifferenceSupport coefficients ∧
+    ∀ d ∈ DifferenceSupport coefficients,
+      (d ∈ representatives ∧ -d ∉ representatives) ∨
+        (d ∉ representatives ∧ -d ∈ representatives)
+
+/-- The real autocorrelation coefficient attached to a difference. -/
+def RealAutocorrelation {n : ℕ}
+    (coefficients : (Fin n → ℤ) →₀ ℝ)
+    (difference : Fin n → ℤ) : ℝ :=
+  ∑ frequency ∈ coefficients.support,
+    ∑ other ∈ coefficients.support,
+      if frequency - other = difference then
+        coefficients frequency * coefficients other
+      else 0
+
+/-- Claim 53742: negative autocorrelation mass gives the stated uniform bound. -/
+def RealAutocorrelationMagnitudeBound : Prop :=
+  ∀ (n : ℕ) (coefficients : (Fin n → ℤ) →₀ ℝ)
+    (representatives : Finset (Fin n → ℤ)),
+    IsDifferenceRepresentativeSet coefficients representatives →
+      ∀ θ : Fin n → ℝ,
+        (‖RealTrigPolynomial coefficients θ‖) ^ 2 -
+              (∑ frequency ∈ coefficients.support, coefficients frequency) ^ 2 =
+            2 * ∑ difference ∈ representatives,
+              RealAutocorrelation coefficients difference *
+                (Real.cos (IntegerFrequencyPhase difference θ) - 1) ∧
+        (‖RealTrigPolynomial coefficients θ‖) ^ 2 -
+              (∑ frequency ∈ coefficients.support, coefficients frequency) ^ 2 ≤
+            4 * ∑ difference ∈ representatives.filter
+                (fun difference => RealAutocorrelation coefficients difference < 0),
+              |RealAutocorrelation coefficients difference|
+
+end
+end MathlibPlus.Open.ResearchFormalizationBatch01
+>>>>>>> theirs

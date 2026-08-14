@@ -1,5 +1,6 @@
 import Mathlib
 
+<<<<<<< ours
 
 namespace MathlibPlus.Open.ResearchFormalizationBatch
 
@@ -252,3 +253,142 @@ def PairwiseGoursatShadowObstruction : Prop :=
   genuineThreeCoordinateRelation ∉ pairwiseShadowSpan
 
 end MathlibPlus.Open.ResearchFormalizationBatch
+=======
+namespace MathlibPlus.Open.ResearchFormalization.Batch_01a000fb
+
+/-! Exact open statements from the admitted formalization packet. -/
+
+section RationalKernelCone
+
+/-- The support of a rational coordinate vector. -/
+def rationalSupport {l : ℕ} (v : Fin l → ℚ) : Finset (Fin l) :=
+  Finset.univ.filter (fun i => v i ≠ 0)
+
+/-- `K_L = ker(L) ∩ ℚ_{≥0}^l`. -/
+def rationalKernelCone
+    {l n : ℕ}
+    (L : (Fin l → ℚ) →ₗ[ℚ] (Fin n → ℚ))
+    (p : Fin l → ℚ) : Prop :=
+  L p = 0 ∧ ∀ i : Fin l, 0 ≤ p i
+
+/-- Support-minimality in the sense used by the admitted claim. -/
+def supportMinimalKernelRay
+    {l n : ℕ}
+    (L : (Fin l → ℚ) →ₗ[ℚ] (Fin n → ℚ))
+    (q : Fin l → ℚ) : Prop :=
+  q ≠ 0 ∧ rationalKernelCone L q ∧
+    ∀ r : Fin l → ℚ,
+      rationalKernelCone L r →
+      r ≠ 0 →
+      rationalSupport r ⊆ rationalSupport q →
+      rationalSupport r ≠ rationalSupport q →
+      False
+
+/-- R-4881.2: rational nonnegative kernel-cone decomposition. -/
+def claim53613
+    {l n : ℕ}
+    (L : (Fin l → ℚ) →ₗ[ℚ] (Fin n → ℚ)) : Prop :=
+  ∀ p : Fin l → ℚ,
+    rationalKernelCone L p →
+    p ≠ 0 →
+    ∃ k : ℕ,
+      ∃ α : Fin k → ℚ,
+      ∃ q : Fin k → (Fin l → ℚ),
+        (∀ i : Fin k, 0 ≤ α i) ∧
+        (∀ i : Fin k, supportMinimalKernelRay L (q i)) ∧
+        (∀ i : Fin k, rationalSupport (q i) ⊆ rationalSupport p) ∧
+        p = ∑ i : Fin k, α i • q i
+
+end RationalKernelCone
+
+section QuotientParityCounterexample
+
+/-- R-5065.S6: the explicit two-dimensional quotient-parity counterexample. -/
+def claim53621 : Prop :=
+  let Δ : Submodule ℚ (ℚ × ℚ) :=
+    Submodule.span ℚ ({(1, 1)} : Set (ℚ × ℚ))
+  let Qplus : ℚ × ℚ := (1, 0)
+  let Qminus : ℚ × ℚ := (0, 1)
+  Qplus + Qminus ∈ Δ ∧
+    Qminus ≠ -Qplus ∧
+    Submodule.Quotient.mk (p := Δ) Qminus =
+      -Submodule.Quotient.mk (p := Δ) Qplus ∧
+    Submodule.Quotient.mk (p := Δ) (Qplus + Qminus) = 0
+
+end QuotientParityCounterexample
+
+section CharacteristicCyclicSection
+
+/-- The coordinate multiplication displayed in R-4714.1.  The `val` of the
+`ZMod 8` coordinate is used for the parity exponent. -/
+def coordinateMul (m : ℕ) (u v : ZMod m × ZMod 8) : ZMod m × ZMod 8 :=
+  (u.1 + (-1 : ZMod m) ^ u.2.val * v.1, u.2 + v.2)
+
+def coordinateOne (m : ℕ) : ZMod m × ZMod 8 := (0, 0)
+
+def coordinatePow {m : ℕ} (g : ZMod m × ZMod 8) : ℕ → ZMod m × ZMod 8
+  | 0 => coordinateOne m
+  | n + 1 => coordinateMul m (coordinatePow g n) g
+
+/-- The concrete characteristic section in the displayed coordinates. -/
+def characteristicSection (m : ℕ) : Set (ZMod m × ZMod 8) :=
+  {u | u.2 ∈ ({0, 2, 4, 6} : Set (ZMod 8))}
+
+def coordinateGroupAxioms (m : ℕ) : Prop :=
+  (∀ x y z, coordinateMul m (coordinateMul m x y) z =
+    coordinateMul m x (coordinateMul m y z)) ∧
+  (∀ x, coordinateMul m (coordinateOne m) x = x ∧
+    coordinateMul m x (coordinateOne m) = x) ∧
+  (∀ x, ∃ y,
+    coordinateMul m x y = coordinateOne m ∧
+      coordinateMul m y x = coordinateOne m)
+
+def coordinateSubgroup (m : ℕ) (S : Set (ZMod m × ZMod 8)) : Prop :=
+  coordinateOne m ∈ S ∧
+    (∀ x ∈ S, ∀ y ∈ S, coordinateMul m x y ∈ S) ∧
+    (∀ x ∈ S, ∃ y ∈ S,
+      coordinateMul m x y = coordinateOne m ∧
+        coordinateMul m y x = coordinateOne m)
+
+def coordinateA (m : ℕ) : ZMod m × ZMod 8 := (1, 0)
+
+def coordinateB (m : ℕ) : ZMod m × ZMod 8 := (0, 1)
+
+def coordinateGeneratedSubgroup
+    (m : ℕ) (S : Set (ZMod m × ZMod 8)) : Set (ZMod m × ZMod 8) :=
+  {x | ∀ T : Set (ZMod m × ZMod 8),
+    coordinateSubgroup m T → S ⊆ T → x ∈ T}
+
+def coordinateCyclic (m : ℕ) (S : Set (ZMod m × ZMod 8)) : Prop :=
+  ∃ g ∈ S, ∀ x ∈ S, ∃ n : ℕ, coordinatePow g n = x
+
+def coordinateAutomorphism (m : ℕ) (f : (ZMod m × ZMod 8) → (ZMod m × ZMod 8)) : Prop :=
+  Function.Bijective f ∧
+    f (coordinateOne m) = coordinateOne m ∧
+    ∀ x y, f (coordinateMul m x y) =
+      coordinateMul m (f x) (f y)
+
+/-- R-4714.1: the coordinate group and its characteristic cyclic section. -/
+def claim53571 : Prop :=
+  ∀ m : ℕ, Odd m → 1 < m →
+    coordinateGroupAxioms m ∧
+      characteristicSection m =
+        coordinateGeneratedSubgroup m
+          ({coordinateA m, coordinateMul m (coordinateB m) (coordinateB m)} :
+            Set (ZMod m × ZMod 8)) ∧
+      coordinateSubgroup m (characteristicSection m) ∧
+      coordinateCyclic m (characteristicSection m) ∧
+      (∀ f, coordinateAutomorphism m f →
+        ∀ x, x ∈ characteristicSection m ↔
+          f x ∈ characteristicSection m) ∧
+      (∃ x, x ∈ characteristicSection m) ∧
+      (∃ x, x ∉ characteristicSection m) ∧
+      (∃ x y, x ∈ characteristicSection m ∧
+        y ∈ characteristicSection m ∧ x ≠ y) ∧
+      Nat.card {x : ZMod m × ZMod 8 //
+        x ∈ characteristicSection m} = 4 * m
+
+end CharacteristicCyclicSection
+
+end MathlibPlus.Open.ResearchFormalization.Batch_01a000fb
+>>>>>>> theirs
