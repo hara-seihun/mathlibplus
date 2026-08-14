@@ -2889,3 +2889,7 @@ import MathlibPlus.Open.FormalizationBatch.SphericalSupport
 import MathlibPlus.Open.FormalizationBatch.ToeplitzWronskian
 import MathlibPlus.Open.ResearchFormalization.R0539_R0536
 import MathlibPlus.Open.Research.FormalizationBatch2280
+import MathlibPlus.Open.ResearchFormalization.R1152
+import MathlibPlus.Open.Graph.DegreeLayerBatch
+import MathlibPlus.Open.ResearchFormalizationBatch.HeatMomentHierarchy
+import MathlibPlus.Open.ResearchFormalizationBatch.DirichletTruncation
