@@ -3638,3 +3638,4 @@ import MathlibPlus.Open.Combinatorics.BatchAttachmentFeatures
 import MathlibPlus.Open.Research.BaezDuarte
 import MathlibPlus.Open.Research.RootCards
 import MathlibPlus.Open.Research.SawtoothBezout
+import MathlibPlus.Open.ResearchFormalizationBatchClaims4780_4818_59849
