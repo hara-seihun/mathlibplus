@@ -2960,3 +2960,6 @@ import MathlibPlus.Open.ResearchFormalizationBatch.DiagonalOrbital
 import MathlibPlus.Open.ResearchFormalizationBatch.PolynomialThreshold
 import MathlibPlus.Open.ResearchFormalization.BatchQ0043.Poset
 import MathlibPlus.Open.ResearchFormalization.BatchQ0043.Scalar
+import MathlibPlus.Open.Research.R0926Overlap
+import MathlibPlus.Open.Research.O0185Discriminant
+import MathlibPlus.Open.Analysis.CHJIIWeights
