@@ -2664,3 +2664,7 @@ import MathlibPlus.Open.FormalizationBatch.R0098
 import MathlibPlus.Open.FormalizationBatch.R0101
 import MathlibPlus.Analysis.Claim968
 import MathlibPlus.GroupTheory.Claim59411VerticalLayerShear
+import MathlibPlus.Open.Combinatorics.FrequencyGap
+import MathlibPlus.Open.Analysis.SignedPowerSobolev
+import MathlibPlus.Open.ResearchFormalization.Q0054
+import MathlibPlus.Open.ResearchFormalization.Q0065
