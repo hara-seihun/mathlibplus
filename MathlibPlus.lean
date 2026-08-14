@@ -2866,3 +2866,8 @@ import MathlibPlus.Open.Research.FormalizationBatch019ffee2
 import MathlibPlus.Open.ResearchFormalization019ffedd
 import MathlibPlus.Open.ResearchFormalization.BatchCayleyCI
 import MathlibPlus.Open.Research.FormalizationBatch1113_1116
+import MathlibPlus.Open.Research.Incidence
+import MathlibPlus.Open.Research.Jets
+import MathlibPlus.Open.Research.Mellin
+import MathlibPlus.Open.Research.Pauli
+import MathlibPlus.Open.Research.TraceGaussian
