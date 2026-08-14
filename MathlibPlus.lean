@@ -2484,3 +2484,5 @@ import MathlibPlus.Open.Analysis.RadauResidue
 import MathlibPlus.Open.Analysis.SuperheatCutoff
 import MathlibPlus.Open.NewResearch2.R0072
 import MathlibPlus.Open.NewResearch2.R0080
+import MathlibPlus.Open.Research.R2214CayleyData
+import MathlibPlus.Open.Research.R2246FiberLifts
