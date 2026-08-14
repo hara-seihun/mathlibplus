@@ -3214,3 +3214,4 @@ import MathlibPlus.Open.ResearchBatch.Boyd
 import MathlibPlus.Open.ResearchBatch.JordanData
 import MathlibPlus.Open.ResearchBatch.Kernels
 import MathlibPlus.Open.ResearchBatch.ReflectedWedge
+import MathlibPlus.Open.Research.QuaternionDihedralBatch01
