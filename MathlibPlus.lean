@@ -3178,3 +3178,7 @@ import MathlibPlus.Open.ResearchFormalization.AdmittedBatchSegreGram
 import MathlibPlus.Open.ResearchFormalization.AdmittedBatchTrigonometricOscillation
 import MathlibPlus.Open.ResearchBatch.PlanarUnitDistance
 import MathlibPlus.Open.ResearchFormalizationBatch_01a000ea_dbd6_7a56_af5f_ee57b3e2d981
+import MathlibPlus.Open.Algebra.TransportBatch
+import MathlibPlus.Open.Analysis.AgeBatch
+import MathlibPlus.Open.Analysis.InterpolationBatch
+import MathlibPlus.Open.Probability.RandomGraphBatch
