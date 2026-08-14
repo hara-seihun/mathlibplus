@@ -2510,3 +2510,5 @@ import MathlibPlus.Open.NR2.O0297
 import MathlibPlus.Open.Algebra.ResearchWalshCharacters
 import MathlibPlus.Open.Probability.PosteriorVarianceGamma
 import MathlibPlus.Open.GraphTheory.R3537MaxCut
+import MathlibPlus.Open.Analysis.AdmittedClaim54552
+import MathlibPlus.Open.GraphTheory.AdmittedClaims545Somlai
