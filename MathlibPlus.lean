@@ -2599,3 +2599,4 @@ import MathlibPlus.Open.Geometry.GridBatch
 import MathlibPlus.Analysis.Claim8900
 import MathlibPlus.Open.NewResearch2.GDP
 import MathlibPlus.Open.NewResearch2.Jacobsthal
+import MathlibPlus.Open.ResearchFormalizationBatch
