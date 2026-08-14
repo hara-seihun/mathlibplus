@@ -2447,3 +2447,4 @@ import MathlibPlus.Open.Analytic.ZetaZeroFree
 import MathlibPlus.Open.FrameSkinbookBatch
 import MathlibPlus.Open.NewResearch2.AlternantDerivative
 import MathlibPlus.Open.Algebra.TypeIVFormalizationBatch
+import MathlibPlus.Open.NewResearch2.LehmerEndpoints
