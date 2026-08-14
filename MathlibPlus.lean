@@ -3709,3 +3709,5 @@ import MathlibPlus.Open.Research.K0013FormalizationBatch
 import MathlibPlus.Open.Analysis.ShiftAverageModulus
 import MathlibPlus.Open.Research.SomlaiBoundaryDefect
 import MathlibPlus.Open.Analysis.AllRankRowPolarizedParticleIdentity
+import MathlibPlus.Open.ResearchFormalization.CanonicalPhaseScale
+import MathlibPlus.Open.Analysis.RankinSelberg
