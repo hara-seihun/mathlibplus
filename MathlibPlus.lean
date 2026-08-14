@@ -3551,3 +3551,5 @@ import MathlibPlus.Open.ResearchFormalization.Batch01a001a2c7ff7a0abb2ddccdf5cc6
 import MathlibPlus.Open.Analysis.NontrivialZetaDivisor
 import MathlibPlus.Open.Analysis.CriticalLineGlobalCouplingBoundaryObstruction
 import MathlibPlus.Open.Frontier.CICoprimeShellProductsC6BlockLiftObstruction
+import MathlibPlus.Open.Analysis.Claim3056
+import MathlibPlus.Open.Analysis.Claim59747
