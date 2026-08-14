@@ -2769,3 +2769,4 @@ import MathlibPlus.Open.Research.FormalizationBatch019ffedf
 import MathlibPlus.Open.Research.Batch_019ffee1_8bc1_7a1b_84dd_470709b895e3.Group2752
 import MathlibPlus.Open.Research.TraceCells019ffedd
 import MathlibPlus.Open.Research.Suborbit019ffedd
+import MathlibPlus.Open.ResearchFormalization.Batch_019ffedc_fb23_7075_84dc_54cb1aa49011
