@@ -3040,3 +3040,4 @@ import MathlibPlus.Open.Interpolation.ProtectedPointLebesgue
 import MathlibPlus.Open.ResearchFormalization_01a000d9_2780_7396_aedf_f03df9d5e258
 import MathlibPlus.LinearAlgebra.Claim23295
 import MathlibPlus.Open.ResearchFormalization.ReciprocalCells
+import MathlibPlus.Open.Research.FormalizationBatchD0233
