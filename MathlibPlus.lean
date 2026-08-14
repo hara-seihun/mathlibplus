@@ -3507,3 +3507,4 @@ import MathlibPlus.Open.Analysis.AsymmetricMarginBudgetCharacterization
 import MathlibPlus.Open.Analysis.FinitePositiveShellTotalGrowth
 import MathlibPlus.Open.ResearchBatch.AdvancedGroups
 import MathlibPlus.Open.ResearchBatch.Wreath
+import MathlibPlus.Open.Analysis.DenseDerivativeReconstructionContinuousDifference
