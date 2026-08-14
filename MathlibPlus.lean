@@ -3579,3 +3579,4 @@ import MathlibPlus.Open.ResearchFormalization_01a001a9_75bc_7896_85f6_2c05aaaab6
 import MathlibPlus.Open.Analysis.AdmittedBatch0306D0011
 import MathlibPlus.Open.Frontier.Claim59827
 import MathlibPlus.Open.GraphTheory.Claim4438
+import MathlibPlus.Open.Analysis.PendantSplitFunctionalEquation
