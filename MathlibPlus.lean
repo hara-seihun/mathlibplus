@@ -2535,3 +2535,4 @@ import MathlibPlus.Open.NewResearch2.C0178
 import MathlibPlus.Open.LinearAlgebra.AdmittedModeBatch
 import MathlibPlus.Open.GraphTheory.IntersectionSignaturesBatch
 import MathlibPlus.Open.GraphTheory.ResearchMultipartiteMarkClaims
+import MathlibPlus.Open.GraphTheory.AdmittedR1375
