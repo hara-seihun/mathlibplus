@@ -3057,3 +3057,5 @@ import MathlibPlus.Open.GraphCI.D10
 import MathlibPlus.Open.Analysis.Claim2638
 import MathlibPlus.Open.InformationTheory.PrefixCodeTilt
 import MathlibPlus.Open.Analysis.ResearchFormalizationRadial
+import MathlibPlus.Open.Analysis.ExactRectangleRootCount
+import MathlibPlus.Open.Algebra.CharacteristicZeroGroupRing

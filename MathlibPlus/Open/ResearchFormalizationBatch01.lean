@@ -1,4 +1,5 @@
 import Mathlib
+<<<<<<< ours
 import Mathlib.NumberTheory.ArithmeticFunction
 
 open scoped BigOperators
@@ -78,3 +79,50 @@ def claim9420 : Prop :=
     bdQ x - |bdRiesz x| ^ 2 / x ^ 2 ≤ C * x ^ (-2 : ℝ))
 
 end MathlibPlus.Open.ResearchFormalizationBatch
+=======
+
+namespace MathlibPlus.Open
+namespace ResearchFormalizationBatch01
+
+noncomputable section
+
+private def sourceZ : MvPolynomial (Option ℕ) ℚ :=
+  MvPolynomial.X none
+
+private def sourceX (j : ℕ) : MvPolynomial (Option ℕ) ℚ :=
+  MvPolynomial.X (some (j - 1))
+
+private def targetZ : MvPolynomial (Fin 3) ℚ :=
+  MvPolynomial.X (0 : Fin 3)
+
+private def targetX₁ : MvPolynomial (Fin 3) ℚ :=
+  MvPolynomial.X (1 : Fin 3)
+
+private def targetX₂ : MvPolynomial (Fin 3) ℚ :=
+  MvPolynomial.X (2 : Fin 3)
+
+private def geometricTailMap :
+    MvPolynomial (Option ℕ) ℚ →+* MvPolynomial (Fin 3) ℚ :=
+  MvPolynomial.eval₂Hom (algebraMap ℚ (MvPolynomial (Fin 3) ℚ)) fun i =>
+    match i with
+    | none => targetZ
+    | some n => if n = 0 then targetX₁ else targetZ ^ (n - 1) * targetX₂
+
+private def geometricTailGenerator (k : ℕ) : MvPolynomial (Option ℕ) ℚ :=
+  sourceX (k + 3) - sourceZ * sourceX (k + 2)
+
+private def geometricTailIdeal : Ideal (MvPolynomial (Option ℕ) ℚ) :=
+  Ideal.span (Set.range geometricTailGenerator)
+
+/-- The geometric-tail specialization has precisely the stated prime kernel. -/
+def geometricTailQuotientPrimeKernel : Prop :=
+  (∀ j : ℕ, 2 ≤ j →
+      geometricTailMap (sourceX j) = targetZ ^ (j - 2) * targetX₂) ∧
+    RingHom.ker geometricTailMap = geometricTailIdeal ∧
+    geometricTailIdeal.IsPrime
+
+end
+
+end ResearchFormalizationBatch01
+end MathlibPlus.Open
+>>>>>>> theirs
