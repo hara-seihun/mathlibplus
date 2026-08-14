@@ -3569,3 +3569,4 @@ import MathlibPlus.Open.ResearchFormalizationBatch_01a001a1_5e77_7d33_b91b_4aaf1
 import MathlibPlus.Open.FiniteCoordinateBoundaryExactness
 import MathlibPlus.Open.Analysis.SingleSpikeDisappearance
 import MathlibPlus.Open.Analysis.ResearchFormalizationBatch_01a001aa
+import MathlibPlus.Open.PolynomialDerivativeSamples
