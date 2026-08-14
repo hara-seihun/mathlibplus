@@ -3559,3 +3559,4 @@ import MathlibPlus.Open.Frontier.CIMixedAbelianAffineBaseRigidity
 import MathlibPlus.Open.Research.C3NextToMinimalConnectedValencyCI
 import MathlibPlus.Open.Research.AwdtArithmeticAcyclicityIncomingDifferentialObstruction
 import MathlibPlus.Open.Analysis.UniformDirectMellinAsymptotic3738
+import MathlibPlus.Open.ResearchFormalization.Batch_01a0019e_57964_59670
