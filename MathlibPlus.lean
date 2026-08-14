@@ -2854,3 +2854,4 @@ import MathlibPlus.Open.ResearchFormalization.Batch019ffede1003704cbb69a8fa6946c
 import MathlibPlus.Open.ResearchFormalization.Batch019ffede1003704cbb69a8fa6946cea1.MomentRectangles
 import MathlibPlus.Open.ResearchFormalization.Batch019ffede1003704cbb69a8fa6946cea1.TraceShapes
 import MathlibPlus.Open.Research.TreeCuts
+import MathlibPlus.Open.ResearchFormalizationBatch.Frobenius21Claims
