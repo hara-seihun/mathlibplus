@@ -3202,3 +3202,6 @@ import MathlibPlus.Open.Research.FormalizationBatch.R0446_Curvature
 import MathlibPlus.Open.Research.FormalizationBatch.R0448
 import MathlibPlus.Open.Research.FormalizationBatch.R0455
 import MathlibPlus.Open.Research.FormalizationBatch.R0455_Cyclotomic
+import MathlibPlus.Open.Research.FormalizationBatchCentroid
+import MathlibPlus.Open.Research.FormalizationBatchDecks
+import MathlibPlus.Open.Research.FormalizationBatchUPolynomial
