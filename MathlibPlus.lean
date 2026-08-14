@@ -3488,3 +3488,4 @@ import MathlibPlus.Open.ResearchFormalization.R0671.EndpointExpansion
 import MathlibPlus.Open.ResearchFormalization.R0671.LobattoInterpolation
 import MathlibPlus.Open.ResearchFormalization.R0671.MaximumBirth
 import MathlibPlus.Open.ResearchFormalizationBatch01_01a0014f
+import MathlibPlus.Open.Analysis.PrimeTowerAutocorrelation
