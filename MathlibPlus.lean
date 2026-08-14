@@ -3570,3 +3570,4 @@ import MathlibPlus.Open.FiniteCoordinateBoundaryExactness
 import MathlibPlus.Open.Analysis.SingleSpikeDisappearance
 import MathlibPlus.Open.Analysis.ResearchFormalizationBatch_01a001aa
 import MathlibPlus.Open.PolynomialDerivativeSamples
+import MathlibPlus.Open.Analysis.MovingPrefixThetaThreshold
