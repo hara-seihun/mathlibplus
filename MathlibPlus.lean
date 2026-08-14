@@ -3001,3 +3001,4 @@ import MathlibPlus.Analysis.Claim18637
 import MathlibPlus.Open.Research.FormalizationBatch01a000d8b0b170d490d0b4759af71dab
 import MathlibPlus.Open.ResearchFormalizationBatch_019ffedb_e193_7d58_8384_b6a13ce76e32
 import MathlibPlus.Open.ResearchBatchR1716
+import MathlibPlus.Open.ResearchFormalization.LowerEdgeShadows
