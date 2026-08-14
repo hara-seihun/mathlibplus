@@ -2859,3 +2859,6 @@ import MathlibPlus.Open.ResearchFormalization.R1602Chart
 import MathlibPlus.Open.ResearchFormalization.R1602E18
 import MathlibPlus.Open.ResearchFormalization.R1609Rank
 import MathlibPlus.Open.Research.FormalizationBatch.R1220
+import MathlibPlus.Open.Research.PathOperators
+import MathlibPlus.Open.Research.ComponentCollapse
+import MathlibPlus.Open.Research.TransitivityModule
