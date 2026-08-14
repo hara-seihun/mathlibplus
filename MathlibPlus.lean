@@ -2756,3 +2756,6 @@ import MathlibPlus.Open.Research.R1130
 import MathlibPlus.Open.DihCharacterBatch
 import MathlibPlus.Open.Q60Batch
 import MathlibPlus.Open.ResearchFormalizationBatchR1409
+import MathlibPlus.Open.Analysis.PositiveCounterfeitBatch
+import MathlibPlus.Open.Analysis.RieszEnergyBatch
+import MathlibPlus.Open.ResearchFormalizationBatch019ffedf
