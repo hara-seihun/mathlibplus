@@ -3663,3 +3663,6 @@ import MathlibPlus.Open.Frontier.ZMod12CayleyCI
 import MathlibPlus.Open.Analysis.SignedCarrierSplit
 import MathlibPlus.Open.ResearchFormalization.CriticalLineGlobalUniformAbsGap
 import MathlibPlus.Open.Analysis.InverseHankelResidueEnergy
+import MathlibPlus.Open.Analysis.BatchChannelPolynomials
+import MathlibPlus.Open.Analysis.BatchLargeOrder
+import MathlibPlus.Open.Combinatorics.BatchRankThreeShear
