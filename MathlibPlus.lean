@@ -3189,3 +3189,5 @@ import MathlibPlus.Open.ResearchFormalization.BatchWeighted_01a000fb
 import MathlibPlus.Open.Combinatorics.SingletonSupportBatch
 import MathlibPlus.Open.Combinatorics.TreeAttachmentBatch
 import MathlibPlus.Open.GroupTheory.CayleyCIBatch
+import MathlibPlus.Open.ResearchFormalization.Theta
+import MathlibPlus.Open.ResearchFormalization.Exchangeable
