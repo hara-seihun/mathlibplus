@@ -2460,3 +2460,6 @@ import MathlibPlus.Open.NewResearch2.R0472Formalization
 import MathlibPlus.Open.NewResearch2.R0473Formalization
 import MathlibPlus.Open.GraphTheory.ResearchFormalization019ffe63Tree
 import MathlibPlus.Open.GroupTheory.NewResearch2.D0137
+import MathlibPlus.Open.NewResearch2.R0168
+import MathlibPlus.Open.NewResearch2.R0172
+import MathlibPlus.Open.NewResearch2.R0175
