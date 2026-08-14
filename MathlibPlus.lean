@@ -3600,3 +3600,4 @@ import MathlibPlus.Open.Combinatorics.CayleyCI11
 import MathlibPlus.Open.Algebra.QuadraticGeneratorSyzygy
 import MathlibPlus.Open.Research.D0106
 import MathlibPlus.Open.ResearchFormalization.InteriorChainResonance
+import MathlibPlus.Open.Edge13Modes
