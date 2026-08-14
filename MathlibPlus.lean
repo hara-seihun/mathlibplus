@@ -3694,3 +3694,4 @@ import MathlibPlus.Open.Combinatorics.CayleyCIC2PowC9
 import MathlibPlus.Open.Analysis.EntrywiseDoubleIntegral
 import MathlibPlus.Open.ResearchBatchCofactors
 import MathlibPlus.Open.Research.BatchFormalization5110_59934
+import MathlibPlus.Open.Analysis.Claim3051RankTwoEndpointBatch01a001af
