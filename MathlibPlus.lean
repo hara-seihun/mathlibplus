@@ -3534,3 +3534,4 @@ import MathlibPlus.Open.ResearchFormalization.Batch01a001a09424759f9be401c5e4614
 import MathlibPlus.Open.BooleanCharacterSharpEvenInteractionStability
 import MathlibPlus.Open.Axler.ExactSameHalfLineThreshold
 import MathlibPlus.Open.ResearchFormalizationBatch.Profiles
+import MathlibPlus.Open.Asymptotics.SubexponentialCompactProfileGain
