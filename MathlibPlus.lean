@@ -3604,3 +3604,5 @@ import MathlibPlus.Open.Edge13Modes
 import MathlibPlus.Open.Research.FormalizationBatch.FiniteDihedralCayley91
 import MathlibPlus.Open.Analysis.PerturbationEnvelope
 import MathlibPlus.Open.Combinatorics.TraceAndCayleyBatch
+import MathlibPlus.Open.Analysis.SuperoscillationEndpointCost
+import MathlibPlus.Open.Frontier.VarianceAndInterval
