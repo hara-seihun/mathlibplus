@@ -3235,3 +3235,4 @@ import MathlibPlus.Open.Research.NonlinearShear
 import MathlibPlus.Open.ResearchFormalization.CyclicSevenSquared
 import MathlibPlus.Open.ResearchFormalization.FiberProfiles
 import MathlibPlus.Open.ResearchFormalization.MatrixChannels
+import MathlibPlus.Open.Research.Rosser
