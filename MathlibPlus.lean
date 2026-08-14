@@ -2879,3 +2879,5 @@ import MathlibPlus.Open.ResearchFormalization.FormalizationBatch_019ffedd_5645_7
 import MathlibPlus.Open.Combinatorics.UnionClosedBatch
 import MathlibPlus.Open.GraphTheory.MultipartiteBatch
 import MathlibPlus.Open.ResearchFormalization.Batch019ffedd
+import MathlibPlus.Open.ResearchFormalization.PartialFractionIsolation
+import MathlibPlus.Open.Research.FormalizationBatch019ffee272fc765a
