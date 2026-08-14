@@ -3375,3 +3375,4 @@ import MathlibPlus.Open.Combinatorics.TreeBatch_01a000fb_83c2_7c4c_9dd9_8ed1b122
 import MathlibPlus.Open.Research.FormalizationBatch3412
 import MathlibPlus.Open.Ingest.R3186
 import MathlibPlus.Open.Research.AdmittedBatch5689_5327_5328
+import MathlibPlus.Open.ResearchFormalizationR4542
