@@ -3658,3 +3658,5 @@ import MathlibPlus.Open.Frontier.AdmittedBatch59932_59933
 import MathlibPlus.Open.ResearchFormalizationBatch_01a001ae
 import MathlibPlus.Open.ResearchFormalizationBatch_01a001b7_8151_7192_bf7c_77d39208c988
 import MathlibPlus.Open.ResearchFormalizationBatch_01a001bc_3fb0_71a5_8729_559cc8f5afca
+import MathlibPlus.Open.Frontier.FixedLevelFiber
+import MathlibPlus.Open.Frontier.ZMod12CayleyCI
