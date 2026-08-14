@@ -2712,3 +2712,7 @@ import MathlibPlus.Open.ResearchFormalizationC0092
 import MathlibPlus.Open.ResearchChebyshev
 import MathlibPlus.Open.Research.Formalization.OrbitBounds
 import MathlibPlus.Open.FormalizationBatch.D0016
+import MathlibPlus.Open.Research.Batch_019ffedc.Lambert
+import MathlibPlus.Open.Research.Batch_019ffedc.PF2
+import MathlibPlus.Open.Research.Batch_019ffedc.Pauli
+import MathlibPlus.Open.ResearchFormalizationBatch019ffedc
