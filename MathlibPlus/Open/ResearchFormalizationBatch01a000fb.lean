@@ -2,6 +2,7 @@ import Mathlib
 
 open scoped BigOperators
 
+<<<<<<< ours
 namespace MathlibPlus.Open.ResearchFormalizationBatch01a000fb
 
 noncomputable section
@@ -237,3 +238,97 @@ def claim52106 : Prop :=
 end
 
 end MathlibPlus.Open.ResearchFormalizationBatch01a000fb
+=======
+namespace MathlibPlus.Open.ResearchFormalizationBatch
+
+/-- The two-state edge weights used by the explicit `P3` witness. -/
+def p3EdgeWeight (s t : Fin 2) : ℕ :=
+  if s = t then if s.val = 0 then 2 else 3 else 5
+
+def p3PathWeight (f : Fin 3 → Fin 2) : ℕ :=
+  p3EdgeWeight (f 0) (f 1) * p3EdgeWeight (f 1) (f 2)
+
+def p3Message (root : Fin 3) (s : Fin 2) : ℕ :=
+  ∑ f : Fin 3 → Fin 2, if f root = s then p3PathWeight f else 0
+
+/-- Exact concrete content of the two-state `P3` root-dependence witness. -/
+def claim_56120 : Prop :=
+  p3Message 1 0 = 49 ∧
+  p3Message 1 1 = 64 ∧
+  p3Message 0 0 = 54 ∧
+  p3Message 0 1 = 59 ∧
+  p3Message 1 0 + p3Message 1 1 = 113 ∧
+  p3Message 0 0 + p3Message 0 1 = 113 ∧
+  p3Message 1 0 * p3Message 1 1 = 3136 ∧
+  p3Message 0 0 * p3Message 0 1 = 3186
+
+def qVertexWeight {q : ℕ} (s : Fin q) : ℕ :=
+  if s.val < 2 then 1 else 0
+
+def qEdgeWeight {q : ℕ} (s t : Fin q) : ℕ :=
+  if s = t then
+    if s.val = 0 then 2 else if s.val = 1 then 3 else 0
+  else 5
+
+def qPathWeight {q : ℕ} (f : Fin 3 → Fin q) : ℕ :=
+  qVertexWeight (f 0) * qVertexWeight (f 1) * qVertexWeight (f 2) *
+    qEdgeWeight (f 0) (f 1) * qEdgeWeight (f 1) (f 2)
+
+def qMessage (q : ℕ) (root : Fin 3) (s : Fin q) : ℕ :=
+  ∑ f : Fin 3 → Fin q, if f root = s then qPathWeight f else 0
+
+def qQuadraticCoefficient (q : ℕ) (root : Fin 3) : ℕ :=
+  ∑ s : Fin q, ∑ t : Fin q,
+    if s.val < t.val then qMessage q root s * qMessage q root t else 0
+
+/-- The two-state witness survives after adjoining states with zero vertex weight. -/
+def claim_56121 : Prop :=
+  ∀ q : ℕ, 2 ≤ q →
+    qQuadraticCoefficient q 1 = 3136 ∧
+    qQuadraticCoefficient q 0 = 3186 ∧
+    qQuadraticCoefficient q 1 ≠ qQuadraticCoefficient q 0
+
+noncomputable def replicaVariable (i : Fin 3) : MvPolynomial (Fin 3) ℤ :=
+  MvPolynomial.X i
+
+noncomputable def replicaB0 : MvPolynomial (Fin 3) ℤ := replicaVariable 0
+
+noncomputable def replicaB1 : MvPolynomial (Fin 3) ℤ := replicaVariable 1
+
+noncomputable def replicaY : MvPolynomial (Fin 3) ℤ := replicaVariable 2
+
+noncomputable def replicaEdgeWeight (s t : Fin 2) : MvPolynomial (Fin 3) ℤ :=
+  if s = t then if s.val = 0 then replicaB0 else replicaB1 else replicaY
+
+noncomputable def tensorSquareEdgeWeight (α β : Fin 2 × Fin 2) : MvPolynomial (Fin 3) ℤ :=
+  replicaEdgeWeight α.1 β.1 * replicaEdgeWeight α.2 β.2
+
+def hasOneOffDiagonalWeight {S R : Type*} (M : S → S → R) : Prop :=
+  ∃ c, ∀ a b, a ≠ b → M a b = c
+
+def replicaZero (k : ℕ) : Fin k → Fin 2 := fun _ => 0
+
+def replicaOne (k : ℕ) : Fin k → Fin 2 := fun i => if i.val = 0 then 1 else 0
+
+def replicaTwo (k : ℕ) : Fin k → Fin 2 := fun i => if i.val < 2 then 1 else 0
+
+noncomputable def kReplicaEdgeWeight (k : ℕ) (α β : Fin k → Fin 2) : MvPolynomial (Fin 3) ℤ :=
+  ∏ i : Fin k, replicaEdgeWeight (α i) (β i)
+
+/-- The tensor-square transition obstruction and its stated k-replica weights. -/
+noncomputable def claim_56123 : Prop :=
+  tensorSquareEdgeWeight (0, 0) (1, 0) = replicaY * replicaB0 ∧
+  tensorSquareEdgeWeight (0, 0) (1, 1) = replicaY ^ 2 ∧
+  replicaY * replicaB0 ≠ replicaY ^ 2 ∧
+  (∀ p : Equiv.Perm (Fin 2 × Fin 2),
+    ¬ hasOneOffDiagonalWeight (fun α β => tensorSquareEdgeWeight (p α) (p β))) ∧
+  (∀ k : ℕ, 2 ≤ k →
+    kReplicaEdgeWeight k (replicaZero k) (replicaOne k) =
+        replicaY * replicaB0 ^ (k - 1) ∧
+    kReplicaEdgeWeight k (replicaZero k) (replicaTwo k) =
+        replicaY ^ 2 * replicaB0 ^ (k - 2) ∧
+    replicaY * replicaB0 ^ (k - 1) ≠
+      replicaY ^ 2 * replicaB0 ^ (k - 2))
+
+end MathlibPlus.Open.ResearchFormalizationBatch
+>>>>>>> theirs
