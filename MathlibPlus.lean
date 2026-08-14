@@ -3132,3 +3132,4 @@ import MathlibPlus.Open.ResearchFormalizationBatchR1851
 import MathlibPlus.Open.ResearchFormalization.GraphClaims
 import MathlibPlus.Open.ResearchFormalization.AdmittedBatch01
 import MathlibPlus.Open.Research.FormalizationBatch01a000eb.O0319
+import MathlibPlus.Open.Research.AdmittedJacobiTransfer
