@@ -2784,3 +2784,6 @@ import MathlibPlus.Open.ResearchFormalizationGraphBatch_019ffedf_0cbd_780c_adc8_
 import MathlibPlus.Open.Research.FormalizationBatchR0661
 import MathlibPlus.Open.Research.FormalizationBatchR0665
 import MathlibPlus.Open.Research.FormalizationBatchR1871
+import MathlibPlus.Open.ResearchFormalizationBatch019ffedd
+import MathlibPlus.Open.Combinatorics.BalancedBlockClaims
+import MathlibPlus.Open.ResearchFormalization.BatchAreaFive
