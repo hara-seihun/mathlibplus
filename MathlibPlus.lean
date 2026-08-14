@@ -3428,3 +3428,6 @@ import MathlibPlus.Open.Research.FormalizationBatch01_01a00153e19d7143b687da750c
 import MathlibPlus.Open.OrderSevenScalarKernel
 import MathlibPlus.Open.Analysis.PrimeTowerFourthMoment
 import MathlibPlus.Open.Analysis.DenominatorCancellation
+import MathlibPlus.Open.Research.BatchQ220_01a00154
+import MathlibPlus.Open.Research.BatchTerminalPivot_01a00154
+import MathlibPlus.Open.Research.BatchCrossInterface_01a00154
