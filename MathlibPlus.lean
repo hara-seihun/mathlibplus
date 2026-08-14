@@ -2914,3 +2914,6 @@ import MathlibPlus.Open.ResearchFormalization.R0630
 import MathlibPlus.Open.Research.FormalizationBatch019ffedb
 import MathlibPlus.Open.ResearchFormalizationBatch1831
 import MathlibPlus.Open.Combinatorics.CubeSwitching
+import MathlibPlus.Open.ResearchFormalization.R1117Affine
+import MathlibPlus.Open.ResearchFormalization.R1119ScalarLift
+import MathlibPlus.Open.ResearchFormalization.R1120Adjacent
