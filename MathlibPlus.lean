@@ -3692,3 +3692,4 @@ import MathlibPlus.Open.Analysis.ExactProductShellPairFactorization
 import MathlibPlus.Open.Analysis.CanonicalConeEntireInfiniteZeroObstruction
 import MathlibPlus.Open.Combinatorics.CayleyCIC2PowC9
 import MathlibPlus.Open.Analysis.EntrywiseDoubleIntegral
+import MathlibPlus.Open.ResearchBatchCofactors
