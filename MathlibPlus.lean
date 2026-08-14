@@ -3243,3 +3243,4 @@ import MathlibPlus.Open.Finite.Order72Valency18Batch
 import MathlibPlus.Open.Research.Batch01Analysis
 import MathlibPlus.Open.Research.Batch01Arithmetic
 import MathlibPlus.Open.ResearchFormalizationArithmetic
+import MathlibPlus.Open.ResearchFormalization.Batch_01a000fb6fe179e0984718061adada86
