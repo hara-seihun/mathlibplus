@@ -3560,3 +3560,5 @@ import MathlibPlus.Open.Research.C3NextToMinimalConnectedValencyCI
 import MathlibPlus.Open.Research.AwdtArithmeticAcyclicityIncomingDifferentialObstruction
 import MathlibPlus.Open.Analysis.UniformDirectMellinAsymptotic3738
 import MathlibPlus.Open.ResearchFormalization.Batch_01a0019e_57964_59670
+import MathlibPlus.Open.Combinatorics.Claim3373
+import MathlibPlus.Open.Analysis.Claim3381
