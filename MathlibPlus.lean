@@ -2943,3 +2943,8 @@ import MathlibPlus.Open.ResearchFormalization.R1229
 import MathlibPlus.Open.ResearchFormalization.R1230
 import MathlibPlus.Open.Research.FormalizationBatchK0039
 import MathlibPlus.Open.ResearchFormalizationBatch_019ffee2
+import MathlibPlus.Open.ResearchFormalization.CycleClaims
+import MathlibPlus.Open.ResearchFormalization.ScalarClaims
+import MathlibPlus.Open.ResearchFormalization.ProfileClaims
+import MathlibPlus.Open.ResearchFormalization.PrimeCycleClaims
+import MathlibPlus.Open.ResearchFormalization.DiscriminantClaims
