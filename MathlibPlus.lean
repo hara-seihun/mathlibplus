@@ -3106,3 +3106,4 @@ import MathlibPlus.Open.ResearchFormalization.SupportAndCoprime
 import MathlibPlus.Open.Combinatorics.SpiderProfiles
 import MathlibPlus.Open.Research.Q0131Batch
 import MathlibPlus.Open.ResearchFormalizationBatch_01a000ea_cbfd_72f3_8b4c_26c23989e619
+import MathlibPlus.Open.Research.RosserSupport
