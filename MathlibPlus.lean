@@ -3041,3 +3041,7 @@ import MathlibPlus.Open.ResearchFormalization_01a000d9_2780_7396_aedf_f03df9d5e2
 import MathlibPlus.LinearAlgebra.Claim23295
 import MathlibPlus.Open.ResearchFormalization.ReciprocalCells
 import MathlibPlus.Open.Research.FormalizationBatchD0233
+import MathlibPlus.Open.ResearchFormalization.Batch019ffedbA62472678ab91c09276f01d0
+import MathlibPlus.Open.Analysis.NormalizedMellinTransfer
+import MathlibPlus.Open.GroupTheory.Order108
+import MathlibPlus.Open.ResearchFormalizationBatch019ffedf141b77c7b96e46e312eadae9
