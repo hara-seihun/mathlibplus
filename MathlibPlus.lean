@@ -2643,3 +2643,7 @@ import MathlibPlus.Open.Analysis.FinitePoleHankelPacket
 import MathlibPlus.Open.GroupTheory.SignLineCensus
 import MathlibPlus.Open.NumberTheory.IntervalFourierPrimorial
 import MathlibPlus.Open.NumberTheory.RamanujanConductor
+import MathlibPlus.Open.Research.FormalizationBatch
+import MathlibPlus.Open.Research.FormalizationBatch019ffedd
+import MathlibPlus.Open.Analysis.GaussianDilationClaims
+import MathlibPlus.Open.ResearchFormalizationBatch_019ffedd
