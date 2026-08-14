@@ -3564,3 +3564,4 @@ import MathlibPlus.Open.Combinatorics.Claim3373
 import MathlibPlus.Open.Analysis.Claim3381
 import MathlibPlus.Open.Algebra.QuotientEmbeddingInterval
 import MathlibPlus.Open.Analysis.SparseMonomialAdmissibleFamily
+import MathlibPlus.Open.FrontierConeSurjectiveEndpointEvenPolynomialObstruction
