@@ -3642,3 +3642,5 @@ import MathlibPlus.Open.ResearchFormalizationBatchClaims4780_4818_59849
 import MathlibPlus.Open.Analysis.GammaHalfInitialFlagCounterexample
 import MathlibPlus.Open.Analysis.OracleAreaDepthTwoFiveFourths
 import MathlibPlus.Open.Research.PochhammerCompactUniformDecay
+import MathlibPlus.Open.Research.FrontierBatch
+import MathlibPlus.Open.Research.LaplaceBatch
