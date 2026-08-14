@@ -2787,3 +2787,5 @@ import MathlibPlus.Open.Research.FormalizationBatchR1871
 import MathlibPlus.Open.ResearchFormalizationBatch019ffedd
 import MathlibPlus.Open.Combinatorics.BalancedBlockClaims
 import MathlibPlus.Open.ResearchFormalization.BatchAreaFive
+import MathlibPlus.Open.Research.FormalizationBatch.R1358
+import MathlibPlus.Open.Research.FormalizationBatch.R1529
