@@ -2448,3 +2448,5 @@ import MathlibPlus.Open.FrameSkinbookBatch
 import MathlibPlus.Open.NewResearch2.AlternantDerivative
 import MathlibPlus.Open.Algebra.TypeIVFormalizationBatch
 import MathlibPlus.Open.NewResearch2.LehmerEndpoints
+import MathlibPlus.Open.NumberTheory.StrictP3Batch019ffb9a
+import MathlibPlus.Open.ResearchFormalization.RootedCensus
