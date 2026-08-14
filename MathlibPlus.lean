@@ -2985,3 +2985,5 @@ import MathlibPlus.Open.Research.AdmittedBatchR0148
 import MathlibPlus.Open.Research.AdmittedBatchR0149
 import MathlibPlus.Open.ResearchFormalization.StaircaseUnate
 import MathlibPlus.Open.Analysis.HeatKernelBatch019ffee163e2
+import MathlibPlus.Open.ResearchFormalization.Batch019ffee2R2290
+import MathlibPlus.Open.ResearchFormalization.Batch019ffee2R2313
