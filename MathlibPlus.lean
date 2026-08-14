@@ -2630,3 +2630,6 @@ import MathlibPlus.Open.ResearchFormalization.R5783
 import MathlibPlus.Open.ResearchFormalization.R5784
 import MathlibPlus.Open.ResearchFormalization.C0113C0144C0187
 import MathlibPlus.Open.Analysis.Section4RemainderClaim1565
+import MathlibPlus.Open.ResearchBatch.ConvexHull
+import MathlibPlus.Open.ResearchBatch.Henon
+import MathlibPlus.Open.ResearchBatch.UForest
