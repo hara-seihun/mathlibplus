@@ -2647,3 +2647,6 @@ import MathlibPlus.Open.Research.FormalizationBatch
 import MathlibPlus.Open.Research.FormalizationBatch019ffedd
 import MathlibPlus.Open.Analysis.GaussianDilationClaims
 import MathlibPlus.Open.ResearchFormalizationBatch_019ffedd
+import MathlibPlus.Open.Combinatorics.ResearchStrictProjection
+import MathlibPlus.Open.GraphTheory.ResearchCaterpillars
+import MathlibPlus.Open.LinearAlgebra.ResearchHolonomy
