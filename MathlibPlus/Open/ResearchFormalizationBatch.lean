@@ -3,6 +3,7 @@ import Mathlib
 namespace MathlibPlus.Open.ResearchFormalizationBatch
 
 <<<<<<< ours
+<<<<<<< ours
 noncomputable def gaussianHermiteCarrier (x : ℝ) : ℝ :=
   x ^ 2 * (2 * Real.pi * x ^ 2 - 3) * Real.exp (-Real.pi * x ^ 2)
 
@@ -200,6 +201,19 @@ def claim2541 : Prop :=
       Filter.atTop (nhds (-(κ : ℂ) * τ ^ 2 / (4 * (Real.pi : ℂ) ^ 2)))
 
 end
+>>>>>>> theirs
+=======
+/--
+Claim 18643 (R-0187): the minimal arithmetic transversal consists of exactly
+those real triples satisfying the displayed chain of inequalities.
+-/
+def minimalArithmeticTransversal (q₁ q₂ q₃ : ℝ) : Prop :=
+  Real.pi ≤ q₁ ∧
+    q₁ ≤ 4 * Real.pi ∧
+    4 * Real.pi ≤ q₂ ∧
+    q₂ ≤ 9 * Real.pi ∧
+    9 * Real.pi ≤ q₃ ∧
+    q₃ ≤ 16 * Real.pi
 >>>>>>> theirs
 
 end MathlibPlus.Open.ResearchFormalizationBatch

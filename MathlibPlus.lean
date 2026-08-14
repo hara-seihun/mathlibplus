@@ -3025,3 +3025,5 @@ import MathlibPlus.NumberTheory.Claim9313
 import MathlibPlus.Open.AnalyticNumberTheory.ZeroFreeRegionDenominator48594
 import MathlibPlus.Algebra.Claim33442
 import MathlibPlus.Algebra.Claim20548
+import MathlibPlus.LinearAlgebra.TerminalConeCounterexample
+import MathlibPlus.Open.AnalyticNumberTheory.LunaRenewal
