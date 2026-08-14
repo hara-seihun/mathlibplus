@@ -2532,3 +2532,6 @@ import MathlibPlus.Open.Combinatorics.AdmittedClaims36875_36918
 import MathlibPlus.Open.Combinatorics.TreeTransportClaims56367_56369
 import MathlibPlus.Open.ArithmeticHallBatch
 import MathlibPlus.Open.NewResearch2.C0178
+import MathlibPlus.Open.LinearAlgebra.AdmittedModeBatch
+import MathlibPlus.Open.GraphTheory.IntersectionSignaturesBatch
+import MathlibPlus.Open.GraphTheory.ResearchMultipartiteMarkClaims
