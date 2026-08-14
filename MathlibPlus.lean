@@ -3669,3 +3669,4 @@ import MathlibPlus.Open.Combinatorics.BatchRankThreeShear
 import MathlibPlus.Open.Research.BatchD0014
 import MathlibPlus.Open.Research.BatchD0016
 import MathlibPlus.Open.Research.BatchD0030
+import MathlibPlus.Open.Analysis.ReciprocalKernelJet
