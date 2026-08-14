@@ -3446,3 +3446,7 @@ import MathlibPlus.Open.ResearchFormalization.ReconstructionFixture
 import MathlibPlus.Open.ResearchFormalization.SignedGap
 import MathlibPlus.Open.ResearchFormalization.AffineOrbitals
 import MathlibPlus.Open.ResearchFormalization.Cayley
+import MathlibPlus.Open.BatchGraphTransport
+import MathlibPlus.Open.BatchPrincipalMinors
+import MathlibPlus.Open.BatchPruningDefect
+import MathlibPlus.Open.BatchTwoSetStars
