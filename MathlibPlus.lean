@@ -2964,3 +2964,4 @@ import MathlibPlus.Open.Research.R0926Overlap
 import MathlibPlus.Open.Research.O0185Discriminant
 import MathlibPlus.Open.Analysis.CHJIIWeights
 import MathlibPlus.Open.CayleyCI.AdmittedBoundaryBatch
+import MathlibPlus.Open.ResearchFormalization.CrossedSwapMatrix
