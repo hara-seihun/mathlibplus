@@ -2862,3 +2862,6 @@ import MathlibPlus.Open.Research.FormalizationBatch.R1220
 import MathlibPlus.Open.Research.PathOperators
 import MathlibPlus.Open.Research.ComponentCollapse
 import MathlibPlus.Open.Research.TransitivityModule
+import MathlibPlus.Open.Research.FormalizationBatch019ffee2
+import MathlibPlus.Open.ResearchFormalization019ffedd
+import MathlibPlus.Open.ResearchFormalization.BatchCayleyCI
