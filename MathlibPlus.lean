@@ -2837,3 +2837,11 @@ import MathlibPlus.Open.Research.QuadraticBatch
 import MathlibPlus.Open.RelativeDerivative
 import MathlibPlus.Open.Analysis.QuotientCurvature
 import MathlibPlus.Open.LinearAlgebra.SymplecticLocalObstructions
+import MathlibPlus.Open.Research.R1231
+import MathlibPlus.Open.Research.R1233
+import MathlibPlus.Open.Research.R1238
+import MathlibPlus.Open.CayleyProfiles.CosetProfilesBatch
+import MathlibPlus.Open.GraphTheory.GraphTypeCountsBatch
+import MathlibPlus.Open.GraphTheory.SixCycleBoundaryBatch
+import MathlibPlus.Open.GroupTheory.AffineTransportersBatch
+import MathlibPlus.Open.GroupTheory.CartesianHallBatch
