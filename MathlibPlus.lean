@@ -2580,3 +2580,4 @@ import MathlibPlus.Open.GroupTheory.PermutationEGroupBatch
 import MathlibPlus.Open.Probability.PersistentPathBatch
 import MathlibPlus.Open.NewResearch2.FormalizationBatchR0758Luna
 import MathlibPlus.GroupTheory.Claim37601
+import MathlibPlus.Open.GroupTheory.CyclicNineCharacteristicTriads
