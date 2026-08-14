@@ -3433,3 +3433,9 @@ import MathlibPlus.Open.Research.BatchTerminalPivot_01a00154
 import MathlibPlus.Open.Research.BatchCrossInterface_01a00154
 import MathlibPlus.Open.Analysis.LayerCakeComponentIdentities
 import MathlibPlus.Open.ResearchFormalization.Batch53176
+import MathlibPlus.Open.ResearchBatch.D0122
+import MathlibPlus.Open.ResearchBatch.D0125
+import MathlibPlus.Open.ResearchBatch.D0136
+import MathlibPlus.Open.ResearchBatch.D0140
+import MathlibPlus.Open.Research.K0032
+import MathlibPlus.Open.Research.K0033
