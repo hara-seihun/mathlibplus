@@ -3079,3 +3079,6 @@ import MathlibPlus.Open.Analysis.OneSeparatedShift
 import MathlibPlus.Open.Combinatorics.CommonIsolateTransfer
 import MathlibPlus.Open.ResearchFormalization.BatchC0096
 import MathlibPlus.Open.ResearchFormalization.Batch01a000d8b4aa798c9403469267fc2fe0
+import MathlibPlus.Open.Research.CompletedShiftPacket
+import MathlibPlus.Open.ResearchFormalization.R1756IntegralInverse
+import MathlibPlus.Open.Combinatorics.LabelledSpider
