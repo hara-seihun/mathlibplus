@@ -3112,3 +3112,4 @@ import MathlibPlus.Open.AdmittedBatch_01a000eb_e159_7f7d_bf2a_ff2e38fcedb4
 import MathlibPlus.Open.ResearchFormalization.BatchR0378R0398R0447
 import MathlibPlus.Open.ResearchFormalization.CommonQuotient
 import MathlibPlus.Open.ResearchFormalizationBatch0602.Semilattice
+import MathlibPlus.Open.ResearchFormalizationBatch.PolynomialMatrices
