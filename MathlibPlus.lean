@@ -3095,3 +3095,4 @@ import MathlibPlus.Open.ResearchFormalizationBatch_01a000d9
 import MathlibPlus.Open.ResearchFormalization.Batch01
 import MathlibPlus.Open.ResearchFormalization.BatchOrbit
 import MathlibPlus.Open.Analysis.WeightedShellGamma
+import MathlibPlus.Open.Analysis.HedenmalmBatch
