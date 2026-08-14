@@ -3644,3 +3644,4 @@ import MathlibPlus.Open.Analysis.OracleAreaDepthTwoFiveFourths
 import MathlibPlus.Open.Research.PochhammerCompactUniformDecay
 import MathlibPlus.Open.Research.FrontierBatch
 import MathlibPlus.Open.Research.LaplaceBatch
+import MathlibPlus.Open.Research.OracleQueryTrees
