@@ -2572,3 +2572,9 @@ import MathlibPlus.GroupTheory.QuaternionCayleyNormalization
 import MathlibPlus.Algebra.Claim20604
 import MathlibPlus.Analysis.Claim44225And56231
 import MathlibPlus.Open.ResearchFormalization.PrimeShift
+import MathlibPlus.LinearAlgebra.Claim12230
+import MathlibPlus.Open.Probability.AdmittedBatch492Selectors
+import MathlibPlus.Open.Analysis.BooleanChamberBatch
+import MathlibPlus.Open.Analysis.CloneQuadraticBatch
+import MathlibPlus.Open.GroupTheory.PermutationEGroupBatch
+import MathlibPlus.Open.Probability.PersistentPathBatch
