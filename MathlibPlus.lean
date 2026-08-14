@@ -2658,3 +2658,5 @@ import MathlibPlus.Open.Analysis.ResearchShellBounds019ffe64
 import MathlibPlus.Open.Combinatorics.ResearchForestCensus019ffe64
 import MathlibPlus.Open.GraphTheory.ResearchFlowLineTrace019ffe64
 import MathlibPlus.Open.NumberTheory.ResearchMovingGap019ffe64
+import MathlibPlus.Analysis.Claim17797
+import MathlibPlus.Open.Research.RootRelationsBatch
