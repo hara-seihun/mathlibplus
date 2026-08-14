@@ -1,6 +1,7 @@
 import Mathlib
 
 <<<<<<< ours
+<<<<<<< ours
 open scoped BigOperators
 
 noncomputable section
@@ -402,4 +403,141 @@ def ternaryTranslationProfileMap
 end
 
 end MathlibPlus.Open.ResearchFormalizationBatch
+>>>>>>> theirs
+=======
+namespace MathlibPlus.Open.ResearchFormalizationBatch019ffedf
+
+open Function
+
+/-- An equal finite block system presented by its block-label map. -/
+def equalBlockSystem {Ω I : Type*} [Fintype Ω] [Fintype I]
+    [DecidableEq Ω] [DecidableEq I]
+    (block : Ω → I) (m b : ℕ) : Prop :=
+  Fintype.card I = m ∧
+    Function.Surjective block ∧
+    ∀ i : I, Fintype.card {x : Ω // block x = i} = b
+
+/-- A permutation subgroup preserves the fibres of `block` as a block system. -/
+def preservesBlocks {Ω I : Type*} (A : Subgroup (Equiv.Perm Ω))
+    (block : Ω → I) : Prop :=
+  ∀ a : A, ∀ x y : Ω,
+    (block x = block y ↔
+      block ((a : Equiv.Perm Ω) x) = block ((a : Equiv.Perm Ω) y))
+
+/-- The kernel of the induced action on the blocks. -/
+def blockKernel {Ω I : Type*} (block : Ω → I) : Subgroup (Equiv.Perm Ω) :=
+  { carrier := {a | ∀ x : Ω, block (a x) = block x}
+    one_mem' := by simp
+    mul_mem' := by
+      intro a b ha hb x
+      simp only [Equiv.Perm.coe_mul, Function.comp_apply]
+      rw [ha, hb]
+    inv_mem' := by
+      intro a ha x
+      have h := ha (a⁻¹ x)
+      simpa using h.symm }
+
+/-- Regularity of a permutation subgroup. -/
+def regularPermutationSubgroup {Ω : Type*} (R : Subgroup (Equiv.Perm Ω)) : Prop :=
+  ∀ x y : Ω, ∃! r : R, (r : Equiv.Perm Ω) x = y
+
+/-- Abelianity of a permutation subgroup, stated on its concrete elements. -/
+def abelianPermutationSubgroup {Ω : Type*} (R : Subgroup (Equiv.Perm Ω)) : Prop :=
+  ∀ r s : R, (r : Equiv.Perm Ω) * (s : Equiv.Perm Ω) =
+    (s : Equiv.Perm Ω) * (r : Equiv.Perm Ω)
+
+/-- Regularity of a subgroup on every fibre of a block-label map. -/
+def regularOnEveryBlock {Ω I : Type*} (S : Subgroup (Equiv.Perm Ω))
+    (block : Ω → I) : Prop :=
+  ∀ i : I, ∀ x y : Ω, block x = i → block y = i →
+    ∃! s : S, (s : Equiv.Perm Ω) x = y
+
+/-- The exact induced block action of a permutation subgroup is regular.  This is
+written without choosing labels for the quotient: two elements are identified
+when they induce the same permutation of all blocks. -/
+def quotientBlockActionRegular {Ω I : Type*} (R : Subgroup (Equiv.Perm Ω))
+    (block : Ω → I) : Prop :=
+  ∀ i j : I, ∃ r : R,
+    (∀ x : Ω, block x = i → block ((r : Equiv.Perm Ω) x) = j) ∧
+      ∀ s : R,
+        (∀ x : Ω, block x = i → block ((s : Equiv.Perm Ω) x) = j) →
+          ∃ k : ↥(R ⊓ blockKernel block),
+            (s : Equiv.Perm Ω) =
+              (r : Equiv.Perm Ω) * (k : Equiv.Perm Ω)
+
+/-- Invariant-block quotient lemma for regular abelian subgroups. -/
+def invariantBlockQuotientLemma : Prop :=
+  ∀ (Ω I : Type*) [Fintype Ω] [Fintype I]
+    [DecidableEq Ω] [DecidableEq I]
+    (m b : ℕ) (block : Ω → I)
+    (A R : Subgroup (Equiv.Perm Ω)),
+    equalBlockSystem block m b →
+    preservesBlocks A block →
+    R ≤ A →
+    regularPermutationSubgroup R →
+    abelianPermutationSubgroup R →
+    Nat.card ↥(R ⊓ blockKernel block) = b ∧
+      regularOnEveryBlock (R ⊓ blockKernel block) block ∧
+      quotientBlockActionRegular R block
+
+/-- Regularity of a representation of an abstract group on a finite set. -/
+def regularPermutationRepresentation {G Ω : Type*} [Group G]
+    (ρ : G →* Equiv.Perm Ω) : Prop :=
+  ∀ x y : Ω, ∃! g : G, ρ g x = y
+
+/-- The concrete group written `C₂² × C₃`, encoded as the multiplicative
+wrapper of the corresponding additive cyclic groups. -/
+abbrev c2SquaredC3 : Type :=
+  Multiplicative (ZMod 2) × Multiplicative (ZMod 2) × Multiplicative (ZMod 3)
+
+/-- The regular `C₂² × C₃` subgroups of `S₁₂` are conjugate in `S₁₂`. -/
+def regularC2SquaredC3SubgroupsConjugate : Prop :=
+  ∀ (R S : Subgroup (Equiv.Perm (Fin 12))),
+    regularPermutationSubgroup R →
+    regularPermutationSubgroup S →
+    Nonempty (R ≃* c2SquaredC3) →
+    Nonempty (S ≃* c2SquaredC3) →
+    ∃ q : Equiv.Perm (Fin 12), ∀ p : Equiv.Perm (Fin 12),
+      p ∈ R ↔ q * p * q⁻¹ ∈ S
+
+/-- Any two regular permutation representations of one fixed finite group are
+conjugate by a permutation of the underlying set, together with the stated
+`C₂² × C₃` subgroup consequence. -/
+def regularRepresentationsConjugate : Prop :=
+  (∀ (G Ω : Type*) [Group G] [Fintype G] [Fintype Ω],
+    Fintype.card Ω = Fintype.card G →
+    ∀ (ρ₁ ρ₂ : G →* Equiv.Perm Ω),
+      regularPermutationRepresentation ρ₁ →
+      regularPermutationRepresentation ρ₂ →
+      ∃ q : Equiv.Perm Ω, ∀ g : G,
+        q * ρ₁ g * q⁻¹ = ρ₂ g) ∧
+    regularC2SquaredC3SubgroupsConjugate
+
+abbrev field7 : Type := ZMod 7
+
+/-- The coordinate formula for the order-1440 stabilizer model. -/
+def graphSixHFormula (f : Equiv.Perm (field7 × field7)) : Prop :=
+  ∃ ε : field7, (ε = 1 ∨ ε = -1) ∧
+    ∃ π : Equiv.Perm field7, π 0 = 0 ∧
+      ∀ x y : field7, f (x, y) = (ε * x, π y)
+
+/-- The coordinate formula for its linear subgroup. -/
+def graphSixLFormula (f : Equiv.Perm (field7 × field7)) : Prop :=
+  ∃ ε : field7, (ε = 1 ∨ ε = -1) ∧
+    ∃ scale : field7, ∀ x y : field7, f (x, y) = (ε * x, scale * y)
+
+abbrev c2TimesS6 : Type :=
+  Multiplicative (ZMod 2) × Equiv.Perm (Fin 6)
+
+/-- Exact coordinate model for the graph-6 stabilizer and its linear subgroup. -/
+def graphSixStabilizerModel : Prop :=
+  ∃ (H L : Subgroup (Equiv.Perm (field7 × field7))),
+    (∀ f, f ∈ H ↔ graphSixHFormula f) ∧
+    (∀ f, f ∈ L ↔ graphSixLFormula f) ∧
+    L ≤ H ∧
+    Nat.card H = 1440 ∧
+    Nat.card L = 12 ∧
+    Nonempty (H ≃* c2TimesS6)
+
+end ResearchFormalizationBatch019ffedf
 >>>>>>> theirs

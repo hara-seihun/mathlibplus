@@ -2966,3 +2966,6 @@ import MathlibPlus.Open.Analysis.CHJIIWeights
 import MathlibPlus.Open.CayleyCI.AdmittedBoundaryBatch
 import MathlibPlus.Open.ResearchFormalization.CrossedSwapMatrix
 import MathlibPlus.Open.ResearchFormalization.Claim19038And19062
+import MathlibPlus.Open.Research.H1Shell
+import MathlibPlus.Open.ResearchBatch.AlgebraMoments
+import MathlibPlus.Open.ResearchBatch.FactorialMoments
