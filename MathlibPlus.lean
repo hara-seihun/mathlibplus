@@ -2739,3 +2739,6 @@ import MathlibPlus.Open.ResearchFormalization.O0062
 import MathlibPlus.Open.ResearchFormalization.BatchFiber
 import MathlibPlus.Open.ResearchFormalization.BatchHigherTwists
 import MathlibPlus.Open.ResearchFormalization.BatchPlaneFiber
+import MathlibPlus.Open.Algebra.BatchPurityAndJordan
+import MathlibPlus.Open.Analysis.ExactBatchCondensation
+import MathlibPlus.Open.Research.PoissonTuran
