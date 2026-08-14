@@ -3349,3 +3349,5 @@ import MathlibPlus.Open.ResearchFormalizationBatch_01a000fb_0728_79f0_b278_1ba1e
 import MathlibPlus.Open.Carry.Transition
 import MathlibPlus.Open.DecisionTree.Cost
 import MathlibPlus.Open.ResearchFormalizationBatch_01a000fb67dc71b3a12d9eaf958b53bc
+import MathlibPlus.Open.ResearchFormalization.Batch_01a000fa_e2ff_75ea_89d2_5d8dd057ed69
+import MathlibPlus.Open.Research.FormalizationBatch01
