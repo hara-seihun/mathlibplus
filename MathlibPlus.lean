@@ -3169,3 +3169,5 @@ import MathlibPlus.Open.ResearchBatch.Shell
 import MathlibPlus.Open.ResearchFormalization.BlockLayers
 import MathlibPlus.Open.ResearchFormalization.HeavySlabs
 import MathlibPlus.Open.ResearchFormalization.RegularCopies
+import MathlibPlus.Open.Analysis.ThetaMomentsBatch
+import MathlibPlus.Open.Analysis.OmittedShellBound
