@@ -3082,3 +3082,4 @@ import MathlibPlus.Open.ResearchFormalization.Batch01a000d8b4aa798c9403469267fc2
 import MathlibPlus.Open.Research.CompletedShiftPacket
 import MathlibPlus.Open.ResearchFormalization.R1756IntegralInverse
 import MathlibPlus.Open.Combinatorics.LabelledSpider
+import MathlibPlus.Open.Research.R1123
