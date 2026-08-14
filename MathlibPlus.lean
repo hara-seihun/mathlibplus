@@ -3686,3 +3686,4 @@ import MathlibPlus.Open.ResearchFormalizationExactness
 import MathlibPlus.Analysis.Claim7319
 import MathlibPlus.Open.Combinatorics.TreeAttachment
 import MathlibPlus.Open.Analysis.RankThreeMomentPolynomial
+import MathlibPlus.Open.Combinatorics.MotifStoppingSet
