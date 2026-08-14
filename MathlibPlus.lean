@@ -3020,3 +3020,5 @@ import MathlibPlus.Open.ResearchFormalizationBatch019ffedf73b6
 import MathlibPlus.Open.ResearchFormalizationBatch01
 import MathlibPlus.Open.FormalizationBatchQ0051
 import MathlibPlus.Open.Research.R1007Valency11
+import MathlibPlus.NumberTheory.Claim9190
+import MathlibPlus.NumberTheory.Claim9313
