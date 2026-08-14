@@ -3646,3 +3646,4 @@ import MathlibPlus.Open.Research.FrontierBatch
 import MathlibPlus.Open.Research.LaplaceBatch
 import MathlibPlus.Open.Research.OracleQueryTrees
 import MathlibPlus.Open.Analysis.K0015CriticalStrip
+import MathlibPlus.Open.Analysis.GaussianRatioPropagation
