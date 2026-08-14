@@ -2747,3 +2747,4 @@ import MathlibPlus.Open.ResearchFormalizationBatch019ffedc64ac79c92719c0ad336498
 import MathlibPlus.Open.ResearchFormalization.BatchR2558
 import MathlibPlus.Open.Analysis.JacobiBatch019ffedc
 import MathlibPlus.Open.Topology.PadicObstruction019ffedc
+import MathlibPlus.Open.Analysis.ZetaHeightBatch
