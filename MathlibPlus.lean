@@ -3511,3 +3511,9 @@ import MathlibPlus.Open.Analysis.DenseDerivativeReconstructionContinuousDifferen
 import MathlibPlus.Open.ResearchFormalizationBatch01.Reciprocal
 import MathlibPlus.Open.ResearchFormalizationBatch01.RootedTrees
 import MathlibPlus.Open.ResearchFormalizationBatch01.Sunflowers
+import MathlibPlus.Open.ResearchFormalization.BatchCircuits
+import MathlibPlus.Open.ResearchFormalization.BatchP5
+import MathlibPlus.Open.ResearchFormalization.BatchProfiles
+import MathlibPlus.Open.ResearchFormalization.BatchTagged
+import MathlibPlus.Open.ResearchFormalization.BatchTransport
+import MathlibPlus.Open.ResearchFormalization.BatchVoltage
