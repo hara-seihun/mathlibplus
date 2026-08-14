@@ -2969,3 +2969,12 @@ import MathlibPlus.Open.ResearchFormalization.Claim19038And19062
 import MathlibPlus.Open.Research.H1Shell
 import MathlibPlus.Open.ResearchBatch.AlgebraMoments
 import MathlibPlus.Open.ResearchBatch.FactorialMoments
+import MathlibPlus.Open.ProjectsResearch.Alignment
+import MathlibPlus.Open.Attachment.OrderFiveOrientedEdges
+import MathlibPlus.Open.ResearchFormalization.AdmittedGraphBatch019ffedd
+import MathlibPlus.Open.ResearchFormalizationBatch45303
+import MathlibPlus.Open.ResearchFormalization.Q0038InvariantTransfer
+import MathlibPlus.Open.ResearchFormalization.Q0057GeneralizedDegreePolynomial
+import MathlibPlus.Open.FormalizationBatch.LeafCorona
+import MathlibPlus.Open.ResearchFormalizationBatch_01a000d8_acb7_756f_b736_0e7d3a7e5309
+import MathlibPlus.Open.R1081.FactorGraphs_01a000db_a016_792b_b33f_00a9410f47c6
