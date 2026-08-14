@@ -2694,3 +2694,8 @@ import MathlibPlus.Open.ResearchFormalization.BatchQ0135
 import MathlibPlus.Open.Research.AdmittedBatchK0178
 import MathlibPlus.Open.Probability.BatchIndependentCumulants
 import MathlibPlus.Open.Combinatorics.LeafDeckBatch
+import MathlibPlus.Open.Research.K0154
+import MathlibPlus.Open.Research.K0163
+import MathlibPlus.Open.Research.O0017
+import MathlibPlus.Open.Research.O0019
+import MathlibPlus.Open.Research.O0020
