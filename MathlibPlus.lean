@@ -3145,3 +3145,4 @@ import MathlibPlus.Open.Analysis.FormalizationBatch
 import MathlibPlus.Open.Analysis.RepairedProfile
 import MathlibPlus.Open.Analysis.ThetaShellFormalizationBatch
 import MathlibPlus.Open.ResearchFormalizationBatch_01a000eb
+import MathlibPlus.Open.ResearchFormalization.AdmittedBatch_01a000eb525ca7c34f4fffd55f6717fb0
