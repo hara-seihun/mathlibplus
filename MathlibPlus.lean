@@ -2463,3 +2463,4 @@ import MathlibPlus.Open.GroupTheory.NewResearch2.D0137
 import MathlibPlus.Open.NewResearch2.R0168
 import MathlibPlus.Open.NewResearch2.R0172
 import MathlibPlus.Open.NewResearch2.R0175
+import MathlibPlus.Open.LinearAlgebra.R1519ShearCoordinates
