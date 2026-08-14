@@ -3089,3 +3089,5 @@ import MathlibPlus.Open.Research.NeutralMultiplicity26452
 import MathlibPlus.Open.AnalyticNumberTheory.PrimeSums.UnalignedFksThetaRowClaim880
 import MathlibPlus.Open.AnalyticNumberTheory.PrimeCounting.EndpointReductionClaim818
 import MathlibPlus.Open.ResearchFormalization.Batch34056
+import MathlibPlus.Open.ResearchFormalization.R1107
+import MathlibPlus.Open.ResearchFormalization.SquareGrid
