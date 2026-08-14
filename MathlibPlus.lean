@@ -3589,3 +3589,4 @@ import MathlibPlus.Open.ResearchFormalizationBatch_01a001ac_7d55_7d4a_8f44_f4a29
 import MathlibPlus.Open.ResearchFormalization.Claim5425
 import MathlibPlus.Open.Research.FormalizationBatch0306
 import MathlibPlus.Open.Analysis.BatchC0304
+import MathlibPlus.Open.Analysis.ResearchFormalizationBatch
