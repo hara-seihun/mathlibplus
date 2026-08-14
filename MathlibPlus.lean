@@ -3544,3 +3544,4 @@ import MathlibPlus.Open.AxlerScore.LeastStartCoefficientCell
 import MathlibPlus.Open.Analysis.PrimeScoreBatch
 import MathlibPlus.Open.FormalizationBatch.AdmittedClaims1158And1166
 import MathlibPlus.Open.ResearchFormalization.BatchFormalize2965And2999
+import MathlibPlus.Open.FiniteLawSignMatrixSparseNestedSupport
