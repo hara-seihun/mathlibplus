@@ -3236,3 +3236,5 @@ import MathlibPlus.Open.ResearchFormalization.CyclicSevenSquared
 import MathlibPlus.Open.ResearchFormalization.FiberProfiles
 import MathlibPlus.Open.ResearchFormalization.MatrixChannels
 import MathlibPlus.Open.Research.Rosser
+import MathlibPlus.Open.ResearchFormalization.BatchHenon_01a000ea
+import MathlibPlus.Open.ResearchFormalization.BatchInterpolation_01a000ea
