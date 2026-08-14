@@ -3176,3 +3176,4 @@ import MathlibPlus.Open.Analysis.O0331
 import MathlibPlus.Open.ResearchFormalization.AdmittedBatchCenteredHessian
 import MathlibPlus.Open.ResearchFormalization.AdmittedBatchSegreGram
 import MathlibPlus.Open.ResearchFormalization.AdmittedBatchTrigonometricOscillation
+import MathlibPlus.Open.ResearchBatch.PlanarUnitDistance
