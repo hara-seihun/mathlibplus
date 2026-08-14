@@ -3634,3 +3634,4 @@ import MathlibPlus.Open.ResearchFormalization.AdmittedBatch_01a001a9_4a17_71b6_8
 import MathlibPlus.Open.Graphs.ReciprocalPairingFailure
 import MathlibPlus.Open.ResearchFormalization.KernelSupportSurvivalD0084
 import MathlibPlus.Open.Analysis.MellinSeparation
+import MathlibPlus.Open.Combinatorics.BatchAttachmentFeatures
