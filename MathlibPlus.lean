@@ -2514,3 +2514,6 @@ import MathlibPlus.Open.Analysis.AdmittedClaim54552
 import MathlibPlus.Open.GraphTheory.AdmittedClaims545Somlai
 import MathlibPlus.Open.Combinatorics.ResearchClaims019ffe63Separator
 import MathlibPlus.Open.GraphTheory.DeckInsertionBatch
+import MathlibPlus.Open.Research.R3290
+import MathlibPlus.Open.Research.R3314
+import MathlibPlus.Open.LinearAlgebra.AdmittedAlternatingBatch
