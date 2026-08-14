@@ -2734,3 +2734,8 @@ import MathlibPlus.Open.Research.AdmittedBatchGraphs
 import MathlibPlus.Open.Research.SemidirectCocycle
 import MathlibPlus.Open.Research.FareyGcdEnergy
 import MathlibPlus.Open.Research.K0122
+import MathlibPlus.Open.ResearchFormalization.K0140
+import MathlibPlus.Open.ResearchFormalization.O0062
+import MathlibPlus.Open.ResearchFormalization.BatchFiber
+import MathlibPlus.Open.ResearchFormalization.BatchHigherTwists
+import MathlibPlus.Open.ResearchFormalization.BatchPlaneFiber
