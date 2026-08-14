@@ -2753,3 +2753,5 @@ import MathlibPlus.Open.ResearchFormalization.R0118
 import MathlibPlus.Open.ResearchFormalization.R0122
 import MathlibPlus.Open.Research.R1128
 import MathlibPlus.Open.Research.R1130
+import MathlibPlus.Open.DihCharacterBatch
+import MathlibPlus.Open.Q60Batch
