@@ -3495,3 +3495,5 @@ import MathlibPlus.Open.Frontier.RankThreeShear
 import MathlibPlus.Open.Groups.PrimeKernel
 import MathlibPlus.Open.Analysis.FrontierAlphaRankR10LinearXPositivity
 import MathlibPlus.Open.ResearchBatch.Formalization_01a00175.Sylow
+import MathlibPlus.Open.ResearchFormalization.GeometryBatch
+import MathlibPlus.Open.ResearchFormalization.SeptenaryBatch
