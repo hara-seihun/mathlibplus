@@ -3631,3 +3631,4 @@ import MathlibPlus.Open.ResearchBatch.GraphBounds
 import MathlibPlus.Open.Combinatorics.FiniteCayleyCI
 import MathlibPlus.Open.Algebra.DeconcatenationDefect
 import MathlibPlus.Open.ResearchFormalization.AdmittedBatch_01a001a9_4a17_71b6_8e91_96443da07dc9
+import MathlibPlus.Open.Graphs.ReciprocalPairingFailure
