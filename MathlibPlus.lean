@@ -3065,3 +3065,4 @@ import MathlibPlus.Open.ResearchFormalization.ScalarRootClosure
 import MathlibPlus.Open.Graphs.AutomorphismPairing
 import MathlibPlus.Open.Analysis.ResearchFormalizationO0131
 import MathlibPlus.Open.Analysis.BoundedCoreSchedule
+import MathlibPlus.Open.GraphTheory.Q0090
