@@ -3415,3 +3415,4 @@ import MathlibPlus.Open.Research.StripCorrections
 import MathlibPlus.Open.ResearchFormalizationBatch_01a0014f_9da0_7b3c_8e09_26f26436e566
 import MathlibPlus.Open.ResearchFormalizationBatch_01a0014d
 import MathlibPlus.Open.ResearchFormalization.Lease01a0014fC5707E67
+import MathlibPlus.Open.ResearchFormalizationBatch_01a0014a312d7fbea2e4a2da353f9ad6
