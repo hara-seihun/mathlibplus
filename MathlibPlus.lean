@@ -2865,3 +2865,4 @@ import MathlibPlus.Open.Research.TransitivityModule
 import MathlibPlus.Open.Research.FormalizationBatch019ffee2
 import MathlibPlus.Open.ResearchFormalization019ffedd
 import MathlibPlus.Open.ResearchFormalization.BatchCayleyCI
+import MathlibPlus.Open.Research.FormalizationBatch1113_1116
