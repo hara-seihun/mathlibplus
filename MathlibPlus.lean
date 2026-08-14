@@ -3161,3 +3161,8 @@ import MathlibPlus.Open.Research.AdmittedBlocks
 import MathlibPlus.Open.Research.CIAtlas
 import MathlibPlus.Open.Research.OrbitalCriteria
 import MathlibPlus.Open.Research.QuadraticClosures
+import MathlibPlus.Open.ResearchBatch.Collision
+import MathlibPlus.Open.ResearchBatch.DiagonalKernels
+import MathlibPlus.Open.ResearchBatch.Reflection
+import MathlibPlus.Open.ResearchBatch.Schur
+import MathlibPlus.Open.ResearchBatch.Shell
