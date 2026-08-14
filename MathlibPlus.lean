@@ -3500,3 +3500,4 @@ import MathlibPlus.Open.ResearchFormalization.SeptenaryBatch
 import MathlibPlus.Open.Research.ComponentRegimes
 import MathlibPlus.Open.Research.ProjectiveProfiles
 import MathlibPlus.Open.Research.TripleProfiles
+import MathlibPlus.Open.ResearchFormalization.QIntegerShadows
