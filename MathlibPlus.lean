@@ -2563,3 +2563,5 @@ import MathlibPlus.Open.Combinatorics.ProjectsResearchTransversal45261_45264
 import MathlibPlus.Open.ResearchFormalization.Batch_019ffedc_1d0d_79cc_8c95_9a98386c59fd
 import MathlibPlus.Open.Analysis.CellwiseTransport
 import MathlibPlus.Open.Probability.CommonLeaf
+import MathlibPlus.Open.NewResearch2.R0950.HardCensus
+import MathlibPlus.Open.NewResearch2.R0953.PlanarLeading
