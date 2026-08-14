@@ -2555,3 +2555,4 @@ import MathlibPlus.Open.Graph.BooleanAttachment
 import MathlibPlus.Open.Algebra.FiniteField.NonzeroShearScaling
 import MathlibPlus.Open.LinearAlgebra.CyclicSameLineConsequences
 import MathlibPlus.Open.ResearchFormalizationBatch_019ffed2_b75b_7612_af0c_ee0b08360932
+import MathlibPlus.GraphTheory.Claim21230
