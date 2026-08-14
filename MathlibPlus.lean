@@ -3223,3 +3223,8 @@ import MathlibPlus.Open.ResearchFormalization.Rows
 import MathlibPlus.Open.ResearchFormalization.InfiniteSupport
 import MathlibPlus.Open.ResearchFormalization.PartitionMinor
 import MathlibPlus.Open.Research.BatchO0296
+import MathlibPlus.Open.ResearchFormalization.Grid
+import MathlibPlus.Open.ResearchFormalization.FiniteField
+import MathlibPlus.Open.ResearchFormalization.Quadratic
+import MathlibPlus.Open.ResearchFormalization.LineUnion
+import MathlibPlus.Open.ResearchFormalization.Batch2630
