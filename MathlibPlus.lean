@@ -3266,3 +3266,4 @@ import MathlibPlus.Open.ResearchFormalization.BatchGeometry
 import MathlibPlus.Open.ResearchFormalization.BatchSignLaw
 import MathlibPlus.Open.Research.FormalizationBatchCharacteristicP
 import MathlibPlus.Open.Research.FormalizationBatchTernaryHenon
+import MathlibPlus.Open.ResearchFormalization.AffineBarycenter
