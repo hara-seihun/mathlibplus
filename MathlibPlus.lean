@@ -3126,3 +3126,6 @@ import MathlibPlus.Open.Research.AGL4Batch
 import MathlibPlus.Open.Research.SupportFourBatch
 import MathlibPlus.Open.ResearchFormalization.PathFour
 import MathlibPlus.Open.ResearchFormalization.PolynomialBounds
+import MathlibPlus.Open.ResearchFormalizationBatchR1651
+import MathlibPlus.Open.ResearchFormalizationBatchR1652
+import MathlibPlus.Open.ResearchFormalizationBatchR1851
