@@ -3295,3 +3295,6 @@ import MathlibPlus.Open.ResearchBatchF7
 import MathlibPlus.Open.ResearchBatchGroupAlgebra
 import MathlibPlus.Open.ResearchBatchHallControls
 import MathlibPlus.Open.ResearchBatchOrbitalPartition
+import MathlibPlus.Open.ResearchFormalizationBatch01_01a000fa
+import MathlibPlus.Open.FormalizationBatch.PrincipalRoots
+import MathlibPlus.Open.FormalizationBatch.SupportJoin
