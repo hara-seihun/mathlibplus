@@ -2806,3 +2806,6 @@ import MathlibPlus.Open.Research.AdmittedBatchPrimeBounds
 import MathlibPlus.Open.Research.AdmittedBatchReciprocalRoots
 import MathlibPlus.Open.Research.AdmittedBatchZeroConvergence
 import MathlibPlus.Open.ResearchFormalization.MixedAffineBatch
+import MathlibPlus.Open.JacobsthalClaims
+import MathlibPlus.Open.Research.FormalizationBatch019ffedb_0221
+import MathlibPlus.Open.Research.FormalizationBatch019ffedb_0225
