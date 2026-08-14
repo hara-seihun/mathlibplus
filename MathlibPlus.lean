@@ -3153,3 +3153,6 @@ import MathlibPlus.Open.ResearchFormalization.BatchVandermonde
 import MathlibPlus.Open.ResearchFormalization.R1398_R1570
 import MathlibPlus.Open.FibreTranslationBatch
 import MathlibPlus.Open.ResearchFormalization.O0353Batch
+import MathlibPlus.Open.Research.FormalizationBatchO0263
+import MathlibPlus.Open.Research.FormalizationBatchQ0010
+import MathlibPlus.Open.Research.ScalarAlgebra
