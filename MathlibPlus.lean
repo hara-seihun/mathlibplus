@@ -2730,3 +2730,6 @@ import MathlibPlus.Open.ResearchFormalization.RadauBatch
 import MathlibPlus.Open.Research.FormalizationBatch.LocalScalar
 import MathlibPlus.Open.Research.FormalizationBatch.SquarefreeToggle
 import MathlibPlus.Open.Algebra.ModularGroupAlgebra
+import MathlibPlus.Open.Research.AdmittedBatchGraphs
+import MathlibPlus.Open.Research.SemidirectCocycle
+import MathlibPlus.Open.Research.FareyGcdEnergy
