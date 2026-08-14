@@ -3298,3 +3298,12 @@ import MathlibPlus.Open.ResearchBatchOrbitalPartition
 import MathlibPlus.Open.ResearchFormalizationBatch01_01a000fa
 import MathlibPlus.Open.FormalizationBatch.PrincipalRoots
 import MathlibPlus.Open.FormalizationBatch.SupportJoin
+import MathlibPlus.Open.ResearchFormalization.SelectorGraph
+import MathlibPlus.Open.ResearchFormalization.PermutationSeed
+import MathlibPlus.Open.ResearchFormalization.DegreePShear
+import MathlibPlus.Open.ResearchBatch.OrderedSectionNet
+import MathlibPlus.Open.ResearchBatch.FourierRectangularity
+import MathlibPlus.Open.ResearchBatch.GraphCorrection
+import MathlibPlus.Open.ResearchFormalize.CayleyMatrices
+import MathlibPlus.Open.ResearchFormalize.PathSupply
+import MathlibPlus.Open.ResearchFormalize.RankThreeCoordinates
