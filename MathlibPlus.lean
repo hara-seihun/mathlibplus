@@ -1440,6 +1440,7 @@ import MathlibPlus.Algebra.Claim50805
 import MathlibPlus.Combinatorics.Claim42269
 import MathlibPlus.Combinatorics.Claim21164
 import MathlibPlus.GraphTheory.Claim43987
+<<<<<<< ours
 import MathlibPlus.AlgebraicGeometry.Claim14611_14658_14669
 import MathlibPlus.Analysis.Claim2618
 import MathlibPlus.NumberTheory.Claim12313
@@ -2581,3 +2582,11 @@ import MathlibPlus.Open.Probability.PersistentPathBatch
 import MathlibPlus.Open.NewResearch2.FormalizationBatchR0758Luna
 import MathlibPlus.GroupTheory.Claim37601
 import MathlibPlus.Open.GroupTheory.CyclicNineCharacteristicTriads
+=======
+
+import MathlibPlus.Open.AnalyticNumberTheory.PrimeCounting.Claims948_950
+>>>>>>> theirs
+import MathlibPlus.GroupTheory.Claim41198
+import MathlibPlus.Open.NewResearch2.DiscreteSurfaceGroup
+import MathlibPlus.Open.GraphTheory.Profiles57376_57378
+import MathlibPlus.Open.ResearchFormalization.GraphDeckBatch
