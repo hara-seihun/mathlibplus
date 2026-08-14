@@ -3716,3 +3716,5 @@ import MathlibPlus.Open.Combinatorics.CrossProfileAffineCircuitDecomposition5084
 import MathlibPlus.Open.Combinatorics.DoubleSpiderKernel
 import MathlibPlus.Open.Analysis.ReciprocalXiBatch
 import MathlibPlus.Open.Analysis.RankinRadialBatch
+import MathlibPlus.Open.Research.CayleyCI
+import MathlibPlus.Open.Research.TreeReroot
