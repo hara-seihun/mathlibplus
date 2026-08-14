@@ -2812,3 +2812,6 @@ import MathlibPlus.Open.Research.FormalizationBatch019ffedb_0225
 import MathlibPlus.Open.ResearchFormalization.GraphWitnessBatch
 import MathlibPlus.Open.ResearchFormalization.PositiveDefiniteReciprocal
 import MathlibPlus.Open.ResearchFormalizationBatch019ffee20b45773487470bad20799192
+import MathlibPlus.Open.Research.AlternatingProjection
+import MathlibPlus.Open.Research.EdgeLengthJets
+import MathlibPlus.Open.Research.OrderedPathModes
