@@ -2636,3 +2636,6 @@ import MathlibPlus.Open.ResearchBatch.UForest
 import MathlibPlus.Open.NewResearch2.Analysis.EndpointLocalLowCancellationPhaseVolumeTrain
 import MathlibPlus.Open.NewResearch2.R0538DyadicAggregation
 import MathlibPlus.Open.NewResearch2.R0541DoubleSpiderRigidity
+import MathlibPlus.Algebra.Claim1085
+import MathlibPlus.Open.Algebra.ResearchBatchC9
+import MathlibPlus.Open.Combinatorics.ResearchBatchR5369
