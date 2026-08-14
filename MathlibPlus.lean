@@ -3102,3 +3102,4 @@ import MathlibPlus.Open.PathCollarBatch
 import MathlibPlus.Open.ResearchFormalization.Batch_01a000eb_0787_7562_ac5d_07076f58e19b
 import MathlibPlus.Open.Research.WeightedDigit
 import MathlibPlus.Open.RootedTreeBoundary
+import MathlibPlus.Open.ResearchFormalization.SupportAndCoprime
