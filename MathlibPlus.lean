@@ -2932,3 +2932,4 @@ import MathlibPlus.Open.AdmittedBatch.R3017
 import MathlibPlus.Open.AdmittedBatch.R45702
 import MathlibPlus.Open.Analysis.BatchBoydSigns
 import MathlibPlus.Open.Analysis.DyadicPrefix
+import MathlibPlus.Open.ResearchFormalizationBatch019
