@@ -3504,3 +3504,4 @@ import MathlibPlus.Open.ResearchFormalization.QIntegerShadows
 import MathlibPlus.Open.ResearchFormalizationBatch_01a00176
 import MathlibPlus.Open.Analysis.AllRankPositivityThroughDegreeSix
 import MathlibPlus.Open.Analysis.AsymmetricMarginBudgetCharacterization
+import MathlibPlus.Open.Analysis.FinitePositiveShellTotalGrowth
