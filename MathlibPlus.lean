@@ -2652,3 +2652,9 @@ import MathlibPlus.Open.GraphTheory.ResearchCaterpillars
 import MathlibPlus.Open.LinearAlgebra.ResearchHolonomy
 import MathlibPlus.GraphTheory.Claim5453
 import MathlibPlus.Open.Research.FormalizationBatch_019ffedc_9434_7a88_99c6_2783dfc2933d
+import LinearAlgebra.Claim19036
+import MathlibPlus.Open.Combinatorics.AdmittedThreeSunflower
+import MathlibPlus.Open.Analysis.ResearchShellBounds019ffe64
+import MathlibPlus.Open.Combinatorics.ResearchForestCensus019ffe64
+import MathlibPlus.Open.GraphTheory.ResearchFlowLineTrace019ffe64
+import MathlibPlus.Open.NumberTheory.ResearchMovingGap019ffe64
