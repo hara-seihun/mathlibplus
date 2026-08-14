@@ -3156,3 +3156,5 @@ import MathlibPlus.Open.ResearchFormalization.O0353Batch
 import MathlibPlus.Open.Research.FormalizationBatchO0263
 import MathlibPlus.Open.Research.FormalizationBatchQ0010
 import MathlibPlus.Open.Research.ScalarAlgebra
+import MathlibPlus.Open.ResearchFormalization.RankFourFan
+import MathlibPlus.Open.Research.AdmittedBlocks
