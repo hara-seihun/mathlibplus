@@ -2902,3 +2902,7 @@ import MathlibPlus.Open.ResearchFormalization.AdmittedCharts
 import MathlibPlus.Open.ProjectsResearch.R1215
 import MathlibPlus.Open.ResearchFormalizationBatch.DegreeEightCensus
 import MathlibPlus.Open.ResearchFormalizationBatch.Order192CrossClass
+import MathlibPlus.Open.ResearchBatch.TranslationCocycles
+import MathlibPlus.Open.ResearchBatch.ColoredAffine
+import MathlibPlus.Open.ResearchBatch.UnorderedOrbitals
+import MathlibPlus.Open.ResearchFormalization.Batch019ffee1
