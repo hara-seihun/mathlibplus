@@ -3113,3 +3113,4 @@ import MathlibPlus.Open.ResearchFormalization.BatchR0378R0398R0447
 import MathlibPlus.Open.ResearchFormalization.CommonQuotient
 import MathlibPlus.Open.ResearchFormalizationBatch0602.Semilattice
 import MathlibPlus.Open.ResearchFormalizationBatch.PolynomialMatrices
+import MathlibPlus.Open.Research.ReciprocalSemidirect_01a000eb5ab8
