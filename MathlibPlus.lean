@@ -2779,3 +2779,4 @@ import MathlibPlus.Open.ResearchFormalization.LagrangeSimplexBatch
 import MathlibPlus.Open.Research.BatchDerivative
 import MathlibPlus.Open.Research.FiberSupport
 import MathlibPlus.Open.Research.RookGraphs
+import MathlibPlus.Open.ResearchFormalization.Batch019ffedc
