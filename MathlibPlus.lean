@@ -2709,3 +2709,4 @@ import MathlibPlus.Open.ResearchFormalization.PolyaFrequencyBatch
 import MathlibPlus.Open.ResearchFormalization.GraphTypeCountBatch
 import MathlibPlus.Open.ResearchFormalizationC0091
 import MathlibPlus.Open.ResearchFormalizationC0092
+import MathlibPlus.Open.ResearchChebyshev
