@@ -2913,3 +2913,4 @@ import MathlibPlus.Open.ResearchFormalizationBatch_019ffedc_a806_7e1a_8dbd_a2454
 import MathlibPlus.Open.ResearchFormalization.R0630
 import MathlibPlus.Open.Research.FormalizationBatch019ffedb
 import MathlibPlus.Open.ResearchFormalizationBatch1831
+import MathlibPlus.Open.Combinatorics.CubeSwitching
