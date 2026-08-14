@@ -3379,3 +3379,5 @@ import MathlibPlus.Open.ResearchFormalizationR4542
 import MathlibPlus.Open.Analysis.SharpBoundaryClaim1915
 import MathlibPlus.Open.Research.AdmittedBatch1861
 import MathlibPlus.Open.Research.RootShiftSourceDerivative
+import MathlibPlus.Open.Analysis.AnchoredDerivativeReconstruction
+import MathlibPlus.Open.Claim59639
