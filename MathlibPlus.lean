@@ -2606,3 +2606,5 @@ import MathlibPlus.Open.Analysis.K0019RadialPascal
 import MathlibPlus.Open.LinearAlgebra.GraphLaplacianBatch
 import MathlibPlus.Open.Probability.ResearchBatch
 import MathlibPlus.Open.Analysis.ResearchPrimePhaseDisk
+import MathlibPlus.Open.NR2Formalization.RepairO0054
+import MathlibPlus.Open.Algebra.PhysicalBracket
