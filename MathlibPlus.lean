@@ -3281,3 +3281,11 @@ import MathlibPlus.Open.Analysis.DensityIntervalBatch
 import MathlibPlus.Open.Combinatorics.CubeEdgeBatch
 import MathlibPlus.Open.ResearchFormalizationBatch_01a000fb
 import MathlibPlus.Open.ResearchFormalization.Batch_01a000fa_ef1a_7026_93c8_b04eb9d2c830
+import MathlibPlus.Open.Research.FormalizationBatchAffine
+import MathlibPlus.Open.Research.FormalizationBatchDecisionList
+import MathlibPlus.Open.ResearchFormalization.BatchR0383R0415R0460
+import MathlibPlus.Open.ResearchFormalizationBatch01Worker01a000eb
+import MathlibPlus.Open.ResearchFormalizationBatch01a000fa
+import MathlibPlus.Open.R4914.Admitted55021
+import MathlibPlus.Open.R5024.Admitted55056
+import MathlibPlus.Open.R5039.Admitted55039
