@@ -3462,3 +3462,5 @@ import MathlibPlus.Open.ResearchFormalization.AdmittedBatch01a0015c.PositivePenc
 import MathlibPlus.Open.Frontier.BooleanCharacterTightHallNeighborhoodRigidity
 import MathlibPlus.Open.ResearchFormalization.Batch_01a0014a450d77f3994f94c9ba7f136d_PrimeAndMoments
 import MathlibPlus.Open.ResearchFormalization.Batch
+import MathlibPlus.Open.ResearchFormalization.BatchGraphs01
+import MathlibPlus.Open.ResearchFormalization.BatchLinear01
