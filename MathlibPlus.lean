@@ -3572,3 +3572,5 @@ import MathlibPlus.Open.Analysis.ResearchFormalizationBatch_01a001aa
 import MathlibPlus.Open.PolynomialDerivativeSamples
 import MathlibPlus.Open.Analysis.MovingPrefixThetaThreshold
 import MathlibPlus.Open.Analysis.CanonicalConeEndpointComplexificationObstruction
+import MathlibPlus.Open.Graphs.Claim59823
+import MathlibPlus.Open.LinearAlgebra.MatrixColumnMatroid
