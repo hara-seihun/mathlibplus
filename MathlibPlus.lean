@@ -3280,3 +3280,4 @@ import MathlibPlus.Open.ResearchFormalization.Batch01a000fad6f07e648e50ee698889a
 import MathlibPlus.Open.Analysis.DensityIntervalBatch
 import MathlibPlus.Open.Combinatorics.CubeEdgeBatch
 import MathlibPlus.Open.ResearchFormalizationBatch_01a000fb
+import MathlibPlus.Open.ResearchFormalization.Batch_01a000fa_ef1a_7026_93c8_b04eb9d2c830
