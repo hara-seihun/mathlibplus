@@ -3719,3 +3719,4 @@ import MathlibPlus.Open.Analysis.RankinRadialBatch
 import MathlibPlus.Open.Research.CayleyCI
 import MathlibPlus.Open.Research.TreeReroot
 import MathlibPlus.Open.Frontier.PolynomialDerivativeReconstruction
+import MathlibPlus.Open.ResearchFormalization.ThetaCorrelation
