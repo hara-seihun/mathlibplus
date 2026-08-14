@@ -2517,3 +2517,6 @@ import MathlibPlus.Open.GraphTheory.DeckInsertionBatch
 import MathlibPlus.Open.Research.R3290
 import MathlibPlus.Open.Research.R3314
 import MathlibPlus.Open.LinearAlgebra.AdmittedAlternatingBatch
+import MathlibPlus.Open.Combinatorics.AdmittedBatch49111TreePolynomials
+import MathlibPlus.Open.Probability.AdmittedBatch49118Oracle
+import MathlibPlus.Open.Probability.AdmittedBatch49134Area
