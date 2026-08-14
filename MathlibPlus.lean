@@ -2917,3 +2917,9 @@ import MathlibPlus.Open.Combinatorics.CubeSwitching
 import MathlibPlus.Open.ResearchFormalization.R1117Affine
 import MathlibPlus.Open.ResearchFormalization.R1119ScalarLift
 import MathlibPlus.Open.ResearchFormalization.R1120Adjacent
+import MathlibPlus.Open.ResearchFormalization.R0258
+import MathlibPlus.Open.ResearchFormalization.R0270
+import MathlibPlus.Open.ResearchFormalization.Batch1133
+import MathlibPlus.Open.ResearchFormalization.Batch_019ffee1_R1556
+import MathlibPlus.Open.Research.AffineCubes
+import MathlibPlus.Open.Research.R3132

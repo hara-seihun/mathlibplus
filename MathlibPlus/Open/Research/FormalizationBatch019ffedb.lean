@@ -1,5 +1,6 @@
 import Mathlib
 
+<<<<<<< ours
 open scoped BigOperators Topology
 open Filter
 
@@ -106,3 +107,103 @@ def zeroMeanNonzeroMeanSquareTrigonometricOscillation (L : ℕ) : Prop :=
           (∃ n : ℕ, N ≤ n ∧ (T n).re ≤ -ε)
 
 end MathlibPlus.Open.Research
+=======
+namespace MathlibPlus.Open.Research.FormalizationBatch019ffedb
+
+open MeasureTheory
+noncomputable section
+
+/-! Exact source-side definitions used by the admitted de Branges identity. -/
+
+def SuperExponentialRealSource (Φ : ℝ → ℝ) : Prop :=
+  (∀ t : ℝ, Φ (-t) = Φ t) ∧
+    ∀ A : ℝ, 0 < A →
+      Integrable (fun t : ℝ => Real.exp (A * |t|) * |Φ t|) volume
+
+def sourceXi (Φ : ℝ → ℝ) (z : ℂ) : ℂ :=
+  ∫ t : ℝ, (Φ t : ℂ) * Complex.exp (Complex.I * z * (t : ℂ))
+
+def sourceC (Φ : ℝ → ℝ) (y : ℝ) (sigma : ℂ) : ℂ :=
+  ∫ d : ℝ,
+    (Φ (y + d) : ℂ) * (Φ (y - d) : ℂ) *
+      Complex.exp (Complex.I * sigma * (d : ℂ))
+
+def sourceE (Φ : ℝ → ℝ) (ω : ℝ) (z : ℂ) : ℂ :=
+  sourceXi Φ (z + Complex.I * (ω : ℂ))
+
+def sourceESharp (Φ : ℝ → ℝ) (ω : ℝ) (z : ℂ) : ℂ :=
+  star (sourceE Φ ω (star z))
+
+def sourceEDeriv (Φ : ℝ → ℝ) (ω : ℝ) (z : ℂ) : ℂ :=
+  deriv (sourceE Φ ω) z
+
+def sourceESharpDeriv (Φ : ℝ → ℝ) (ω : ℝ) (z : ℂ) : ℂ :=
+  deriv (sourceESharp Φ ω) z
+
+def sourceDelta (w z : ℂ) : ℂ := z - star w
+
+def sourceSigma (w z : ℂ) : ℂ := z + star w
+
+/-- The removable value of `sin (δ y) / δ` at `δ = 0`. -/
+def sourceSinQuot (δ : ℂ) (y : ℝ) : ℂ :=
+  if δ = 0 then (y : ℂ) else Complex.sin (δ * (y : ℂ)) / δ
+
+def sourceDeBrangesKernel (Φ : ℝ → ℝ) (ω : ℝ) (w z : ℂ) : ℂ :=
+  if z = star w then
+    (sourceESharpDeriv Φ ω z * star (sourceESharp Φ ω w) -
+      sourceEDeriv Φ ω z * star (sourceE Φ ω w)) /
+      (2 * (Real.pi : ℂ) * Complex.I)
+  else
+    (sourceE Φ ω z * star (sourceE Φ ω w) -
+      sourceESharp Φ ω z * star (sourceESharp Φ ω w)) /
+      (2 * (Real.pi : ℂ) * Complex.I * (star w - z))
+
+def sourceDeBrangesIntegral (Φ : ℝ → ℝ) (ω : ℝ) (w z : ℂ) : ℂ :=
+  (4 / (Real.pi : ℂ)) *
+    ∫ y in Set.Ici (0 : ℝ),
+      sourceSinQuot (sourceDelta w z) y *
+        (Real.sinh (2 * ω * y) : ℂ) *
+        sourceC Φ y (sourceSigma w z)
+
+/-- Claim 7577: the exact source integral, including its diagonal removable value. -/
+def exactDeBrangesSourceIntegral7577 : Prop :=
+  ∀ (Φ : ℝ → ℝ), SuperExponentialRealSource Φ →
+    ∀ (ω : ℝ) (w z : ℂ),
+      sourceDeBrangesKernel Φ ω w z = sourceDeBrangesIntegral Φ ω w z
+
+/-- The standard positive-real-argument integral defining the modified Bessel K. -/
+def modifiedBesselK (ν : ℂ) (β : ℝ) : ℂ :=
+  ∫ t in Set.Ioi (0 : ℝ),
+    Complex.exp (-(β : ℂ) * (Real.cosh t : ℂ)) *
+      Complex.cosh (ν * (t : ℂ))
+
+/-- Claim 7593: every zero in the order variable of `K_{i τ}(β)` is real. -/
+def realityOfBesselKZeros7593 : Prop :=
+  ∀ (β : ℝ), 0 < β →
+    ∀ (τ : ℂ), modifiedBesselK (Complex.I * τ) β = 0 → τ.im = 0
+
+def gaussianBesselSource (c t : ℝ) : ℝ :=
+  (4 * Real.pi ^ 2 * Real.cosh (9 * t / 2) -
+      6 * Real.pi * c * Real.cosh (5 * t / 2)) *
+    Real.exp (-2 * Real.pi * Real.cosh (2 * t))
+
+def gaussianBesselTransform (c : ℝ) (z : ℂ) : ℂ :=
+  ∫ t : ℝ, (gaussianBesselSource c t : ℂ) *
+    Complex.exp (Complex.I * z * (t : ℂ))
+
+def gaussianBesselClosedForm (c : ℝ) (z : ℂ) : ℂ :=
+  2 * (Real.pi : ℂ) ^ 2 *
+      (modifiedBesselK ((Complex.I * z + (9 / 2 : ℂ)) / 2) (2 * Real.pi) +
+        modifiedBesselK ((Complex.I * z - (9 / 2 : ℂ)) / 2) (2 * Real.pi)) -
+    3 * (Real.pi : ℂ) * (c : ℂ) *
+      (modifiedBesselK ((Complex.I * z + (5 / 2 : ℂ)) / 2) (2 * Real.pi) +
+        modifiedBesselK ((Complex.I * z - (5 / 2 : ℂ)) / 2) (2 * Real.pi))
+
+/-- Claim 7597: the explicit transform of the solvable `c`-dial source. -/
+def solvableCDialTransform7597 : Prop :=
+  ∀ (c : ℝ) (z : ℂ),
+    gaussianBesselTransform c z = gaussianBesselClosedForm c z
+
+end
+end MathlibPlus.Open.Research.FormalizationBatch019ffedb
+>>>>>>> theirs

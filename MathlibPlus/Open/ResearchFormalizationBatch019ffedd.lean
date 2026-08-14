@@ -1,6 +1,7 @@
 import Mathlib
 
 <<<<<<< ours
+<<<<<<< ours
 namespace MathlibPlus.Open.ResearchFormalizationBatch019ffedd
 
 noncomputable section
@@ -341,4 +342,117 @@ def claim21274 : Prop :=
       ¬ hasFamilyBottom (unionProduct A B)
 
 end MathlibPlus.Open.ResearchFormalizationBatch
+>>>>>>> theirs
+=======
+open scoped BigOperators
+
+namespace MathlibPlus.Open.ResearchFormalizationBatch019ffedd
+
+noncomputable section
+
+abbrev FiniteGraph := Sigma (fun n : Nat => SimpleGraph (Fin n))
+
+def graphIsoRel (G H : FiniteGraph) : Prop := Nonempty (G.2.Adj ≃r H.2.Adj)
+
+instance finiteGraphSetoid : Setoid FiniteGraph where
+  r := graphIsoRel
+  iseqv := {
+    refl := fun G => ⟨RelIso.refl G.2.Adj⟩
+    symm := fun h => h.map RelIso.symm
+    trans := fun h₁ h₂ => by
+      rcases h₁ with ⟨f⟩
+      rcases h₂ with ⟨g⟩
+      exact ⟨RelIso.trans f g⟩
+  }
+
+abbrev GraphIsoClass := Quotient finiteGraphSetoid
+
+def graphClass (G : FiniteGraph) : GraphIsoClass := Quotient.mk _ G
+
+def vertexCard : {n : Nat} → SimpleGraph (Fin n) → Fin n → FiniteGraph
+  | 0, _, v => Fin.elim0 v
+  | n + 1, g, v => ⟨n, g.comap (Fin.succAbove v)⟩
+
+def edgeCard {n : Nat} (g : SimpleGraph (Fin n)) (e : Sym2 (Fin n)) : FiniteGraph :=
+  ⟨n, g.deleteEdges {e}⟩
+
+def incident {n : Nat} (v : Fin n) (e : Sym2 (Fin n)) : Prop :=
+  ∃ w : Fin n, s(v, w) = e
+
+def mixedCornerCard : {n : Nat} → SimpleGraph (Fin n) → Fin n → Sym2 (Fin n) → FiniteGraph
+  | 0, _, v, _ => Fin.elim0 v
+  | n + 1, g, v, e => ⟨n, (g.deleteEdges {e}).comap (Fin.succAbove v)⟩
+
+def vertexDeck {n : Nat} (g : SimpleGraph (Fin n)) : Multiset GraphIsoClass :=
+  (Finset.univ : Finset (Fin n)).val.map (fun v => graphClass (vertexCard g v))
+
+def edgeDeck {n : Nat} (g : SimpleGraph (Fin n)) : Multiset GraphIsoClass := by
+  letI : Fintype g.edgeSet := Fintype.ofFinite _
+  exact g.edgeFinset.val.map (fun e => graphClass (edgeCard g e))
+
+def mixedCornerDeck {n : Nat} (g : SimpleGraph (Fin n)) : Multiset GraphIsoClass := by
+  classical
+  letI : Fintype g.edgeSet := Fintype.ofFinite _
+  exact g.edgeFinset.val.bind (fun e =>
+    (Finset.univ.filter (fun v => ¬ incident v e)).val.map
+      (fun v => graphClass (mixedCornerCard g v e)))
+
+def trivialAutomorphism (G : FiniteGraph) : Prop :=
+  ∀ φ : G.2.Adj ≃r G.2.Adj, φ = RelIso.refl G.2.Adj
+
+def claim19889 : Prop :=
+  ∀ {n : Nat} (g : SimpleGraph (Fin n)),
+    mixedCornerDeck g =
+      (Finset.univ : Finset (Fin n)).val.bind (fun v => edgeDeck (vertexCard g v).2)
+
+def claim19891 : Prop := by
+  classical
+  exact ∀ (G H : FiniteGraph),
+    vertexDeck G.2 = vertexDeck H.2 →
+    edgeDeck G.2 = edgeDeck H.2 →
+    ∀ v : Fin G.1, ∀ e : Sym2 (Fin G.1),
+      e ∈ G.2.edgeSet →
+      ¬ incident v e →
+      let C := mixedCornerCard G.2 v e
+      Multiset.count (graphClass C) (mixedCornerDeck G.2) = 1 →
+      Multiset.count (graphClass C) (vertexDeck G.2) = 0 →
+      trivialAutomorphism C →
+      graphIsoRel G H
+
+def claim19893 : Prop := by
+  classical
+  exact ∀ (G H : FiniteGraph),
+    ¬ graphIsoRel G H →
+    vertexDeck G.2 = vertexDeck H.2 →
+    edgeDeck G.2 = edgeDeck H.2 →
+    ∀ v : Fin G.1, ∀ e : Sym2 (Fin G.1),
+      e ∈ G.2.edgeSet →
+      ¬ incident v e →
+      let C := mixedCornerCard G.2 v e
+      Multiset.count (graphClass C) (mixedCornerDeck G.2) ≠ 1 ∨
+      Multiset.count (graphClass C) (vertexDeck G.2) ≠ 0 ∨
+      ¬ trivialAutomorphism C
+
+def monomialSpanFamily (ell N : Nat) : Set (MvPolynomial (Fin 2) ℚ) :=
+  {p | ∃ t : Fin (N + 1) → Nat,
+    (∑ j : Fin (N + 1), t j) = ell ∧
+    (∑ j : Fin (N + 1), (j : Nat) * t j) = N ∧
+    p = ∏ j : Fin (N + 1),
+      (1 + MvPolynomial.X (0 : Fin 2) * MvPolynomial.X (1 : Fin 2) ^ (j : Nat)) ^ t j}
+
+def monomialSpanDimension (ell N : Nat) : Nat :=
+  Module.finrank ℚ (Submodule.span ℚ (monomialSpanFamily ell N))
+
+def ceilHalf (n : Nat) : Nat := (n + 1) / 2
+
+def allFactorFormula (ell N : Nat) : Nat :=
+  1 +
+      (∑ r : Fin (ceilHalf ell - 1), (N + 1 - 2 * ((r : Nat) + 1))) +
+    if Even ell then ((N + 2) / 2 - ell / 2) else 0
+
+def claim19814 : Prop :=
+  ∀ ell N : Nat, 1 ≤ ell → monomialSpanDimension ell N = allFactorFormula ell N
+
+end
+end MathlibPlus.Open.ResearchFormalizationBatch019ffedd
 >>>>>>> theirs
