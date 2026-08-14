@@ -3601,3 +3601,4 @@ import MathlibPlus.Open.Algebra.QuadraticGeneratorSyzygy
 import MathlibPlus.Open.Research.D0106
 import MathlibPlus.Open.ResearchFormalization.InteriorChainResonance
 import MathlibPlus.Open.Edge13Modes
+import MathlibPlus.Open.Research.FormalizationBatch.FiniteDihedralCayley91
