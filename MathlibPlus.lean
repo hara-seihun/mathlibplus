@@ -3320,3 +3320,4 @@ import MathlibPlus.Open.HallMarkerBatch
 import MathlibPlus.Open.ResearchBatch.HiddenTriadGraphs
 import MathlibPlus.Open.ResearchBatch.SelectorCommutators
 import MathlibPlus.Open.R3923.IncidentParentEdgeBoundary
+import MathlibPlus.Open.ResearchFormalization.ScalarBatch01
