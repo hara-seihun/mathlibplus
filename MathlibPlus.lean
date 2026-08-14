@@ -2430,3 +2430,7 @@ import MathlibPlus.Open.NewResearch2.R0831
 import MathlibPlus.Open.AnalyticNumberTheory.NR2D0031
 import MathlibPlus.Open.NR2.HardLefschetz
 import MathlibPlus.Open.NewResearch2.GeometryReflection
+import MathlibPlus.Open.NewResearch2.Theta
+import MathlibPlus.Open.NewResearch2.CompletedKernel
+import MathlibPlus.Open.NewResearch2.ModularLaguerre
+import MathlibPlus.Open.NewResearch2.ThetaKernel
