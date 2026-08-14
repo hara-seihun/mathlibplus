@@ -3152,3 +3152,4 @@ import MathlibPlus.Open.ResearchFormalization.BatchPrimeReversal
 import MathlibPlus.Open.ResearchFormalization.BatchVandermonde
 import MathlibPlus.Open.ResearchFormalization.R1398_R1570
 import MathlibPlus.Open.FibreTranslationBatch
+import MathlibPlus.Open.ResearchFormalization.O0353Batch
