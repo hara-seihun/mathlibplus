@@ -3120,3 +3120,7 @@ import MathlibPlus.Open.StressSupport
 import MathlibPlus.Open.NumberTheory.AdmittedPrimeEdgeBatch
 import MathlibPlus.Open.FormalizationBatch.GraphWedge
 import MathlibPlus.Open.ResearchFormalizationBatch01a000eb6a9472cb9ce282c616a63864
+import MathlibPlus.Open.Research.FormalizationBatchC3
+import MathlibPlus.Open.ResearchFormalization.HexagonClosure
+import MathlibPlus.Open.Research.AGL4Batch
+import MathlibPlus.Open.Research.SupportFourBatch
