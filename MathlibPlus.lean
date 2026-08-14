@@ -2435,3 +2435,4 @@ import MathlibPlus.Open.NewResearch2.CompletedKernel
 import MathlibPlus.Open.NewResearch2.ModularLaguerre
 import MathlibPlus.Open.NewResearch2.ThetaKernel
 import MathlibPlus.Open.Probability.SchurComplement
+import MathlibPlus.Open.NewResearch2.TensorRootedFactor
