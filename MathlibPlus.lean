@@ -3497,3 +3497,6 @@ import MathlibPlus.Open.Analysis.FrontierAlphaRankR10LinearXPositivity
 import MathlibPlus.Open.ResearchBatch.Formalization_01a00175.Sylow
 import MathlibPlus.Open.ResearchFormalization.GeometryBatch
 import MathlibPlus.Open.ResearchFormalization.SeptenaryBatch
+import MathlibPlus.Open.Research.ComponentRegimes
+import MathlibPlus.Open.Research.ProjectiveProfiles
+import MathlibPlus.Open.Research.TripleProfiles
