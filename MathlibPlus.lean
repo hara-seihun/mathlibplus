@@ -3484,3 +3484,6 @@ import MathlibPlus.Open.ResearchFormalization.R4682
 import MathlibPlus.Open.ResearchFormalization.R52949
 import MathlibPlus.Open.ResearchFormalization.R52980
 import MathlibPlus.Open.ResearchFormalization.R53669
+import MathlibPlus.Open.ResearchFormalization.R0671.EndpointExpansion
+import MathlibPlus.Open.ResearchFormalization.R0671.LobattoInterpolation
+import MathlibPlus.Open.ResearchFormalization.R0671.MaximumBirth
