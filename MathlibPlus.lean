@@ -2673,3 +2673,6 @@ import MathlibPlus.Open.Combinatorics.R0941
 import MathlibPlus.Open.GraphTheory.R0943
 import MathlibPlus.Open.LinearAlgebra.AcyclicRelationRows
 import MathlibPlus.Open.ResearchFormalization
+import MathlibPlus.Open.Combinatorics.ResearchFormalizationBooleanCube
+import MathlibPlus.Open.GraphTheory.ResearchFormalizationC12Spectrum
+import MathlibPlus.Open.Research.BranchFiltrationBatch019ffedbAa17
