@@ -2466,3 +2466,4 @@ import MathlibPlus.Open.NewResearch2.R0175
 import MathlibPlus.Open.LinearAlgebra.R1519ShearCoordinates
 import MathlibPlus.Open.GraphTheory.Valency21C2CubeC9Batch
 import MathlibPlus.Open.GroupTheory.Q5MixedChartBatch
+import MathlibPlus.Open.GroupTheory.Research1928Q220
