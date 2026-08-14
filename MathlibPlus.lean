@@ -3470,3 +3470,9 @@ import MathlibPlus.Open.Research.FormalizationBatchSemidirect
 import MathlibPlus.Open.ResearchFormalization.BoundaryObstruction
 import MathlibPlus.Open.ResearchFormalization.Q3EdgeLaws
 import MathlibPlus.Open.ResearchFormalization.AdmittedBatch01_01a0014f5e23
+import MathlibPlus.Open.ResearchFormalization.AffineEndpointObstruction
+import MathlibPlus.Open.ResearchFormalization.BetaFiniteDifferences
+import MathlibPlus.Open.ResearchFormalization.CommonInvariantFlag
+import MathlibPlus.Open.ResearchFormalization.OrbitRowReduction
+import MathlibPlus.Open.ResearchFormalization.SchwartzMomentObstruction
+import MathlibPlus.Open.Frontier.CIElementaryAbelian3Rank6_7MinimalValency
