@@ -3679,3 +3679,4 @@ import MathlibPlus.Open.Probability.DepthTwoOracleSharpFiveFour
 import MathlibPlus.Open.Analysis.GammaRecurrenceCocycle59962
 import MathlibPlus.Open.ResearchBatchCoupling
 import MathlibPlus.Open.ResearchBatchMisc
+import MathlibPlus.Open.FiniteGridPolynomialUniversality
