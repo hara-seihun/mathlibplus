@@ -3184,3 +3184,4 @@ import MathlibPlus.Open.Analysis.InterpolationBatch
 import MathlibPlus.Open.Probability.RandomGraphBatch
 import MathlibPlus.Open.ResearchFormalization.BatchMatrix
 import MathlibPlus.Open.ResearchFormalization.BatchOperators
+import MathlibPlus.Open.Research.FormalizationBatch_01a000fb_173e_71da_9ae4_5396d288d22b_Morris
