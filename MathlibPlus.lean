@@ -2729,3 +2729,4 @@ import MathlibPlus.Open.ResearchFormalization.NewtonBatch
 import MathlibPlus.Open.ResearchFormalization.RadauBatch
 import MathlibPlus.Open.Research.FormalizationBatch.LocalScalar
 import MathlibPlus.Open.Research.FormalizationBatch.SquarefreeToggle
+import MathlibPlus.Open.Algebra.ModularGroupAlgebra
