@@ -3533,3 +3533,4 @@ import MathlibPlus.Open.Research.CertifiedCellMargins
 import MathlibPlus.Open.ResearchFormalization.Batch01a001a09424759f9be401c5e4614cdc
 import MathlibPlus.Open.BooleanCharacterSharpEvenInteractionStability
 import MathlibPlus.Open.Axler.ExactSameHalfLineThreshold
+import MathlibPlus.Open.ResearchFormalizationBatch.Profiles
