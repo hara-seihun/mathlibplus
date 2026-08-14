@@ -3635,3 +3635,6 @@ import MathlibPlus.Open.Graphs.ReciprocalPairingFailure
 import MathlibPlus.Open.ResearchFormalization.KernelSupportSurvivalD0084
 import MathlibPlus.Open.Analysis.MellinSeparation
 import MathlibPlus.Open.Combinatorics.BatchAttachmentFeatures
+import MathlibPlus.Open.Research.BaezDuarte
+import MathlibPlus.Open.Research.RootCards
+import MathlibPlus.Open.Research.SawtoothBezout
