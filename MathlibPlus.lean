@@ -2725,3 +2725,5 @@ import MathlibPlus.Open.ResearchFormalization.OneRelation
 import MathlibPlus.Open.Research.FormalizationBatchR0253
 import MathlibPlus.Open.ResearchFormalization.Batch0117
 import MathlibPlus.Open.AlgebraicPauli
+import MathlibPlus.Open.ResearchFormalization.NewtonBatch
+import MathlibPlus.Open.ResearchFormalization.RadauBatch
