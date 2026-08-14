@@ -2773,3 +2773,6 @@ import MathlibPlus.Open.ResearchFormalization.Batch_019ffedc_fb23_7075_84dc_54cb
 import MathlibPlus.Open.ResearchFormalization.BatchAlgebra
 import MathlibPlus.Open.ResearchFormalization.BatchGraph
 import MathlibPlus.Open.ResearchFormalizationBatch019ffee1
+import MathlibPlus.Open.ResearchFormalization.BoydAffineBatch
+import MathlibPlus.Open.ResearchFormalization.CoatomPackingBatch
+import MathlibPlus.Open.ResearchFormalization.LagrangeSimplexBatch
