@@ -3612,3 +3612,4 @@ import MathlibPlus.Open.ResearchFormalization.Dihedral
 import MathlibPlus.Open.ResearchFormalization.ExponentialRigidity
 import MathlibPlus.Open.Algebra.PositiveIntegralEdgeTensorClaim5284
 import MathlibPlus.Open.Analysis.PrimeTowerHaarCoherentDensity
+import MathlibPlus.Open.Algebra.Claim4767
