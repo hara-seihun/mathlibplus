@@ -3009,3 +3009,6 @@ import MathlibPlus.Open.ResearchFormalization.ProfileHighDegree
 import MathlibPlus.Open.Research.FormalizationBatchFeshbach
 import MathlibPlus.Open.ResearchFormalization.K0106
 import MathlibPlus.Open.ResearchFormalization.Batch0315
+import MathlibPlus.Open.Research.Batch.TranslationCyclic019ffedf
+import MathlibPlus.Open.Research.Batch.RegularA4SevenCycle019ffedf
+import MathlibPlus.Open.ResearchFormalization.Batch019ffee2
