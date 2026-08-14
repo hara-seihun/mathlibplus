@@ -3254,3 +3254,5 @@ import MathlibPlus.Open.Somlai.AdmittedSomlaiClaims
 import MathlibPlus.Open.ResearchFormalization.R0498
 import MathlibPlus.Open.ResearchFormalization.R0849
 import MathlibPlus.Open.ResearchFormalization.R1067
+import MathlibPlus.Open.ResearchFormalization.R1275
+import MathlibPlus.Open.Research.R1378Batch
