@@ -3672,3 +3672,4 @@ import MathlibPlus.Open.Research.BatchD0030
 import MathlibPlus.Open.Analysis.ReciprocalKernelJet
 import MathlibPlus.Open.Analysis.PositivePartnerSwap
 import MathlibPlus.Open.Analysis.LorentzIncrement
+import MathlibPlus.Open.ResearchFormalization.Claim7298
