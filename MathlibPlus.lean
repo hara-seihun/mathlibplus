@@ -2669,3 +2669,7 @@ import MathlibPlus.Open.Analysis.SignedPowerSobolev
 import MathlibPlus.Open.ResearchFormalization.Q0054
 import MathlibPlus.Open.ResearchFormalization.Q0065
 import MathlibPlus.Open.Research.K0013Exact
+import MathlibPlus.Open.Combinatorics.R0941
+import MathlibPlus.Open.GraphTheory.R0943
+import MathlibPlus.Open.LinearAlgebra.AcyclicRelationRows
+import MathlibPlus.Open.ResearchFormalization
