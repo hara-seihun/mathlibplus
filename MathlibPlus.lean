@@ -2948,3 +2948,7 @@ import MathlibPlus.Open.ResearchFormalization.ScalarClaims
 import MathlibPlus.Open.ResearchFormalization.ProfileClaims
 import MathlibPlus.Open.ResearchFormalization.PrimeCycleClaims
 import MathlibPlus.Open.ResearchFormalization.DiscriminantClaims
+import MathlibPlus.Open.Research.ZeroSupportBatch019ffedc191b780e8d53fd32c5647ca0
+import MathlibPlus.Open.Research.FormalizationBatch.Lagrange
+import MathlibPlus.Open.Research.FormalizationBatch.Graphs
+import MathlibPlus.Open.Research.FormalizationBatch.Rechart
