@@ -2776,3 +2776,6 @@ import MathlibPlus.Open.ResearchFormalizationBatch019ffee1
 import MathlibPlus.Open.ResearchFormalization.BoydAffineBatch
 import MathlibPlus.Open.ResearchFormalization.CoatomPackingBatch
 import MathlibPlus.Open.ResearchFormalization.LagrangeSimplexBatch
+import MathlibPlus.Open.Research.BatchDerivative
+import MathlibPlus.Open.Research.FiberSupport
+import MathlibPlus.Open.Research.RookGraphs
