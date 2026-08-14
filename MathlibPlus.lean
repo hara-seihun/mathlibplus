@@ -3229,3 +3229,6 @@ import MathlibPlus.Open.ResearchFormalization.Quadratic
 import MathlibPlus.Open.ResearchFormalization.LineUnion
 import MathlibPlus.Open.ResearchFormalization.Batch2630
 import MathlibPlus.Open.ResearchFormalizationBatch01.Displacement
+import MathlibPlus.Open.Research.BatchR1487
+import MathlibPlus.Open.Research.FiniteActionBounds
+import MathlibPlus.Open.Research.NonlinearShear
