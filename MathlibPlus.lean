@@ -2809,3 +2809,6 @@ import MathlibPlus.Open.ResearchFormalization.MixedAffineBatch
 import MathlibPlus.Open.JacobsthalClaims
 import MathlibPlus.Open.Research.FormalizationBatch019ffedb_0221
 import MathlibPlus.Open.Research.FormalizationBatch019ffedb_0225
+import MathlibPlus.Open.ResearchFormalization.GraphWitnessBatch
+import MathlibPlus.Open.ResearchFormalization.PositiveDefiniteReciprocal
+import MathlibPlus.Open.ResearchFormalizationBatch019ffee20b45773487470bad20799192
