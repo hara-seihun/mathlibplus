@@ -2536,3 +2536,5 @@ import MathlibPlus.Open.LinearAlgebra.AdmittedModeBatch
 import MathlibPlus.Open.GraphTheory.IntersectionSignaturesBatch
 import MathlibPlus.Open.GraphTheory.ResearchMultipartiteMarkClaims
 import MathlibPlus.Open.GraphTheory.AdmittedR1375
+import MathlibPlus.Open.ProjectsResearch.D0232PolynomialDerivative
+import MathlibPlus.Open.ProjectsResearch.D0244Bicentroid
