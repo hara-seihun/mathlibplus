@@ -3501,3 +3501,4 @@ import MathlibPlus.Open.Research.ComponentRegimes
 import MathlibPlus.Open.Research.ProjectiveProfiles
 import MathlibPlus.Open.Research.TripleProfiles
 import MathlibPlus.Open.ResearchFormalization.QIntegerShadows
+import MathlibPlus.Open.ResearchFormalizationBatch_01a00176
