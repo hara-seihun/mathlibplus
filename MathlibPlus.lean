@@ -3703,3 +3703,5 @@ import MathlibPlus.Open.Combinatorics.TreeDeck
 import MathlibPlus.Open.ProjectsResearch.GammaMixture7462
 import MathlibPlus.Open.Analysis.OneQuartetDefect
 import MathlibPlus.Open.Frontier.AdmittedCayleyCI59925
+import MathlibPlus.Open.LinearAlgebra.Claim7366
+import MathlibPlus.Open.Analysis.Claim7429
