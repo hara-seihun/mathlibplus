@@ -3032,3 +3032,4 @@ import MathlibPlus.GraphTheory.Claim3336
 import MathlibPlus.Open.ResearchFormalizationBatch1664
 import MathlibPlus.Open.Analysis.AdmittedHermite2392
 import MathlibPlus.Open.Groups.CyclicFourMinimumTwo
+import MathlibPlus.Open.Analysis.EscapingQuadraticMultiplier
