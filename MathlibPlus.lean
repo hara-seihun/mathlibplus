@@ -2480,3 +2480,7 @@ import MathlibPlus.Open.Probability.ResearchSignedLiterals
 import MathlibPlus.Open.Research.Batch.C9
 import MathlibPlus.Open.Analysis.DoubleZeroWalls.BatchC0160
 import MathlibPlus.Open.AnalyticNumberTheory.PrimeCounting.ExplicitFormulaC0090FormalizationBatch
+import MathlibPlus.Open.Analysis.RadauResidue
+import MathlibPlus.Open.Analysis.SuperheatCutoff
+import MathlibPlus.Open.NewResearch2.R0072
+import MathlibPlus.Open.NewResearch2.R0080
