@@ -3545,3 +3545,4 @@ import MathlibPlus.Open.Analysis.PrimeScoreBatch
 import MathlibPlus.Open.FormalizationBatch.AdmittedClaims1158And1166
 import MathlibPlus.Open.ResearchFormalization.BatchFormalize2965And2999
 import MathlibPlus.Open.FiniteLawSignMatrixSparseNestedSupport
+import MathlibPlus.Open.Graph.OliveiraThatteThreeVertexReconstruction
