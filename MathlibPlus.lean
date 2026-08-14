@@ -2429,3 +2429,4 @@ import MathlibPlus.Open.GraphTheory.TernaryCI
 import MathlibPlus.Open.NewResearch2.R0831
 import MathlibPlus.Open.AnalyticNumberTheory.NR2D0031
 import MathlibPlus.Open.NR2.HardLefschetz
+import MathlibPlus.Open.NewResearch2.GeometryReflection
