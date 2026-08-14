@@ -2925,3 +2925,5 @@ import MathlibPlus.Open.Research.AffineCubes
 import MathlibPlus.Open.Research.R3132
 import MathlibPlus.Open.ResearchFormalizationBatch.UPolynomial
 import MathlibPlus.Open.Analysis.BatchShellSaddle
+import MathlibPlus.Open.Analysis.AdmittedGaussianBatch
+import MathlibPlus.Open.Research.BatchRosserBoxes
