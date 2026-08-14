@@ -2938,3 +2938,6 @@ import MathlibPlus.Open.Research.BTYBatch
 import MathlibPlus.Open.ResearchFormalization.GammaDivisor
 import MathlibPlus.Open.ResearchFormalization.SectorLimits
 import MathlibPlus.Open.Research.FormalizationBatch_019ffedc.FiniteWindowSymbols
+import MathlibPlus.Open.ResearchFormalization.R1227
+import MathlibPlus.Open.ResearchFormalization.R1229
+import MathlibPlus.Open.ResearchFormalization.R1230
