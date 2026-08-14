@@ -2898,3 +2898,4 @@ import MathlibPlus.Open.GraphTheory.AdmittedBatchR0471
 import MathlibPlus.Open.GroupTheory.AdmittedBatchR0798
 import MathlibPlus.Open.ResearchFormalizationBatch019ffee2
 import MathlibPlus.Open.AdmittedBatch
+import MathlibPlus.Open.ResearchFormalization.AdmittedCharts
