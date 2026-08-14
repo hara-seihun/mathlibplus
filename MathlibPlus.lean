@@ -2881,3 +2881,4 @@ import MathlibPlus.Open.GraphTheory.MultipartiteBatch
 import MathlibPlus.Open.ResearchFormalization.Batch019ffedd
 import MathlibPlus.Open.ResearchFormalization.PartialFractionIsolation
 import MathlibPlus.Open.Research.FormalizationBatch019ffee272fc765a
+import MathlibPlus.Open.ResearchFormalization.GeometricKernel
