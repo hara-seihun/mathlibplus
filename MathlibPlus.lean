@@ -3610,3 +3610,4 @@ import MathlibPlus.Open.Analysis.CoordinateBoundaryLocalization
 import MathlibPlus.Open.Analysis.OneDimensionalPolyharmonicHeatAction
 import MathlibPlus.Open.ResearchFormalization.Dihedral
 import MathlibPlus.Open.ResearchFormalization.ExponentialRigidity
+import MathlibPlus.Open.Algebra.PositiveIntegralEdgeTensorClaim5284
