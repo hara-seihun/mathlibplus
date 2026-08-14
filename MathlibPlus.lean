@@ -3218,3 +3218,7 @@ import MathlibPlus.Open.Research.QuaternionDihedralBatch01
 import MathlibPlus.Open.Research.BatchD0133
 import MathlibPlus.Open.Combinatorics.Ramsey55Claims
 import MathlibPlus.Open.Research.Q12CIBatch
+import MathlibPlus.Open.ResearchFormalization.BatchRadial
+import MathlibPlus.Open.ResearchFormalization.Rows
+import MathlibPlus.Open.ResearchFormalization.InfiniteSupport
+import MathlibPlus.Open.ResearchFormalization.PartitionMinor
