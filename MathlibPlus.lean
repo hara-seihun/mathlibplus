@@ -3628,3 +3628,4 @@ import MathlibPlus.Open.Research.FiniteGroupOrbit59876
 import MathlibPlus.Open.Analysis.BatchMellin
 import MathlibPlus.Open.Combinatorics.BatchSemidirectOrbits
 import MathlibPlus.Open.ResearchBatch.GraphBounds
+import MathlibPlus.Open.Combinatorics.FiniteCayleyCI
