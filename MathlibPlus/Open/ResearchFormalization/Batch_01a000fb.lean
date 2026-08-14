@@ -1,6 +1,7 @@
 import Mathlib
 
 <<<<<<< ours
+<<<<<<< ours
 
 namespace MathlibPlus.Open.ResearchFormalizationBatch
 
@@ -389,6 +390,97 @@ def claim53571 : Prop :=
         x ∈ characteristicSection m} = 4 * m
 
 end CharacteristicCyclicSection
+
+end MathlibPlus.Open.ResearchFormalization.Batch_01a000fb
+>>>>>>> theirs
+=======
+open scoped BigOperators
+
+noncomputable section
+
+namespace MathlibPlus.Open.ResearchFormalization.Batch_01a000fb
+
+abbrev FacePolynomial := MvPolynomial (Fin 5) ℕ
+
+def faceX1 : FacePolynomial := MvPolynomial.X 0
+
+def faceX2 : FacePolynomial := MvPolynomial.X 1
+
+def faceZ1 : FacePolynomial := MvPolynomial.X 2
+
+def faceZ2 : FacePolynomial := MvPolynomial.X 3
+
+def faceY : FacePolynomial := MvPolynomial.X 4
+
+/-- Edges directed from the first displayed vertex set to the second. -/
+def crossEdgeCount {V : Type} [Fintype V] [DecidableEq V]
+    (T : SimpleGraph V) (S U : Finset V) : ℕ := by
+  classical
+  exact (S.product U).filter (fun e => T.Adj e.1 e.2) |>.card
+
+/-- Every undirected edge with both endpoints in one color class is counted once. -/
+def sameColorEdgeCount {V : Type} [Fintype V] [DecidableEq V]
+    [LinearOrder V] (T : SimpleGraph V) (σ : V → Fin 2) (c : Fin 2) : ℕ := by
+  classical
+  exact ((Finset.univ : Finset (V × V)).filter
+    (fun e => e.1 < e.2 ∧ T.Adj e.1 e.2 ∧ σ e.1 = c ∧ σ e.2 = c)).card
+
+def colorClassSize {V : Type} [Fintype V] [DecidableEq V]
+    (σ : V → Fin 2) (c : Fin 2) : ℕ := by
+  classical
+  exact (Finset.univ.filter (fun v => σ v = c)).card
+
+def twoColorMonomial {V : Type} [Fintype V] [DecidableEq V]
+    [LinearOrder V] (T : SimpleGraph V) (σ : V → Fin 2) : FacePolynomial :=
+  faceX1 ^ colorClassSize σ 0 * faceX2 ^ colorClassSize σ 1 *
+    faceZ1 ^ sameColorEdgeCount T σ 0 * faceZ2 ^ sameColorEdgeCount T σ 1 *
+    faceY ^ (Fintype.card V - 1 - sameColorEdgeCount T σ 0 -
+      sameColorEdgeCount T σ 1)
+
+def twoColoringFace {V : Type} [Fintype V] [DecidableEq V]
+    [LinearOrder V] (T : SimpleGraph V) : FacePolynomial := by
+  classical
+  exact (Finset.univ : Finset (V → Fin 2)).sum (fun σ => twoColorMonomial T σ)
+
+def flipColoring {V : Type} [DecidableEq V]
+    (A B SA SB : Finset V) (v : V) : Fin 2 :=
+  if v ∈ A then (if v ∈ SA then 1 else 0)
+  else if v ∈ B then (if v ∈ SB then 0 else 1)
+  else 0
+
+def flipMonomial {V : Type} [Fintype V] [DecidableEq V]
+    (T : SimpleGraph V) (A B : Finset V) (p q : ℕ)
+    (SA SB : Finset V) : FacePolynomial :=
+  faceX1 ^ (p - SA.card + SB.card) * faceX2 ^ (q + SA.card - SB.card) *
+    faceZ1 ^ crossEdgeCount T (A \ SA) SB *
+    faceZ2 ^ crossEdgeCount T SA (B \ SB) *
+    faceY ^ (Fintype.card V - 1 - crossEdgeCount T (A \ SA) SB -
+      crossEdgeCount T SA (B \ SB))
+
+def flipSetFace {V : Type} [Fintype V] [DecidableEq V]
+    (T : SimpleGraph V) (A B : Finset V) (p q : ℕ) : FacePolynomial := by
+  classical
+  exact A.powerset.sum (fun SA =>
+    B.powerset.sum (fun SB => flipMonomial T A B p q SA SB))
+
+def treeBipartition {V : Type} [Fintype V] [DecidableEq V]
+    (T : SimpleGraph V) (A B : Finset V) : Prop :=
+  Disjoint A B ∧ A ∪ B = Finset.univ ∧
+    ∀ ⦃u v : V⦄, T.Adj u v →
+      ((u ∈ A ∧ v ∈ B) ∨ (u ∈ B ∧ v ∈ A))
+
+def uniqueFlipEncoding {V : Type} [Fintype V] [DecidableEq V]
+    (A B : Finset V) : Prop :=
+  ∀ σ : V → Fin 2, ∃! pair : Finset V × Finset V,
+    pair.1 ⊆ A ∧ pair.2 ⊆ B ∧
+      (flipColoring A B pair.1 pair.2) = σ
+
+/-- The exact flip-set expansion, including the asserted unique encoding. -/
+def claim57457 : Prop :=
+  ∀ (V : Type) [Fintype V] [DecidableEq V] [LinearOrder V]
+    (T : SimpleGraph V) (A B : Finset V) (p q : ℕ),
+    T.IsTree → treeBipartition T A B → A.card = p → B.card = q →
+      uniqueFlipEncoding A B ∧ twoColoringFace T = flipSetFace T A B p q
 
 end MathlibPlus.Open.ResearchFormalization.Batch_01a000fb
 >>>>>>> theirs

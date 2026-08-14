@@ -3371,3 +3371,4 @@ import MathlibPlus.Open.GroupTheory.R4517
 import MathlibPlus.Open.Combinatorics.R4528
 import MathlibPlus.Open.FormalizationBatch.R2249
 import MathlibPlus.Open.ResearchFormalization.Batch01a000fb5fbb74a5bdc72ab4570e6d03
+import MathlibPlus.Open.Combinatorics.TreeBatch_01a000fb_83c2_7c4c_9dd9_8ed1b1229a7d
