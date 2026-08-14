@@ -3119,3 +3119,4 @@ import MathlibPlus.Open.Analysis.BatchK0129
 import MathlibPlus.Open.StressSupport
 import MathlibPlus.Open.NumberTheory.AdmittedPrimeEdgeBatch
 import MathlibPlus.Open.FormalizationBatch.GraphWedge
+import MathlibPlus.Open.ResearchFormalizationBatch01a000eb6a9472cb9ce282c616a63864
