@@ -1,5 +1,6 @@
 import Mathlib
 
+<<<<<<< ours
 open scoped BigOperators
 
 noncomputable section
@@ -266,3 +267,139 @@ def claim31456 : Prop :=
   Fintype.card (MixedExponent 7 8) = 3424
 
 end MathlibPlus.Open.ResearchFormalizationBatch019ffedf
+=======
+namespace MathlibPlus.Open.ResearchFormalizationBatch
+
+noncomputable section
+open Classical
+
+abbrev C3Square := Fin 2 → ZMod 3
+abbrev C2Cube := Fin 3 → ZMod 2
+abbrev TernaryBase := C2Cube
+abbrev TernaryFiber := ZMod 3
+
+def defectSubgroup {A H : Type*} [AddCommGroup A] [Group H]
+    (h : H) (τ : H → A) : AddSubgroup A :=
+  AddSubgroup.closure (Set.range (fun k : H => τ (h * k) - τ k - τ h))
+
+def claim29697 : Prop :=
+  ∀ {A H : Type*} [AddCommGroup A] [Group H] [Finite A] [Finite H]
+    (h : H) (τ : H → A),
+    letI := Fintype.ofFinite A
+    letI := Fintype.ofFinite H
+    Nat.Coprime (Fintype.card A) (Fintype.card H) →
+      τ h ∈ defectSubgroup h τ
+
+def normalizedC3SquarePermutation (σ : Equiv.Perm C3Square) : Prop :=
+  σ 0 = 0
+
+def relativeDerivative (σ : Equiv.Perm C3Square) (t x : C3Square) : C3Square :=
+  σ.symm (σ (x + t) - σ t)
+
+def derivativeStep (σ : Equiv.Perm C3Square) (x y : C3Square) : Prop :=
+  ∃ t : C3Square,
+    relativeDerivative σ t x = y ∨ relativeDerivative σ t y = x
+
+def derivativeOrbit (σ : Equiv.Perm C3Square) (x y : C3Square) : Prop :=
+  Relation.EqvGen (derivativeStep σ) x y
+
+noncomputable def derivativeOrbitSize (σ : Equiv.Perm C3Square) (x : C3Square) : Nat :=
+  Fintype.card {y : C3Square // derivativeOrbit σ x y}
+
+def linearPermutation {F V : Type*} [Semiring F] [AddCommMonoid V] [Module F V]
+    (L : Equiv.Perm V) : Prop :=
+  (∀ x y : V, L (x + y) = L x + L y) ∧
+  (∀ c : F, ∀ x : V, L (c • x) = c • L x)
+
+def linearShadow (σ : Equiv.Perm C3Square) (L : Equiv.Perm C3Square) : Prop :=
+  linearPermutation (F := ZMod 3) L ∧
+  ∀ x y : C3Square,
+    derivativeOrbit σ x y ↔ derivativeOrbit σ x (L.symm (σ y))
+
+noncomputable def linearShadowCount (σ : Equiv.Perm C3Square) : Nat :=
+  Fintype.card {L : Equiv.Perm C3Square // linearShadow σ L}
+
+def orbitShape (σ : Equiv.Perm C3Square)
+    (one two three eight : Nat) : Prop :=
+  Fintype.card {x : C3Square // derivativeOrbitSize σ x = 1} = one ∧
+  Fintype.card {x : C3Square // derivativeOrbitSize σ x = 2} = two ∧
+  Fintype.card {x : C3Square // derivativeOrbitSize σ x = 3} = three ∧
+  Fintype.card {x : C3Square // derivativeOrbitSize σ x = 8} = eight
+
+def claim29703 : Prop :=
+  (∀ σ : Equiv.Perm C3Square, σ 0 = 0 → ∃ L : Equiv.Perm C3Square,
+    linearShadow σ L) ∧
+  Fintype.card {σ : Equiv.Perm C3Square // σ 0 = 0} = 40320 ∧
+  Fintype.card {σ : Equiv.Perm C3Square // σ 0 = 0 ∧ orbitShape σ 9 0 0 0 ∧ linearShadowCount σ = 1} = 48 ∧
+  Fintype.card {σ : Equiv.Perm C3Square // σ 0 = 0 ∧ orbitShape σ 3 0 6 0 ∧ linearShadowCount σ = 3} = 384 ∧
+  Fintype.card {σ : Equiv.Perm C3Square // σ 0 = 0 ∧ orbitShape σ 1 2 6 0 ∧ linearShadowCount σ = 6} = 1728 ∧
+  Fintype.card {σ : Equiv.Perm C3Square // σ 0 = 0 ∧ orbitShape σ 1 0 0 8 ∧ linearShadowCount σ = 48} = 38160
+
+def normalizedBasePermutation (σ : Equiv.Perm C2Cube) : Prop :=
+  σ 0 = 0
+
+def linearBasePermutation (σ : Equiv.Perm C2Cube) : Prop :=
+  ∃ L : Equiv.Perm C2Cube, linearPermutation (F := ZMod 2) L ∧ ∀ x : C2Cube, σ x = L x
+
+def baseDoubleCosetEquivalent (σ τ : Equiv.Perm C2Cube) : Prop :=
+  ∃ L R : Equiv.Perm C2Cube,
+    linearPermutation (F := ZMod 2) L ∧ linearPermutation (F := ZMod 2) R ∧
+      ∀ x : C2Cube, τ x = L (σ (R x))
+
+def baseProfileMap (σ : Equiv.Perm C2Cube) (s : C2Cube → TernaryFiber)
+    (a : C2Cube) (z : TernaryFiber) : C2Cube × TernaryFiber :=
+  (σ a, z + s a)
+
+def profileBaseComposite (σ L R : Equiv.Perm C2Cube) : Equiv.Perm C2Cube :=
+  (R.trans σ).trans L
+
+def profileShiftComposite (s : C2Cube → TernaryFiber) (R : Equiv.Perm C2Cube) :
+    C2Cube → TernaryFiber :=
+  fun a => s (R a)
+
+def claim35008 : Prop :=
+  (∀ (σ L R : Equiv.Perm C2Cube) (s : C2Cube → TernaryFiber),
+    normalizedBasePermutation σ → s 0 = 0 →
+      linearPermutation (F := ZMod 2) L →
+      linearPermutation (F := ZMod 2) R →
+      normalizedBasePermutation (profileBaseComposite σ L R) ∧
+      profileShiftComposite s R 0 = 0 ∧
+      (∀ a z,
+        baseProfileMap (profileBaseComposite σ L R) (profileShiftComposite s R) a z =
+          (L (σ (R a)), z + s (R a)))) ∧
+  ∃ σ₀ σ₁ σ₂ σ₃ : Equiv.Perm C2Cube,
+    normalizedBasePermutation σ₀ ∧
+    normalizedBasePermutation σ₁ ∧
+    normalizedBasePermutation σ₂ ∧
+    normalizedBasePermutation σ₃ ∧
+    linearBasePermutation σ₀ ∧
+    ¬ linearBasePermutation σ₁ ∧
+    ¬ linearBasePermutation σ₂ ∧
+    ¬ linearBasePermutation σ₃ ∧
+    ¬ baseDoubleCosetEquivalent σ₀ σ₁ ∧
+    ¬ baseDoubleCosetEquivalent σ₀ σ₂ ∧
+    ¬ baseDoubleCosetEquivalent σ₀ σ₃ ∧
+    ¬ baseDoubleCosetEquivalent σ₁ σ₂ ∧
+    ¬ baseDoubleCosetEquivalent σ₁ σ₃ ∧
+    ¬ baseDoubleCosetEquivalent σ₂ σ₃ ∧
+    (∀ σ : Equiv.Perm C2Cube, normalizedBasePermutation σ →
+      baseDoubleCosetEquivalent σ σ₀ ∨
+      baseDoubleCosetEquivalent σ σ₁ ∨
+      baseDoubleCosetEquivalent σ σ₂ ∨
+      baseDoubleCosetEquivalent σ σ₃) ∧
+    (∀ σ : Equiv.Perm C2Cube, normalizedBasePermutation σ →
+      linearBasePermutation σ ↔ baseDoubleCosetEquivalent σ σ₀)
+
+def normalizedTernaryTranslationProfile
+    (σ : Equiv.Perm TernaryBase) (s : TernaryBase → TernaryFiber) : Prop :=
+  σ 0 = 0 ∧ s 0 = 0
+
+def ternaryTranslationProfileMap
+    (σ : Equiv.Perm TernaryBase) (s : TernaryBase → TernaryFiber)
+    (a : TernaryBase) (z : TernaryFiber) : TernaryBase × TernaryFiber :=
+  (σ a, z + s a)
+
+end
+
+end MathlibPlus.Open.ResearchFormalizationBatch
+>>>>>>> theirs

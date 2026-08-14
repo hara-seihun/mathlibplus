@@ -2906,3 +2906,4 @@ import MathlibPlus.Open.ResearchBatch.TranslationCocycles
 import MathlibPlus.Open.ResearchBatch.ColoredAffine
 import MathlibPlus.Open.ResearchBatch.UnorderedOrbitals
 import MathlibPlus.Open.ResearchFormalization.Batch019ffee1
+import MathlibPlus.Open.ResearchFormalization.InterpolationBatch
