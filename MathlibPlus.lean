@@ -3251,3 +3251,6 @@ import MathlibPlus.Open.Research.InterpolationAlmostEverywhere
 import MathlibPlus.Open.ResearchFormalizationBatch01a000fb
 import MathlibPlus.Open.ResearchFormalizationBatch_01a000fa_def5_7f6f_af3c_4a657e15abd6
 import MathlibPlus.Open.Somlai.AdmittedSomlaiClaims
+import MathlibPlus.Open.ResearchFormalization.R0498
+import MathlibPlus.Open.ResearchFormalization.R0849
+import MathlibPlus.Open.ResearchFormalization.R1067
