@@ -2615,3 +2615,4 @@ import MathlibPlus.Analysis.Claim51132
 import MathlibPlus.Open.Algebra.NonzeroShearClaims
 import MathlibPlus.Open.GraphTheory.AdmittedCubeFunctionInequalities
 import MathlibPlus.Open.NumberTheory.AdmittedIntervalCovariance
+import MathlibPlus.Open.Algebra.SolidCompanionBatch

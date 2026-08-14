@@ -2,6 +2,7 @@ import Mathlib
 
 namespace MathlibPlus.Open.ResearchFormalizationBatch
 
+<<<<<<< ours
 noncomputable def gaussianHermiteCarrier (x : ℝ) : ℝ :=
   x ^ 2 * (2 * Real.pi * x ^ 2 - 3) * Real.exp (-Real.pi * x ^ 2)
 
@@ -141,5 +142,64 @@ def claim2608 : Prop :=
                   a i * Complex.exp
                     (Complex.I * ((ω i : ℂ) * (x : ℂ))))) ^ 2) ≤
             (T + 2 * Real.pi / δ) * ∑ i : Fin n, (complexAbs (a i)) ^ 2
+=======
+noncomputable section
+
+/-- The Gaussian--Hermite carrier explicitly specified in the lease packet. -/
+def carrierH (x : ℝ) : ℝ :=
+  x ^ 2 * (2 * Real.pi * x ^ 2 - 3) * Real.exp (-Real.pi * x ^ 2)
+
+def carrierHComplex (x : ℝ) : ℂ := carrierH x
+
+def carrierFourierKernel (x ξ : ℝ) : ℂ :=
+  Complex.exp (-2 * (Real.pi : ℂ) * Complex.I * (x * ξ))
+
+/-- Claim 2413: self-duality, the value at zero, and vanishing mass. -/
+def claim2413 : Prop :=
+  (∀ ξ : ℝ,
+    (∫ x : ℝ, carrierHComplex x * carrierFourierKernel x ξ) = (carrierH ξ : ℂ)) ∧
+  carrierH 0 = 0 ∧
+  (∫ x : ℝ, carrierH x) = 0
+
+/-- Claim 2415: the exact second moment. -/
+def claim2415 : Prop :=
+  (∫ x : ℝ, x ^ 2 * carrierH x) = 3 / (2 * Real.pi ^ 2)
+
+/-- The quartic profile explicitly specified in the lease packet. -/
+def centerOrthogonalQuarticProfile (x : ℝ) : ℝ :=
+  x ^ 4 - (5 / Real.pi) * x ^ 2
+
+/-- Claim 2535: exact center-orthogonality of the quartic profile. -/
+def claim2535 : Prop :=
+  (∫ x : ℝ, centerOrthogonalQuarticProfile x * carrierH x) = 0
+
+/-- Claim 2553: the normalized lower-bound statement, with its displayed factor
+written out so that no unavailable Dini-cell carrier is introduced. -/
+def claim2553 : Prop :=
+  ∀ Y0 : ℝ, 0 < Y0 → Y0 < 1 / 2 →
+    ∃ lambda0 : ℝ, ∀ l : ℝ, lambda0 ≤ l →
+      ∀ Y : ℝ, Y0 ≤ Y → Y < 1 / 2 →
+        ∀ x : ℝ, 2 ≤ x →
+          min x (x * Real.tanh (Y * Real.log l) - 1 / 2) ≥ x / 4
+
+/-- The explicit polynomial multiplier in the critical-transition claim. -/
+def firstTransverseMultiplier (z : ℂ) : ℂ :=
+  -(4 * z ^ 2 + 15) / (16 * (Real.pi : ℂ) ^ 2)
+
+/-- Claim 2541: the critical transition-coordinate limit. -/
+def claim2541 : Prop :=
+  ∀ (β : ℝ → ℝ) (z : ℝ → ℂ) (κ : ℝ) (τ : ℂ),
+    Filter.Tendsto
+      (fun l : ℝ => (β l : ℂ) * (Real.log l : ℂ) ^ 2 / (l : ℂ))
+      Filter.atTop (nhds (κ : ℂ)) →
+    Filter.Tendsto
+      (fun l : ℝ => z l / (Real.log l : ℂ))
+      Filter.atTop (nhds τ) →
+    Filter.Tendsto
+      (fun l : ℝ => (β l : ℂ) / (l : ℂ) * firstTransverseMultiplier (z l))
+      Filter.atTop (nhds (-(κ : ℂ) * τ ^ 2 / (4 * (Real.pi : ℂ) ^ 2)))
+
+end
+>>>>>>> theirs
 
 end MathlibPlus.Open.ResearchFormalizationBatch
