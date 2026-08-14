@@ -3714,3 +3714,4 @@ import MathlibPlus.Open.Analysis.RankinSelberg
 import MathlibPlus.Open.Analysis.MultiplierWeightedReflection
 import MathlibPlus.Open.Combinatorics.CrossProfileAffineCircuitDecomposition5084
 import MathlibPlus.Open.Combinatorics.DoubleSpiderKernel
+import MathlibPlus.Open.Analysis.ReciprocalXiBatch
