@@ -2539,3 +2539,7 @@ import MathlibPlus.Open.GraphTheory.AdmittedR1375
 import MathlibPlus.Open.ProjectsResearch.D0232PolynomialDerivative
 import MathlibPlus.Open.ProjectsResearch.D0244Bicentroid
 import MathlibPlus.Analysis.Claim13464
+import MathlibPlus.Open.GraphTheory.DeckTwinRowsBatch20260811
+import MathlibPlus.Open.NewResearch2.R0578
+import MathlibPlus.Open.Algebra.ProductTransferBatch
+import MathlibPlus.Open.NewResearch2.C0117Concrete
