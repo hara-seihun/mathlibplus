@@ -3103,3 +3103,4 @@ import MathlibPlus.Open.ResearchFormalization.Batch_01a000eb_0787_7562_ac5d_0707
 import MathlibPlus.Open.Research.WeightedDigit
 import MathlibPlus.Open.RootedTreeBoundary
 import MathlibPlus.Open.ResearchFormalization.SupportAndCoprime
+import MathlibPlus.Open.Combinatorics.SpiderProfiles
