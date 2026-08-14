@@ -2421,3 +2421,4 @@ import MathlibPlus.Open.GraphTheory.LabeledSubgraphCopies
 import MathlibPlus.Open.Algebra.ResearchStrongOrderingBatch
 import MathlibPlus.Open.NewResearch2.R0452
 import MathlibPlus.Open.SemilatticeTraceDrain
+import MathlibPlus.Open.NewResearch2.O0084
