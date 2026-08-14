@@ -2848,3 +2848,5 @@ import MathlibPlus.Open.GroupTheory.CartesianHallBatch
 import MathlibPlus.Open.Graph.RCCFormalizationBatch_019ffedf83817acb
 import MathlibPlus.Open.Research.FormalizationBatchR1260
 import MathlibPlus.Open.Research.AdmittedEulerTailBatch
+import MathlibPlus.Open.Research.FormalizationBatch.DihedralOrbit
+import MathlibPlus.Open.Research.FormalizationBatch.LinearCounterexample
