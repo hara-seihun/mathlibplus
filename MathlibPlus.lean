@@ -2640,3 +2640,6 @@ import MathlibPlus.Algebra.Claim1085
 import MathlibPlus.Open.Algebra.ResearchBatchC9
 import MathlibPlus.Open.Combinatorics.ResearchBatchR5369
 import MathlibPlus.Open.Analysis.FinitePoleHankelPacket
+import MathlibPlus.Open.GroupTheory.SignLineCensus
+import MathlibPlus.Open.NumberTheory.IntervalFourierPrimorial
+import MathlibPlus.Open.NumberTheory.RamanujanConductor
