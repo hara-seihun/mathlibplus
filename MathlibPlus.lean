@@ -3467,3 +3467,6 @@ import MathlibPlus.Open.ResearchFormalization.BatchLinear01
 import MathlibPlus.Open.Research.UnionClosedBatch
 import MathlibPlus.Open.Research.FormalizationBatchK0190
 import MathlibPlus.Open.Research.FormalizationBatchSemidirect
+import MathlibPlus.Open.ResearchFormalization.BoundaryObstruction
+import MathlibPlus.Open.ResearchFormalization.Q3EdgeLaws
+import MathlibPlus.Open.ResearchFormalization.AdmittedBatch01_01a0014f5e23
