@@ -2994,3 +2994,6 @@ import MathlibPlus.Open.ResearchFormalizationAuxiliary
 import MathlibPlus.Open.Research.FormalizationBatch_019ffedf
 import MathlibPlus.Open.ResearchFormalizationBatch_019ffedf
 import MathlibPlus.Open.CompleteGraphDual.BatchR1892
+import MathlibPlus.Open.ResearchFormalization.Batch0817
+import MathlibPlus.Open.Research.PrimeLine
+import MathlibPlus.Open.Research.RootedTrees
