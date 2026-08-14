@@ -1,6 +1,7 @@
 import Mathlib
 
 <<<<<<< ours
+<<<<<<< ours
 open scoped BigOperators
 
 namespace MathlibPlus.Open.ResearchFormalizationBatch_01a000fb
@@ -413,4 +414,70 @@ def RealAutocorrelationMagnitudeBound : Prop :=
 
 end
 end MathlibPlus.Open.ResearchFormalizationBatch01
+>>>>>>> theirs
+=======
+namespace MathlibPlus.Open.ResearchFormalizationBatch
+
+open scoped BigOperators
+
+abbrev ResearchVariable := ℕ+
+abbrev ResearchPolynomial := MvPolynomial ResearchVariable ℚ
+
+def firstVariable : ResearchVariable :=
+  ⟨1, by decide⟩
+
+def successorVariable (a : ResearchVariable) : ResearchVariable :=
+  ⟨a.1 + 1, Nat.succ_pos _⟩
+
+def componentDegree {σ : Type*} (m : σ →₀ ℕ) : ℕ :=
+  m.sum (fun _ exponent => exponent)
+
+def componentHomogeneous (d : ℕ) (f : ResearchPolynomial) : Prop :=
+  MvPolynomial.IsWeightedHomogeneous (fun _ : ResearchVariable => (1 : ℕ)) f d
+
+def weightHomogeneous (n : ℕ) (f : ResearchPolynomial) : Prop :=
+  MvPolynomial.IsWeightedHomogeneous (fun i : ResearchVariable => i.1) f n
+
+noncomputable def componentPart (d : ℕ) (f : ResearchPolynomial) : ResearchPolynomial :=
+  ∑ m ∈ f.support.filter (fun m => componentDegree m = d),
+    MvPolynomial.monomial m (MvPolynomial.coeff m f)
+
+def topComponentDegree (f : ResearchPolynomial) : ℕ :=
+  f.support.sup componentDegree
+
+noncomputable def topComponent (f : ResearchPolynomial) : ResearchPolynomial :=
+  componentPart (topComponentDegree f) f
+
+noncomputable def researchDelta (f : ResearchPolynomial) : ResearchPolynomial :=
+  ∑ a ∈ f.vars,
+    MvPolynomial.C (a.1 : ℚ) * MvPolynomial.X (successorVariable a) *
+      (MvPolynomial.pderiv a) f
+
+noncomputable def researchGamma (n : ℕ) (f : ResearchPolynomial) : ResearchPolynomial :=
+  MvPolynomial.C (n : ℚ) * MvPolynomial.X firstVariable * f + researchDelta f
+def claim_48415 : Prop :=
+  (∀ (m : ResearchVariable →₀ ℕ) (r : ℕ),
+      componentDegree m = r →
+        componentHomogeneous r (MvPolynomial.monomial m 1)) ∧
+  (∀ (f : ResearchPolynomial) (d : ℕ),
+      componentHomogeneous d f →
+        componentHomogeneous (d + 1) (MvPolynomial.X firstVariable * f)) ∧
+  (∀ (a : ResearchVariable) (d : ℕ) (f : ResearchPolynomial),
+      componentHomogeneous d f →
+        componentHomogeneous d
+          (MvPolynomial.C (a.1 : ℚ) * MvPolynomial.X (successorVariable a) *
+            (MvPolynomial.pderiv a) f)) ∧
+  (∀ (n : ℕ) (f : ResearchPolynomial),
+      f ≠ 0 →
+        componentPart (topComponentDegree f + 1) (researchGamma n f) =
+          MvPolynomial.C (n : ℚ) * MvPolynomial.X firstVariable * topComponent f) ∧
+  (∀ (n : ℕ) (f : ResearchPolynomial),
+      0 < n → f ≠ 0 →
+        MvPolynomial.C (n : ℚ) * MvPolynomial.X firstVariable * topComponent f ≠ 0) ∧
+  (∀ (n : ℕ), 0 < n →
+    ∀ (f g : ResearchPolynomial),
+      weightHomogeneous n f → weightHomogeneous n g →
+      researchGamma n f = researchGamma n g → f = g)
+
+end MathlibPlus.Open.ResearchFormalizationBatch
 >>>>>>> theirs

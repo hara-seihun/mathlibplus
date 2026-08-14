@@ -3365,3 +3365,4 @@ import MathlibPlus.Open.Research.FormalizationBatch.P3Contamination
 import MathlibPlus.Open.Research.FormalizationBatch.ParentGraph
 import MathlibPlus.Open.ResearchFormalization.CubeTransitionDefects
 import MathlibPlus.Open.Analysis.DualIntegrationRigidity1559
+import MathlibPlus.Open.ResearchFormalization.Batch_01a000fa_c706_77fe_9d97_28496f027773
