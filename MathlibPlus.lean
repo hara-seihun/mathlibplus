@@ -3137,3 +3137,4 @@ import MathlibPlus.Open.ResearchFormalization.GeneralTwoSidedRepairTorsor
 import MathlibPlus.Open.ResearchFormalization.MinimumBlockAction
 import MathlibPlus.Open.Research.R1659
 import MathlibPlus.Open.Research.R1661
+import MathlibPlus.Open.ResearchBatchC9Counterexample
