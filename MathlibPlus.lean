@@ -3597,3 +3597,4 @@ import MathlibPlus.Open.LinearAlgebra.Claim4835
 import MathlibPlus.Open.Analysis.FiniteCircularResolventCertificate
 import MathlibPlus.Open.Analysis.CriticalSquareRootEndpointSpike
 import MathlibPlus.Open.Combinatorics.CayleyCI11
+import MathlibPlus.Open.Algebra.QuadraticGeneratorSyzygy
