@@ -3662,3 +3662,4 @@ import MathlibPlus.Open.Frontier.FixedLevelFiber
 import MathlibPlus.Open.Frontier.ZMod12CayleyCI
 import MathlibPlus.Open.Analysis.SignedCarrierSplit
 import MathlibPlus.Open.ResearchFormalization.CriticalLineGlobalUniformAbsGap
+import MathlibPlus.Open.Analysis.InverseHankelResidueEnergy
