@@ -3317,3 +3317,5 @@ import MathlibPlus.Open.GraphTwinFibresBatch
 import MathlibPlus.Open.Q12CayleyBatch
 import MathlibPlus.Open.SectionTransporterBatch
 import MathlibPlus.Open.HallMarkerBatch
+import MathlibPlus.Open.ResearchBatch.HiddenTriadGraphs
+import MathlibPlus.Open.ResearchBatch.SelectorCommutators
