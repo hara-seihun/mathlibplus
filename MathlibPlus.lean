@@ -2512,3 +2512,5 @@ import MathlibPlus.Open.Probability.PosteriorVarianceGamma
 import MathlibPlus.Open.GraphTheory.R3537MaxCut
 import MathlibPlus.Open.Analysis.AdmittedClaim54552
 import MathlibPlus.Open.GraphTheory.AdmittedClaims545Somlai
+import MathlibPlus.Open.Combinatorics.ResearchClaims019ffe63Separator
+import MathlibPlus.Open.GraphTheory.DeckInsertionBatch
