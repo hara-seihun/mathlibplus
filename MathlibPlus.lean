@@ -3312,3 +3312,4 @@ import MathlibPlus.Open.ResearchFormalizationBatch_01a000fa_cafc_7f26_afad_440b9
 import MathlibPlus.Open.ResearchFormalization.FinitePartialSums
 import MathlibPlus.Open.ResearchFormalization.RademacherArea
 import MathlibPlus.Open.ResearchFormalization.Batch_01a000fb
+import MathlibPlus.Open.Research.R1291
