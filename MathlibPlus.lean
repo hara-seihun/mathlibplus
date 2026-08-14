@@ -2835,3 +2835,5 @@ import MathlibPlus.Open.Graph.ExtensionCriterion
 import MathlibPlus.Open.ResearchFormalization.Logistic
 import MathlibPlus.Open.Research.QuadraticBatch
 import MathlibPlus.Open.RelativeDerivative
+import MathlibPlus.Open.Analysis.QuotientCurvature
+import MathlibPlus.Open.LinearAlgebra.SymplecticLocalObstructions
