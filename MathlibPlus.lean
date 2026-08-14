@@ -2419,3 +2419,4 @@ import MathlibPlus.Open.Algebra.ComponentPolynomialBatch
 import MathlibPlus.Open.Arithmetic.CRTFiberBatch
 import MathlibPlus.Open.GraphTheory.LabeledSubgraphCopies
 import MathlibPlus.Open.Algebra.ResearchStrongOrderingBatch
+import MathlibPlus.Open.NewResearch2.R0452
