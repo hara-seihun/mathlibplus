@@ -3650,3 +3650,4 @@ import MathlibPlus.Open.Analysis.GaussianRatioPropagation
 import MathlibPlus.Open.Graphs.BasisTranspose
 import MathlibPlus.Open.Combinatorics.Claim5457
 import MathlibPlus.Open.ResearchFormalization.ContractionRadius
+import MathlibPlus.Open.ResearchFormalizationD0079
