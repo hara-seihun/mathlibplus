@@ -3629,3 +3629,4 @@ import MathlibPlus.Open.Analysis.BatchMellin
 import MathlibPlus.Open.Combinatorics.BatchSemidirectOrbits
 import MathlibPlus.Open.ResearchBatch.GraphBounds
 import MathlibPlus.Open.Combinatorics.FiniteCayleyCI
+import MathlibPlus.Open.Algebra.DeconcatenationDefect
