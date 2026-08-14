@@ -3140,3 +3140,4 @@ import MathlibPlus.Open.Research.R1661
 import MathlibPlus.Open.ResearchBatchC9Counterexample
 import MathlibPlus.Open.ResearchFormalization.Batch1484
 import MathlibPlus.Open.ResearchFormalizationBatch_01a000eb669c70a2a7aa12653a5c13d3
+import MathlibPlus.Open.Research.FormalizationBatch01a000ea
