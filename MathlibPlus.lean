@@ -3262,3 +3262,5 @@ import MathlibPlus.Open.ResearchFormalizationBatch_01a000eb03937c429c8f533ab1b48
 import MathlibPlus.Open.ResearchFormalizationBatch_01a000fa_e2fa_7c31_90ed_ee0413b67c4b
 import MathlibPlus.Open.ResearchFormalizationBatch.F7
 import MathlibPlus.Open.ResearchFormalizationBatch.MarkedShear
+import MathlibPlus.Open.ResearchFormalization.BatchGeometry
+import MathlibPlus.Open.ResearchFormalization.BatchSignLaw
