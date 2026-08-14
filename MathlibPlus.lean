@@ -3590,3 +3590,4 @@ import MathlibPlus.Open.ResearchFormalization.Claim5425
 import MathlibPlus.Open.Research.FormalizationBatch0306
 import MathlibPlus.Open.Analysis.BatchC0304
 import MathlibPlus.Open.Analysis.ResearchFormalizationBatch
+import MathlibPlus.Open.LinearAlgebra.ArithmeticProjectiveMatrixClaim4967
