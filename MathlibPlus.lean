@@ -3096,3 +3096,4 @@ import MathlibPlus.Open.ResearchFormalization.Batch01
 import MathlibPlus.Open.ResearchFormalization.BatchOrbit
 import MathlibPlus.Open.Analysis.WeightedShellGamma
 import MathlibPlus.Open.Analysis.HedenmalmBatch
+import MathlibPlus.Open.ResearchFormalizationBatch_01a000eb_4ae7_7df4_af28_ce12b0230f89

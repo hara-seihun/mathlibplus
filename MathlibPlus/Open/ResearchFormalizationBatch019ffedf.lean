@@ -2,6 +2,7 @@ import Mathlib
 
 <<<<<<< ours
 <<<<<<< ours
+<<<<<<< ours
 open scoped BigOperators
 
 noncomputable section
@@ -540,4 +541,52 @@ def graphSixStabilizerModel : Prop :=
     Nonempty (H ≃* c2TimesS6)
 
 end ResearchFormalizationBatch019ffedf
+>>>>>>> theirs
+=======
+namespace MathlibPlus.Open.ResearchFormalizationBatch019ffedf
+
+noncomputable section
+local instance propDecidable (p : Prop) : Decidable p := Classical.propDecidable p
+local instance decEq (α : Type*) : DecidableEq α := Classical.decEq α
+
+abbrev C2 := Multiplicative (ZMod 2)
+abbrev C9 := Multiplicative (ZMod 9)
+abbrev G := ((C2 × C2) × C2) × C9
+
+/-- The inversion orbit of a nonidentity element of `G`. -/
+def inverseAtom (x : G) : Finset G := {x, x⁻¹}
+
+def inverseAtoms : Finset (Finset G) :=
+  (Finset.univ.filter (fun x : G => x ≠ 1)).image inverseAtom
+
+abbrev InverseAtom := {a : Finset G // a ∈ inverseAtoms}
+
+def IsGroupAutomorphism (f : G → G) : Prop :=
+  Function.Bijective f ∧ ∀ x y, f (x * y) = f x * f y
+
+abbrev GroupAutomorphism := {f : G → G // IsGroupAutomorphism f}
+
+def atomAction (φ : GroupAutomorphism) : InverseAtom → Finset G :=
+  fun a => a.1.image φ.1
+
+def atomActionImage : Finset (InverseAtom → Finset G) :=
+  Finset.univ.image atomAction
+
+/-- Exact inverse-atom and automorphism-action data for `C₂³ × C₉`. -/
+def claim_31053 : Prop :=
+  Fintype.card G = 72 ∧
+    Fintype.card {x : G // x ≠ 1} = 71 ∧
+    (∀ a ∈ inverseAtoms, a.card = 1 ∨ a.card = 2) ∧
+    inverseAtoms.card = 39 ∧
+    Fintype.card InverseAtom = 39 ∧
+    (inverseAtoms.filter (fun a => a.card = 1)).card = 7 ∧
+    (inverseAtoms.filter (fun a => a.card = 2)).card = 32 ∧
+    Fintype.card GroupAutomorphism = 1008 ∧
+    (∀ a : InverseAtom, a.1.image (fun x => x⁻¹) = a.1) ∧
+    (∀ φ : GroupAutomorphism, ∀ a : InverseAtom,
+      atomAction φ a ∈ inverseAtoms) ∧
+    atomActionImage.card = 504
+
+end
+end MathlibPlus.Open.ResearchFormalizationBatch019ffedf
 >>>>>>> theirs
