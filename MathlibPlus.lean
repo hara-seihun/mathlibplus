@@ -2952,3 +2952,4 @@ import MathlibPlus.Open.Research.ZeroSupportBatch019ffedc191b780e8d53fd32c5647ca
 import MathlibPlus.Open.Research.FormalizationBatch.Lagrange
 import MathlibPlus.Open.Research.FormalizationBatch.Graphs
 import MathlibPlus.Open.Research.FormalizationBatch.Rechart
+import MathlibPlus.Open.ResearchFormalization.Batch019
