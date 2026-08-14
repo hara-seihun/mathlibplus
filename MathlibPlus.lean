@@ -2907,3 +2907,5 @@ import MathlibPlus.Open.ResearchBatch.ColoredAffine
 import MathlibPlus.Open.ResearchBatch.UnorderedOrbitals
 import MathlibPlus.Open.ResearchFormalization.Batch019ffee1
 import MathlibPlus.Open.ResearchFormalization.InterpolationBatch
+import MathlibPlus.Open.ResearchBatch.Batch019ffedbd5b27bc7df6cebf9ac7379c.K0107Dilation
+import MathlibPlus.Open.ResearchFormalizationBatch019ffee247417e52a3777372619c2f85
