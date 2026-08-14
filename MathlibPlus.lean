@@ -3059,3 +3059,5 @@ import MathlibPlus.Open.InformationTheory.PrefixCodeTilt
 import MathlibPlus.Open.Analysis.ResearchFormalizationRadial
 import MathlibPlus.Open.Analysis.ExactRectangleRootCount
 import MathlibPlus.Open.Algebra.CharacteristicZeroGroupRing
+import MathlibPlus.Open.Combinatorics.PacketMarginalGains
+import MathlibPlus.Open.Hall.RelationJetInvariantForms
