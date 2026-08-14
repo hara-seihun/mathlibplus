@@ -2,6 +2,7 @@ import Mathlib
 
 <<<<<<< ours
 <<<<<<< ours
+<<<<<<< ours
 namespace MathlibPlus.Open.ResearchFormalizationBatch019ffedd
 
 noncomputable section
@@ -455,4 +456,114 @@ def claim19814 : Prop :=
 
 end
 end MathlibPlus.Open.ResearchFormalizationBatch019ffedd
+>>>>>>> theirs
+=======
+namespace MathlibPlus.Open.Combinatorics
+
+/-- A labelled two-edge wedge in the complete graph on `Fin n`. -/
+structure LabelledWedge (n : ℕ) where
+  center : Fin n
+  leaves : Finset (Fin n)
+  leaves_card : leaves.card = 2
+  center_not_mem : center ∉ leaves
+
+abbrev EdgeFamily (n : ℕ) := Finset (Finset (Fin n))
+
+def edge (x y : Fin n) : Finset (Fin n) := {x, y}
+
+def IsEdgeFamily {n : ℕ} (C : EdgeFamily n) : Prop :=
+  ∀ e ∈ C, e.card = 2
+
+def wedgeEdges {n : ℕ} (w : LabelledWedge n) : EdgeFamily n :=
+  w.leaves.image (fun u => edge w.center u)
+
+def ContainsWedge {n : ℕ} (C : EdgeFamily n) : Prop :=
+  ∃ w : LabelledWedge n, wedgeEdges w ⊆ C
+
+def NonmatchingEdgeFamily {n : ℕ} (C : EdgeFamily n) : Prop :=
+  ∃ e ∈ C, ∃ f ∈ C, e ≠ f ∧ (e ∩ f).Nonempty
+
+def X (n : ℕ) : Set (EdgeFamily n) :=
+  {C | IsEdgeFamily C ∧ ContainsWedge C}
+
+def XCoordinate {n : ℕ} (t : LabelledWedge n) : Set (EdgeFamily n) :=
+  {C | C ∈ X n ∧ wedgeEdges t ⊆ C}
+
+/-- Labelled wedges cover exactly the nonmatching edge sets, and their coordinate
+subsets cover `X n`. -/
+def claim21682 : Prop :=
+  ∀ n : ℕ,
+    X n = {C | IsEdgeFamily C ∧ NonmatchingEdgeFamily C} ∧
+      ∀ C : EdgeFamily n, C ∈ X n → ∃ t : LabelledWedge n, C ∈ XCoordinate t
+
+
+def twoSubsets {α : Type*} [DecidableEq α] (s : Finset α) : Finset (Finset α) :=
+  s.powerset.filter (fun t => t.card = 2)
+
+def neighbors {n : ℕ} (C : EdgeFamily n) (x : Fin n) : Finset (Fin n) :=
+  (Finset.univ : Finset (Fin n)).filter
+    (fun u => u ≠ x ∧ edge x u ∈ C)
+
+def rootedWedges {n : ℕ} (C : EdgeFamily n) (x : Fin n) : Finset (Finset (Fin n)) :=
+  (Finset.univ : Finset (Fin n)).powerset.filter
+    (fun s => s.card = 2 ∧ ∀ u ∈ s, u ≠ x ∧ edge x u ∈ C)
+
+def sameCenterSlide {n : ℕ} (C : EdgeFamily n) (x : Fin n)
+    (s t : Finset (Fin n)) : Prop :=
+  s ∈ rootedWedges C x ∧ t ∈ rootedWedges C x ∧ s ≠ t ∧ (s ∩ t).card = 1
+
+def johnsonAdjacency {n : ℕ} (vertices : Finset (Finset (Fin n)))
+    (s t : Finset (Fin n)) : Prop :=
+  s ∈ vertices ∧ t ∈ vertices ∧ s ≠ t ∧ (s ∩ t).card = 1
+
+def ConnectedBy {α : Type*} (vertices : Finset α) (adj : α → α → Prop) : Prop :=
+  ∀ a ∈ vertices, ∀ b ∈ vertices, Relation.ReflTransGen adj a b
+
+/-- At a fixed centre, rooted wedges are the two-subsets of the neighbour set,
+and the same-centre slides give the connected Johnson graph whenever a wedge is
+present. -/
+def claim21693 : Prop :=
+  ∀ (n : ℕ) (C : EdgeFamily n) (x : Fin n),
+    IsEdgeFamily C →
+      rootedWedges C x = twoSubsets (neighbors C x) ∧
+        (∀ s t : Finset (Fin n),
+          sameCenterSlide C x s t ↔
+            johnsonAdjacency (twoSubsets (neighbors C x)) s t) ∧
+        ((rootedWedges C x).Nonempty →
+          ConnectedBy (rootedWedges C x) (sameCenterSlide C x))
+
+end MathlibPlus.Open.Combinatorics
+
+namespace MathlibPlus.Open.Analysis
+
+noncomputable section
+
+def theta (x : ℝ) : ℝ := Real.arctan (1 / x)
+
+def h (x : ℝ) : ℝ := Real.log (1 + x⁻¹ ^ 2)
+
+def aOne (x : ℝ) : ℝ := h x / 4 - 1 / (1 + x ^ 2)
+
+def bOne (x : ℝ) : ℝ := -theta x / 2 - 3 * x / (1 + x ^ 2)
+
+/-- The elementary bounds for the correction components and their first three
+`x`-derivatives on the stated half-line. -/
+def claim21698 : Prop :=
+  ∀ x : ℝ, 1 ≤ x →
+    0 ≤ theta x ∧
+    theta x ≤ 1 / x ∧
+    0 ≤ h x ∧
+    h x ≤ 1 / x ^ 2 ∧
+    |aOne x| ≤ 5 / (4 * x ^ 2) ∧
+    |deriv aOne x| ≤ 3 / (2 * x ^ 3) ∧
+    |deriv (deriv aOne) x| ≤ 5 / x ^ 4 ∧
+    |deriv (deriv (deriv aOne)) x| ≤ 56 / x ^ 5 ∧
+    |bOne x| ≤ 7 / (2 * x) ∧
+    |deriv bOne x| ≤ 7 / (2 * x ^ 2) ∧
+    |deriv (deriv bOne) x| ≤ 24 / x ^ 3 ∧
+    |deriv (deriv (deriv bOne)) x| ≤ 144 / x ^ 4
+
+end
+
+end MathlibPlus.Open.Analysis
 >>>>>>> theirs
