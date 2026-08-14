@@ -3357,3 +3357,5 @@ import MathlibPlus.Open.Graph.AdmittedBatch
 import MathlibPlus.Open.Research.R1645.RankOneNonlinear
 import MathlibPlus.Open.Frontier.QuantitativeCriticalBand
 import MathlibPlus.Open.ResearchFormalization.AdmittedBatch
+import MathlibPlus.Open.Research.RademacherBatch
+import MathlibPlus.Open.Analysis.RankNineConstantSectorPositive
