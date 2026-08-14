@@ -3661,3 +3661,4 @@ import MathlibPlus.Open.ResearchFormalizationBatch_01a001bc_3fb0_71a5_8729_559cc
 import MathlibPlus.Open.Frontier.FixedLevelFiber
 import MathlibPlus.Open.Frontier.ZMod12CayleyCI
 import MathlibPlus.Open.Analysis.SignedCarrierSplit
+import MathlibPlus.Open.ResearchFormalization.CriticalLineGlobalUniformAbsGap
