@@ -3331,3 +3331,4 @@ import MathlibPlus.Open.ResearchFormalize.SpiderIndependence
 import MathlibPlus.Open.Analysis.KernelPiNegativeRankTwoNearZero
 import MathlibPlus.Open.ResearchFormalization.BatchUnionClosed
 import MathlibPlus.Ingest.R3186
+import MathlibPlus.Open.BatchFormalization.GroupClaims
