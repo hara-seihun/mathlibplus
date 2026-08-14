@@ -3558,3 +3558,4 @@ import MathlibPlus.Open.Analysis.EntireMellinSampleSum
 import MathlibPlus.Open.Frontier.CIMixedAbelianAffineBaseRigidity
 import MathlibPlus.Open.Research.C3NextToMinimalConnectedValencyCI
 import MathlibPlus.Open.Research.AwdtArithmeticAcyclicityIncomingDifferentialObstruction
+import MathlibPlus.Open.Analysis.UniformDirectMellinAsymptotic3738
