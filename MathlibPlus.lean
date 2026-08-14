@@ -3491,3 +3491,4 @@ import MathlibPlus.Open.ResearchFormalizationBatch01_01a0014f
 import MathlibPlus.Open.Analysis.PrimeTowerAutocorrelation
 import MathlibPlus.Open.Analysis.PrimeTowerThirdMomentCollision
 import MathlibPlus.Open.ResearchFormalizationBatch01a00176
+import MathlibPlus.Open.Frontier.RankThreeShear
