@@ -3182,3 +3182,5 @@ import MathlibPlus.Open.Algebra.TransportBatch
 import MathlibPlus.Open.Analysis.AgeBatch
 import MathlibPlus.Open.Analysis.InterpolationBatch
 import MathlibPlus.Open.Probability.RandomGraphBatch
+import MathlibPlus.Open.ResearchFormalization.BatchMatrix
+import MathlibPlus.Open.ResearchFormalization.BatchOperators
