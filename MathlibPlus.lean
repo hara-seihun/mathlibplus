@@ -2956,3 +2956,5 @@ import MathlibPlus.Open.ResearchFormalization.Batch019
 import MathlibPlus.Open.Research.R1468
 import MathlibPlus.Open.ResearchFormalization.Batch_019ffee13c0f7f23c8c27fdbad3971199
 import MathlibPlus.Open.ResearchFormalizationBatch_019ffee1_381d_7322_b2f6_d6e3063c8083
+import MathlibPlus.Open.ResearchFormalizationBatch.DiagonalOrbital
+import MathlibPlus.Open.ResearchFormalizationBatch.PolynomialThreshold
