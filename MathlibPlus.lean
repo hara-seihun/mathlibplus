@@ -3404,3 +3404,5 @@ import MathlibPlus.Open.ResearchFormalizationBatch_01a0014b_8d66_78ae_90c0_ae470
 import MathlibPlus.Open.Analysis.ClearedStripPositivity
 import MathlibPlus.Open.ResearchFormalization.Claim1712
 import MathlibPlus.Open.ResearchFormalizationBatch.Batch_01a0014f_31053_31054
+import MathlibPlus.Open.ResearchBatch.Probability
+import MathlibPlus.Open.ResearchFormalizeBatch
