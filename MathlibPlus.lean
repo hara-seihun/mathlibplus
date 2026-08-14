@@ -3313,3 +3313,7 @@ import MathlibPlus.Open.ResearchFormalization.FinitePartialSums
 import MathlibPlus.Open.ResearchFormalization.RademacherArea
 import MathlibPlus.Open.ResearchFormalization.Batch_01a000fb
 import MathlibPlus.Open.Research.R1291
+import MathlibPlus.Open.GraphTwinFibresBatch
+import MathlibPlus.Open.Q12CayleyBatch
+import MathlibPlus.Open.SectionTransporterBatch
+import MathlibPlus.Open.HallMarkerBatch
