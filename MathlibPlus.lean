@@ -2965,3 +2965,4 @@ import MathlibPlus.Open.Research.O0185Discriminant
 import MathlibPlus.Open.Analysis.CHJIIWeights
 import MathlibPlus.Open.CayleyCI.AdmittedBoundaryBatch
 import MathlibPlus.Open.ResearchFormalization.CrossedSwapMatrix
+import MathlibPlus.Open.ResearchFormalization.Claim19038And19062
