@@ -3527,3 +3527,4 @@ import MathlibPlus.Open.ResearchFormalizationBatch.Geometry
 import MathlibPlus.Open.ResearchFormalizationBatch.GroupGraph
 import MathlibPlus.Open.ResearchFormalizationBatch.Linear
 import MathlibPlus.Open.ResearchFormalizationBatch.Probability
+import MathlibPlus.Open.Analysis.SuffixOptimizers
