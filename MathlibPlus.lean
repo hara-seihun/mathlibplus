@@ -2625,3 +2625,8 @@ import MathlibPlus.Open.GraphTheory.ScalarOrderThreeCI
 import MathlibPlus.Open.GraphTheory.R1807LinearAffine
 import MathlibPlus.Analysis.Claim45805
 import MathlibPlus.Open.Combinatorics.AdmittedBatchR2666
+import MathlibPlus.Open.ResearchFormalization.R4734
+import MathlibPlus.Open.ResearchFormalization.R5783
+import MathlibPlus.Open.ResearchFormalization.R5784
+import MathlibPlus.Open.ResearchFormalization.C0113C0144C0187
+import MathlibPlus.Open.Analysis.Section4RemainderClaim1565
