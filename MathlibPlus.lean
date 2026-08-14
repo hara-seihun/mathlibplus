@@ -3508,3 +3508,6 @@ import MathlibPlus.Open.Analysis.FinitePositiveShellTotalGrowth
 import MathlibPlus.Open.ResearchBatch.AdvancedGroups
 import MathlibPlus.Open.ResearchBatch.Wreath
 import MathlibPlus.Open.Analysis.DenseDerivativeReconstructionContinuousDifference
+import MathlibPlus.Open.ResearchFormalizationBatch01.Reciprocal
+import MathlibPlus.Open.ResearchFormalizationBatch01.RootedTrees
+import MathlibPlus.Open.ResearchFormalizationBatch01.Sunflowers
