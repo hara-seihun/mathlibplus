@@ -2821,3 +2821,5 @@ import MathlibPlus.Open.Research.R1162Formalization
 import MathlibPlus.Open.Research.FormalizationBatch019
 import MathlibPlus.Open.Research.BatchQ0052Cayley
 import MathlibPlus.Open.Research.BatchQ0060Stability
+import MathlibPlus.Open.ResearchFormalization.ProjectiveDiscriminant
+import MathlibPlus.Open.Research.FormalizationBatchOrbitalAndBlockKernels
