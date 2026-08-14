@@ -3720,3 +3720,5 @@ import MathlibPlus.Open.Research.CayleyCI
 import MathlibPlus.Open.Research.TreeReroot
 import MathlibPlus.Open.Frontier.PolynomialDerivativeReconstruction
 import MathlibPlus.Open.ResearchFormalization.ThetaCorrelation
+import MathlibPlus.Open.CommunicationDeficit
+import MathlibPlus.Open.Combinatorics.CayleyGraphIsomorphism
