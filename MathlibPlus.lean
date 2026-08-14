@@ -3711,3 +3711,4 @@ import MathlibPlus.Open.Research.SomlaiBoundaryDefect
 import MathlibPlus.Open.Analysis.AllRankRowPolarizedParticleIdentity
 import MathlibPlus.Open.ResearchFormalization.CanonicalPhaseScale
 import MathlibPlus.Open.Analysis.RankinSelberg
+import MathlibPlus.Open.Analysis.MultiplierWeightedReflection
