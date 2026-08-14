@@ -2680,3 +2680,7 @@ import MathlibPlus.Analysis.Claim12086
 import MathlibPlus.Open.ResearchFormalization.C0297
 import MathlibPlus.Open.ResearchFormalization.D0036
 import MathlibPlus.Open.ResearchFormalization.D0070
+import MathlibPlus.Open.AlgebraicGeometry.FermatQuinticBatch
+import MathlibPlus.Open.Analysis.ChebyshevPivotBatch
+import MathlibPlus.Open.Combinatorics.StarSunflowerBatch
+import MathlibPlus.Open.NumberTheory.ZetaBatch
