@@ -3706,3 +3706,4 @@ import MathlibPlus.Open.Frontier.AdmittedCayleyCI59925
 import MathlibPlus.Open.LinearAlgebra.Claim7366
 import MathlibPlus.Open.Analysis.Claim7429
 import MathlibPlus.Open.Research.K0013FormalizationBatch
+import MathlibPlus.Open.Analysis.ShiftAverageModulus
