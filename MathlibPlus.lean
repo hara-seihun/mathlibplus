@@ -2520,3 +2520,9 @@ import MathlibPlus.Open.LinearAlgebra.AdmittedAlternatingBatch
 import MathlibPlus.Open.Combinatorics.AdmittedBatch49111TreePolynomials
 import MathlibPlus.Open.Probability.AdmittedBatch49118Oracle
 import MathlibPlus.Open.Probability.AdmittedBatch49134Area
+import MathlibPlus.Open.NewResearch2.BareMultiplier
+import MathlibPlus.Open.NewResearch2.IntegerComb
+import MathlibPlus.Open.NewResearch2.KernelMoments
+import MathlibPlus.Open.NewResearch2.R0199
+import MathlibPlus.Open.NewResearch2.ThetaBoundary
+import MathlibPlus.Open.NewResearch2.D0032
