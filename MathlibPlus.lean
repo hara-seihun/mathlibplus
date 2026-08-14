@@ -2899,3 +2899,6 @@ import MathlibPlus.Open.GroupTheory.AdmittedBatchR0798
 import MathlibPlus.Open.ResearchFormalizationBatch019ffee2
 import MathlibPlus.Open.AdmittedBatch
 import MathlibPlus.Open.ResearchFormalization.AdmittedCharts
+import MathlibPlus.Open.ProjectsResearch.R1215
+import MathlibPlus.Open.ResearchFormalizationBatch.DegreeEightCensus
+import MathlibPlus.Open.ResearchFormalizationBatch.Order192CrossClass
