@@ -2651,3 +2651,4 @@ import MathlibPlus.Open.Combinatorics.ResearchStrictProjection
 import MathlibPlus.Open.GraphTheory.ResearchCaterpillars
 import MathlibPlus.Open.LinearAlgebra.ResearchHolonomy
 import MathlibPlus.GraphTheory.Claim5453
+import MathlibPlus.Open.Research.FormalizationBatch_019ffedc_9434_7a88_99c6_2783dfc2933d
