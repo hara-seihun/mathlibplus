@@ -3689,3 +3689,4 @@ import MathlibPlus.Open.Analysis.RankThreeMomentPolynomial
 import MathlibPlus.Open.Combinatorics.MotifStoppingSet
 import MathlibPlus.Open.K0069
 import MathlibPlus.Open.Analysis.ExactProductShellPairFactorization
+import MathlibPlus.Open.Analysis.CanonicalConeEntireInfiniteZeroObstruction
