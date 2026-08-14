@@ -3555,3 +3555,4 @@ import MathlibPlus.Open.Analysis.Claim3056
 import MathlibPlus.Open.Analysis.Claim59747
 import MathlibPlus.Open.Analysis.SuperfactoriallySmallReflectedRatio
 import MathlibPlus.Open.Analysis.EntireMellinSampleSum
+import MathlibPlus.Open.Frontier.CIMixedAbelianAffineBaseRigidity
