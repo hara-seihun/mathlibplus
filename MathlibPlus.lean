@@ -2444,3 +2444,5 @@ import MathlibPlus.Open.NewResearch2.R0136
 import MathlibPlus.Open.Research2.R0194
 import MathlibPlus.Open.DecisionTrees.TreeHullBatch
 import MathlibPlus.Open.Analytic.ZetaZeroFree
+import MathlibPlus.Open.FrameSkinbookBatch
+import MathlibPlus.Open.NewResearch2.AlternantDerivative
