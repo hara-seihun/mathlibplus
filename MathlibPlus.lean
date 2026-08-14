@@ -3602,3 +3602,5 @@ import MathlibPlus.Open.Research.D0106
 import MathlibPlus.Open.ResearchFormalization.InteriorChainResonance
 import MathlibPlus.Open.Edge13Modes
 import MathlibPlus.Open.Research.FormalizationBatch.FiniteDihedralCayley91
+import MathlibPlus.Open.Analysis.PerturbationEnvelope
+import MathlibPlus.Open.Combinatorics.TraceAndCayleyBatch
