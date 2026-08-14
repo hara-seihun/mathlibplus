@@ -2611,3 +2611,4 @@ import MathlibPlus.Open.Algebra.PhysicalBracket
 import MathlibPlus.Open.Algebra.BatchMomentConstraints42145
 import MathlibPlus.Open.Combinatorics.BatchIntervalImprovements42204
 import MathlibPlus.Open.LinearAlgebra.BatchLatticeSpectral42156
+import MathlibPlus.Analysis.Claim51132
