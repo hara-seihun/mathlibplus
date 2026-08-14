@@ -3476,3 +3476,11 @@ import MathlibPlus.Open.ResearchFormalization.CommonInvariantFlag
 import MathlibPlus.Open.ResearchFormalization.OrbitRowReduction
 import MathlibPlus.Open.ResearchFormalization.SchwartzMomentObstruction
 import MathlibPlus.Open.Frontier.CIElementaryAbelian3Rank6_7MinimalValency
+import MathlibPlus.Open.ResearchFormalization.R4022
+import MathlibPlus.Open.ResearchFormalization.R4553
+import MathlibPlus.Open.ResearchFormalization.R4620
+import MathlibPlus.Open.ResearchFormalization.R4676
+import MathlibPlus.Open.ResearchFormalization.R4682
+import MathlibPlus.Open.ResearchFormalization.R52949
+import MathlibPlus.Open.ResearchFormalization.R52980
+import MathlibPlus.Open.ResearchFormalization.R53669
