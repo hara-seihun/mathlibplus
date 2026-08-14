@@ -2759,3 +2759,9 @@ import MathlibPlus.Open.ResearchFormalizationBatchR1409
 import MathlibPlus.Open.Analysis.PositiveCounterfeitBatch
 import MathlibPlus.Open.Analysis.RieszEnergyBatch
 import MathlibPlus.Open.ResearchFormalizationBatch019ffedf
+import MathlibPlus.Open.Research.FormalizationBatch019ffedd3a89746fb3037ba0172c78b8SetSystems
+import MathlibPlus.Open.Research.FormalizationBatch019ffedd3a89746fb3037ba0172c78b8PairedNorm
+import MathlibPlus.Open.Research.CentralizerOrbit
+import MathlibPlus.Open.Research.RegularPrimeBlocks
+import MathlibPlus.Open.ResearchFormalization.Parity
+import MathlibPlus.Open.ResearchFormalization.Unsampled
