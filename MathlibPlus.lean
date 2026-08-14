@@ -3617,3 +3617,7 @@ import MathlibPlus.Open.Research.Batch5413
 import MathlibPlus.Open.Analysis.MellinWeilReflection
 import MathlibPlus.Open.LinearAlgebra.DeletionStableBoundedAnchor
 import MathlibPlus.Open.ResearchBatch.D0136Claim5831
+import MathlibPlus.Open.ResearchFormalization.Lease01a0019fCoding
+import MathlibPlus.Open.ResearchFormalization.Lease01a0019fGraph
+import MathlibPlus.Open.ResearchFormalization.Lease01a0019fGraphOrbit
+import MathlibPlus.Open.ResearchFormalization.Lease01a0019fGroup
