@@ -3191,3 +3191,7 @@ import MathlibPlus.Open.Combinatorics.TreeAttachmentBatch
 import MathlibPlus.Open.GroupTheory.CayleyCIBatch
 import MathlibPlus.Open.ResearchFormalization.Theta
 import MathlibPlus.Open.ResearchFormalization.Exchangeable
+import MathlibPlus.Open.ResearchFormalization.CayleyCI
+import MathlibPlus.Open.ResearchFormalization.Endpoint
+import MathlibPlus.Open.ResearchFormalization.GraphClosure
+import MathlibPlus.Open.ResearchFormalization.Wreath
