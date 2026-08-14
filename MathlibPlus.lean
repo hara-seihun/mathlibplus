@@ -3444,3 +3444,5 @@ import MathlibPlus.Open.ResearchFormalization.CayleySignature
 import MathlibPlus.Open.ResearchFormalization.Diamond
 import MathlibPlus.Open.ResearchFormalization.ReconstructionFixture
 import MathlibPlus.Open.ResearchFormalization.SignedGap
+import MathlibPlus.Open.ResearchFormalization.AffineOrbitals
+import MathlibPlus.Open.ResearchFormalization.Cayley
