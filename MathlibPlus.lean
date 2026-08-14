@@ -3012,3 +3012,7 @@ import MathlibPlus.Open.ResearchFormalization.Batch0315
 import MathlibPlus.Open.Research.Batch.TranslationCyclic019ffedf
 import MathlibPlus.Open.Research.Batch.RegularA4SevenCycle019ffedf
 import MathlibPlus.Open.ResearchFormalization.Batch019ffee2
+import MathlibPlus.Open.ResearchFormalizationBatch019ffee2272870e9b1c0a305a8
+import MathlibPlus.Open.Research.BatchR1599A7
+import MathlibPlus.Open.Research.BatchR1600Graph
+import MathlibPlus.Open.Research.BatchR1600Perfect
