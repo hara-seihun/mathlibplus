@@ -3270,3 +3270,7 @@ import MathlibPlus.Open.ResearchFormalization.AffineBarycenter
 import MathlibPlus.Open.Combinatorics.AdmittedForestBatch
 import MathlibPlus.Open.Algebra.AdmittedLegFactors
 import MathlibPlus.Open.Combinatorics.AdmittedPointedGraphCarrier
+import MathlibPlus.Open.FormalizationBatch.BoundaryGrafts
+import MathlibPlus.Open.FormalizationBatch.Insertion
+import MathlibPlus.Open.FormalizationBatch.LeafSuspension
+import MathlibPlus.Open.FormalizationBatch.SpiderFormula
