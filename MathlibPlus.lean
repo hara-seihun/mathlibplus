@@ -2802,3 +2802,6 @@ import MathlibPlus.Open.ResearchFormalizationBatch.Shell
 import MathlibPlus.Open.ResearchFormalizationBatch.Robin
 import MathlibPlus.Open.ResearchFormalization.R0276CanonicalOdd
 import MathlibPlus.Open.ResearchFormalization.R1022
+import MathlibPlus.Open.Research.AdmittedBatchPrimeBounds
+import MathlibPlus.Open.Research.AdmittedBatchReciprocalRoots
+import MathlibPlus.Open.Research.AdmittedBatchZeroConvergence
