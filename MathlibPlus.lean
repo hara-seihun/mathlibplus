@@ -3406,3 +3406,7 @@ import MathlibPlus.Open.ResearchFormalization.Claim1712
 import MathlibPlus.Open.ResearchFormalizationBatch.Batch_01a0014f_31053_31054
 import MathlibPlus.Open.ResearchBatch.Probability
 import MathlibPlus.Open.ResearchFormalizeBatch
+import MathlibPlus.Open.Research.FormalizationBatch.Analytic
+import MathlibPlus.Open.Research.FormalizationBatch.Arithmetic
+import MathlibPlus.Open.BpsBatch
+import MathlibPlus.Open.SelectorBatch
