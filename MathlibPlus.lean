@@ -2544,3 +2544,5 @@ import MathlibPlus.Open.NewResearch2.R0578
 import MathlibPlus.Open.Algebra.ProductTransferBatch
 import MathlibPlus.Open.NewResearch2.C0117Concrete
 import MathlibPlus.Open.ConeLiftBatch
+import MathlibPlus.Algebra.Claim27079
+import MathlibPlus.Open.Analysis.RectangleTransform2246
