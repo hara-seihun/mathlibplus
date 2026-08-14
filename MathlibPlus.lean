@@ -2923,3 +2923,4 @@ import MathlibPlus.Open.ResearchFormalization.Batch1133
 import MathlibPlus.Open.ResearchFormalization.Batch_019ffee1_R1556
 import MathlibPlus.Open.Research.AffineCubes
 import MathlibPlus.Open.Research.R3132
+import MathlibPlus.Open.ResearchFormalizationBatch.UPolynomial
