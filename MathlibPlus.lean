@@ -3205,3 +3205,7 @@ import MathlibPlus.Open.Research.FormalizationBatch.R0455_Cyclotomic
 import MathlibPlus.Open.Research.FormalizationBatchCentroid
 import MathlibPlus.Open.Research.FormalizationBatchDecks
 import MathlibPlus.Open.Research.FormalizationBatchUPolynomial
+import MathlibPlus.Open.Analysis.FormalizationBatchArcsine
+import MathlibPlus.Open.Analysis.FormalizationBatchTheta
+import MathlibPlus.Open.Analysis.FormalizationBatchMellin
+import MathlibPlus.Open.Analysis.FormalizationBatchEntire
