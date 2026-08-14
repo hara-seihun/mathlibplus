@@ -3670,3 +3670,4 @@ import MathlibPlus.Open.Research.BatchD0014
 import MathlibPlus.Open.Research.BatchD0016
 import MathlibPlus.Open.Research.BatchD0030
 import MathlibPlus.Open.Analysis.ReciprocalKernelJet
+import MathlibPlus.Open.Analysis.PositivePartnerSwap
