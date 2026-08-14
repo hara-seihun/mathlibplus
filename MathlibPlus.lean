@@ -3390,3 +3390,6 @@ import MathlibPlus.Open.ResearchFormalization.BatchGroupClaims
 import MathlibPlus.Open.ResearchFormalization.BatchGraphClaim
 import MathlibPlus.Open.Algebra.HankelDeterminants
 import MathlibPlus.Open.LinearAlgebra.RetainedCircleRank
+import MathlibPlus.Open.AdmittedBatch.Stirling
+import MathlibPlus.Open.AdmittedBatch.Henon
+import MathlibPlus.Open.AdmittedBatch.Lehmer
