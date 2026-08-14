@@ -3598,3 +3598,4 @@ import MathlibPlus.Open.Analysis.FiniteCircularResolventCertificate
 import MathlibPlus.Open.Analysis.CriticalSquareRootEndpointSpike
 import MathlibPlus.Open.Combinatorics.CayleyCI11
 import MathlibPlus.Open.Algebra.QuadraticGeneratorSyzygy
+import MathlibPlus.Open.Research.D0106
