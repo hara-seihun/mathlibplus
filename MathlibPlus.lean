@@ -3267,3 +3267,6 @@ import MathlibPlus.Open.ResearchFormalization.BatchSignLaw
 import MathlibPlus.Open.Research.FormalizationBatchCharacteristicP
 import MathlibPlus.Open.Research.FormalizationBatchTernaryHenon
 import MathlibPlus.Open.ResearchFormalization.AffineBarycenter
+import MathlibPlus.Open.Combinatorics.AdmittedForestBatch
+import MathlibPlus.Open.Algebra.AdmittedLegFactors
+import MathlibPlus.Open.Combinatorics.AdmittedPointedGraphCarrier
