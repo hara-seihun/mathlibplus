@@ -3521,3 +3521,9 @@ import MathlibPlus.Open.PrimeCounting.PublishedEndpoint1149
 import MathlibPlus.Open.ResearchFormalization.C0089
 import MathlibPlus.Open.Analysis.StrictCoefficientRepairAtPublishedStart
 import MathlibPlus.Open.Analysis.SharpAllRankDegreeThreshold
+import MathlibPlus.Open.ResearchFormalizationBatch.Analysis
+import MathlibPlus.Open.ResearchFormalizationBatch.Combinatorics
+import MathlibPlus.Open.ResearchFormalizationBatch.Geometry
+import MathlibPlus.Open.ResearchFormalizationBatch.GroupGraph
+import MathlibPlus.Open.ResearchFormalizationBatch.Linear
+import MathlibPlus.Open.ResearchFormalizationBatch.Probability
