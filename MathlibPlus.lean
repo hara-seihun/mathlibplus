@@ -3624,3 +3624,4 @@ import MathlibPlus.Open.ResearchFormalization.Lease01a0019fGroup
 import MathlibPlus.Open.Research.BatchLinearGrowth
 import MathlibPlus.Open.Analysis.FiniteLawLambdaSignMatrixOptimal
 import MathlibPlus.Open.Combinatorics.Claim5604
+import MathlibPlus.Open.Research.FiniteGroupOrbit59876
