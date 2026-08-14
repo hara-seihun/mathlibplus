@@ -2990,3 +2990,6 @@ import MathlibPlus.Open.ResearchFormalization.Batch019ffee2R2313
 import MathlibPlus.Open.FormalizationBatch.CrtSemidirect
 import MathlibPlus.Open.Research.R2218Setup
 import MathlibPlus.Open.Research.R2233Witness
+import MathlibPlus.Open.ResearchFormalizationAuxiliary
+import MathlibPlus.Open.Research.FormalizationBatch_019ffedf
+import MathlibPlus.Open.ResearchFormalizationBatch_019ffedf
