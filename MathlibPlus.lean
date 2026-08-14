@@ -2503,3 +2503,5 @@ import MathlibPlus.Open.Analysis.K0028CoreBatch019ffe1f
 import MathlibPlus.Open.Combinatorics.BooleanCubeChainBatch
 import MathlibPlus.Open.NumberTheory.AdmittedK0149
 import MathlibPlus.Open.Analysis.AdmittedBatchC0299ModerateDeviation
+import MathlibPlus.Open.GraphTheory.CayleyAtlasTransports
+import MathlibPlus.Open.LinearAlgebra.R1845CarryChart
