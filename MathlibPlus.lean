@@ -3591,3 +3591,5 @@ import MathlibPlus.Open.Research.FormalizationBatch0306
 import MathlibPlus.Open.Analysis.BatchC0304
 import MathlibPlus.Open.Analysis.ResearchFormalizationBatch
 import MathlibPlus.Open.LinearAlgebra.ArithmeticProjectiveMatrixClaim4967
+import MathlibPlus.Open.ResearchFormalization.FiniteCayleyBatch
+import MathlibPlus.Open.Analysis.ZetaMellinFactorization
