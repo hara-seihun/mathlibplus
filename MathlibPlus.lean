@@ -2590,3 +2590,4 @@ import MathlibPlus.GroupTheory.Claim41198
 import MathlibPlus.Open.NewResearch2.DiscreteSurfaceGroup
 import MathlibPlus.Open.GraphTheory.Profiles57376_57378
 import MathlibPlus.Open.ResearchFormalization.GraphDeckBatch
+import MathlibPlus.Open.Analysis.ResearchSquaredXiSeries
