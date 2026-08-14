@@ -3332,3 +3332,5 @@ import MathlibPlus.Open.Analysis.KernelPiNegativeRankTwoNearZero
 import MathlibPlus.Open.ResearchFormalization.BatchUnionClosed
 import MathlibPlus.Ingest.R3186
 import MathlibPlus.Open.BatchFormalization.GroupClaims
+import MathlibPlus.Open.ResearchFormalizationBatch.BooleanGraph
+import MathlibPlus.Open.ResearchFormalization.FiniteBatch01a000fb7fc6737381bd8d6eae1fc9be
