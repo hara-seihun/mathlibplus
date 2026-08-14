@@ -2793,3 +2793,6 @@ import MathlibPlus.Open.ResearchFormalization.Amplification
 import MathlibPlus.Open.ResearchFormalization.Ranks
 import MathlibPlus.Open.Research.IdentityBasePrimeFiber
 import MathlibPlus.Open.ResearchFormalizeBatch019ffede
+import MathlibPlus.Open.Analysis.FormalizationBatch.PositiveCones
+import MathlibPlus.Open.Analysis.FormalizationBatch.PerronBounds
+import MathlibPlus.Open.Combinatorics.FormalizationBatch.RankFour
