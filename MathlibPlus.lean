@@ -3307,3 +3307,4 @@ import MathlibPlus.Open.ResearchBatch.GraphCorrection
 import MathlibPlus.Open.ResearchFormalize.CayleyMatrices
 import MathlibPlus.Open.ResearchFormalize.PathSupply
 import MathlibPlus.Open.ResearchFormalize.RankThreeCoordinates
+import MathlibPlus.Open.ResearchFormalization.Batch39139
