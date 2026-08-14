@@ -2418,3 +2418,4 @@ import MathlibPlus.Open.GroupTheory.NR2CayleyCI
 import MathlibPlus.Open.Algebra.ComponentPolynomialBatch
 import MathlibPlus.Open.Arithmetic.CRTFiberBatch
 import MathlibPlus.Open.GraphTheory.LabeledSubgraphCopies
+import MathlibPlus.Open.Algebra.ResearchStrongOrderingBatch
