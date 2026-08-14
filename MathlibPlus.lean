@@ -2496,3 +2496,6 @@ import MathlibPlus.Open.NewResearch2.R0526
 import MathlibPlus.Open.Research.MixedArmBoundary
 import MathlibPlus.Open.LinearAlgebra.AdmittedBatchD0084
 import MathlibPlus.Open.Combinatorics.SunflowerMargins
+import MathlibPlus.Open.R0105
+import MathlibPlus.Open.R0110
+import MathlibPlus.Open.R0118
