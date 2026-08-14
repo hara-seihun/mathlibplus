@@ -3166,3 +3166,6 @@ import MathlibPlus.Open.ResearchBatch.DiagonalKernels
 import MathlibPlus.Open.ResearchBatch.Reflection
 import MathlibPlus.Open.ResearchBatch.Schur
 import MathlibPlus.Open.ResearchBatch.Shell
+import MathlibPlus.Open.ResearchFormalization.BlockLayers
+import MathlibPlus.Open.ResearchFormalization.HeavySlabs
+import MathlibPlus.Open.ResearchFormalization.RegularCopies
