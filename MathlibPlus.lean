@@ -3329,3 +3329,4 @@ import MathlibPlus.Open.R3406FourPrimeGate
 import MathlibPlus.Open.ResearchFormalize.ToyLaurent
 import MathlibPlus.Open.ResearchFormalize.SpiderIndependence
 import MathlibPlus.Open.Analysis.KernelPiNegativeRankTwoNearZero
+import MathlibPlus.Open.ResearchFormalization.BatchUnionClosed
