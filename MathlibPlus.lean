@@ -3700,3 +3700,4 @@ import MathlibPlus.Open.ResearchFormalizationBatch.GraphAndEnergy
 import MathlibPlus.Open.ResearchFormalization.CommunicationArea
 import MathlibPlus.Open.ResearchFormalization.InverseHankelOneHole
 import MathlibPlus.Open.Combinatorics.TreeDeck
+import MathlibPlus.Open.ProjectsResearch.GammaMixture7462
