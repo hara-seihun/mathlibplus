@@ -3574,3 +3574,4 @@ import MathlibPlus.Open.Analysis.MovingPrefixThetaThreshold
 import MathlibPlus.Open.Analysis.CanonicalConeEndpointComplexificationObstruction
 import MathlibPlus.Open.Graphs.Claim59823
 import MathlibPlus.Open.LinearAlgebra.MatrixColumnMatroid
+import MathlibPlus.Open.Analysis.MellinSharp
