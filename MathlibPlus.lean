@@ -2911,3 +2911,5 @@ import MathlibPlus.Open.ResearchBatch.Batch019ffedbd5b27bc7df6cebf9ac7379c.K0107
 import MathlibPlus.Open.ResearchFormalizationBatch019ffee247417e52a3777372619c2f85
 import MathlibPlus.Open.ResearchFormalizationBatch_019ffedc_a806_7e1a_8dbd_a24540be0245
 import MathlibPlus.Open.ResearchFormalization.R0630
+import MathlibPlus.Open.Research.FormalizationBatch019ffedb
+import MathlibPlus.Open.ResearchFormalizationBatch1831
