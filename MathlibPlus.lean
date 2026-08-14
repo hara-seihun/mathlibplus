@@ -3608,3 +3608,5 @@ import MathlibPlus.Open.Analysis.SuperoscillationEndpointCost
 import MathlibPlus.Open.Frontier.VarianceAndInterval
 import MathlibPlus.Open.Analysis.CoordinateBoundaryLocalization
 import MathlibPlus.Open.Analysis.OneDimensionalPolyharmonicHeatAction
+import MathlibPlus.Open.ResearchFormalization.Dihedral
+import MathlibPlus.Open.ResearchFormalization.ExponentialRigidity
