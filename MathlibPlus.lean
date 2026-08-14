@@ -3647,3 +3647,4 @@ import MathlibPlus.Open.Research.LaplaceBatch
 import MathlibPlus.Open.Research.OracleQueryTrees
 import MathlibPlus.Open.Analysis.K0015CriticalStrip
 import MathlibPlus.Open.Analysis.GaussianRatioPropagation
+import MathlibPlus.Open.Graphs.BasisTranspose
