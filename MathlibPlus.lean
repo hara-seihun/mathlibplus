@@ -2600,3 +2600,6 @@ import MathlibPlus.Analysis.Claim8900
 import MathlibPlus.Open.NewResearch2.GDP
 import MathlibPlus.Open.NewResearch2.Jacobsthal
 import MathlibPlus.Open.ResearchFormalizationBatch
+import MathlibPlus.NumberTheory.NewResearch2.Diagonal
+import MathlibPlus.Open.AnalyticNumberTheory.NewResearch2.XiFrontier
+import MathlibPlus.Open.Analysis.K0019RadialPascal
