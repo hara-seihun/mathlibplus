@@ -3361,3 +3361,5 @@ import MathlibPlus.Open.Research.RademacherBatch
 import MathlibPlus.Open.Analysis.RankNineConstantSectorPositive
 import MathlibPlus.Open.ResearchFormalization.NCDCorner
 import MathlibPlus.Open.AnalyticNumberTheory.RoundedSubtractionCounterfeit1599
+import MathlibPlus.Open.Research.FormalizationBatch.P3Contamination
+import MathlibPlus.Open.Research.FormalizationBatch.ParentGraph
