@@ -2526,3 +2526,5 @@ import MathlibPlus.Open.NewResearch2.KernelMoments
 import MathlibPlus.Open.NewResearch2.R0199
 import MathlibPlus.Open.NewResearch2.ThetaBoundary
 import MathlibPlus.Open.NewResearch2.D0032
+import MathlibPlus.Open.GraphTheory.C4PermutationBatch53681
+import MathlibPlus.Open.GraphTheory.HeisenbergBatch53729
