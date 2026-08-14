@@ -3697,3 +3697,5 @@ import MathlibPlus.Open.Research.BatchFormalization5110_59934
 import MathlibPlus.Open.Analysis.Claim3051RankTwoEndpointBatch01a001af
 import MathlibPlus.Open.ResearchFormalizationBatch.FrontierArithmetic
 import MathlibPlus.Open.ResearchFormalizationBatch.GraphAndEnergy
+import MathlibPlus.Open.ResearchFormalization.CommunicationArea
+import MathlibPlus.Open.ResearchFormalization.InverseHankelOneHole
