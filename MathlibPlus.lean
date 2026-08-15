@@ -4249,3 +4249,8 @@ import MathlibPlus.Open.FormalizationBatch.DiameterRatio
 import MathlibPlus.Open.FormalizationBatch.CyclicBlocks
 import MathlibPlus.Open.Combinatorics.D0074Repair
 import MathlibPlus.Open.Combinatorics.K0127Repair
+import MathlibPlus.Open.Analysis.StieltjesContext
+import MathlibPlus.Open.Analysis.Stieltjes1378
+import MathlibPlus.Open.Analysis.Stieltjes1379
+import MathlibPlus.Open.Analysis.Stieltjes1390
+import MathlibPlus.Open.Analytic.LowHeightSplice1633
