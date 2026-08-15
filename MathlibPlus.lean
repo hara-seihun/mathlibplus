@@ -3962,3 +3962,4 @@ import MathlibPlus.Open.Research.RankTwoThreeEndpoint
 import MathlibPlus.Open.FormalizationBatch01
 import MathlibPlus.Open.Analysis.ClosedPhasePairedTranslationKernel
 import MathlibPlus.Open.Analysis.PolarizedLocalEulerFactor
+import MathlibPlus.Open.Analysis.SimplePacketDegree
