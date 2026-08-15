@@ -4015,3 +4015,4 @@ import MathlibPlus.Open.Formalization.D0076DifferentialRatio
 import MathlibPlus.Open.Research.DifferentialRatioCompleteness
 import MathlibPlus.Open.LevelWiseGradingGauge5019
 import MathlibPlus.Open.Analysis.FormalizationBatch_01a003e1_5747_785b_8f24_38b637827356
+import MathlibPlus.Open.Combinatorics.EndpointRegularObstruction
