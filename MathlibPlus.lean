@@ -3793,3 +3793,4 @@ import MathlibPlus.Open.ResearchBatch.R1584Counterexample
 import MathlibPlus.Open.ResearchBatch.R2911
 import MathlibPlus.Open.ResearchBatch.R3358
 import MathlibPlus.Open.ResearchBatch.R3642
+import MathlibPlus.Open.ResearchFormalization.Batch01.Bernstein
