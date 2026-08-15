@@ -3996,3 +3996,4 @@ import MathlibPlus.Open.ResearchFormalizationBatch_Claim4468
 import MathlibPlus.Open.Analysis.ResearchFormalizationBatchHigherChannelEnergy
 import MathlibPlus.Open.ResearchFormalizationClaim7530
 import MathlibPlus.Open.Analysis.K0019EscapingProfiles
+import MathlibPlus.Open.Analysis.TransferredVolterraWeight
