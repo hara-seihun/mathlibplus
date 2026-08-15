@@ -3851,3 +3851,9 @@ import MathlibPlus.Open.ResearchFormalization.RademacherAndTrees
 import MathlibPlus.Open.ResearchFormalization.BatchCayleyCI_01a001c0
 import MathlibPlus.Open.ResearchFormalization.BatchDih_01a001c0
 import MathlibPlus.Open.FormalizationBatch.FixedPointFreeOrderThreeLift_59206_59212
+import MathlibPlus.Open.ResearchFormalization.Batch.AffineLayers
+import MathlibPlus.Open.ResearchFormalization.Batch.Analysis
+import MathlibPlus.Open.ResearchFormalization.Batch.CoprimeCocycles
+import MathlibPlus.Open.ResearchFormalization.Batch.Profiles
+import MathlibPlus.Open.ResearchFormalization.Batch.QuotientLine
+import MathlibPlus.Open.ResearchFormalization.Batch.Sunflower
