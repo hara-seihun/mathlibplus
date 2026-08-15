@@ -4149,3 +4149,4 @@ import MathlibPlus.Open.Research.Claim9619
 import MathlibPlus.Algebra.Claim9564
 import MathlibPlus.Open.Algebra.Claim9564
 import MathlibPlus.Open.FormalizationBatch.PauliCorner
+import MathlibPlus.Open.FormalizationBatch.K0156NonzeroMaximalMinorSupport
