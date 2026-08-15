@@ -4254,3 +4254,5 @@ import MathlibPlus.Open.Analysis.Stieltjes1378
 import MathlibPlus.Open.Analysis.Stieltjes1379
 import MathlibPlus.Open.Analysis.Stieltjes1390
 import MathlibPlus.Open.Analytic.LowHeightSplice1633
+import MathlibPlus.Open.Analysis.FixedAnnulusWeakStarZero3867
+import MathlibPlus.Open.Analysis.ZetaGraphResidual3856
