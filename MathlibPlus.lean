@@ -4040,3 +4040,8 @@ import MathlibPlus.Open.Analysis.DerivativeCoefficientIdentity
 import MathlibPlus.Open.Research.FormalizationBatch_01a004d6
 import MathlibPlus.Open.Analysis.GammaEvenAppell
 import MathlibPlus.Open.Formalization.Claim8777
+import MathlibPlus.Open.FormalizationBatchGraphs
+import MathlibPlus.Open.FormalizationBatchUnionFamilies
+import MathlibPlus.Open.FormalizationBatchCompression
+import MathlibPlus.Open.FormalizationBatchGroups
+import MathlibPlus.Open.FormalizationBatchPaths
