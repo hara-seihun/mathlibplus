@@ -4052,3 +4052,4 @@ import MathlibPlus.Open.Analysis.DeterministicBlockCriterion
 import MathlibPlus.Open.ChemicalPotential.OddParity
 import MathlibPlus.Open.Analysis.OddAdditiveLambertLaw
 import MathlibPlus.Open.ResearchFormalizationBatch_01a004d5_Jacobi
+import MathlibPlus.Open.Analysis.Claim8238
