@@ -3928,3 +3928,5 @@ import MathlibPlus.Open.FormalizationBatch.Analysis
 import MathlibPlus.Open.FormalizationBatch.TreeCover
 import MathlibPlus.Open.FormalizationBatch.UnionTemplate
 import MathlibPlus.Open.ResearchFormalization.BatchQ20Orbit
+import MathlibPlus.Open.NumberTheory.CanonicalLinearPortSubtraction
+import MathlibPlus.Open.Combinatorics.ResearchFormalizationBatch_01a00449_34ca_760c_84ef_ba44bc77fc60
