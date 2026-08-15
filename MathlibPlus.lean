@@ -4013,3 +4013,4 @@ import MathlibPlus.Open.FixedPointFreeScalarEM3AutomorphismOrbitNormalForm
 import MathlibPlus.Open.Analysis.PrimeCountingRepairs
 import MathlibPlus.Open.Formalization.D0076DifferentialRatio
 import MathlibPlus.Open.Research.DifferentialRatioCompleteness
+import MathlibPlus.Open.LevelWiseGradingGauge5019
