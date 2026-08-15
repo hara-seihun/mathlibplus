@@ -4261,3 +4261,4 @@ import MathlibPlus.Open.ResearchFormalizationBatch_01a0067d9634742fb05a6a14ad804
 import MathlibPlus.Open.Analysis.Claim3410DirichletMultiplier
 import MathlibPlus.Open.Analysis.Claim3502EntireDivisor
 import MathlibPlus.Open.Analysis.ConstantChannel
+import MathlibPlus.Open.Analysis.HorizontalLaguerre
