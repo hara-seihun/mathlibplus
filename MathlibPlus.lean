@@ -4096,3 +4096,5 @@ import MathlibPlus.Open.Combinatorics.RightVariableDegree
 import MathlibPlus.Open.Analysis.NeumannTunnelingBound
 import MathlibPlus.Open.Graphs.PrimeCycleTypeCounts9145
 import MathlibPlus.Open.UnnormalizedQuantizedRelation
+import MathlibPlus.Open.NumberTheory.Claim9192
+import MathlibPlus.Open.Analysis.PositiveKernelIntegralFactorization
