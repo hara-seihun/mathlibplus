@@ -4115,3 +4115,4 @@ import MathlibPlus.Open.Analysis.RieszMellin
 import MathlibPlus.Open.Analysis.ReciprocalSquareMultiplicativeRenewal
 import MathlibPlus.Open.FormalizationBatch.ComponentColoringBalance
 import MathlibPlus.Open.FormalizationBatchK0145
+import MathlibPlus.Open.ResearchFormalizationBatch_01a0052b_1696_7424_8955_6ad643cbba3f
