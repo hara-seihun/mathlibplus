@@ -3946,3 +3946,4 @@ import MathlibPlus.Open.Formalization.ResidueBatch
 import MathlibPlus.Open.Formalization.TopologicalUnimodal
 import MathlibPlus.Open.Formalization.TriangularExactness
 import MathlibPlus.Open.FormalizationBatch.TSLattice
+import MathlibPlus.Open.ExactEnclosingDeterminantSign
