@@ -4125,3 +4125,4 @@ import MathlibPlus.Open.ShapePreservingGauge_5021
 import MathlibPlus.Open.Analysis.RootVerticalProgression
 import MathlibPlus.Open.Analysis.LargeBaseFiberFloor
 import MathlibPlus.Open.Research.FormalizationBatchAnalysis
+import MathlibPlus.Open.FormalizationBatch1186
