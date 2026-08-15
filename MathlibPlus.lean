@@ -3961,3 +3961,4 @@ import MathlibPlus.Open.NumberTheory.Claim8251
 import MathlibPlus.Open.Research.RankTwoThreeEndpoint
 import MathlibPlus.Open.FormalizationBatch01
 import MathlibPlus.Open.Analysis.ClosedPhasePairedTranslationKernel
+import MathlibPlus.Open.Analysis.PolarizedLocalEulerFactor
