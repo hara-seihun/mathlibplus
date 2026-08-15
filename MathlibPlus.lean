@@ -3878,3 +3878,4 @@ import MathlibPlus.Open.Combinatorics.Claim7519
 import MathlibPlus.Open.GraphTheory.Claim32773
 import MathlibPlus.Open.Analysis.ResearchBatch_01a001ca_640f_77be_b198_6ef80edbd5e4
 import MathlibPlus.Open.NumberTheory.ResearchBatch_01a001ca_640f_77be_b198_6ef80edbd5e4
+import MathlibPlus.Open.FormalizationBatch.Batch01Combinatorics
