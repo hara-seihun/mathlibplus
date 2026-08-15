@@ -4087,3 +4087,4 @@ import MathlibPlus.Open.GaugedCrossRatio
 import MathlibPlus.Open.AdmittedBatch.Claim9066
 import MathlibPlus.Open.Claim9065
 import MathlibPlus.Open.AdmittedBatch.IntegerGraphIdentifier
+import MathlibPlus.Open.AdmittedBatch.MinimumOfComplements
