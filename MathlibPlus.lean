@@ -4192,3 +4192,4 @@ import MathlibPlus.Open.Analysis.CompleteResidualDivisorDyadicQuotient
 import MathlibPlus.Open.Analysis.PrimeIndependentCoefficientLaw
 import MathlibPlus.Open.ResearchFormalizationBatch9982
 import MathlibPlus.Open.Analysis.CyclicDivisor
+import MathlibPlus.Open.Analysis.K0188
