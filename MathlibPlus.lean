@@ -4284,3 +4284,4 @@ import MathlibPlus.Open.Research.Claim41172
 import MathlibPlus.Open.Research.Claim60103
 import MathlibPlus.Open.ResearchFormalization.Claim3366
 import MathlibPlus.Open.ResearchFormalization.Claim3939
+import MathlibPlus.Open.Analysis.BatchClaim1864
