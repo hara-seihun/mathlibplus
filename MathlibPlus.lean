@@ -4212,3 +4212,4 @@ import MathlibPlus.Open.FormalizationBatch.Graphs
 import MathlibPlus.Open.Research.K0137
 import MathlibPlus.Open.Research.K0160_0162
 import MathlibPlus.Open.TraceBatch
+import MathlibPlus.Open.Analysis.ResearchFormalizeR0438
