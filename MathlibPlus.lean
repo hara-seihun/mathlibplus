@@ -4247,3 +4247,5 @@ import MathlibPlus.Open.FormalizationBatch.GenericPerturbations
 import MathlibPlus.Open.FormalizationBatch.TriangularLattice
 import MathlibPlus.Open.FormalizationBatch.DiameterRatio
 import MathlibPlus.Open.FormalizationBatch.CyclicBlocks
+import MathlibPlus.Open.Combinatorics.D0074Repair
+import MathlibPlus.Open.Combinatorics.K0127Repair
