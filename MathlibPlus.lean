@@ -3815,3 +3815,5 @@ import MathlibPlus.Open.ResearchFormalizationLargeBatch.CIResidualRank6
 import MathlibPlus.Open.ResearchFormalization.Batch.FourierType
 import MathlibPlus.Open.ResearchFormalization.Batch.HeatMatrix
 import MathlibPlus.Open.ResearchFormalization.Batch.Polynomial
+import MathlibPlus.Open.Analysis.ResearchFormalizationBatch_01a00337_CompactTests
+import MathlibPlus.Open.Analysis.ResearchFormalizationBatch_01a00337_Mellin
