@@ -3758,3 +3758,5 @@ import MathlibPlus.Open.Formalization.AdmittedHypercubeBatch
 import MathlibPlus.Open.FormalizationBatch.Analytic
 import MathlibPlus.Open.FormalizationBatch.Arithmetic
 import MathlibPlus.Open.FormalizationBatch.SetSystems
+import MathlibPlus.Open.ResearchFormalizationBatch.BatchAlgebraClaims
+import MathlibPlus.Open.ResearchFormalizationBatch.BatchPeriodicClaims
