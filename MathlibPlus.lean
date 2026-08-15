@@ -4180,3 +4180,4 @@ import MathlibPlus.Open.Analysis.RightSupportCutoff
 import MathlibPlus.Open.Analysis.SourceCanonicalPoissonChannel
 import MathlibPlus.Open.Analysis.Claim9805
 import MathlibPlus.Open.FormalizationBatch_01a005cf.Lacunary
+import MathlibPlus.Open.ResearchFormalizationBatch_9953
