@@ -3742,3 +3742,7 @@ import MathlibPlus.Open.Research.Formalization.RankSevenBatch
 import MathlibPlus.Open.Research.Formalization.ShearBatch
 import MathlibPlus.Open.ResearchFormalization.BatchAnalysis01a00309
 import MathlibPlus.Open.ResearchFormalization.BatchCounting01a00309
+import MathlibPlus.Open.Analysis.LogKernelFormalization
+import MathlibPlus.Open.Analysis.NumberTheoryFormalization
+import MathlibPlus.Open.Analysis.ZetaHardyFormalization
+import MathlibPlus.Open.Combinatorics.BooleanCharacterFormalization
