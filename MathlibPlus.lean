@@ -4135,3 +4135,4 @@ import MathlibPlus.Open.Graph.AdmittedClaim9463
 import MathlibPlus.Open.Combinatorics.PendantCollision
 import MathlibPlus.Open.GraphReconstruction.StarFirstPairs
 import MathlibPlus.Open.Graph.MinimumStarEquality9465
+import MathlibPlus.Open.Graph.AdmittedClaim9473
