@@ -4060,3 +4060,4 @@ import MathlibPlus.Open.ResearchFormalization.K0123Claim8865
 import MathlibPlus.Support.LambertJacobiCounting
 import MathlibPlus.Open.Analysis.LambertJacobiCountingLaw
 import MathlibPlus.Open.ResearchFormalization.K0124Claim8876
+import MathlibPlus.Open.Analysis.Claim7321OneScalar
