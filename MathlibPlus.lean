@@ -4064,3 +4064,4 @@ import MathlibPlus.Open.Analysis.Claim7321OneScalar
 import MathlibPlus.Open.Analysis.DepthNormIdentityK0125
 import MathlibPlus.Open.Analysis.ConsecutiveNormDenominator
 import MathlibPlus.Open.Research.ArbitraryRowNorm
+import MathlibPlus.Open.NeighborSubsetDegreeSum59988
