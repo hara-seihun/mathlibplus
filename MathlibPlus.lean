@@ -4162,3 +4162,4 @@ import MathlibPlus.Open.Research.K0163.Claim9732
 import MathlibPlus.Open.ResearchFormalization.Lease01a0057f.Groups
 import MathlibPlus.Open.Analysis.FareyFirstFourierMode
 import MathlibPlus.Open.NumberTheory.Claim9759
+import MathlibPlus.Open.Analysis.K0165FareyGram
