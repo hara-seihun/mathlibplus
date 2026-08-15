@@ -3841,3 +3841,4 @@ import MathlibPlus.Open.Research.FormalizationBatch_01a003d5
 import MathlibPlus.Open.FormalizationBatch.BatchAnalysis_01a003d1d114734f885665fd522ba69e
 import MathlibPlus.Open.FormalizationBatch.BatchGraph_01a003d1d114734f885665fd522ba69e
 import MathlibPlus.Open.Analysis.EventualRecurrence8195
+import MathlibPlus.Open.C0079NeighboringMinor
