@@ -4113,3 +4113,4 @@ import MathlibPlus.Open.K0132
 import MathlibPlus.Open.FormalizationBatch.K0110DeterminantTransportBound8664
 import MathlibPlus.Open.Analysis.RieszMellin
 import MathlibPlus.Open.Analysis.ReciprocalSquareMultiplicativeRenewal
+import MathlibPlus.Open.FormalizationBatch.ComponentColoringBalance
