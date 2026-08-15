@@ -4084,3 +4084,4 @@ import MathlibPlus.Open.Analysis.ExactSaddleEquationAndLambertAsymptoticClaim903
 import MathlibPlus.Open.Analysis.BatchK0135
 import MathlibPlus.Open.AdmittedBatch.Claim9064LinearlyCorrectedBooleanGraphIdentifier
 import MathlibPlus.Open.GaugedCrossRatio
+import MathlibPlus.Open.AdmittedBatch.Claim9066
