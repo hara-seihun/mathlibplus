@@ -3889,3 +3889,6 @@ import MathlibPlus.Open.Combinatorics.Claim59963DecisionTreeProfile
 import MathlibPlus.Open.Analysis.WeightedGreenBatch
 import MathlibPlus.Open.NumberTheory.ResearchEulerFactor
 import MathlibPlus.Open.ResearchFormalization.Order42Batch
+import MathlibPlus.Open.ResearchFormalization.Claim1316
+import MathlibPlus.Open.ResearchFormalization.Claim8259
+import MathlibPlus.Open.ResearchFormalization.Claim8291
