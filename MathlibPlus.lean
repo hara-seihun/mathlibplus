@@ -4019,3 +4019,4 @@ import MathlibPlus.Open.Combinatorics.EndpointRegularObstruction
 import MathlibPlus.Open.Research.ScaleFreeTwoDirectionEstimate
 import MathlibPlus.Open.Analysis.NormInheritance
 import MathlibPlus.Open.FormalizationBatch.K0110
+import MathlibPlus.Open.Analysis.AdjacentDefectTransport
