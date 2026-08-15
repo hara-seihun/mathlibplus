@@ -4190,3 +4190,4 @@ import MathlibPlus.Open.Algebra.ParaorthogonalPolynomialFamily.NumeratorHasSimpl
 import MathlibPlus.Open.ResearchFormalization.Batch9937
 import MathlibPlus.Open.Analysis.CompleteResidualDivisorDyadicQuotient
 import MathlibPlus.Open.Analysis.PrimeIndependentCoefficientLaw
+import MathlibPlus.Open.ResearchFormalizationBatch9982
