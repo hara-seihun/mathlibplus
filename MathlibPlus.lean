@@ -4265,3 +4265,4 @@ import MathlibPlus.Open.Analysis.HorizontalLaguerre
 import MathlibPlus.Open.ResearchFormalization.HookDeterminantSumClaim1860
 import MathlibPlus.Open.ResearchFormalization.WeakStarMassBalanceClaim3874
 import MathlibPlus.Open.Analysis.GaugedHedenmalmZeroMode
+import MathlibPlus.Open.ResearchFormalization.Batch_01a00675_8812_10294
