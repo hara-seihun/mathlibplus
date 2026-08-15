@@ -4012,3 +4012,4 @@ import MathlibPlus.Open.CiRank6.QuietDirectionLinearIndependenceLiftClaim59582
 import MathlibPlus.Open.FixedPointFreeScalarEM3AutomorphismOrbitNormalForm
 import MathlibPlus.Open.Analysis.PrimeCountingRepairs
 import MathlibPlus.Open.Formalization.D0076DifferentialRatio
+import MathlibPlus.Open.Research.DifferentialRatioCompleteness
