@@ -3986,3 +3986,8 @@ import MathlibPlus.Open.ResearchFormalization.R1984
 import MathlibPlus.Open.ResearchFormalization.R2657
 import MathlibPlus.Open.ResearchFormalization.R3054
 import MathlibPlus.Open.ResearchFormalization.R3173
+import MathlibPlus.Open.FormalizationBatch.AffineGroups
+import MathlibPlus.Open.FormalizationBatch.Hypercube
+import MathlibPlus.Open.FormalizationBatch.LocalizedTranslation
+import MathlibPlus.Open.FormalizationBatch.QuadraticTransporter
+import MathlibPlus.Open.FormalizationBatch.ScalarIteration
