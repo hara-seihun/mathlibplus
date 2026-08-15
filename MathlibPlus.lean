@@ -4262,3 +4262,5 @@ import MathlibPlus.Open.Analysis.Claim3410DirichletMultiplier
 import MathlibPlus.Open.Analysis.Claim3502EntireDivisor
 import MathlibPlus.Open.Analysis.ConstantChannel
 import MathlibPlus.Open.Analysis.HorizontalLaguerre
+import MathlibPlus.Open.ResearchFormalization.HookDeterminantSumClaim1860
+import MathlibPlus.Open.ResearchFormalization.WeakStarMassBalanceClaim3874
