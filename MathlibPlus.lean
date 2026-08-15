@@ -4151,3 +4151,4 @@ import MathlibPlus.Open.Algebra.Claim9564
 import MathlibPlus.Open.FormalizationBatch.PauliCorner
 import MathlibPlus.Open.FormalizationBatch.K0156NonzeroMaximalMinorSupport
 import MathlibPlus.Open.Analysis.ReflectedCoefficientFactorization
+import MathlibPlus.Open.Combinatorics.StaircaseCatalanSupport
