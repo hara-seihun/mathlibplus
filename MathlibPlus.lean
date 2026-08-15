@@ -3846,3 +3846,5 @@ import MathlibPlus.Open.ResearchFormalizationBatch_01a00357
 import MathlibPlus.Open.AdmittedBatch.BaezDuarte
 import MathlibPlus.Open.AdmittedBatch.Graphs
 import MathlibPlus.Open.AdmittedBatch.Products
+import MathlibPlus.Open.ResearchFormalization.AdaptiveIdentification
+import MathlibPlus.Open.ResearchFormalization.RademacherAndTrees
