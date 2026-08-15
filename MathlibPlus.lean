@@ -3746,3 +3746,4 @@ import MathlibPlus.Open.Analysis.LogKernelFormalization
 import MathlibPlus.Open.Analysis.NumberTheoryFormalization
 import MathlibPlus.Open.Analysis.ZetaHardyFormalization
 import MathlibPlus.Open.Combinatorics.BooleanCharacterFormalization
+import MathlibPlus.Open.ResearchFormalizationBatch.Charlier
