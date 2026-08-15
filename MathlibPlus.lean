@@ -3940,3 +3940,4 @@ import MathlibPlus.Open.Analysis.IntegrationByPartsPorts
 import MathlibPlus.Open.Analysis.MixedShellRankPeriodExpansion
 import MathlibPlus.Open.Formalization.Claim8766
 import MathlibPlus.Open.Probability.GammaEvenAppellPositiveIntegerShape59494
+import MathlibPlus.Open.Analysis.Claim8237
