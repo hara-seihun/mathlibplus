@@ -3979,3 +3979,10 @@ import MathlibPlus.Open.CIElementaryAbelian.SpanAndCospanDescent
 import MathlibPlus.Open.LinearAlgebra.PointedCircuitRank
 import MathlibPlus.Open.Claim5640
 import MathlibPlus.Open.Analysis.BooleanOrientationCharacterDeterminantExpansion7440
+import MathlibPlus.Open.ResearchFormalization.R1333
+import MathlibPlus.Open.ResearchFormalization.R1501
+import MathlibPlus.Open.ResearchFormalization.R1516
+import MathlibPlus.Open.ResearchFormalization.R1984
+import MathlibPlus.Open.ResearchFormalization.R2657
+import MathlibPlus.Open.ResearchFormalization.R3054
+import MathlibPlus.Open.ResearchFormalization.R3173
