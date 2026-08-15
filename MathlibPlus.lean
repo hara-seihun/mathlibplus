@@ -4073,3 +4073,4 @@ import MathlibPlus.Open.Formalization.K0127
 import MathlibPlus.Open.Analysis.VertexEdgeNonedgeGegenbauerGram
 import MathlibPlus.Open.Analysis.SpeedN2FixedTilt
 import MathlibPlus.Open.Analysis.Claim8926SpeedPotential
+import MathlibPlus.Open.OracleAreaOccupation
