@@ -3857,3 +3857,9 @@ import MathlibPlus.Open.ResearchFormalization.Batch.CoprimeCocycles
 import MathlibPlus.Open.ResearchFormalization.Batch.Profiles
 import MathlibPlus.Open.ResearchFormalization.Batch.QuotientLine
 import MathlibPlus.Open.ResearchFormalization.Batch.Sunflower
+import MathlibPlus.Open.Formalization.BatchCycles
+import MathlibPlus.Open.Formalization.BatchGale
+import MathlibPlus.Open.Formalization.BatchIntervals
+import MathlibPlus.Open.Formalization.BatchObstruction
+import MathlibPlus.Open.Formalization.BatchQuotients
+import MathlibPlus.Open.Formalization.BatchTreeProfile
