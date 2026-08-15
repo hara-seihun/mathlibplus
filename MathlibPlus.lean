@@ -3871,3 +3871,8 @@ import MathlibPlus.Open.ResearchFormalization.BatchMultiplier_01a0040167a37f8a84
 import MathlibPlus.Open.ResearchFormalization.BatchOracle_01a0040167a37f8a848e6f8a61d
 import MathlibPlus.Open.ResearchFormalization.BatchPrime_01a0040167a37f8a848e6f8a61d
 import MathlibPlus.Open.ResearchFormalization.BatchTails_01a0040167a37f8a848e6f8a61d
+import MathlibPlus.Open.GraphTheory.Claim4445
+import MathlibPlus.Open.Analysis.Claim4478
+import MathlibPlus.Open.NumberTheory.Claim4526
+import MathlibPlus.Open.Combinatorics.Claim7519
+import MathlibPlus.Open.GraphTheory.Claim32773
