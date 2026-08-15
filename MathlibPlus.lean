@@ -4285,3 +4285,6 @@ import MathlibPlus.Open.Research.Claim60103
 import MathlibPlus.Open.ResearchFormalization.Claim3366
 import MathlibPlus.Open.ResearchFormalization.Claim3939
 import MathlibPlus.Open.Analysis.BatchClaim1864
+import MathlibPlus.Open.Algebra.RectangularCyclicMinors2823
+import MathlibPlus.Open.Analysis.DirectedLogarithmUpperBound1210
+import MathlibPlus.Open.Combinatorics.MasterNewtonIdentity1265
