@@ -4276,3 +4276,4 @@ import MathlibPlus.Open.Research.FormalizationBatchR0750
 import MathlibPlus.Open.Analysis.FullConvergenceSplits
 import MathlibPlus.Open.Analysis.Claim10277
 import MathlibPlus.Open.Analysis.K0119_CatalanResolvent
+import MathlibPlus.Open.Analysis.K0127_8924
