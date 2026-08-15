@@ -3760,3 +3760,9 @@ import MathlibPlus.Open.FormalizationBatch.Arithmetic
 import MathlibPlus.Open.FormalizationBatch.SetSystems
 import MathlibPlus.Open.ResearchFormalizationBatch.BatchAlgebraClaims
 import MathlibPlus.Open.ResearchFormalizationBatch.BatchPeriodicClaims
+import MathlibPlus.Open.ResearchFormalizationBatch_01a0032b.Bohr
+import MathlibPlus.Open.ResearchFormalizationBatch_01a0032b.Gaussian
+import MathlibPlus.Open.ResearchFormalizationBatch_01a0032b.Integrals
+import MathlibPlus.Open.ResearchFormalizationBatch_01a0032b.Prime
+import MathlibPlus.Open.ResearchFormalizationBatch_01a0032b.Reciprocal
+import MathlibPlus.Open.ResearchFormalizationBatch_01a0032b.Weyl
