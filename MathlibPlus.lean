@@ -3818,3 +3818,4 @@ import MathlibPlus.Open.ResearchFormalization.Batch.Polynomial
 import MathlibPlus.Open.Analysis.ResearchFormalizationBatch_01a00337_CompactTests
 import MathlibPlus.Open.Analysis.ResearchFormalizationBatch_01a00337_Mellin
 import MathlibPlus.Open.Research.QuaternionBatch
+import MathlibPlus.Open.ResearchFormalization.Combinatorics
