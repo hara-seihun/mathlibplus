@@ -3766,3 +3766,5 @@ import MathlibPlus.Open.ResearchFormalizationBatch_01a0032b.Integrals
 import MathlibPlus.Open.ResearchFormalizationBatch_01a0032b.Prime
 import MathlibPlus.Open.ResearchFormalizationBatch_01a0032b.Reciprocal
 import MathlibPlus.Open.ResearchFormalizationBatch_01a0032b.Weyl
+import MathlibPlus.Open.ResearchFormalization.JohnsonLargeSet
+import MathlibPlus.Open.ResearchFormalization.RepeatedPairShift
