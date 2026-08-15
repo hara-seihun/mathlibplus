@@ -4103,3 +4103,4 @@ import MathlibPlus.Open.Research.FormalizationClaim9205
 import MathlibPlus.Open.Analysis.OracleAreaSignMatrixPairCollision
 import MathlibPlus.Open.NumberTheory.UniversalCornerRemainderProduct
 import MathlibPlus.Open.Analysis.RedhefferSingularValues
+import MathlibPlus.Open.Analysis.CompleteEulerLaw
