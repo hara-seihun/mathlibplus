@@ -4185,3 +4185,4 @@ import MathlibPlus.Open.ResearchFormalizationBatch_01a005ed-acdc-7143-bd2e-bb7b3
 import MathlibPlus.Open.Analysis.CenteredDilation9963
 import MathlibPlus.Open.ResearchFormalizationBatch_01a005f519cc754a
 import MathlibPlus.Open.Algebra.GeometricReverseRoots
+import MathlibPlus.Open.ResearchFormalizationBatch9978
