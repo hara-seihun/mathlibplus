@@ -3965,3 +3965,4 @@ import MathlibPlus.Open.Analysis.PolarizedLocalEulerFactor
 import MathlibPlus.Open.Analysis.SimplePacketDegree
 import MathlibPlus.Open.Analysis.AbelBatch
 import MathlibPlus.Open.Analysis.Claim3055
+import MathlibPlus.Open.Analysis.convolutionOperatorGeometry_claim6971
