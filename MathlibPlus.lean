@@ -3999,3 +3999,4 @@ import MathlibPlus.Open.Analysis.K0019EscapingProfiles
 import MathlibPlus.Open.Analysis.TransferredVolterraWeight
 import MathlibPlus.Open.Analysis.BohrTorusEnergy
 import MathlibPlus.Open.ResearchFormalizationBatch_01a00396_e154_7076_927f_0d48a4d48a4e
+import MathlibPlus.Open.AnalyticNumberTheory.VariableWidthRestrictedIterationClaim1014
