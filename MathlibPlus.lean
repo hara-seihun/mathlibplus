@@ -4031,3 +4031,4 @@ import MathlibPlus.Open.ResearchFormalization.R1935Batch
 import MathlibPlus.Open.Analysis.ExactTrailingCoordinateMass
 import MathlibPlus.Open.Analysis.VanishingLeakageBuffer
 import MathlibPlus.Open.Analysis.Claim8738NormOnlyNeumannTunneling
+import MathlibPlus.Open.FormalizationBatch
