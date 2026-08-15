@@ -4270,3 +4270,4 @@ import MathlibPlus.Open.Research.Quadratics50102
 import MathlibPlus.Open.CayleyCIE7
 import MathlibPlus.Open.Analysis.TranslationOrbitDenseClaim2213
 import MathlibPlus.Open.Combinatorics.CIMixedAbelianResidualSubgroupCosetClaim60097
+import MathlibPlus.Open.ResearchFormalization.CayleyCIClaim60108
