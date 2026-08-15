@@ -4229,3 +4229,4 @@ import MathlibPlus.Open.Finite.SubgroupTypesC2PowC9
 import MathlibPlus.Open.Graph.NormalizedDerivativeCayley
 import MathlibPlus.Open.GroupTheory.RegularBlockSubgroups
 import MathlibPlus.Open.Analysis.GammaChebyshev
+import MathlibPlus.Open.Combinatorics.ProperMarginsSunflowers
