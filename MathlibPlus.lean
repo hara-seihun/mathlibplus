@@ -3904,3 +3904,4 @@ import MathlibPlus.Open.Research.FormalizationBatch_01a0041f_ParticleHole
 import MathlibPlus.Open.Research.FormalizationBatch_01a0041f_PrimeTensorOperators
 import MathlibPlus.Open.Research.FormalizationBatch_01a0041f_SignedBasisTransporter
 import MathlibPlus.Open.AnalyticNumberTheory.PrimeSums.NormalizedPsiEnvelope
+import MathlibPlus.Open.Graph.IsolatedVertexPart
