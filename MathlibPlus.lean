@@ -4050,3 +4050,4 @@ import MathlibPlus.Open.Algebra.RelativeWeylHeatClaim7769
 import MathlibPlus.Open.Analysis.LambertNormalization
 import MathlibPlus.Open.Analysis.DeterministicBlockCriterion
 import MathlibPlus.Open.ChemicalPotential.OddParity
+import MathlibPlus.Open.Analysis.OddAdditiveLambertLaw
