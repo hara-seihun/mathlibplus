@@ -3823,3 +3823,4 @@ import MathlibPlus.Open.Formalization.BatchCube
 import MathlibPlus.Open.Formalization.BatchSequences
 import MathlibPlus.Open.Formalization.BatchSieve
 import MathlibPlus.Open.Formalization.BatchUnionClosed
+import MathlibPlus.Open.ResearchFormalization.PrimitiveCells
