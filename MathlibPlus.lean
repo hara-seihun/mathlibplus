@@ -4215,3 +4215,4 @@ import MathlibPlus.Open.TraceBatch
 import MathlibPlus.Open.Analysis.ResearchFormalizeR0438
 import MathlibPlus.Open.ResearchFormalizationBatch.GroupTheory
 import MathlibPlus.Open.Analysis.K0130
+import MathlibPlus.Open.Analysis.JacobiChain
