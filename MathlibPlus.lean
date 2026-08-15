@@ -4123,3 +4123,4 @@ import MathlibPlus.Open.Analysis.BesselCorrectionAndFrameWeight
 import MathlibPlus.Open.Analysis.CommensuratePolynomial
 import MathlibPlus.Open.ShapePreservingGauge_5021
 import MathlibPlus.Open.Analysis.RootVerticalProgression
+import MathlibPlus.Open.Analysis.LargeBaseFiberFloor
