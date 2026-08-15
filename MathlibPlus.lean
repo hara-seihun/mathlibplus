@@ -4189,3 +4189,4 @@ import MathlibPlus.Open.ResearchFormalizationBatch9978
 import MathlibPlus.Open.Algebra.ParaorthogonalPolynomialFamily.NumeratorHasSimpleUnitCircleRoots
 import MathlibPlus.Open.ResearchFormalization.Batch9937
 import MathlibPlus.Open.Analysis.CompleteResidualDivisorDyadicQuotient
+import MathlibPlus.Open.Analysis.PrimeIndependentCoefficientLaw
