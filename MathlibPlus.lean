@@ -3949,3 +3949,4 @@ import MathlibPlus.Open.FormalizationBatch.TSLattice
 import MathlibPlus.Open.ExactEnclosingDeterminantSign
 import MathlibPlus.Open.Cayley.C2PowTimesC9
 import MathlibPlus.Open.RepresentationTheory.PairedModuleQuotientRepresentation
+import MathlibPlus.Open.Analysis.LambertConvergenceCriterion
