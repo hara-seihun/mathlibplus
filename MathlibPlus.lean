@@ -4172,3 +4172,4 @@ import MathlibPlus.NumberTheory.Claim9769
 import MathlibPlus.Open.Analysis.HigherPrimePowerEndpoint
 import MathlibPlus.Open.Analysis.Claim9802
 import MathlibPlus.Open.Analysis.Claim9800
+import MathlibPlus.Open.CI.MixedAbelianC4C3CubedValencyTails
