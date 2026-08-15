@@ -4089,3 +4089,4 @@ import MathlibPlus.Open.Claim9065
 import MathlibPlus.Open.AdmittedBatch.IntegerGraphIdentifier
 import MathlibPlus.Open.AdmittedBatch.MinimumOfComplements
 import MathlibPlus.Open.AdmittedBatch.ChebyshevTrailingResolventTunnelingBound
+import MathlibPlus.Open.Combinatorics.BipartiteEdgeConstraintMultigraph
