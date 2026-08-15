@@ -3923,3 +3923,4 @@ import MathlibPlus.Open.FormalizationBatch59578_59580
 import MathlibPlus.Open.D0076.DifferentialRatioGaugeInvariant
 import MathlibPlus.Open.Analysis.Claim8644
 import MathlibPlus.Open.ResearchFormalizationK0034
+import MathlibPlus.Open.FormalizationBatch.Claims7774And7880
