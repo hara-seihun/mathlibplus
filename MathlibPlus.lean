@@ -3936,3 +3936,4 @@ import MathlibPlus.Open.ResearchFormalization.BalancedSegreReserve
 import MathlibPlus.Open.CiHighValency
 import MathlibPlus.Open.ProjectsResearch.SphericalTraceObstruction
 import MathlibPlus.Open.FourStatesHigherDegree
+import MathlibPlus.Open.Analysis.IntegrationByPartsPorts
