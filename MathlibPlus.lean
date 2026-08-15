@@ -4056,3 +4056,4 @@ import MathlibPlus.Open.Analysis.Claim8238
 import MathlibPlus.Open.FormalizationBatch.ResearchFormalizationBatch01
 import MathlibPlus.Open.ResearchFormalization.K0123Claim8871
 import MathlibPlus.Open.CI.ResidualEightT7F5OddRemarkingClaim60064
+import MathlibPlus.Open.ResearchFormalization.K0123Claim8865
