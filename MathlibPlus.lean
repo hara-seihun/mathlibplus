@@ -3974,3 +3974,4 @@ import MathlibPlus.Open.TreeSpectral
 import MathlibPlus.Open.VoltageLiftedOrbitFormula6051
 import MathlibPlus.Open.Combinatorics.EqualPartMultiplicity
 import MathlibPlus.Open.Analysis.HarmonicCharacterSeries
+import MathlibPlus.Open.CayleyCI.Rank18
