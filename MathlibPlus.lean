@@ -3755,3 +3755,6 @@ import MathlibPlus.Open.ResearchFormalization.Batch01a00310.BatchSplitAndWedge
 import MathlibPlus.Open.ResearchFormalization.Batch01a00310.BatchThetaShell
 import MathlibPlus.Open.ResearchFormalization.Batch01a00310.BatchTriangleQuartic
 import MathlibPlus.Open.Formalization.AdmittedHypercubeBatch
+import MathlibPlus.Open.FormalizationBatch.Analytic
+import MathlibPlus.Open.FormalizationBatch.Arithmetic
+import MathlibPlus.Open.FormalizationBatch.SetSystems
