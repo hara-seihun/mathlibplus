@@ -4075,3 +4075,4 @@ import MathlibPlus.Open.Analysis.SpeedN2FixedTilt
 import MathlibPlus.Open.Analysis.Claim8926SpeedPotential
 import MathlibPlus.Open.OracleAreaOccupation
 import MathlibPlus.Open.Analysis.Claim8960
+import MathlibPlus.Open.Analysis.Claim8963
