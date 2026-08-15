@@ -3952,3 +3952,8 @@ import MathlibPlus.Open.RepresentationTheory.PairedModuleQuotientRepresentation
 import MathlibPlus.Open.Analysis.LambertConvergenceCriterion
 import MathlibPlus.Open.Analysis.ExactCompletedChebyshevLaguerreCoefficient
 import MathlibPlus.Open.Analysis.ParticleHole
+import MathlibPlus.Open.Research.Batch_01a00468_ArithmeticKernels
+import MathlibPlus.Open.Research.Batch_01a00468_Dini
+import MathlibPlus.Open.Research.Batch_01a00468_FreeJacobi
+import MathlibPlus.Open.Research.Batch_01a00468_NumberTheory
+import MathlibPlus.Open.Research.Batch_01a00468_PencilsAndLattices
