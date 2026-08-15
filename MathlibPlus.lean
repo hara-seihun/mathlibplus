@@ -3724,3 +3724,7 @@ import MathlibPlus.Open.CommunicationDeficit
 import MathlibPlus.Open.Combinatorics.CayleyGraphIsomorphism
 import MathlibPlus.Open.Research.K0013Claim7507
 import MathlibPlus.Open.ResearchFormalization.Batch01_01a001b47a6874f49b8a080dee3aa0ea
+import MathlibPlus.Open.ResearchBatch.Lease_01a001c2.ActualAffine
+import MathlibPlus.Open.ResearchBatch.Lease_01a001c2.Dic
+import MathlibPlus.Open.ResearchBatch.Lease_01a001c2.Hypercube
+import MathlibPlus.Open.ResearchBatch.Lease_01a001c2.Pullback
