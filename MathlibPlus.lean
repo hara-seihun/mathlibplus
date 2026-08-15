@@ -4203,3 +4203,4 @@ import MathlibPlus.Open.ResearchFormalization.Batch01a0061cc312752588d68ed63a01a
 import MathlibPlus.Open.ResearchFormalization.Batch01a0061cc312752588d68ed63a01ac7b.Group
 import MathlibPlus.Open.Analysis.CriticalPoissonSmoothing
 import MathlibPlus.Open.Analysis.PositiveAxisPoissonBessel
+import MathlibPlus.Open.Analysis.FalseRHExactPoissonSquare
