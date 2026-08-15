@@ -3892,3 +3892,5 @@ import MathlibPlus.Open.ResearchFormalization.Order42Batch
 import MathlibPlus.Open.ResearchFormalization.Claim1316
 import MathlibPlus.Open.ResearchFormalization.Claim8259
 import MathlibPlus.Open.ResearchFormalization.Claim8291
+import MathlibPlus.Open.ResearchFormalizationBatch.Lease01a00412.Combinatorics
+import MathlibPlus.Open.ResearchFormalizationBatch.Lease01a00412.Cube
