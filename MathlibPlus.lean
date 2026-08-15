@@ -3977,3 +3977,4 @@ import MathlibPlus.Open.Analysis.HarmonicCharacterSeries
 import MathlibPlus.Open.CayleyCI.Rank18
 import MathlibPlus.Open.CIElementaryAbelian.SpanAndCospanDescent
 import MathlibPlus.Open.LinearAlgebra.PointedCircuitRank
+import MathlibPlus.Open.Claim5640
