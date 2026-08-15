@@ -4177,3 +4177,4 @@ import MathlibPlus.Open.Analysis.LogarithmicTranslationBatch
 import MathlibPlus.Open.Analysis.NegativeLiCoefficientsForceFinitePrimeEnergy
 import MathlibPlus.Open.ResearchFormalizationLargeBatch.Scarweave
 import MathlibPlus.Open.Analysis.RightSupportCutoff
+import MathlibPlus.Open.Analysis.SourceCanonicalPoissonChannel
