@@ -3911,3 +3911,4 @@ import MathlibPlus.Open.ResearchFormalizationBatch01_01a001be
 import MathlibPlus.Open.Research.FormalizationBatch01a00431.Collision
 import MathlibPlus.Open.Algebra.Claim6756
 import MathlibPlus.Open.Analysis.Claim6943
+import MathlibPlus.Open.Research.D0076NormalizedCommutator
