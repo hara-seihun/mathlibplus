@@ -3733,3 +3733,7 @@ import MathlibPlus.Open.ResearchFormalization.BatchR1912
 import MathlibPlus.Open.ResearchFormalization.Poles
 import MathlibPlus.Open.ResearchFormalizationBatch.Lease01.FinitePrinciples
 import MathlibPlus.Open.ResearchFormalizationBatch_01a001bb_b98e_7f3f_a02c_7ec8b381d120
+import MathlibPlus.Open.ResearchFormalization.Batch01a001c2Binary
+import MathlibPlus.Open.ResearchFormalization.Batch01a001c2Cayley
+import MathlibPlus.Open.ResearchFormalization.Batch01a001c2Circuits
+import MathlibPlus.Open.ResearchFormalization.Batch01a001c2Group
