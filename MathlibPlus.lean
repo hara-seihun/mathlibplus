@@ -4268,3 +4268,5 @@ import MathlibPlus.Open.Analysis.GaugedHedenmalmZeroMode
 import MathlibPlus.Open.ResearchFormalization.Batch_01a00675_8812_10294
 import MathlibPlus.Open.Research.Quadratics50102
 import MathlibPlus.Open.CayleyCIE7
+import MathlibPlus.Open.Analysis.TranslationOrbitDenseClaim2213
+import MathlibPlus.Open.Combinatorics.CIMixedAbelianResidualSubgroupCosetClaim60097
