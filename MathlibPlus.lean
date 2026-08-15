@@ -4174,3 +4174,4 @@ import MathlibPlus.Open.Analysis.Claim9802
 import MathlibPlus.Open.Analysis.Claim9800
 import MathlibPlus.Open.CI.MixedAbelianC4C3CubedValencyTails
 import MathlibPlus.Open.Analysis.LogarithmicTranslationBatch
+import MathlibPlus.Open.Analysis.NegativeLiCoefficientsForceFinitePrimeEnergy
