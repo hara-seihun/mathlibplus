@@ -3883,3 +3883,6 @@ import MathlibPlus.Open.ResearchFormalizationBatch_01a003d0_6085_7e88_9855_ed1ff
 import MathlibPlus.Open.FormalizationBatch.LowerEndpoint
 import MathlibPlus.Open.ResearchFormalization.AlternatingResidues
 import MathlibPlus.Open.ResearchFormalization.SpectralDyadic
+import MathlibPlus.Open.Analysis.Claim59964ExponentShift
+import MathlibPlus.Open.Analysis.Claim7320HankelToda
+import MathlibPlus.Open.Combinatorics.Claim59963DecisionTreeProfile
