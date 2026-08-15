@@ -3881,3 +3881,5 @@ import MathlibPlus.Open.NumberTheory.ResearchBatch_01a001ca_640f_77be_b198_6ef80
 import MathlibPlus.Open.FormalizationBatch.Batch01Combinatorics
 import MathlibPlus.Open.ResearchFormalizationBatch_01a003d0_6085_7e88_9855_ed1ff0b1b6e8
 import MathlibPlus.Open.FormalizationBatch.LowerEndpoint
+import MathlibPlus.Open.ResearchFormalization.AlternatingResidues
+import MathlibPlus.Open.ResearchFormalization.SpectralDyadic
