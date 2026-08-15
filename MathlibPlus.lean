@@ -4140,3 +4140,4 @@ import MathlibPlus.Open.Analysis.DegreeSevenNonrealRoots
 import MathlibPlus.Open.Analysis.Claim9547
 import MathlibPlus.Open.Analysis.DegreeSevenNonrealRootCount
 import MathlibPlus.Open.AdmittedBatch.Combinatorics
+import MathlibPlus.Open.Algebra.Claim9560
