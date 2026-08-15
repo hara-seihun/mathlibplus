@@ -4079,3 +4079,4 @@ import MathlibPlus.Open.Analysis.Claim8963
 import MathlibPlus.Open.Analysis.Claim8966
 import MathlibPlus.Open.Analysis.LambertBatch
 import MathlibPlus.Open.OPE.VacancyOccupancyCoherence
+import MathlibPlus.Open.LinearAlgebra.LayerTransferBound
