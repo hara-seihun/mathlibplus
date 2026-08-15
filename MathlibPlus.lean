@@ -3848,3 +3848,5 @@ import MathlibPlus.Open.AdmittedBatch.Graphs
 import MathlibPlus.Open.AdmittedBatch.Products
 import MathlibPlus.Open.ResearchFormalization.AdaptiveIdentification
 import MathlibPlus.Open.ResearchFormalization.RademacherAndTrees
+import MathlibPlus.Open.ResearchFormalization.BatchCayleyCI_01a001c0
+import MathlibPlus.Open.ResearchFormalization.BatchDih_01a001c0
