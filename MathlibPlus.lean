@@ -4036,3 +4036,4 @@ import MathlibPlus.Open.Combinatorics.ConstraintMultigraph
 import MathlibPlus.Open.FormalizationBatch.Batch_01a004ce52f37468828121bbbe203b8b.K0129
 import MathlibPlus.Open.FormalizationBatch.Batch_01a004ce52f37468828121bbbe203b8b.R4467S2
 import MathlibPlus.Open.FormalizationBatch.Batch_01a004ce52f37468828121bbbe203b8b.R4643S3
+import MathlibPlus.Open.Analysis.DerivativeCoefficientIdentity
