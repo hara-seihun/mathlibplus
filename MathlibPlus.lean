@@ -4068,3 +4068,4 @@ import MathlibPlus.Open.NeighborSubsetDegreeSum59988
 import MathlibPlus.Open.Combinatorics.Claim5539Formalization
 import MathlibPlus.Open.Analysis.DeterministicTransferConditions
 import MathlibPlus.Open.CI.C2PowC9ConnectedMinimumValency
+import MathlibPlus.Open.Analysis.ExplicitLogarithmicPotentialDifference
