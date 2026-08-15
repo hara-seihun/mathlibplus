@@ -4272,3 +4272,4 @@ import MathlibPlus.Open.Analysis.TranslationOrbitDenseClaim2213
 import MathlibPlus.Open.Combinatorics.CIMixedAbelianResidualSubgroupCosetClaim60097
 import MathlibPlus.Open.ResearchFormalization.CayleyCIClaim60108
 import MathlibPlus.GraphTheory.Claim22565
+import MathlibPlus.Open.Research.FormalizationBatchR0750
