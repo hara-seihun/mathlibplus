@@ -4227,3 +4227,5 @@ import MathlibPlus.Open.Finite.PrimitiveOvergroupsC2PowC9
 import MathlibPlus.Open.Finite.CubeFixedPointObstruction
 import MathlibPlus.Open.Finite.SubgroupTypesC2PowC9
 import MathlibPlus.Open.Graph.NormalizedDerivativeCayley
+import MathlibPlus.Open.GroupTheory.RegularBlockSubgroups
+import MathlibPlus.Open.Analysis.GammaChebyshev
