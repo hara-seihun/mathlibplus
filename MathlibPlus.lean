@@ -3914,3 +3914,5 @@ import MathlibPlus.Open.Analysis.Claim6943
 import MathlibPlus.Open.Research.D0076NormalizedCommutator
 import MathlibPlus.Open.Research.FormalizationBatch01a001c7.NormedRiskDominance
 import MathlibPlus.Open.FiniteRangeEntropyArea
+import MathlibPlus.NumberTheory.Claim8254
+import MathlibPlus.NumberTheory.Claim8276
