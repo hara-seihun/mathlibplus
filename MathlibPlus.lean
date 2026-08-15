@@ -3972,3 +3972,4 @@ import MathlibPlus.Open.Analysis.MellinConvolution
 import MathlibPlus.Open.Combinatorics.Claim5539
 import MathlibPlus.Open.TreeSpectral
 import MathlibPlus.Open.VoltageLiftedOrbitFormula6051
+import MathlibPlus.Open.Combinatorics.EqualPartMultiplicity
