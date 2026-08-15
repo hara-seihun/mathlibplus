@@ -4062,3 +4062,4 @@ import MathlibPlus.Open.Analysis.LambertJacobiCountingLaw
 import MathlibPlus.Open.ResearchFormalization.K0124Claim8876
 import MathlibPlus.Open.Analysis.Claim7321OneScalar
 import MathlibPlus.Open.Analysis.DepthNormIdentityK0125
+import MathlibPlus.Open.Analysis.ConsecutiveNormDenominator
