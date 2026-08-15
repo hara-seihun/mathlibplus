@@ -4148,3 +4148,4 @@ import MathlibPlus.Open.Analysis.Claim9640
 import MathlibPlus.Open.Research.Claim9619
 import MathlibPlus.Algebra.Claim9564
 import MathlibPlus.Open.Algebra.Claim9564
+import MathlibPlus.Open.FormalizationBatch.PauliCorner
