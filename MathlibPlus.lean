@@ -3960,3 +3960,4 @@ import MathlibPlus.Open.Research.Batch_01a00468_PencilsAndLattices
 import MathlibPlus.Open.NumberTheory.Claim8251
 import MathlibPlus.Open.Research.RankTwoThreeEndpoint
 import MathlibPlus.Open.FormalizationBatch01
+import MathlibPlus.Open.Analysis.ClosedPhasePairedTranslationKernel
