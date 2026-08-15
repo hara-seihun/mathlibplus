@@ -3932,3 +3932,4 @@ import MathlibPlus.Open.NumberTheory.CanonicalLinearPortSubtraction
 import MathlibPlus.Open.Combinatorics.ResearchFormalizationBatch_01a00449_34ca_760c_84ef_ba44bc77fc60
 import MathlibPlus.Open.Analysis.LocalTateCompletedMixedTower
 import MathlibPlus.Open.Analysis.DyadicLeakage7484
+import MathlibPlus.Open.ResearchFormalization.BalancedSegreReserve
