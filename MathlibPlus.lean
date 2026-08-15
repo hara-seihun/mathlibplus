@@ -4205,3 +4205,4 @@ import MathlibPlus.Open.Analysis.CriticalPoissonSmoothing
 import MathlibPlus.Open.Analysis.PositiveAxisPoissonBessel
 import MathlibPlus.Open.Analysis.FalseRHExactPoissonSquare
 import MathlibPlus.Open.MatroidBatch
+import MathlibPlus.Open.Combinatorics.TreeOperators
