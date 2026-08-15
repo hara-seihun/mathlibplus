@@ -3812,3 +3812,6 @@ import MathlibPlus.Open.ResearchFormalizationLargeBatch.K0017
 import MathlibPlus.Open.ResearchFormalizationLargeBatch.R0328
 import MathlibPlus.Open.ResearchFormalizationLargeBatch.R0331
 import MathlibPlus.Open.ResearchFormalizationLargeBatch.CIResidualRank6
+import MathlibPlus.Open.ResearchFormalization.Batch.FourierType
+import MathlibPlus.Open.ResearchFormalization.Batch.HeatMatrix
+import MathlibPlus.Open.ResearchFormalization.Batch.Polynomial
