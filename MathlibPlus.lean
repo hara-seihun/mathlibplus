@@ -4070,3 +4070,4 @@ import MathlibPlus.Open.Analysis.DeterministicTransferConditions
 import MathlibPlus.Open.CI.C2PowC9ConnectedMinimumValency
 import MathlibPlus.Open.Analysis.ExplicitLogarithmicPotentialDifference
 import MathlibPlus.Open.Formalization.K0127
+import MathlibPlus.Open.Analysis.VertexEdgeNonedgeGegenbauerGram
