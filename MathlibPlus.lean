@@ -4216,3 +4216,7 @@ import MathlibPlus.Open.Analysis.ResearchFormalizeR0438
 import MathlibPlus.Open.ResearchFormalizationBatch.GroupTheory
 import MathlibPlus.Open.Analysis.K0130
 import MathlibPlus.Open.Analysis.JacobiChain
+import MathlibPlus.Open.FormalizationBatch.Claim20854
+import MathlibPlus.Open.FormalizationBatch.Claim20855
+import MathlibPlus.Open.FormalizationBatch.Claim20856
+import MathlibPlus.Open.FormalizationBatch.Claim59800
