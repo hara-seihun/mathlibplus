@@ -4223,3 +4223,7 @@ import MathlibPlus.Open.FormalizationBatch.Claim59800
 import MathlibPlus.Open.Algebra.ConductorRees
 import MathlibPlus.Open.Analysis.PositiveIntegerLevelLocking
 import MathlibPlus.Open.Analysis.TwoCopyPendantMoments
+import MathlibPlus.Open.Finite.PrimitiveOvergroupsC2PowC9
+import MathlibPlus.Open.Finite.CubeFixedPointObstruction
+import MathlibPlus.Open.Finite.SubgroupTypesC2PowC9
+import MathlibPlus.Open.Graph.NormalizedDerivativeCayley
