@@ -3737,3 +3737,6 @@ import MathlibPlus.Open.ResearchFormalization.Batch01a001c2Binary
 import MathlibPlus.Open.ResearchFormalization.Batch01a001c2Cayley
 import MathlibPlus.Open.ResearchFormalization.Batch01a001c2Circuits
 import MathlibPlus.Open.ResearchFormalization.Batch01a001c2Group
+import MathlibPlus.Open.Research.Formalization.InvolutionBatch
+import MathlibPlus.Open.Research.Formalization.RankSevenBatch
+import MathlibPlus.Open.Research.Formalization.ShearBatch
