@@ -3908,3 +3908,4 @@ import MathlibPlus.Open.Graph.IsolatedVertexPart
 import MathlibPlus.Open.Analysis.AdmittedPhaseScale
 import MathlibPlus.Open.Analysis.AdmittedGreenKernelBoundary
 import MathlibPlus.Open.ResearchFormalizationBatch01_01a001be
+import MathlibPlus.Open.Research.FormalizationBatch01a00431.Collision
