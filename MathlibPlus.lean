@@ -4137,3 +4137,4 @@ import MathlibPlus.Open.GraphReconstruction.StarFirstPairs
 import MathlibPlus.Open.Graph.MinimumStarEquality9465
 import MathlibPlus.Open.Graph.AdmittedClaim9473
 import MathlibPlus.Open.Analysis.DegreeSevenNonrealRoots
+import MathlibPlus.Open.Analysis.Claim9547
