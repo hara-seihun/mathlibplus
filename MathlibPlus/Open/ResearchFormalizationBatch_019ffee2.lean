@@ -1,6 +1,5 @@
 import Mathlib
 
-<<<<<<< ours
 noncomputable section
 
 namespace MathlibPlus.Open
@@ -93,7 +92,6 @@ def claim_42123 : Prop :=
         ¬ IsRoot ((cyclotomic (3 ^ k) ℤ).map (algebraMap ℤ K)) z
 
 end MathlibPlus.Open
-=======
 namespace MathlibPlus.Open.ResearchFormalizationBatch_019ffee2
 
 noncomputable section
@@ -231,4 +229,3 @@ def claim46831 : Prop :=
 end
 
 end MathlibPlus.Open.ResearchFormalizationBatch_019ffee2
->>>>>>> theirs
