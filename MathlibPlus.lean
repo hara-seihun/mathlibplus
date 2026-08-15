@@ -4131,3 +4131,4 @@ import MathlibPlus.Open.Analysis.FixedBasePositiveFiberFloor
 import MathlibPlus.Open.FormalizationBatch.DerivativeAndModular
 import MathlibPlus.Open.Analysis.NonnegativeTrigonometricPacket
 import MathlibPlus.Open.FormalizationBatch.Claims9408And9428
+import MathlibPlus.Open.Graph.AdmittedClaim9463
