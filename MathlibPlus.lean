@@ -3774,3 +3774,4 @@ import MathlibPlus.Open.ResearchFormalizationBatch_01a00347.Quadratic
 import MathlibPlus.Open.ResearchFormalizationBatch_01a00347.Tree
 import MathlibPlus.Open.ResearchFormalizationBatch_01a00347.Vasyunin
 import MathlibPlus.Open.ResearchFormalizationBatch_01a00347.Voltage
+import MathlibPlus.Open.ResearchFormalization.Lease01a00346Constructions
