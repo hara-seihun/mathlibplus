@@ -3927,3 +3927,4 @@ import MathlibPlus.Open.FormalizationBatch.Claims7774And7880
 import MathlibPlus.Open.FormalizationBatch.Analysis
 import MathlibPlus.Open.FormalizationBatch.TreeCover
 import MathlibPlus.Open.FormalizationBatch.UnionTemplate
+import MathlibPlus.Open.ResearchFormalization.BatchQ20Orbit
