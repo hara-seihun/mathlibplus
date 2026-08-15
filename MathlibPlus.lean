@@ -4193,3 +4193,6 @@ import MathlibPlus.Open.Analysis.PrimeIndependentCoefficientLaw
 import MathlibPlus.Open.ResearchFormalizationBatch9982
 import MathlibPlus.Open.Analysis.CyclicDivisor
 import MathlibPlus.Open.Analysis.K0188
+import MathlibPlus.Open.Analysis.NumberTheoryAnalysisClaims
+import MathlibPlus.Open.Combinatorics.PolynomialCriteriaClaims
+import MathlibPlus.Open.Group.CayleyDisplacementClaims
