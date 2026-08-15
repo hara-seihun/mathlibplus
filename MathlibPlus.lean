@@ -4082,3 +4082,4 @@ import MathlibPlus.Open.OPE.VacancyOccupancyCoherence
 import MathlibPlus.Open.LinearAlgebra.LayerTransferBound
 import MathlibPlus.Open.Analysis.ExactSaddleEquationAndLambertAsymptoticClaim9034
 import MathlibPlus.Open.Analysis.BatchK0135
+import MathlibPlus.Open.AdmittedBatch.Claim9064LinearlyCorrectedBooleanGraphIdentifier
