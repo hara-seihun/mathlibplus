@@ -4098,3 +4098,4 @@ import MathlibPlus.Open.Graphs.PrimeCycleTypeCounts9145
 import MathlibPlus.Open.UnnormalizedQuantizedRelation
 import MathlibPlus.Open.NumberTheory.Claim9192
 import MathlibPlus.Open.Analysis.PositiveKernelIntegralFactorization
+import MathlibPlus.Open.Analysis.LocalKernelAsymptotic
