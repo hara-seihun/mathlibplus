@@ -4119,3 +4119,4 @@ import MathlibPlus.Open.ResearchFormalizationBatch_01a0052b_1696_7424_8955_6ad64
 import MathlibPlus.Open.Analysis.NumberTheory.PrimitiveDirectionEnergyDecompositionClaim
 import MathlibPlus.Open.Analysis.NumberTheory.ReciprocalZetaMellinNormFormalization
 import MathlibPlus.Open.Analysis.FrameWeightBounded
+import MathlibPlus.Open.Analysis.BesselCorrectionAndFrameWeight
