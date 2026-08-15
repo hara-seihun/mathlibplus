@@ -4066,3 +4066,4 @@ import MathlibPlus.Open.Analysis.ConsecutiveNormDenominator
 import MathlibPlus.Open.Research.ArbitraryRowNorm
 import MathlibPlus.Open.NeighborSubsetDegreeSum59988
 import MathlibPlus.Open.Combinatorics.Claim5539Formalization
+import MathlibPlus.Open.Analysis.DeterministicTransferConditions
