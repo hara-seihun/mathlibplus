@@ -4027,3 +4027,4 @@ import MathlibPlus.Open.ResearchFormalizationD0079Claim5083
 import MathlibPlus.Open.LinearAlgebra.BoundedAnchorColoop
 import MathlibPlus.Open.Research.FormalizationBatchK0134Claim9043
 import MathlibPlus.Open.FiberwisePresentationDefect
+import MathlibPlus.Open.ResearchFormalization.R1935Batch
