@@ -4127,3 +4127,4 @@ import MathlibPlus.Open.Analysis.LargeBaseFiberFloor
 import MathlibPlus.Open.Research.FormalizationBatchAnalysis
 import MathlibPlus.Open.FormalizationBatch1186
 import MathlibPlus.Open.Analysis.CriticalCircleReflection
+import MathlibPlus.Open.Analysis.FixedBasePositiveFiberFloor
