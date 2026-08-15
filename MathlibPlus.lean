@@ -4243,3 +4243,7 @@ import MathlibPlus.Open.PrimeFiber
 import MathlibPlus.Open.FiberMaps31844
 import MathlibPlus.Open.ResearchFormalizationBatch_01a0067d
 import MathlibPlus.Open.Algebra.CentralDifferenceShear
+import MathlibPlus.Open.FormalizationBatch.GenericPerturbations
+import MathlibPlus.Open.FormalizationBatch.TriangularLattice
+import MathlibPlus.Open.FormalizationBatch.DiameterRatio
+import MathlibPlus.Open.FormalizationBatch.CyclicBlocks
