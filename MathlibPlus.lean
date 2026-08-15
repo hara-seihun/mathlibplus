@@ -3740,3 +3740,5 @@ import MathlibPlus.Open.ResearchFormalization.Batch01a001c2Group
 import MathlibPlus.Open.Research.Formalization.InvolutionBatch
 import MathlibPlus.Open.Research.Formalization.RankSevenBatch
 import MathlibPlus.Open.Research.Formalization.ShearBatch
+import MathlibPlus.Open.ResearchFormalization.BatchAnalysis01a00309
+import MathlibPlus.Open.ResearchFormalization.BatchCounting01a00309
