@@ -3937,3 +3937,4 @@ import MathlibPlus.Open.CiHighValency
 import MathlibPlus.Open.ProjectsResearch.SphericalTraceObstruction
 import MathlibPlus.Open.FourStatesHigherDegree
 import MathlibPlus.Open.Analysis.IntegrationByPartsPorts
+import MathlibPlus.Open.Analysis.MixedShellRankPeriodExpansion
