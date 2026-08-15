@@ -4038,3 +4038,4 @@ import MathlibPlus.Open.FormalizationBatch.Batch_01a004ce52f37468828121bbbe203b8
 import MathlibPlus.Open.FormalizationBatch.Batch_01a004ce52f37468828121bbbe203b8b.R4643S3
 import MathlibPlus.Open.Analysis.DerivativeCoefficientIdentity
 import MathlibPlus.Open.Research.FormalizationBatch_01a004d6
+import MathlibPlus.Open.Analysis.GammaEvenAppell
