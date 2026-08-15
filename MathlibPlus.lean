@@ -3843,3 +3843,6 @@ import MathlibPlus.Open.FormalizationBatch.BatchGraph_01a003d1d114734f885665fd52
 import MathlibPlus.Open.Analysis.EventualRecurrence8195
 import MathlibPlus.Open.C0079NeighboringMinor
 import MathlibPlus.Open.ResearchFormalizationBatch_01a00357
+import MathlibPlus.Open.AdmittedBatch.BaezDuarte
+import MathlibPlus.Open.AdmittedBatch.Graphs
+import MathlibPlus.Open.AdmittedBatch.Products
