@@ -4007,3 +4007,4 @@ import MathlibPlus.Open.AnalyticNumberTheory.ExplicitModulusUniformBoundClaim829
 import MathlibPlus.Open.CanonicalConeEndpointPositivity
 import MathlibPlus.Open.Analysis.ExplicitNegativeOrderedRankTwoMinor
 import MathlibPlus.Open.NumberTheory.NumericallyAdmissibleUniqueChiClassification
+import MathlibPlus.Open.CriticalLineUniformGram
