@@ -4209,3 +4209,5 @@ import MathlibPlus.Open.Combinatorics.TreeOperators
 import MathlibPlus.Open.Analysis.Claim10210
 import MathlibPlus.Open.Combinatorics.CiMixedAbelianResidualC4C3
 import MathlibPlus.Open.FormalizationBatch.Graphs
+import MathlibPlus.Open.Research.K0137
+import MathlibPlus.Open.Research.K0160_0162
