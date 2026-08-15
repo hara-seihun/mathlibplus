@@ -4045,3 +4045,4 @@ import MathlibPlus.Open.FormalizationBatchUnionFamilies
 import MathlibPlus.Open.FormalizationBatchCompression
 import MathlibPlus.Open.FormalizationBatchGroups
 import MathlibPlus.Open.FormalizationBatchPaths
+import MathlibPlus.Open.Asymptotics.FirstOrderCoefficientAsymptotic
