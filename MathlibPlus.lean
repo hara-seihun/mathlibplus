@@ -3941,3 +3941,8 @@ import MathlibPlus.Open.Analysis.MixedShellRankPeriodExpansion
 import MathlibPlus.Open.Formalization.Claim8766
 import MathlibPlus.Open.Probability.GammaEvenAppellPositiveIntegerShape59494
 import MathlibPlus.Open.Analysis.Claim8237
+import MathlibPlus.Open.Formalization.ArithmeticKernels
+import MathlibPlus.Open.Formalization.ResidueBatch
+import MathlibPlus.Open.Formalization.TopologicalUnimodal
+import MathlibPlus.Open.Formalization.TriangularExactness
+import MathlibPlus.Open.FormalizationBatch.TSLattice
