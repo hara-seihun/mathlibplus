@@ -4181,3 +4181,4 @@ import MathlibPlus.Open.Analysis.SourceCanonicalPoissonChannel
 import MathlibPlus.Open.Analysis.Claim9805
 import MathlibPlus.Open.FormalizationBatch_01a005cf.Lacunary
 import MathlibPlus.Open.ResearchFormalizationBatch_9953
+import MathlibPlus.Open.ResearchFormalizationBatch_01a005ed-acdc-7143-bd2e-bb7b32b0d100
