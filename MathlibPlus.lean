@@ -4157,3 +4157,4 @@ import MathlibPlus.Open.Research.FormalizationHookCancellation
 import MathlibPlus.Open.Research.FormalizationPhase
 import MathlibPlus.Open.Research.FormalizationReset
 import MathlibPlus.Open.Research.FormalizationRows
+import MathlibPlus.Open.Analysis.ReflectedAllRankCoefficientPositivity
