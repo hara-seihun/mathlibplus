@@ -4029,3 +4029,4 @@ import MathlibPlus.Open.Research.FormalizationBatchK0134Claim9043
 import MathlibPlus.Open.FiberwisePresentationDefect
 import MathlibPlus.Open.ResearchFormalization.R1935Batch
 import MathlibPlus.Open.Analysis.ExactTrailingCoordinateMass
+import MathlibPlus.Open.Analysis.VanishingLeakageBuffer
