@@ -4059,3 +4059,4 @@ import MathlibPlus.Open.CI.ResidualEightT7F5OddRemarkingClaim60064
 import MathlibPlus.Open.ResearchFormalization.K0123Claim8865
 import MathlibPlus.Support.LambertJacobiCounting
 import MathlibPlus.Open.Analysis.LambertJacobiCountingLaw
+import MathlibPlus.Open.ResearchFormalization.K0124Claim8876
