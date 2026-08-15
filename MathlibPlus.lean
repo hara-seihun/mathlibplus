@@ -4165,3 +4165,5 @@ import MathlibPlus.Open.NumberTheory.Claim9759
 import MathlibPlus.Open.Analysis.K0165FareyGram
 import MathlibPlus.Open.NumberTheory.Claim9763
 import MathlibPlus.Open.NumberTheory.LayerGramFactorizationClaim9761
+import MathlibPlus.Open.ResearchFormalization.InverseRiordanCofactor
+import MathlibPlus.Open.ResearchFormalization.SourceFluxResistance
