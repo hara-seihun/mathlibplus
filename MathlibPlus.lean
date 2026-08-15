@@ -4152,3 +4152,8 @@ import MathlibPlus.Open.FormalizationBatch.PauliCorner
 import MathlibPlus.Open.FormalizationBatch.K0156NonzeroMaximalMinorSupport
 import MathlibPlus.Open.Analysis.ReflectedCoefficientFactorization
 import MathlibPlus.Open.Combinatorics.StaircaseCatalanSupport
+import MathlibPlus.Open.Research.FormalizationChebyshev
+import MathlibPlus.Open.Research.FormalizationHookCancellation
+import MathlibPlus.Open.Research.FormalizationPhase
+import MathlibPlus.Open.Research.FormalizationReset
+import MathlibPlus.Open.Research.FormalizationRows
