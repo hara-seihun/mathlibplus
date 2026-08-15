@@ -4187,3 +4187,4 @@ import MathlibPlus.Open.ResearchFormalizationBatch_01a005f519cc754a
 import MathlibPlus.Open.Algebra.GeometricReverseRoots
 import MathlibPlus.Open.ResearchFormalizationBatch9978
 import MathlibPlus.Open.Algebra.ParaorthogonalPolynomialFamily.NumeratorHasSimpleUnitCircleRoots
+import MathlibPlus.Open.ResearchFormalization.Batch9937
