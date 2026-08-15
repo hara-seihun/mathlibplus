@@ -4032,3 +4032,4 @@ import MathlibPlus.Open.Analysis.ExactTrailingCoordinateMass
 import MathlibPlus.Open.Analysis.VanishingLeakageBuffer
 import MathlibPlus.Open.Analysis.Claim8738NormOnlyNeumannTunneling
 import MathlibPlus.Open.FormalizationBatch
+import MathlibPlus.Open.Combinatorics.ConstraintMultigraph
