@@ -4201,3 +4201,5 @@ import MathlibPlus.Open.Cayley.EC13C3
 import MathlibPlus.Open.ResearchFormalization.Batch01a0061cc312752588d68ed63a01ac7b.Cayley
 import MathlibPlus.Open.ResearchFormalization.Batch01a0061cc312752588d68ed63a01ac7b.Combinatorics
 import MathlibPlus.Open.ResearchFormalization.Batch01a0061cc312752588d68ed63a01ac7b.Group
+import MathlibPlus.Open.Analysis.CriticalPoissonSmoothing
+import MathlibPlus.Open.Analysis.PositiveAxisPoissonBessel
