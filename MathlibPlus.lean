@@ -3994,3 +3994,4 @@ import MathlibPlus.Open.FormalizationBatch.ScalarIteration
 import MathlibPlus.Open.UnitAlgebraicAdhesionOnEveryCut
 import MathlibPlus.Open.ResearchFormalizationBatch_Claim4468
 import MathlibPlus.Open.Analysis.ResearchFormalizationBatchHigherChannelEnergy
+import MathlibPlus.Open.ResearchFormalizationClaim7530
