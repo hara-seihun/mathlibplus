@@ -4008,3 +4008,4 @@ import MathlibPlus.Open.CanonicalConeEndpointPositivity
 import MathlibPlus.Open.Analysis.ExplicitNegativeOrderedRankTwoMinor
 import MathlibPlus.Open.NumberTheory.NumericallyAdmissibleUniqueChiClassification
 import MathlibPlus.Open.CriticalLineUniformGram
+import MathlibPlus.Open.CiRank6.QuietDirectionLinearIndependenceLiftClaim59582
