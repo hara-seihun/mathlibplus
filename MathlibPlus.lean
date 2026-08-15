@@ -4047,3 +4047,4 @@ import MathlibPlus.Open.FormalizationBatchGroups
 import MathlibPlus.Open.FormalizationBatchPaths
 import MathlibPlus.Open.Asymptotics.FirstOrderCoefficientAsymptotic
 import MathlibPlus.Open.Algebra.RelativeWeylHeatClaim7769
+import MathlibPlus.Open.Analysis.LambertNormalization
