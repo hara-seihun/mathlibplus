@@ -4005,3 +4005,4 @@ import MathlibPlus.Open.LinearAlgebra.OrientedCofactors
 import MathlibPlus.Open.ResearchFormalizationBatch_01a004a9
 import MathlibPlus.Open.AnalyticNumberTheory.ExplicitModulusUniformBoundClaim8294
 import MathlibPlus.Open.CanonicalConeEndpointPositivity
+import MathlibPlus.Open.Analysis.ExplicitNegativeOrderedRankTwoMinor
