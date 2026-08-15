@@ -4282,3 +4282,5 @@ import MathlibPlus.Open.NumberTheory.ExactSignedRadicalMass
 import MathlibPlus.Open.NumberTheory.JordanTaylorExpansion
 import MathlibPlus.Open.Research.Claim41172
 import MathlibPlus.Open.Research.Claim60103
+import MathlibPlus.Open.ResearchFormalization.Claim3366
+import MathlibPlus.Open.ResearchFormalization.Claim3939
