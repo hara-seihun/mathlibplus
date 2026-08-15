@@ -3993,3 +3993,4 @@ import MathlibPlus.Open.FormalizationBatch.QuadraticTransporter
 import MathlibPlus.Open.FormalizationBatch.ScalarIteration
 import MathlibPlus.Open.UnitAlgebraicAdhesionOnEveryCut
 import MathlibPlus.Open.ResearchFormalizationBatch_Claim4468
+import MathlibPlus.Open.Analysis.ResearchFormalizationBatchHigherChannelEnergy
