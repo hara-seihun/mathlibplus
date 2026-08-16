@@ -4718,3 +4718,11 @@ import MathlibPlus.Open.ResearchFormalization.MatchingPencilError15118
 import MathlibPlus.Open.NewResearch2.RationalHankel15127
 import MathlibPlus.Open.Analysis.FormalizationBatchO0267ColumnErrors
 import MathlibPlus.Open.Analysis.FirstLaguerreDivisorChannels
+import MathlibPlus.Open.ResearchFormalization.CompactLambertNormTargetRefutation15202
+import MathlibPlus.Open.Analysis.Claim15188
+import MathlibPlus.Open.Combinatorics.PathDualLipschitzCalibration15222
+import MathlibPlus.Open.NewResearch2.PrimeRenewal15232
+import MathlibPlus.Open.Analysis.CompletedThetaShellConstructionPositive
+import MathlibPlus.Open.Analysis.SelectedZeroLowerTail
+import MathlibPlus.Open.ResearchFormalization.O0310SelectedZeroGain
+import MathlibPlus.Open.ResearchFormalization.HardyBudget
