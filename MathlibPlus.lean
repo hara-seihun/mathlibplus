@@ -4438,3 +4438,11 @@ import MathlibPlus.Open.ResearchFormalization.BatchO0078Claim12131
 import MathlibPlus.Open.ResearchFormalization.BatchO0080Claim12176
 import MathlibPlus.Open.ResearchFormalization.BatchO0128Claim12350
 import MathlibPlus.Open.ResearchFormalization.BatchO0128Claim12351
+import MathlibPlus.Open.Topology.Claim12356
+import MathlibPlus.Open.GroupTheory.Claim60265
+import MathlibPlus.Open.Formalization.Claim60337
+import MathlibPlus.Open.Research.Claims60303_60304
+import MathlibPlus.Open.LinearAlgebra.SynchronizationDefect
+import MathlibPlus.Open.Research.R5410
+import MathlibPlus.Open.ResearchFormalization.EndpointPlueckerClaims
+import MathlibPlus.Open.ResearchFormalization.SeriesHardEdgeClaims
