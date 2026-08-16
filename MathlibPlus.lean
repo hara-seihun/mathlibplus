@@ -4499,3 +4499,10 @@ import MathlibPlus.Open.Analysis.ConfluentPairedEscape
 import MathlibPlus.Open.Analysis.RankTwoSecantCompounds
 import MathlibPlus.Open.Analysis.FormalizationBatchExponential
 import MathlibPlus.Open.ResearchFormalization_12527_12532_01a00b46
+import MathlibPlus.Open.ResearchFormalizationBatch_01a006da607a7b6d8b4cd04d89586ca5
+import MathlibPlus.Open.Analysis.AdaptiveTranscriptWalshKernel
+import MathlibPlus.Open.CoprimeShellProductsC7Q12
+import MathlibPlus.Open.Research.AdaptiveOracleAreaSharp.Claim60169
+import MathlibPlus.Open.FiniteCayleyCI.TwoComplementarySubspaces
+import MathlibPlus.Open.Combinatorics.CIMixedAbelianResidualValency13
+import MathlibPlus.Open.Analysis.OnAxisControlBatch
