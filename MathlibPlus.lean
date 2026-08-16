@@ -1846,7 +1846,6 @@ import MathlibPlus.Analysis.Claim11294
 import MathlibPlus.Combinatorics.Claim26659
 import MathlibPlus.Combinatorics.Claim9094
 import MathlibPlus.Open.GraphTheory.AlternatingFourUndirectedRelationalCI
-import MathlibPlus.Open.GraphTheory.BinaryRankSixValencyTwentyEightCIDefect
 import MathlibPlus.GraphTheory.VertexDeckDegrees
 import MathlibPlus.Algebra.Claim51901
 import MathlibPlus.Combinatorics.Claim42279
