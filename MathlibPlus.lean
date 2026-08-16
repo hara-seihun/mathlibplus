@@ -4583,3 +4583,6 @@ import MathlibPlus.Open.FiniteCayleyCI60921
 import MathlibPlus.Open.Analysis.FormalizationBatchO0136O0169
 import MathlibPlus.Open.DistinctOrderHammingFactorCI60967
 import MathlibPlus.Open.AnalyticNumberTheory.BaezDuarteDyadicCriterion
+import MathlibPlus.LinearAlgebra.Claim17558
+import MathlibPlus.Analysis.PolarizedTuranForm
+import MathlibPlus.Combinatorics.StrongOrdering
