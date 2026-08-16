@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # Exact Bellotti growth constants
 
-This file formalizes all exact definitions in Record 1 of legacy packet `C-0095`.
+This file formalizes all exact definitions in Record 1 of source record `C-0095`.
 The later analytic transfer theorems remain separate claims with their full domains and
 are not represented by schematic substitutes here.
 -/

@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # Strict total positivity of weighted moment-curve tables
 
-Statement formalization of admitted claim 167 from legacy packet `C-0010`.
+Statement formalization of admitted claim 167 from source record `C-0010`.
 -/
 
 namespace MathlibPlus.Open.MomentCurve

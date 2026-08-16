@@ -4,7 +4,7 @@ import Mathlib
 # Coefficient-envelope growth
 
 Kernel-checked formalization of the asymptotic scalar implication in Record 8 of
-legacy packet `C-0210`.
+source record `C-0210`.
 -/
 
 open Filter

@@ -3,7 +3,7 @@ import MathlibPlus.Open.Basic
 /-!
 # Gap-free HCIZ determinant comparison
 
-Statement-fidelity registry node for admitted claim 390 from legacy packet `C-0024`.
+Statement-fidelity registry node for admitted claim 390 from source record `C-0024`.
 The packet's Vandermonde products are represented by determinants of mathlib's
 Vandermonde matrices.  Both the displayed row determinant and its stated column
 transpose version are retained.

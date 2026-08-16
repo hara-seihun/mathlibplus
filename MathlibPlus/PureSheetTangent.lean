@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # Pure-sheet tangent determinant
 
-This file formalizes the exact algebraic anchor in Record 20 of legacy packet
+This file formalizes the exact algebraic anchor in Record 20 of source record
 `C-0036`.  It defines only the packet's explicit zero-activity tangent vector and
 proves its determinant formula and positivity at three ordered knots.  No unresolved
 folded-kernel or activity-locus assertion is introduced.

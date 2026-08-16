@@ -4,7 +4,7 @@ import Mathlib
 # Cayley coordinates of complex zeros
 
 This file formalizes the two elementary Cayley-coordinate identities in Records 2
-and 3 of legacy packet `D-0032`.  It makes no claim about the zero set of the
+and 3 of source record `D-0032`.  It makes no claim about the zero set of the
 Riemann zeta function and does not interpret the packet's regularized Li sum.
 -/
 

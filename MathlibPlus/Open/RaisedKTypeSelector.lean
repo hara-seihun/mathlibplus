@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # Square-root bound for the least safe raised K-type selector
 
-This open-registry node records admitted claim 306 from legacy packet `C-0019`.
+This open-registry node records admitted claim 306 from source record `C-0019`.
 The phase, safe-window polynomial, and leastness condition are inlined so the node
 does not depend on definitions awaiting admission in separate submissions.
 -/

@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # Hardy-Z nonvanishing at the integer endpoints
 
-This registry node records admitted claim 270 from legacy packet `C-0017`.
+This registry node records admitted claim 270 from source record `C-0017`.
 The decimal centers and radii are exact rationals in Lean. Both certified real
 intervals and the resulting Hardy-Z and zeta nonvanishing conclusions are retained.
 -/

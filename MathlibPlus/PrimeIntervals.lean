@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # Consecutive-power interval containment
 
-This file formalizes the exact algebraic bridge in Record 13 of legacy packet
+This file formalizes the exact algebraic bridge in Record 13 of source record
 `C-0085`. It does not assert the packet's analytic theta-increment estimate or the
 existence of primes in the resulting interval.
 -/

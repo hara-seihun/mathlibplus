@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # Classical zero-free boundary arithmetic
 
-This file formalizes the exact denominator comparison in Record 3 of legacy packet
+This file formalizes the exact denominator comparison in Record 3 of source record
 `C-0105`. It compares the geometric boundaries only and does not assert that the
 Riemann zeta function is zero-free in any of the regions.
 -/

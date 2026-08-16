@@ -4,7 +4,7 @@ import Mathlib
 # Mertens-product branch calculus
 
 This file formalizes the exact elementary derivative calculation in Record 6 of
-legacy packet `C-0042`.  It does not formalize the packet's finite prime-jump
+source record `C-0042`.  It does not formalize the packet's finite prime-jump
 certificate, tail estimate, or sharp numerical constant.
 -/
 

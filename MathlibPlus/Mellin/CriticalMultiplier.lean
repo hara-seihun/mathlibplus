@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # Critical Mellin multiplier coordinates
 
-Exact elementary definitions and identities extracted from legacy packet `C-0168`.
+Exact elementary definitions and identities extracted from source record `C-0168`.
 The namespace is intentionally specific to the critical Mellin calculation; these
 coordinates do not assert any of the packet's explicitly excluded consequences about
 hyperbolicity, defect bounds, zeta-phase control, or the Riemann hypothesis.

@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # Compact prime-counting denominator algebra
 
-An exact polynomial residual certificate extracted from legacy packet `C-0055`.
+An exact polynomial residual certificate extracted from source record `C-0055`.
 The imported analytic and finite-computation inputs used elsewhere in that packet
 are deliberately not encoded as hypotheses here.
 -/

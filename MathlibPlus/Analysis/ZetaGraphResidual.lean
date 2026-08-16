@@ -5,7 +5,7 @@ namespace MathlibPlus.Analysis.ZetaGraphResidual
 /-!
 # Denominator-free zeta-graph residual
 
-Formalization of admitted claim 3901 (legacy locator `C-0275`).  The source
+Formalization of admitted claim 3901 (source locator `C-0275`).  The source
 requires a compact test set in the half-plane `Re s > 1`; those hypotheses are
 explicit parameters rather than silently extending the construction to an
 arbitrary set.

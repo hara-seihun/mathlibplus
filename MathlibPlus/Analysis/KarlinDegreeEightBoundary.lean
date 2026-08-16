@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # The degree-eight order-five Karlin boundary witness
 
-This is the explicit witness from admitted claim 859 (legacy packet C-0056).
+This is the explicit witness from admitted claim 859 (source record C-0056).
 The determinant is the consecutive derivative determinant
 `det [f^(i+j)(x)]` at the origin, not an arbitrary order-five minor.
 -/

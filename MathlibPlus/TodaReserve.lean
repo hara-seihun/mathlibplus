@@ -4,7 +4,7 @@ import Mathlib
 # Determinant reserve from logarithmic curvature
 
 The exact scalar consequence of condensation and logarithmic curvature in Record 8
-of legacy packet `C-0231`.
+of source record `C-0231`.
 -/
 
 namespace MathlibPlus.TodaReserve

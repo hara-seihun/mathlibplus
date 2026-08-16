@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # Boundary-cluster sign consequences
 
-Finite algebraic consequences extracted from legacy packet `C-0002`.  These results
+Finite algebraic consequences extracted from source record `C-0002`.  These results
 isolate the independent-factor sign law and give a concrete witness that positivity
 of a real polynomial's coefficients does not force the Taylor series of its logarithm
 about zero to reach the unit circle.

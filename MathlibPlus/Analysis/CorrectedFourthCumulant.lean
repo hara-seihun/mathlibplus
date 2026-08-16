@@ -1,6 +1,6 @@
 import Mathlib
 
-namespace MathlibPlus.LegacyDraft.R0906
+namespace MathlibPlus.Analysis.CorrectedFourthCumulant
 
 /-- Claim 43285: the corrected fourth projective-row cumulant identity.
 The scalar, ordinary-row, and interpolation equations are explicit hypotheses;
@@ -22,4 +22,4 @@ theorem correctedFourthCumulant_algebra :
   rw [hW, hJ, hL] at hrow
   linear_combination hrow
 
-end MathlibPlus.LegacyDraft.R0906
+end MathlibPlus.Analysis.CorrectedFourthCumulant

@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # Exact first radial-hook sign counterexample
 
-Kernel-checked formalization of Record 16 from legacy packet `C-0025`. The result
+Kernel-checked formalization of Record 16 from source record `C-0025`. The result
 certifies only the two displayed scalar signs. It is not registered as an obstruction
 to an unresolved radial-hook hierarchy.
 -/

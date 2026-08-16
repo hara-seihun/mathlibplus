@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # Normalized moments
 
-Scale-free moment coordinates extracted from legacy packet `C-0010`.
+Scale-free moment coordinates extracted from source record `C-0010`.
 -/
 
 open MeasureTheory

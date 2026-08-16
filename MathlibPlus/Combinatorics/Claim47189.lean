@@ -3,7 +3,7 @@ import MathlibPlus.Basic
 namespace MathlibPlus.Combinatorics.Claim47189
 
 /-!
-Formalization of admitted claim 47189 (legacy packet R-2672).  A finite family
+Formalization of admitted claim 47189 (source record R-2672).  A finite family
 of finite sets is represented by `F : Finset (Finset α)`.  The trace fibre over
 an outside support `S` is the image of the exact filter
 `A \ M = S` under intersection with `M`; no additional trace convention is

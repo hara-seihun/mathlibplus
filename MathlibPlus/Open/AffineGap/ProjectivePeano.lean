@@ -3,7 +3,7 @@ import MathlibPlus.AffineGap.ProjectivePeano
 /-!
 # All-rank projective Peano identity
 
-Registry statement for admitted claim 85 from legacy packet `C-0005`.
+Registry statement for admitted claim 85 from source record `C-0005`.
 -/
 
 namespace MathlibPlus.Open.AffineGap

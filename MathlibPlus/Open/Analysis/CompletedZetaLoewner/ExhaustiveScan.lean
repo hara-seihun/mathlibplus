@@ -5,7 +5,7 @@ open scoped BigOperators
 namespace MathlibPlus.Open.Analysis.CompletedZetaLoewner
 
 /-- The exact finite scans of the total even completed-zeta Loewner matrix from
-legacy packet `C-0014`: every principal minor of orders two through seven on
+source record `C-0014`: every principal minor of orders two through seven on
 the 25-rate pool is positive, and both displayed order-ten grids are positive
 definite. -/
 noncomputable def exhaustiveAdversarialFiniteScan : Prop :=

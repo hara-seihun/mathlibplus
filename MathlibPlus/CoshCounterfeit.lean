@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # The elementary `2 + cosh` counterfeit
 
-Kernel-checked elementary facts from Record 10 of legacy packet `C-0028`.
+Kernel-checked elementary facts from Record 10 of source record `C-0028`.
 These facts do not assert the packet's separate recurrence-class, Laurent-right-limit,
 or central-limit transfer claims.
 -/

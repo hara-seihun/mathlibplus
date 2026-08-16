@@ -4,7 +4,7 @@ import Mathlib
 # Elementary identities for symmetric imaginary shifts
 
 This module formalizes the exact algebraic identities in Records 4, 5, and 7 of
-legacy packet `C-0024`.  It deliberately does not state the packet's analytic
+source record `C-0024`.  It deliberately does not state the packet's analytic
 strip-contraction theorem, which requires a faithful library-level formulation of
 its entire-function and order hypotheses.
 -/

@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # Explicit Chebyshev-theta envelope constants
 
-Exact rational arithmetic extracted from legacy packet `C-0047`.  These results
+Exact rational arithmetic extracted from source record `C-0047`.  These results
 certify the packet's displayed constant and its numerical improvement only; the
 analytic theta bounds and finite table envelope are separate statements.
 -/

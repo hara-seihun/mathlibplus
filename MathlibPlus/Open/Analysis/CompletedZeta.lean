@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # Finite total-Loewner criterion for the Riemann hypothesis
 
-This registry node records admitted claim 195 from legacy packet `C-0013`.
+This registry node records admitted claim 195 from source record `C-0013`.
 The exact total family is built from the logarithmic derivative of the completed
 Riemann xi function on `s = 1/2 + λ`. Quantifying over every injective finite rate
 family also quantifies over every principal subfamily, so the negative-determinant

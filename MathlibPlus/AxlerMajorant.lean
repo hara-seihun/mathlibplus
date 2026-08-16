@@ -4,7 +4,7 @@ import Mathlib
 # Axler factorial-720 majorant
 
 Exact majorant definitions and the same-eighth-coefficient comparison from Records
-2 and 4 of legacy extraction bundle `C-0044`. The packet's prime-counting theorem
+2 and 4 of source record `C-0044`. The packet's prime-counting theorem
 and numerical certificates are not asserted here.
 -/
 

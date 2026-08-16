@@ -3,7 +3,7 @@ import MathlibPlus.Open.Basic
 /-!
 # Strict positivity of the completed-theta shells
 
-Statement-fidelity registry node for admitted claim 342 from legacy packet `C-0021`.
+Statement-fidelity registry node for admitted claim 342 from source record `C-0021`.
 The shell is inlined using the factorized formula in the preceding admitted claim
 341.  The total kernel is the sum over positive shell labels, reindexed by `n + 1`.
 -/

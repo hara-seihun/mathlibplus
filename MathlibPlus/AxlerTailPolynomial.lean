@@ -4,7 +4,7 @@ import Mathlib
 # Axler tail-polynomial comparison
 
 Statement-faithful formalization of admitted claim 985, extracted from Record 11
-of legacy packet `C-0064`. This does not assert the imported Dusart
+of source record `C-0064`. This does not assert the imported Dusart
 prime-counting bound or the packet's finite computational audit.
 -/
 

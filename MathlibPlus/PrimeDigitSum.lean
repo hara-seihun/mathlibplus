@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # Prime digit-sum threshold arithmetic
 
-This file formalizes the exact threshold comparison in Record 2 of legacy packet
+This file formalizes the exact threshold comparison in Record 2 of source record
 `C-0092`. It makes no claim that either threshold is least or optimal, and it does
 not import the packet's analytic prime-existence argument.
 -/

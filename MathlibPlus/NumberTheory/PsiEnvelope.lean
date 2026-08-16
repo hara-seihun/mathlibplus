@@ -4,7 +4,7 @@ import Mathlib
 # Square-root-exponential Chebyshev envelopes
 
 This file formalizes the envelope definition and the complete strict decay comparison
-in Records 1 and 3 of legacy packet `C-0067`. It does not introduce a placeholder for
+in Records 1 and 3 of source record `C-0067`. It does not introduce a placeholder for
 Chebyshev's `ψ` or assert the packet's separate global analytic bound.
 -/
 

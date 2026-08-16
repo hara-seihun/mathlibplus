@@ -3,7 +3,7 @@ import MathlibPlus.Basic
 /-!
 # Rational congruence and determinant sign
 
-Formalization of admitted claim 392 from legacy packet `C-0024`.  The determinant
+Formalization of admitted claim 392 from source record `C-0024`.  The determinant
 identity is algebraic and does not use the Hankel structure of the real matrix family,
 so it is proved for every such family.
 -/

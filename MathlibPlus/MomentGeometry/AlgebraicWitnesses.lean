@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # Algebraic moment-geometry witnesses
 
-Two exact algebraic identities extracted from legacy packet `C-0010`. This file
+Two exact algebraic identities extracted from source record `C-0010`. This file
 formalizes neither the packet's measure-rigidity classification nor its abstract
 exterior-positivity obstruction.
 -/

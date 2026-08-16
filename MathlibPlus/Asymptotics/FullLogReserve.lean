@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # Full-logarithmic reserve arithmetic
 
-Exact scalar consequences extracted from legacy packet `C-0178`.  The analytic
+Exact scalar consequences extracted from source record `C-0178`.  The analytic
 whole-strip estimate itself is not restated without its endpoint-kernel and transform
 definitions.
 -/

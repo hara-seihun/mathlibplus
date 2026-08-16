@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # Projective Peano data
 
-Definitions needed to state the all-rank projective Peano identity from legacy
+Definitions needed to state the all-rank projective Peano identity from source record
 packet `C-0005`.
 -/
 

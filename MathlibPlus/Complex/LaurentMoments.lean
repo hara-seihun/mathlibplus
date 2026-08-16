@@ -4,7 +4,7 @@ import Mathlib
 # Finite Cayley-divisor Laurent moments
 
 Exact finite-divisor definitions and the unit-circle sum-of-squares identity from
-legacy extraction packet `C-0008`. This module deliberately makes no assertion about
+source record `C-0008`. This module deliberately makes no assertion about
 an infinite or regularized divisor, and it does not claim a uniform finite witness
 order for off-circle points.
 -/

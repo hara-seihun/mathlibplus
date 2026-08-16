@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # The characteristic-two boundary of Euler-curvature coordinates
 
-This file formalizes the exact boundary in admitted claim 5183 (legacy packet
+This file formalizes the exact boundary in admitted claim 5183 (source record
 D-0085).  The degree, quadratic, neighbor-transport, and leaf-graft identities
 are retained over the integers.  The characteristic-two failure is recorded by
 the zero determinant of the coordinate-change matrix and by an explicit

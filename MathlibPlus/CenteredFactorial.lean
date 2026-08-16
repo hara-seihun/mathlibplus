@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # Centered factorial determinant certificates
 
-A kernel-checked scalar certificate extracted from legacy packet `C-0038`.
+A kernel-checked scalar certificate extracted from source record `C-0038`.
 This module formalizes the packet's exact radical inequality; it does not replace
 that packet's separate reciprocal-zero or entire-function statements.
 -/

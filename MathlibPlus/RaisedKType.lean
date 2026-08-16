@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # Raised K-type finite phase sums
 
-An exact finite-sum identity extracted from legacy packet `C-0019`.  This module
+An exact finite-sum identity extracted from source record `C-0019`.  This module
 formalizes only the packet's elementary scalar calculation; it introduces none of
 the unresolved automorphic placeholder objects from the same packet.
 -/

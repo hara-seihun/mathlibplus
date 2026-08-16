@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # Center-orthogonal quartic profile
 
-Exact definitions and elementary consequences extracted from legacy packet `C-0162`.
+Exact definitions and elementary consequences extracted from source record `C-0162`.
 The predicate `HasSecondFourthMoments` makes the packet's phrase “has second and
 fourth moments” explicit: both moment integrands are Bochner-integrable, in addition
 to having the displayed values.

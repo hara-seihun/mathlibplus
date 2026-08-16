@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # Gamma–Dini transition normalization
 
-This file formalizes the two exact definitions in Record 1 of legacy packet
+This file formalizes the two exact definitions in Record 1 of source record
 `C-0174`. The packet uses them on `1/2 ≤ η < 3/2`; the formulas themselves are
 total Lean definitions. No later asymptotic or selector claim is included here.
 -/

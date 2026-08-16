@@ -3,8 +3,8 @@ import Mathlib
 /-!
 # Unsampled endpoint-kernel cell
 
-This file formalizes the exact elementary nullspace statement in Record 4 of legacy
-packet `C-0159`. It does not assert the packet's Möbius inversion or analytic source
+This file formalizes the exact elementary nullspace statement in Record 4 of source
+record `C-0159`. It does not assert the packet's Möbius inversion or analytic source
 realization.
 -/
 

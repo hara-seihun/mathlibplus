@@ -2,7 +2,7 @@ import Mathlib
 
 namespace MathlibPlus.Open.GroupTheory
 
-/-- Claim 40942 (legacy packet `R-1322`).  The prose holomorph is represented by
+/-- Claim 40942 (source record `R-1322`).  The prose holomorph is represented by
 `Subgroup.normalizer` in the full symmetric group; regularity is expressed by
 unique transitivity of the subgroup subtype, and cyclicity/order are retained
 as explicit predicates.  The semidirect-product isomorphism is not made an

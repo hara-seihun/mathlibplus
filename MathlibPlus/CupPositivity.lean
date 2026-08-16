@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # Cup-positivity obstructions
 
-A general polynomial witness extracted from legacy packet `C-0079`.  It records
+A general polynomial witness extracted from source record `C-0079`.  It records
 exactly why pointwise positivity cannot by itself establish coefficientwise
 positivity of the packet's cup-coordinate polynomials.
 -/

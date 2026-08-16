@@ -3,7 +3,7 @@ import Mathlib
 namespace MathlibPlus.Analysis.TypeBFoldedResolvent
 
 /--
-The exact negative minor from legacy claim 19459 (packet R-0286).  The
+The exact negative minor from claim 19459 (packet R-0286).  The
 indicator in the source kernel is represented by a real-valued `if`.
 The network-level consequence is not encoded because no network object is
 part of the admitted claim's formal interface.

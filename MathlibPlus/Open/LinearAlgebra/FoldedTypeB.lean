@@ -57,21 +57,21 @@ def claim4938 (r : ℕ)
       Matrix.det (fun i j : Fin r ↦
         K (n i) (c + z j) + K (n i) (c - z j))
 
-/-- Claim 4941: normalized even jets select orders `2j`; the legacy finite
+/-- Claim 4941: normalized even jets select orders `2j`; the coefficient
 minor uses factorial-normalized coefficients, while the analytic interpretation
 uses the displayed derivative values and asserts no convergence between them. -/
 def claim4941 (r : ℕ)
     (K : ℕ → ℝ → ℝ) (n : Fin r → ℕ) (c : ℝ)
     (j : Fin r → ℕ) (P : Fin r → Polynomial ℝ)
-    (legacy analytic : Matrix (Fin r) (Fin r) ℝ)
+    (coefficient analytic : Matrix (Fin r) (Fin r) ℝ)
     (minor : ℝ) : Prop :=
   (∀ i k : Fin r,
-    legacy i k = (P i).coeff (2 * j k)) ∧
+    coefficient i k = (P i).coeff (2 * j k)) ∧
     (∀ i k : Fin r,
       analytic i k =
         iteratedDeriv (2 * j k) (fun x : ℝ ↦ K (n i) x) c /
           (Nat.factorial (2 * j k) : ℝ)) ∧
-    minor = Matrix.det legacy
+    minor = Matrix.det coefficient
 
 /-- Claim 4944: folding a centered polynomial kills odd coefficients and
  doubles every even coefficient. -/

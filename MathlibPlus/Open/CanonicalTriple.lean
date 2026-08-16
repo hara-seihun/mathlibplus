@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # Canonical rank-four connected-triple edge
 
-This registry node formalizes admitted claim 181 from legacy packet `C-0012`.
+This registry node formalizes admitted claim 181 from source record `C-0012`.
 The packet's numerator is expanded from its defining mixed logarithmic derivative,
 so the declaration does not rely on an omitted coefficient table.
 -/

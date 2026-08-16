@@ -1878,7 +1878,7 @@ import MathlibPlus.LinearAlgebra.Claim57965
 import MathlibPlus.Open.GraphTheory.A4DirectedRelationalOrientationDichotomy
 import MathlibPlus.GroupTheory.Q8ToS3KernelClaim29192
 import MathlibPlus.Analysis.Claim17625
-import MathlibPlus.LegacyDraft.R0906
+import MathlibPlus.Analysis.CorrectedFourthCumulant
 import MathlibPlus.Analysis.Claim8579
 import MathlibPlus.Open.Probability.DenominatorNineAllLightSupportFourDepthTwoFiveCubeAreaMaxima
 import MathlibPlus.Analysis.Claim3057

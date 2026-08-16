@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # Exponential endpoint reserve inequalities
 
-Exact scalar reserve inequalities extracted from Records 5 and 6 of legacy packet
+Exact scalar reserve inequalities extracted from Records 5 and 6 of source record
 `C-0179`.
 -/
 

@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # Reciprocal-prime Mertens error
 
-Exact definitions from Record 1 of legacy extraction bundle `C-0039`.  The
+Exact definitions from Record 1 of source record `C-0039`.  The
 computational extremum and tail-certificate claims from later records are not
 asserted here.
 -/

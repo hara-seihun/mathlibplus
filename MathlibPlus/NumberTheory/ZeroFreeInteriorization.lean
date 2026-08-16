@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # Zero-free denominator interiorization
 
-The exact order-theoretic interiorization lemma extracted from legacy packet `C-0098`.
+The exact order-theoretic interiorization lemma extracted from source record `C-0098`.
 It is parameterized by the complex-valued function and asserts no zeta theorem itself.
 -/
 

@@ -3,7 +3,7 @@ import MathlibPlus.Basic
 namespace MathlibPlus.Analysis.Claim52019
 
 /-!
-Formalization of admitted claim 52019 (legacy packet R-4032).  The exact
+Formalization of admitted claim 52019 (source record R-4032).  The exact
 fixed-level table and the three component savings are retained inside the
 statement.  The source's minimum-decision-tree definition of `q` and the
 deleted-coordinate maps are not supplied as Lean interfaces here; the displayed

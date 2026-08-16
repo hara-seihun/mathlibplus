@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # Elementary finite-graph counts for Ramsey (5,5)
 
-A kernel-checked handshaking consequence extracted from Record 3 of legacy packet
+A kernel-checked handshaking consequence extracted from Record 3 of source record
 `C-0228`.
 -/
 

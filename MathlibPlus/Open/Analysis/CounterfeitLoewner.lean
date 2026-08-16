@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # Smallest matrix-order Loewner falsifier for the reciprocal counterfeit
 
-This registry node records admitted claim 260 from legacy packet `C-0016`.
+This registry node records admitted claim 260 from source record `C-0016`.
 It includes the global order-one positivity inherited from Record 12, the exact
 order-two divided-difference matrix at the stated nodes, the closed determinant
 formula and interval, and the diagonal congruence to the exponential kernel.

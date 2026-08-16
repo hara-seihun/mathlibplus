@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # Determinants under matrix congruence
 
-Kernel-checked formalization of Record 18 from legacy packet `C-0023`.
+Kernel-checked formalization of Record 18 from source record `C-0023`.
 -/
 
 namespace MathlibPlus.MatrixCongruence

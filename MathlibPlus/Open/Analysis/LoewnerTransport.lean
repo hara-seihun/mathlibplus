@@ -5,7 +5,7 @@ import Mathlib.LinearAlgebra.Matrix.PosDef
 /-!
 # Fixed-order local Loewner transport
 
-Registry statement for admitted claim 199 from legacy packet `C-0014`.
+Registry statement for admitted claim 199 from source record `C-0014`.
 -/
 
 namespace MathlibPlus.Open.Analysis

@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # Exact zero-free-region denominator improvement to 4.8568
 
-This file formalizes the standalone arithmetic in Record 4 of legacy packet
+This file formalizes the standalone arithmetic in Record 4 of source record
 `C-0096`. It does not assert the packet's analytic Riemann-zeta zero-free region.
 -/
 

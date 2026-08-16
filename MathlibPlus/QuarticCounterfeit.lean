@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # Quartic off-axis counterfeit
 
-Exact polynomial facts extracted from legacy packet `C-0035`.  The analytic Rouché
+Exact polynomial facts extracted from source record `C-0035`.  The analytic Rouché
 transfer to a perturbed completed-zeta source is not asserted here.
 -/
 

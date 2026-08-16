@@ -4,7 +4,7 @@ import Mathlib
 # Exact zero-free-region denominator improvement to 4.824
 
 This file formalizes the standalone arithmetic and boundary comparison in Record 2
-of legacy packet `C-0113`. It does not assert a Riemann-zeta zero-free theorem.
+of source record `C-0113`. It does not assert a Riemann-zeta zero-free theorem.
 -/
 
 namespace MathlibPlus.ZeroFreeRegion

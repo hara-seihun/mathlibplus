@@ -3,7 +3,7 @@ import Mathlib.Tactic
 
 namespace MathlibPlus.Algebra
 
-/-- The rank-two square-base value in the normalization of legacy claim 57477
+/-- The rank-two square-base value in the normalization of claim 57477
 (packet R-5221, statement (3)). -/
 theorem claim57477_squareBaseEvaluation :
     let a : ℚ := 5 / 4

@@ -4,7 +4,7 @@ import MathlibPlus.AxlerMajorant
 # Axler sixth-coefficient majorant
 
 Exact coefficient-120 majorant and its comparison with the deduplicated C-0044
-majorant, from Records 1 and 4 of legacy extraction bundle `C-0046`. The packet's
+majorant, from Records 1 and 4 of source record `C-0046`. The packet's
 prime-counting theorem and numerical certificates are not asserted here.
 -/
 

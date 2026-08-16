@@ -2,7 +2,7 @@ import Mathlib
 
 namespace MathlibPlus.Analysis.VerticalConeFactor
 
-/-- Claim 42861 (legacy packet R-2622): the exact strict-contraction threshold
+/-- Claim 42861 (source record R-2622): the exact strict-contraction threshold
 for one paired complex Hadamard factor at a nonzero real height. -/
 theorem exactVerticalConeThreshold_claim42861
     {ρ : ℂ} (hρ : ρ ≠ 0) {h : ℝ} (hh : h ≠ 0) :

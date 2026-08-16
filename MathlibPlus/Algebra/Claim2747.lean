@@ -5,7 +5,7 @@ open Polynomial
 namespace MathlibPlus.Algebra.Claim2747
 
 /-!
-Formalization of admitted claim 2747 (legacy packet C-0185).  The source's
+Formalization of admitted claim 2747 (source record C-0185).  The source's
 coefficient agreement through degree six is stated over an arbitrary
 commutative ring and is equivalent to divisibility of the correction by the
 seventh power of the polynomial variable.

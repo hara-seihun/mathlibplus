@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # Final Hankel defect
 
-The symmetrized integral identity extracted from legacy packet `C-0010`.
+The symmetrized integral identity extracted from source record `C-0010`.
 -/
 
 open MeasureTheory

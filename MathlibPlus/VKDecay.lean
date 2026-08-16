@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # Vinogradov--Korobov decay comparisons
 
-Exact coefficient arithmetic extracted from legacy packet `C-0093`.
+Exact coefficient arithmetic extracted from source record `C-0093`.
 -/
 
 namespace MathlibPlus.VKDecay

@@ -3,7 +3,7 @@ import Mathlib
 /-!
 # First canonical connected-triple sign reversal
 
-This registry node records admitted claim 176 from legacy packet `C-0012`.
+This registry node records admitted claim 176 from source record `C-0012`.
 The three labels are represented separately by `a`, `b`, and `c`; their canonical
 weights and support ratios are built into `moment`. The decimal pair-cumulant values
 in the source have no error tolerances, so the formal statement retains their exact
