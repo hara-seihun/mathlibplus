@@ -4557,3 +4557,7 @@ import MathlibPlus.Open.ResearchFormalization60518_60769
 import MathlibPlus.Open.ProjectsResearch.Batch12848
 import MathlibPlus.Open.Probability.HarmonicPosteriorAreaObstruction
 import MathlibPlus.Open.ProjectsResearch.O0064Measure
+import MathlibPlus.Open.AdaptiveOracleArea.EndpointNineEighths
+import MathlibPlus.Open.Analysis.H6SignChanges
+import MathlibPlus.Open.Analysis.PositiveTwoPoleDecomposition
+import MathlibPlus.Open.Analysis.ModeTransport
