@@ -4685,3 +4685,7 @@ import MathlibPlus.Open.Research.FormalizationBatch_01a00bf2_HeatEigenspace
 import MathlibPlus.Open.Research.FormalizationBatchGammaJump
 import MathlibPlus.Open.ResearchFormalization.CauchyMixture61013
 import MathlibPlus.Open.Research.FormalizationBatchHeatOperator61012
+import MathlibPlus.Open.ResearchFormalization.FreeOrbitGeneratorIdentitiesClaim14780
+import MathlibPlus.Open.Combinatorics.ExactUnrestrictedPacketCertificatesClaim14863
+import MathlibPlus.Open.ResearchFormalization.O0261Claim15063
+import MathlibPlus.Open.Research.ScalePackets
