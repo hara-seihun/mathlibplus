@@ -4300,3 +4300,5 @@ import MathlibPlus.Open.Analysis.AdmittedShellAndTransformBatch
 import MathlibPlus.Open.Analysis.DyadicMobiusEnergy
 import MathlibPlus.Open.FormalizationBatch.JetCurrentBatch
 import MathlibPlus.Open.Analysis.RadialClaims
+import MathlibPlus.Open.Analysis.ArthurRayBatch11393
+import MathlibPlus.Open.Analysis.DerivativePersistence11516
