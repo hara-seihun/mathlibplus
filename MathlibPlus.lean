@@ -4313,3 +4313,4 @@ import MathlibPlus.Open.FiniteCayleyBatch
 import MathlibPlus.Open.ResearchFormalization.BatchConjugacy11818
 import MathlibPlus.Open.ResearchFormalization.BatchEpsilon11850
 import MathlibPlus.Open.ResearchFormalization.BatchTriangle11925
+import MathlibPlus.Open.ResearchFormalization.BatchO0078
