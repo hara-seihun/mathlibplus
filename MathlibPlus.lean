@@ -4350,3 +4350,13 @@ import MathlibPlus.Open.FormalizationBatch.FirstShell
 import MathlibPlus.Open.FormalizationBatch.CutoffKernel
 import MathlibPlus.Open.FormalizationBatch.CenteredCutoff
 import MathlibPlus.Open.Analysis.Claims14059_14062_14064_14067
+import MathlibPlus.Open.ResearchFormalizationBatch.WidderFiniteDepth
+import MathlibPlus.Open.ResearchFormalizationBatch.QuartetInertia
+import MathlibPlus.Open.ResearchFormalizationBatch.ProjectivePorts
+import MathlibPlus.Open.ResearchFormalizationBatch.Record14Zeros
+import MathlibPlus.Open.Research.SchlesingerPairClaim
+import MathlibPlus.Open.ProjectsResearch.WickRotation12151
+import MathlibPlus.Open.Algebra.Claim12508
+import MathlibPlus.Open.Algebra.Claim12509
+import MathlibPlus.Open.Algebra.Claim12520
+import MathlibPlus.Open.Combinatorics.Claim60267
