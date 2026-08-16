@@ -4426,3 +4426,15 @@ import MathlibPlus.Open.Analysis.BaezDuarte
 import MathlibPlus.Open.Analysis.RepeatedPositiveZeroPackets
 import MathlibPlus.Open.GroupTheory.CayleyCI
 import MathlibPlus.Open.NewResearch2.O0108.CenteredNormAction
+import MathlibPlus.Open.Analysis.XiImpedanceHighEnergy
+import MathlibPlus.Open.CayleyCI
+import MathlibPlus.Open.Research.BlockAxisDirectionRigidity60202
+import MathlibPlus.Open.Research.CoprimeShellProducts60203
+import MathlibPlus.Open.ResearchFormalizationBatch_01a00764_6400_73d4_a752_f56173cb9d38
+import MathlibPlus.Open.ResidualNormBatch
+import MathlibPlus.Open.ResearchFormalization.Batch01a0077f.CompactSlopeAndRows
+import MathlibPlus.Open.Research.BatchR5484
+import MathlibPlus.Open.ResearchFormalization.BatchO0078Claim12131
+import MathlibPlus.Open.ResearchFormalization.BatchO0080Claim12176
+import MathlibPlus.Open.ResearchFormalization.BatchO0128Claim12350
+import MathlibPlus.Open.ResearchFormalization.BatchO0128Claim12351
