@@ -4713,3 +4713,8 @@ import MathlibPlus.Open.ResearchFormalization.Claim14979ModulationGram
 import MathlibPlus.Open.ResearchFormalization.Claim14981RemoteLeakage
 import MathlibPlus.Open.Asymptotics.CompactLambertTerminalLaws
 import MathlibPlus.Open.Analysis.FormalizationBatchO0295
+import MathlibPlus.Open.ResearchFormalization.PositiveHeightDiniThresholdClaim15087
+import MathlibPlus.Open.ResearchFormalization.MatchingPencilError15118
+import MathlibPlus.Open.NewResearch2.RationalHankel15127
+import MathlibPlus.Open.Analysis.FormalizationBatchO0267ColumnErrors
+import MathlibPlus.Open.Analysis.FirstLaguerreDivisorChannels
