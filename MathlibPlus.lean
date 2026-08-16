@@ -4587,3 +4587,4 @@ import MathlibPlus.LinearAlgebra.Claim17558
 import MathlibPlus.Analysis.PolarizedTuranForm
 import MathlibPlus.Combinatorics.StrongOrdering
 import MathlibPlus.GraphTheory.Claim24821_24823
+import MathlibPlus.Algebra.Claim17423PathComplex
