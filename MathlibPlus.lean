@@ -4323,3 +4323,6 @@ import MathlibPlus.Open.Combinatorics.AlternatingTwoColumnFrameCIClaim60262
 import MathlibPlus.Open.FormalizationBatch.Claim12207
 import MathlibPlus.Open.FormalizationBatch.Claim12291
 import MathlibPlus.Open.FormalizationBatch.Claim60261
+import MathlibPlus.Open.ProjectsResearch.CI.CoprimeShellProductC7Q12
+import MathlibPlus.Open.ProjectsResearch.CI.RankTwoSupportClosure
+import MathlibPlus.Open.ProjectsResearch.CI.SquarefreeResidualE35Valency
