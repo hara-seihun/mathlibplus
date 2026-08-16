@@ -4398,3 +4398,10 @@ import MathlibPlus.Open.GraphTheory.AdmittedCayleyCI
 import MathlibPlus.Open.ResearchFormalization.GraphOrbitBatch
 import MathlibPlus.Open.Research.FormalizationBatch01a0083a
 import MathlibPlus.Open.Analysis.SharpMixedShell
+import MathlibPlus.Open.ResearchFormalizationBatch021Graph
+import MathlibPlus.Open.ResearchFormalizationBatch021Closure
+import MathlibPlus.Open.ResearchFormalizationBatch021Arithmetic
+import MathlibPlus.Open.CayleyCI.ProjectiveNetAffineThreshold
+import MathlibPlus.Open.OracleArea.SelectorVarianceLoad
+import MathlibPlus.Open.Analysis.DifferentiatedRadialGramIdentities
+import MathlibPlus.Open.CI.E8Disconnected
