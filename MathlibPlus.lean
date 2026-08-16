@@ -4765,3 +4765,4 @@ import MathlibPlus.Open.NewResearch2.RationalHankelCertification15117
 import MathlibPlus.Open.ResearchFormalizationClaim15353
 import MathlibPlus.Open.ResearchFormalization.O0314Claim15341
 import MathlibPlus.Open.NewResearch2.PeriodicZetaFiber15312_15318
+import MathlibPlus.Open.ResearchFormalization.LaguerreGeneratingFunction15360
