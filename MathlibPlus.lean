@@ -4314,3 +4314,7 @@ import MathlibPlus.Open.ResearchFormalization.BatchConjugacy11818
 import MathlibPlus.Open.ResearchFormalization.BatchEpsilon11850
 import MathlibPlus.Open.ResearchFormalization.BatchTriangle11925
 import MathlibPlus.Open.ResearchFormalization.BatchO0078
+import MathlibPlus.Open.Analysis.IntegrationTailEnclosure
+import MathlibPlus.Open.Analysis.ScalarConditionalVarianceCounterexample
+import MathlibPlus.Open.Algebra.RationalCubicUniqueDiscriminantWall
+import MathlibPlus.Open.LinearAlgebra.SignedRankThreeNonrealSpectrum
