@@ -4679,3 +4679,7 @@ import MathlibPlus.Open.Research.FormalizationO0251.Claim14994
 import MathlibPlus.Open.Research.FormalizationBatchO0251
 import MathlibPlus.Open.ResearchFormalization.Claim14870
 import MathlibPlus.Open.ResearchFormalization.FixedAbsoluteWidth
+import MathlibPlus.Open.Analysis.FixedFiberLaurentParityClaim14771
+import MathlibPlus.Open.ResearchFormalization.Claim15022
+import MathlibPlus.Open.Research.FormalizationBatch_01a00bf2_HeatEigenspace
+import MathlibPlus.Open.Research.FormalizationBatchGammaJump
