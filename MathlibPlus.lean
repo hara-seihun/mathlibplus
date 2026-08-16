@@ -4820,3 +4820,16 @@ import MathlibPlus.Open.ResearchFormalization.O0329AdaptiveObservers
 import MathlibPlus.Open.ResearchFormalization.O0329CoordinateProjections
 import MathlibPlus.Open.NewResearch2.O0328
 import MathlibPlus.Open.NewResearch2.O0340Claim15542
+import MathlibPlus.Open.Analysis.FormalizationBatchO0268Claim15179
+import MathlibPlus.Open.ResearchFormalization.O0336CauchyEdge
+import MathlibPlus.Open.ResearchFormalization.FiniteOrderRadialZeroCount15544
+import MathlibPlus.Open.ResearchFormalization.Claim15548
+import MathlibPlus.Open.Analysis.NR2PrimeLogBlaschke
+import MathlibPlus.Open.Analysis.O0336.Claim15511
+import MathlibPlus.Open.Analysis.O0336.Claim15512
+import MathlibPlus.Open.Analysis.O0336.Claim15513
+import MathlibPlus.Open.Analysis.ResearchFormalizationClaim15557
+import MathlibPlus.Open.ResearchFormalization.SingleEffectiveFaceLogDerivative15410
+import MathlibPlus.Open.ResearchFormalization.SingleEffectiveFacePhaseFlux15411
+import MathlibPlus.Open.AnalyticNumberTheory.CompactDistributionMoments
+import MathlibPlus.Open.Analysis.O0341Claim15555
