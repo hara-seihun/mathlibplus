@@ -4548,3 +4548,9 @@ import MathlibPlus.Open.Research.QuotientKernelFixedShift
 import MathlibPlus.Open.Research.Batch60674
 import MathlibPlus.Open.Research.Claim60638
 import MathlibPlus.Open.OracleArea.DepthTwoRoofObstruction
+import MathlibPlus.Open.Algebra.TranslationCocycleFixedValue
+import MathlibPlus.Open.Algebra.Batch60733
+import MathlibPlus.Open.Combinatorics.RankFourNegativeIntervalClaim12545
+import MathlibPlus.Open.Combinatorics.Claim60918
+import MathlibPlus.Open.CayleyCI.NongeneratingA5
+import MathlibPlus.Open.ResearchFormalization60518_60769
