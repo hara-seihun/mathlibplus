@@ -4360,3 +4360,8 @@ import MathlibPlus.Open.Algebra.Claim12508
 import MathlibPlus.Open.Algebra.Claim12509
 import MathlibPlus.Open.Algebra.Claim12520
 import MathlibPlus.Open.Combinatorics.Claim60267
+import MathlibPlus.Open.ResearchFormalization.GeometricTailQuotientRepair
+import MathlibPlus.Open.ResearchFormalization.RadialNestingDiscrepancyRepair
+import MathlibPlus.Open.Analysis.ResearchFormalizationO0008
+import MathlibPlus.Open.ResearchFormalization.BatchRadialIntertwiner
+import MathlibPlus.Open.NewResearch2.O0084Complement
