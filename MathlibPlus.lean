@@ -4795,3 +4795,4 @@ import MathlibPlus.Open.ResearchFormalization.EndpointDepth15396
 import MathlibPlus.Open.Research.FormalizationBatchO0325
 import MathlibPlus.Open.ResearchFormalization.ExactLockRigidity15390
 import MathlibPlus.Open.ResearchFormalization.CommonFactor15394
+import MathlibPlus.Open.Analysis.ProjectiveFirstJetDeterminant15402
