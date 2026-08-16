@@ -4847,3 +4847,4 @@ import MathlibPlus.Open.ResearchFormalization.O0355Quartet
 import MathlibPlus.Open.Analysis.ResearchFormalization.O0355DyadicCorrection
 import MathlibPlus.Open.NumberTheory.FormalizationBatchClaim15456
 import MathlibPlus.Open.ResearchFormalization.O0328LogDerivativeAndFibers
+import MathlibPlus.Open.Analysis.O0355Claim15617
