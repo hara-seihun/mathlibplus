@@ -4792,3 +4792,6 @@ import MathlibPlus.Open.ResearchFormalization.LaguerreEnvelope15369
 import MathlibPlus.Open.ResearchFormalization.PhaseSpeed15386
 import MathlibPlus.Open.ResearchFormalization.Claim15392
 import MathlibPlus.Open.ResearchFormalization.EndpointDepth15396
+import MathlibPlus.Open.Research.FormalizationBatchO0325
+import MathlibPlus.Open.ResearchFormalization.ExactLockRigidity15390
+import MathlibPlus.Open.ResearchFormalization.CommonFactor15394
