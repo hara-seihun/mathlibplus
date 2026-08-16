@@ -4365,3 +4365,9 @@ import MathlibPlus.Open.ResearchFormalization.RadialNestingDiscrepancyRepair
 import MathlibPlus.Open.Analysis.ResearchFormalizationO0008
 import MathlibPlus.Open.ResearchFormalization.BatchRadialIntertwiner
 import MathlibPlus.Open.NewResearch2.O0084Complement
+import MathlibPlus.Open.CayleyCI.AdmittedBatch
+import MathlibPlus.Open.FormalizationBatch.RootIsolationClaim10453
+import MathlibPlus.Open.FormalizationBatch.AndreiefClaim10507
+import MathlibPlus.Open.FormalizationBatch.MainCentralDifferenceShearClaim33152
+import MathlibPlus.Open.ResearchFormalization.BatchClaims
+import MathlibPlus.Open.Analysis.LaguerreDominance
