@@ -4605,3 +4605,7 @@ import MathlibPlus.Open.Probability.DenominatorTenAllLightSupportFourDepthTwoFiv
 import MathlibPlus.Analysis.Claim11992
 import MathlibPlus.Open.Combinatorics.Claim48158
 import MathlibPlus.Open.ResearchFormalization.HardyLiteralAmplitudes
+import MathlibPlus.Open.Research.FormalizationBatch01a000eb.O0319Claim14169
+import MathlibPlus.Open.Analysis.FormalizationBatchHardy14158_14159
+import MathlibPlus.Open.Analysis.ExplicitLongWavePacketClaim14178
+import MathlibPlus.Open.Analysis.HardyLaguerreStationary
