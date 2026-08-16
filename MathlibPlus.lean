@@ -4768,3 +4768,4 @@ import MathlibPlus.Open.NewResearch2.PeriodicZetaFiber15312_15318
 import MathlibPlus.Open.ResearchFormalization.LaguerreGeneratingFunction15360
 import MathlibPlus.Open.ResearchFormalization.O0322Threshold
 import MathlibPlus.Open.NewResearch2.LaguerreCoefficient15364
+import MathlibPlus.Open.ResearchFormalization.LaguerreLaplaceTransform15362
