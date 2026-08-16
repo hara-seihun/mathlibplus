@@ -4833,3 +4833,15 @@ import MathlibPlus.Open.ResearchFormalization.SingleEffectiveFaceLogDerivative15
 import MathlibPlus.Open.ResearchFormalization.SingleEffectiveFacePhaseFlux15411
 import MathlibPlus.Open.AnalyticNumberTheory.CompactDistributionMoments
 import MathlibPlus.Open.Analysis.O0341Claim15555
+import MathlibPlus.Open.Analysis.ResearchFormalization.O0342LowerSupportCarleman
+import MathlibPlus.Open.ResearchFormalization.WeightedTV15592
+import MathlibPlus.Open.ResearchFormalization.Claim15595
+import MathlibPlus.Open.Research.FormalizationBatch.O0191LocalChannel14947
+import MathlibPlus.Open.Analysis.Claim15190
+import MathlibPlus.Open.Analysis.Claim15323
+import MathlibPlus.Open.ResearchFormalization.O0326PoissonAlias15424
+import MathlibPlus.Open.ResearchFormalization.O0352
+import MathlibPlus.Open.Analysis.O0342PositivePowersLognormal
+import MathlibPlus.Open.Combinatorics.NR2OrderedEdgePartition
+import MathlibPlus.Open.ResearchFormalization.O0355Quartet
+import MathlibPlus.Open.Analysis.ResearchFormalization.O0355DyadicCorrection
