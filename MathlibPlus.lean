@@ -4790,3 +4790,5 @@ import MathlibPlus.Open.Analysis.BatchO0313Claim15310
 import MathlibPlus.Open.Analysis.BatchO0313Claim15311
 import MathlibPlus.Open.ResearchFormalization.LaguerreEnvelope15369
 import MathlibPlus.Open.ResearchFormalization.PhaseSpeed15386
+import MathlibPlus.Open.ResearchFormalization.Claim15392
+import MathlibPlus.Open.ResearchFormalization.EndpointDepth15396
