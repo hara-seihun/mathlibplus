@@ -4310,3 +4310,6 @@ import MathlibPlus.Open.Analysis.AdmittedO0098
 import MathlibPlus.Open.Analysis.EulerProductBounds
 import MathlibPlus.Open.CayleyCI.ValencyFive
 import MathlibPlus.Open.FiniteCayleyBatch
+import MathlibPlus.Open.ResearchFormalization.BatchConjugacy11818
+import MathlibPlus.Open.ResearchFormalization.BatchEpsilon11850
+import MathlibPlus.Open.ResearchFormalization.BatchTriangle11925
