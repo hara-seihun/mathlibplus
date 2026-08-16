@@ -4338,3 +4338,15 @@ import MathlibPlus.Open.Graph.SubPFourWiseDirectionRigidity
 import MathlibPlus.Open.Analysis.EndpointKernelBoundsClaims
 import MathlibPlus.Open.Analysis.O0084PrimorialMellinClaims13394_13397
 import MathlibPlus.Open.Analysis.RankinBatch_01a008fc
+import MathlibPlus.Open.Analysis.Claim13420
+import MathlibPlus.Open.Analysis.Claim13423
+import MathlibPlus.Open.Analysis.Claim13426
+import MathlibPlus.Open.LinearAlgebra.BatchO0091
+import MathlibPlus.Open.Research.GramBatch
+import MathlibPlus.Open.ResearchFormalizationBatch_01a00951
+import MathlibPlus.Open.ResearchFormalizationBatch_01a0096e_5a75_7fe3_bebc_178cf02aa479
+import MathlibPlus.Open.FormalizationBatch.TransformDeflation
+import MathlibPlus.Open.FormalizationBatch.FirstShell
+import MathlibPlus.Open.FormalizationBatch.CutoffKernel
+import MathlibPlus.Open.FormalizationBatch.CenteredCutoff
+import MathlibPlus.Open.Analysis.Claims14059_14062_14064_14067
