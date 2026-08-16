@@ -4318,3 +4318,5 @@ import MathlibPlus.Open.Analysis.IntegrationTailEnclosure
 import MathlibPlus.Open.Analysis.ScalarConditionalVarianceCounterexample
 import MathlibPlus.Open.Algebra.RationalCubicUniqueDiscriminantWall
 import MathlibPlus.Open.LinearAlgebra.SignedRankThreeNonrealSpectrum
+import MathlibPlus.Open.Analysis.BackwardHeatInteriorBarrierClaim12240
+import MathlibPlus.Open.Combinatorics.AlternatingTwoColumnFrameCIClaim60262
