@@ -4817,3 +4817,6 @@ import MathlibPlus.Open.AnalyticNumberTheory.CenterFlatQuotientBatch
 import MathlibPlus.Open.NewResearch2.O0329
 import MathlibPlus.Open.AnalyticNumberTheory.CenterFlatPolynomialLowerBound
 import MathlibPlus.Open.ResearchFormalization.O0329AdaptiveObservers
+import MathlibPlus.Open.ResearchFormalization.O0329CoordinateProjections
+import MathlibPlus.Open.NewResearch2.O0328
+import MathlibPlus.Open.NewResearch2.O0340Claim15542
