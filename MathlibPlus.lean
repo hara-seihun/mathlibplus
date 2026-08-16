@@ -4683,3 +4683,4 @@ import MathlibPlus.Open.Analysis.FixedFiberLaurentParityClaim14771
 import MathlibPlus.Open.ResearchFormalization.Claim15022
 import MathlibPlus.Open.Research.FormalizationBatch_01a00bf2_HeatEigenspace
 import MathlibPlus.Open.Research.FormalizationBatchGammaJump
+import MathlibPlus.Open.ResearchFormalization.CauchyMixture61013
