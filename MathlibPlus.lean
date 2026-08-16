@@ -4629,3 +4629,15 @@ import MathlibPlus.Open.Analysis.ResearchFormalizationPrimePowerCarrier01a00b9a
 import MathlibPlus.Open.Algebra.PathSwitchM0
 import MathlibPlus.Open.Algebra.ReversalDegreeDrop
 import MathlibPlus.Open.Probability.ActiveRootMassCharging
+import MathlibPlus.Open.ResearchBatch.PairwiseClosureMonotonicity
+import MathlibPlus.Open.GraphTheory.ECyclicOddOrderEight
+import MathlibPlus.Open.ResearchFormalizationPseudosimilarity
+import MathlibPlus.Open.ResearchFormalization60980
+import MathlibPlus.Open.Research.FourComponentOutputScheduling
+import MathlibPlus.Open.ComponentReductionUpwardInheritanceSignedBoundary
+import MathlibPlus.Open.GraphTheory.ResearchCayleyCensusAndHeisenbergShadow
+import MathlibPlus.Open.Analysis.LaguerreFockCritical
+import MathlibPlus.Open.Research.ComponentColoringClaim4439
+import MathlibPlus.Open.ResearchFormalization.O0319Claim14175
+import MathlibPlus.Open.Analysis.FiniteColorRoundRobinBound
+import MathlibPlus.Open.Research.PacketShadowWitnesses
