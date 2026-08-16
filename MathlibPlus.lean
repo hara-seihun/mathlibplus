@@ -4581,3 +4581,4 @@ import MathlibPlus.Open.Analysis.FormalizationBatchMellinPlancherel
 import MathlibPlus.Open.ResearchFormalization.ClockBounds
 import MathlibPlus.Open.FiniteCayleyCI60921
 import MathlibPlus.Open.Analysis.FormalizationBatchO0136O0169
+import MathlibPlus.Open.DistinctOrderHammingFactorCI60967
