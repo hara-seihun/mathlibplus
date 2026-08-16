@@ -4643,3 +4643,6 @@ import MathlibPlus.Open.Analysis.FiniteColorRoundRobinBound
 import MathlibPlus.Open.Research.PacketShadowWitnesses
 import MathlibPlus.Open.GraphTheory.PrivateSignatureFailureCensus
 import MathlibPlus.Open.Combinatorics.FiniteGraphDeckClaims
+import MathlibPlus.Open.ResearchFormalization.GraphClaims01a00bdd
+import MathlibPlus.Open.ResearchFormalization.LaguerreClaims01a00bdd
+import MathlibPlus.Analysis.Claim14440
