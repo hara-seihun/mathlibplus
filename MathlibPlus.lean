@@ -4689,3 +4689,7 @@ import MathlibPlus.Open.ResearchFormalization.FreeOrbitGeneratorIdentitiesClaim1
 import MathlibPlus.Open.Combinatorics.ExactUnrestrictedPacketCertificatesClaim14863
 import MathlibPlus.Open.ResearchFormalization.O0261Claim15063
 import MathlibPlus.Open.Research.ScalePackets
+import MathlibPlus.Open.Analysis.DivisorComplementThreshold
+import MathlibPlus.Open.Research.FormalizationBatchO0262
+import MathlibPlus.Open.Research.FormalizationBatchO0264
+import MathlibPlus.Open.ResearchFormalization.UniformSincMultiplier
