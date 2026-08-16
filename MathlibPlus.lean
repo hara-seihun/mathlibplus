@@ -4511,3 +4511,7 @@ import MathlibPlus.Open.Analysis.LinearFrequencyAction
 import MathlibPlus.Open.Analysis.FourierDimensionSparseRadialTest
 import MathlibPlus.Open.Analysis.TwoDisjointCharacterProductResidualResource
 import MathlibPlus.Open.Analysis.Claim13735
+import MathlibPlus.Open.CIMixedAbelianIndexThree
+import MathlibPlus.Open.Analysis.ExactSurvivingAnisotropyInequality
+import MathlibPlus.Open.CI.EC35C8
+import MathlibPlus.Open.Combinatorics.OptimalPlanSupport
