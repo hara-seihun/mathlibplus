@@ -4647,3 +4647,7 @@ import MathlibPlus.Open.ResearchFormalization.GraphClaims01a00bdd
 import MathlibPlus.Open.ResearchFormalization.LaguerreClaims01a00bdd
 import MathlibPlus.Analysis.Claim14440
 import MathlibPlus.Open.ResearchFormalizationBatch14689
+import MathlibPlus.Open.ResearchFormalizationBatch14698
+import MathlibPlus.Open.ResearchFormalization.FiniteWeylOddLineCapacity
+import MathlibPlus.Open.RepresentationTheory.CoefficientRepresentationCharacterTableClaim14726
+import MathlibPlus.Open.ResearchFormalization.Claim14739
