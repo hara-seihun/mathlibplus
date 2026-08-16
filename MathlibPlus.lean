@@ -4848,3 +4848,8 @@ import MathlibPlus.Open.Analysis.ResearchFormalization.O0355DyadicCorrection
 import MathlibPlus.Open.NumberTheory.FormalizationBatchClaim15456
 import MathlibPlus.Open.ResearchFormalization.O0328LogDerivativeAndFibers
 import MathlibPlus.Open.Analysis.O0355Claim15617
+import MathlibPlus.Open.ResearchFormalization.O0355PrimaryMonomial
+import MathlibPlus.Open.ResearchFormalization.O0328FullCarrier15479
+import MathlibPlus.Open.ResearchFormalization.O0329TopologicalSharpness15506
+import MathlibPlus.Open.Analysis.ResearchFormalizationClaim15551
+import MathlibPlus.Open.Complex.CayleyHalfPlaneClaim15552
