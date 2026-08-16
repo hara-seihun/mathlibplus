@@ -4534,3 +4534,10 @@ import MathlibPlus.Open.Analysis.FormalizationBatchTheta13712
 import MathlibPlus.Open.Graph.LargePrimeAutomorphismExclusion
 import MathlibPlus.Open.Research.Claim60500
 import MathlibPlus.Open.ProjectsResearch.Batch60677
+import MathlibPlus.Open.ResearchFormalization.Batch_01a007b3_cac1_7560_bddd_2dee9f2b9bbc
+import MathlibPlus.Open.Combinatorics.BlockTransversalSpread
+import MathlibPlus.Open.LinearAlgebra.RankFour
+import MathlibPlus.Open.Claim60722
+import MathlibPlus.Open.FiniteFieldNearFullPartialSums
+import MathlibPlus.Open.Research.FormalizationBatchC3Permutation
+import MathlibPlus.Open.Claim60347
