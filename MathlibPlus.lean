@@ -4387,3 +4387,9 @@ import MathlibPlus.Open.ResearchFormalization.Claim3946
 import MathlibPlus.Open.ResearchFormalization.Claim4499
 import MathlibPlus.Open.ResearchFormalization.Claim13524
 import MathlibPlus.Open.ResearchFormalization.Claim13529
+import MathlibPlus.Open.AlgebraicPauli.Orientation
+import MathlibPlus.Open.FormalizationBatch.Claim60208ZMod8CI
+import MathlibPlus.Open.FormalizationBatch.Claim60210DihF3SquareCI
+import MathlibPlus.Open.FormalizationBatch.Claim60211SignCompression
+import MathlibPlus.Open.Research.Claim13513_13517
+import MathlibPlus.Open.Research.BellCanonicalBatch
