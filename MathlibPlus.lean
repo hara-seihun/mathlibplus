@@ -4393,3 +4393,8 @@ import MathlibPlus.Open.FormalizationBatch.Claim60210DihF3SquareCI
 import MathlibPlus.Open.FormalizationBatch.Claim60211SignCompression
 import MathlibPlus.Open.Research.Claim13513_13517
 import MathlibPlus.Open.Research.BellCanonicalBatch
+import MathlibPlus.Open.FiniteCayleyCI
+import MathlibPlus.Open.GraphTheory.AdmittedCayleyCI
+import MathlibPlus.Open.ResearchFormalization.GraphOrbitBatch
+import MathlibPlus.Open.Research.FormalizationBatch01a0083a
+import MathlibPlus.Open.Analysis.SharpMixedShell
