@@ -4320,3 +4320,6 @@ import MathlibPlus.Open.Algebra.RationalCubicUniqueDiscriminantWall
 import MathlibPlus.Open.LinearAlgebra.SignedRankThreeNonrealSpectrum
 import MathlibPlus.Open.Analysis.BackwardHeatInteriorBarrierClaim12240
 import MathlibPlus.Open.Combinatorics.AlternatingTwoColumnFrameCIClaim60262
+import MathlibPlus.Open.FormalizationBatch.Claim12207
+import MathlibPlus.Open.FormalizationBatch.Claim12291
+import MathlibPlus.Open.FormalizationBatch.Claim60261
