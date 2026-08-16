@@ -4297,3 +4297,4 @@ import MathlibPlus.Open.ResearchFormalization.FormalizationBatch01a006da
 import MathlibPlus.Open.Analysis.AdmittedResolventInertia10722
 import MathlibPlus.Open.Analysis.PairedBulkFormalization
 import MathlibPlus.Open.Analysis.AdmittedShellAndTransformBatch
+import MathlibPlus.Open.Analysis.DyadicMobiusEnergy
