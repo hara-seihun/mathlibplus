@@ -4329,3 +4329,12 @@ import MathlibPlus.Open.ProjectsResearch.CI.SquarefreeResidualE35Valency
 import MathlibPlus.Open.AdaptiveOracleArea.AdmittedBatch
 import MathlibPlus.Open.Analysis.Moment.TwoAtomSharpness
 import MathlibPlus.Open.Analysis.DeBranges.FiniteRealRootedVariation
+import MathlibPlus.Open.Algebra.Claim13217Batch
+import MathlibPlus.Open.Algebra.Claim13237_13243
+import MathlibPlus.Open.Algebra.TracePolynomialClaims
+import MathlibPlus.Open.Analysis.EndpointCounterexampleAccumulation
+import MathlibPlus.Open.Algebra.LehmerFirstAuxiliaryPair
+import MathlibPlus.Open.Graph.SubPFourWiseDirectionRigidity
+import MathlibPlus.Open.Analysis.EndpointKernelBoundsClaims
+import MathlibPlus.Open.Analysis.O0084PrimorialMellinClaims13394_13397
+import MathlibPlus.Open.Analysis.RankinBatch_01a008fc
