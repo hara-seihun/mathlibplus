@@ -4290,3 +4290,6 @@ import MathlibPlus.Open.Combinatorics.MasterNewtonIdentity1265
 import MathlibPlus.Open.CI.SupportedSylow3
 import MathlibPlus.Open.CIClaims60936_60937_60939_60940
 import MathlibPlus.Open.ResearchFormalizationBatch_01a006da
+import MathlibPlus.Open.ResearchFormalizationBatch_BinaryPrefixTilt
+import MathlibPlus.Open.ResearchFormalizationBatch_CarryChebyshev
+import MathlibPlus.Open.ResearchFormalizationBatch_GammaBezout
