@@ -12,16 +12,6 @@ open MathlibPlus.Open.GraphTheory.PrivateSignatureFailureCensus
 abbrev TreeColumn (n : ℕ) :=
   {Y : LevelGraphType n (n - 1) // (graphRepresentative Y.1).IsTree}
 
-noncomputable instance treeColumnFinite (n : ℕ) : Finite (TreeColumn n) := by
-  apply Finite.of_injective (f := fun T : TreeColumn n => T.1.1)
-  intro A B h
-  apply Subtype.ext
-  apply Subtype.ext
-  exact h
-
-noncomputable instance treeColumnFintype (n : ℕ) : Fintype (TreeColumn n) :=
-  Fintype.ofFinite _
-
 /-- The signature of a two-block edge partition, retaining the two block types
 as a multiset (and hence retaining multiplicity when the types coincide). -/
 noncomputable def partitionSignature {n : ℕ}
@@ -108,12 +98,14 @@ noncomputable def leafPlusPathThreeMatrix15580 (n : ℕ) :
   fun μ T => partitionEntry15580 μ.1 T
 
 noncomputable def treeCount15580 (n : ℕ) : ℕ :=
+  letI : Fintype (TreeColumn n) := Fintype.ofFinite _
   Fintype.card (TreeColumn n)
 
 /-- Claim 15580: the exact separated two-edge rank data show that neither
 homogeneous two-edge shape closes the leaf-deck gap at orders eight through
 eleven. -/
 def neitherHomogeneousTwoEdgeShapeClaim15580 : Prop :=
+  letI (n : ℕ) : Fintype (TreeColumn n) := Fintype.ofFinite _
   treeCount15580 8 = 23 ∧
     treeCount15580 9 = 47 ∧
     treeCount15580 10 = 106 ∧
