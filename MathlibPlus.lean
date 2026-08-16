@@ -4733,3 +4733,7 @@ import MathlibPlus.Open.SelbergTransport
 import MathlibPlus.Open.NewResearch2.PrimeRenewal15246
 import MathlibPlus.Open.Analysis.GainBetweenSaddles15266
 import MathlibPlus.Open.AnalyticNumberTheory.O0312Claim15289
+import MathlibPlus.Open.Analysis.RootVerticalProgressionClaim15302
+import MathlibPlus.Open.NumberTheory.SelbergPrefixStructure15214
+import MathlibPlus.Open.AnalyticNumberTheory.FiniteMomentBarrier15269_15270
+import MathlibPlus.Open.NewResearch2.LimitingResidual15317
