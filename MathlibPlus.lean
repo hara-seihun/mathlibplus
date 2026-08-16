@@ -4845,3 +4845,5 @@ import MathlibPlus.Open.Analysis.O0342PositivePowersLognormal
 import MathlibPlus.Open.Combinatorics.NR2OrderedEdgePartition
 import MathlibPlus.Open.ResearchFormalization.O0355Quartet
 import MathlibPlus.Open.Analysis.ResearchFormalization.O0355DyadicCorrection
+import MathlibPlus.Open.NumberTheory.FormalizationBatchClaim15456
+import MathlibPlus.Open.ResearchFormalization.O0328LogDerivativeAndFibers
