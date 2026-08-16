@@ -4816,3 +4816,4 @@ import MathlibPlus.Open.ResearchFormalization.O0327CurvaturePhase
 import MathlibPlus.Open.AnalyticNumberTheory.CenterFlatQuotientBatch
 import MathlibPlus.Open.NewResearch2.O0329
 import MathlibPlus.Open.AnalyticNumberTheory.CenterFlatPolynomialLowerBound
+import MathlibPlus.Open.ResearchFormalization.O0329AdaptiveObservers
