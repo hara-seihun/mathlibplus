@@ -4446,3 +4446,9 @@ import MathlibPlus.Open.LinearAlgebra.SynchronizationDefect
 import MathlibPlus.Open.Research.R5410
 import MathlibPlus.Open.ResearchFormalization.EndpointPlueckerClaims
 import MathlibPlus.Open.ResearchFormalization.SeriesHardEdgeClaims
+import MathlibPlus.Open.ResearchFormalization.Batch60393_60394
+import MathlibPlus.Open.HeisenbergClaims60309_60310
+import MathlibPlus.Open.Research.FiniteMapBatch
+import MathlibPlus.Open.FormalizationBatch60580
+import MathlibPlus.Open.Algebra.GhostDefects
+import MathlibPlus.Open.Combinatorics.IndependenceBatch60820
