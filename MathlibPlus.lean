@@ -4506,3 +4506,8 @@ import MathlibPlus.Open.Research.AdaptiveOracleAreaSharp.Claim60169
 import MathlibPlus.Open.FiniteCayleyCI.TwoComplementarySubspaces
 import MathlibPlus.Open.Combinatorics.CIMixedAbelianResidualValency13
 import MathlibPlus.Open.Analysis.OnAxisControlBatch
+import MathlibPlus.Open.LinearAlgebra.OrbitProductClaim10968
+import MathlibPlus.Open.Analysis.LinearFrequencyAction
+import MathlibPlus.Open.Analysis.FourierDimensionSparseRadialTest
+import MathlibPlus.Open.Analysis.TwoDisjointCharacterProductResidualResource
+import MathlibPlus.Open.Analysis.Claim13735
