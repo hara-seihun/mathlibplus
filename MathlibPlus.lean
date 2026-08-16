@@ -4586,3 +4586,4 @@ import MathlibPlus.Open.AnalyticNumberTheory.BaezDuarteDyadicCriterion
 import MathlibPlus.LinearAlgebra.Claim17558
 import MathlibPlus.Analysis.PolarizedTuranForm
 import MathlibPlus.Combinatorics.StrongOrdering
+import MathlibPlus.GraphTheory.Claim24821_24823
