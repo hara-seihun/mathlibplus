@@ -4696,3 +4696,4 @@ import MathlibPlus.Open.ResearchFormalization.UniformSincMultiplier
 import MathlibPlus.Open.ResearchFormalization.O0253Claim15044
 import MathlibPlus.Open.Analysis.NormalizedProlateLeakage14987
 import MathlibPlus.Open.NewResearch2.RationalHankel15103
+import MathlibPlus.Open.ResearchFormalization.FastOrderTailClaim15084
