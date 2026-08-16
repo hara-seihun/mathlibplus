@@ -4554,3 +4554,5 @@ import MathlibPlus.Open.Combinatorics.RankFourNegativeIntervalClaim12545
 import MathlibPlus.Open.Combinatorics.Claim60918
 import MathlibPlus.Open.CayleyCI.NongeneratingA5
 import MathlibPlus.Open.ResearchFormalization60518_60769
+import MathlibPlus.Open.ProjectsResearch.Batch12848
+import MathlibPlus.Open.Probability.HarmonicPosteriorAreaObstruction
