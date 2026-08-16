@@ -4561,3 +4561,6 @@ import MathlibPlus.Open.AdaptiveOracleArea.EndpointNineEighths
 import MathlibPlus.Open.Analysis.H6SignChanges
 import MathlibPlus.Open.Analysis.PositiveTwoPoleDecomposition
 import MathlibPlus.Open.Analysis.ModeTransport
+import MathlibPlus.Open.CI.CartesianSectorC4C3Rank3
+import MathlibPlus.Open.ResearchFormalizationBatch_13271
+import MathlibPlus.Open.PrimeCoprimeTriangularDerivativeSterility
