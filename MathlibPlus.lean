@@ -4327,3 +4327,5 @@ import MathlibPlus.Open.ProjectsResearch.CI.CoprimeShellProductC7Q12
 import MathlibPlus.Open.ProjectsResearch.CI.RankTwoSupportClosure
 import MathlibPlus.Open.ProjectsResearch.CI.SquarefreeResidualE35Valency
 import MathlibPlus.Open.AdaptiveOracleArea.AdmittedBatch
+import MathlibPlus.Open.Analysis.Moment.TwoAtomSharpness
+import MathlibPlus.Open.Analysis.DeBranges.FiniteRealRootedVariation
