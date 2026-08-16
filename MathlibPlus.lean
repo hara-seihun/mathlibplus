@@ -4541,3 +4541,10 @@ import MathlibPlus.Open.Claim60722
 import MathlibPlus.Open.FiniteFieldNearFullPartialSums
 import MathlibPlus.Open.Research.FormalizationBatchC3Permutation
 import MathlibPlus.Open.Claim60347
+import MathlibPlus.Open.LinearAlgebra.PrimitiveSquarefreeDerivative
+import MathlibPlus.Open.Analysis.BatchBinomialPerturbation
+import MathlibPlus.Open.Graph.ExchangedRootedTrees
+import MathlibPlus.Open.Research.QuotientKernelFixedShift
+import MathlibPlus.Open.Research.Batch60674
+import MathlibPlus.Open.Research.Claim60638
+import MathlibPlus.Open.OracleArea.DepthTwoRoofObstruction
