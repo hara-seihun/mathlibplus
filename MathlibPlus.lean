@@ -4302,3 +4302,6 @@ import MathlibPlus.Open.FormalizationBatch.JetCurrentBatch
 import MathlibPlus.Open.Analysis.RadialClaims
 import MathlibPlus.Open.Analysis.ArthurRayBatch11393
 import MathlibPlus.Open.Analysis.DerivativePersistence11516
+import MathlibPlus.Open.Analysis.BatchO0134.Claim11637
+import MathlibPlus.Open.Analysis.BatchO0134.Claim11648
+import MathlibPlus.Open.Analysis.BatchO0134.Claim11659
