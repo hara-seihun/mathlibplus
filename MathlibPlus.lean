@@ -4490,3 +4490,12 @@ import MathlibPlus.Open.Research.Batch13518_13519
 import MathlibPlus.Open.Analysis.ResearchFormalizationBatch13764_13765
 import MathlibPlus.Open.OracleArea.Claim60095
 import MathlibPlus.Open.OracleArea.Claim60107
+import MathlibPlus.Open.GraphTheory.EC35EightLowValencyCI
+import MathlibPlus.Open.CI.OneDimensionalFullDerivativeAffineShadow
+import MathlibPlus.Open.CayleyCI.Valency11
+import MathlibPlus.Open.Analysis.FormalizationBatch_01a00b31f1a1702692487f53521d7c23
+import MathlibPlus.Open.Analysis.RadialKernelBatch
+import MathlibPlus.Open.Analysis.ConfluentPairedEscape
+import MathlibPlus.Open.Analysis.RankTwoSecantCompounds
+import MathlibPlus.Open.Analysis.FormalizationBatchExponential
+import MathlibPlus.Open.ResearchFormalization_12527_12532_01a00b46
