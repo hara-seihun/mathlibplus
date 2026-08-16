@@ -4697,3 +4697,10 @@ import MathlibPlus.Open.ResearchFormalization.O0253Claim15044
 import MathlibPlus.Open.Analysis.NormalizedProlateLeakage14987
 import MathlibPlus.Open.NewResearch2.RationalHankel15103
 import MathlibPlus.Open.ResearchFormalization.FastOrderTailClaim15084
+import MathlibPlus.Open.ResearchFormalization.O0252.Claim15011
+import MathlibPlus.Open.ResearchFormalization.O0252.Claim15013
+import MathlibPlus.Open.ResearchFormalization.O0252.Claim15014
+import MathlibPlus.Open.ResearchFormalization.PolyharmonicTailClaims15078_15086
+import MathlibPlus.Open.NewResearch2.RationalHankel15104_15107
+import MathlibPlus.Open.ResearchFormalization.O0193LocalLogFrequency
+import MathlibPlus.Open.Analysis.FormalizationBatchO0267
