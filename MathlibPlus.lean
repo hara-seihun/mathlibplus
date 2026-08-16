@@ -4744,3 +4744,4 @@ import MathlibPlus.Open.ResearchFormalization.Claim14976EscapingPackets
 import MathlibPlus.Open.Research.BatchO0295
 import MathlibPlus.Open.AnalyticNumberTheory.BatchO0312Continuation15291
 import MathlibPlus.Open.AnalyticNumberTheory.BatchO0312Floor15290
+import MathlibPlus.Open.Analysis.FiberWeightsGlobalMoments
