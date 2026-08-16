@@ -4531,3 +4531,6 @@ import MathlibPlus.Open.Analysis.FormalizationBatchCone13598
 import MathlibPlus.Open.Analysis.FormalizationBatchCone13599
 import MathlibPlus.Open.Analysis.FormalizationBatchCone13602
 import MathlibPlus.Open.Analysis.FormalizationBatchTheta13712
+import MathlibPlus.Open.Graph.LargePrimeAutomorphismExclusion
+import MathlibPlus.Open.Research.Claim60500
+import MathlibPlus.Open.ProjectsResearch.Batch60677
