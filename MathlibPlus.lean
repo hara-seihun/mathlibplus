@@ -4452,3 +4452,7 @@ import MathlibPlus.Open.Research.FiniteMapBatch
 import MathlibPlus.Open.FormalizationBatch60580
 import MathlibPlus.Open.Algebra.GhostDefects
 import MathlibPlus.Open.Combinatorics.IndependenceBatch60820
+import MathlibPlus.Open.Research.Claims60858And60859
+import MathlibPlus.Open.Research.FormalizationBatch60617_60618
+import MathlibPlus.Open.R5659.Reconcile
+import MathlibPlus.Open.Combinatorics.TreeTraceBatch
