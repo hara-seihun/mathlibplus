@@ -5092,3 +5092,10 @@ import MathlibPlus.Open.ResearchFormalization.R0725Claim26810
 import MathlibPlus.Open.ResearchFormalization.R0725Claim26812
 import MathlibPlus.Open.ResearchFormalization.R0725Claim26814
 import MathlibPlus.Open.ResearchFormalization.R0725Claim26815
+import MathlibPlus.Open.ResearchFormalization.PairStateR0781
+import MathlibPlus.Open.ResearchFormalization.R1118Claim29111
+import MathlibPlus.Open.Algebra.WeightedBlock26596
+import MathlibPlus.Open.Analysis.Sobolev26599_26600
+import MathlibPlus.Open.MomentGeometry.ResearchFormalizationR0196Claim18723
+import MathlibPlus.Open.NewResearch2.R0205
+import MathlibPlus.Open.ResearchFormalization.R0644Claim23609
