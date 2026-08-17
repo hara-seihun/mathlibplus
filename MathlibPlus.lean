@@ -5330,3 +5330,17 @@ import MathlibPlus.Open.ResearchFormalization.R1952.Claim36513
 import MathlibPlus.Open.ResearchFormalization.R1467.CapCompanion
 import MathlibPlus.Open.Research.R1492Parity37794
 import MathlibPlus.Open.Research.R1494NoTwoPointBlock37826
+import MathlibPlus.Open.Research.Formalization.R1464EvenSeparation
+import MathlibPlus.Open.ShearFamilyBatchR1918Claim36144
+import MathlibPlus.Open.ShearFamilyBatchR1918Claim36145
+import MathlibPlus.Open.ResearchFormalization.KKTEquilibriumClaim33810
+import MathlibPlus.Open.ResearchFormalization.FourierStressSpectrumClaim33818
+import MathlibPlus.Open.ResearchFormalization.PSDKernelRankClaim33821
+import MathlibPlus.Open.ResearchFormalization.StressFeasibilityObstructionClaim33825
+import MathlibPlus.Open.Research.BatchR1989.Claim35086
+import MathlibPlus.Open.Research.BatchR1989.Claim35088
+import MathlibPlus.Open.Research.BatchR1989.Claim35097
+import MathlibPlus.Open.Research.BatchR1989.Claim35099
+import MathlibPlus.Open.Research.R1388FullRow38501
+import MathlibPlus.Open.ResearchFormalization.R1370Claim38308
+import MathlibPlus.Open.ResearchFormalization.ConstantDerivative38302
