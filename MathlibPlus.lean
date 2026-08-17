@@ -4913,3 +4913,6 @@ import MathlibPlus.Open.Analysis.FiniteThetaShellBoundaryBatch
 import MathlibPlus.Open.Research.FormalizationR0151
 import MathlibPlus.Open.ResearchFormalization.R0099EulerCurrent
 import MathlibPlus.Open.ResearchFormalization.R0100LaguerreFlags
+import MathlibPlus.Open.FormalizationBatch.R0101Claim17947
+import MathlibPlus.Open.FormalizationBatch.R0102Claim17963
+import MathlibPlus.Open.FormalizationBatch.R0108Claim18008
