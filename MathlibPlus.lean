@@ -6031,3 +6031,7 @@ import MathlibPlus.Open.ResearchFormalization.R0334Claim20016
 import MathlibPlus.Open.ResearchFormalization.R0980Claim27863
 import MathlibPlus.Open.ResearchFormalization.R0983Claim27893
 import MathlibPlus.Open.ResearchFormalization.SelectorCancellation61090
+import MathlibPlus.Open.Research.R0247PositiveFusion19171
+import MathlibPlus.Open.Research.R0474PoissonLaguerre21845
+import MathlibPlus.Open.ResearchFormalization.R1086Q12Claim28747
+import MathlibPlus.Open.ResearchFormalization.OracleAreaDepthTwoClaim61095
