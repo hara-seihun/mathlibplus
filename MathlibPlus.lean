@@ -5392,3 +5392,14 @@ import MathlibPlus.Open.ResearchFormalization.R0121BackwardSampleSums
 import MathlibPlus.Open.ResearchFormalization.R0474FixedXHilbertCauchy
 import MathlibPlus.Open.ResearchFormalization.R0524ConnectedSetBoundaryPolynomial
 import MathlibPlus.Open.ResearchFormalization.R1643Claim39879
+import MathlibPlus.Open.ResearchFormalization.R0765Claim26919
+import MathlibPlus.Open.ResearchFormalization.R0160Claim18436
+import MathlibPlus.Open.ResearchFormalization.R0530FixedSideRigidity26115
+import MathlibPlus.Open.ResearchFormalization.Batch_38f4415f_Claim40160
+import MathlibPlus.Open.Research.FormalizationBatch.R1975Claim36661
+import MathlibPlus.Open.Research.RosserClaim36833
+import MathlibPlus.Open.Research.R1599A7Goursat
+import MathlibPlus.Open.R1578.FourArmParityTransform_39332
+import MathlibPlus.Open.R1578.SingletonCancellation_39333
+import MathlibPlus.Open.R1578.PairSumRecovery_39334
+import MathlibPlus.Open.R1578.FoldedSingletonRecovery_39335

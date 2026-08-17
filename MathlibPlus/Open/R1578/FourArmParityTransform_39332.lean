@@ -1,0 +1,82 @@
+import Mathlib
+
+namespace MathlibPlus.Open.R1578
+
+open scoped BigOperators
+noncomputable section
+
+private abbrev F2 := ZMod 2
+private abbrev Arm := Fin 4
+
+private def armExponent (A : Arm → ℕ) (i : Arm) : ℕ := A i + 1
+
+private def totalExponent (A : Arm → ℕ) : ℕ :=
+  ∑ i : Arm, armExponent A i
+
+private def singletonPolynomial (A : Arm → ℕ) : Polynomial F2 :=
+  ∑ i : Arm, Polynomial.X ^ armExponent A i
+
+private def productPolynomial (A : Arm → ℕ) : Polynomial F2 :=
+  ∏ i : Arm, (1 + Polynomial.X ^ armExponent A i)
+
+private def eTwo (A : Arm → ℕ) : Polynomial F2 := by
+  classical
+  exact ∑ I ∈ (Finset.univ : Finset (Finset Arm)).filter
+      (fun I => I.card = 2),
+    ∏ i ∈ I, Polynomial.X ^ armExponent A i
+
+private def eThree (A : Arm → ℕ) : Polynomial F2 := by
+  classical
+  exact ∑ I ∈ (Finset.univ : Finset (Finset Arm)).filter
+      (fun I => I.card = 3),
+    ∏ i ∈ I, Polynomial.X ^ armExponent A i
+
+private def armWeight (A : Arm → ℕ) : ℕ :=
+  ∑ i : Arm, A i
+
+private def armF (a : ℕ) : Polynomial F2 :=
+  ∑ k ∈ Finset.Icc 1 a,
+    Polynomial.C ((a - k + 1 : ℕ) : F2) * Polynomial.X ^ k
+
+private def armJ (a : ℕ) : Polynomial F2 :=
+  ∑ k ∈ Finset.range (a + 1), Polynomial.X ^ k
+
+private def connectedSpiderPolynomial (A : Arm → ℕ) : Polynomial F2 :=
+  (∑ i : Arm, armF (A i)) +
+    Polynomial.X * ∏ i : Arm, armJ (A i)
+
+private def KPolynomial (A : Arm → ℕ) : Polynomial F2 :=
+  productPolynomial A + (1 + Polynomial.X ^ 2) * singletonPolynomial A
+
+private def GPolynomial (A : Arm → ℕ) : Polynomial F2 :=
+  KPolynomial A + 1 + Polynomial.X ^ totalExponent A
+
+private def reciprocalShift (shift : ℕ) (f : Polynomial F2) : Polynomial F2 := by
+  classical
+  exact ∑ n ∈ f.support,
+    Polynomial.C (f.coeff n) * Polynomial.X ^ (shift - n)
+
+private def foldedSingletonExponents
+    (A : Arm → ℕ) : Multiset ℕ :=
+  (Finset.univ : Finset Arm).1.map
+    (fun i => min (armExponent A i)
+      (totalExponent A - 2 - armExponent A i))
+
+/-- Claim 39332: the exact characteristic-two four-arm transform and
+common-total equivalence. -/
+def claim39332 : Prop :=
+  (∀ A : Arm → ℕ,
+    (1 + Polynomial.X) ^ 4 * connectedSpiderPolynomial A =
+      Polynomial.C (armWeight A % 2 : F2) *
+          (Polynomial.X + Polynomial.X ^ 2 + Polynomial.X ^ 3 +
+            Polynomial.X ^ 4) +
+        Polynomial.X * KPolynomial A) ∧
+    (∀ A A' : Arm → ℕ,
+      armWeight A = armWeight A' →
+        (connectedSpiderPolynomial A = connectedSpiderPolynomial A' ↔
+          KPolynomial A = KPolynomial A'))
+
+
+end
+
+end MathlibPlus.Open.R1578
