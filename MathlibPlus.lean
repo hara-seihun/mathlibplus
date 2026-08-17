@@ -5668,3 +5668,14 @@ import MathlibPlus.Open.Analysis.Claim3384
 import MathlibPlus.Open.Combinatorics.Claim3376
 import MathlibPlus.Open.ResearchFormalization.C0226Claim3301
 import MathlibPlus.Open.ResearchFormalization.C0242Claim3526
+import MathlibPlus.Open.Analysis.FiniteChannelPolynomialClaim4459
+import MathlibPlus.Open.ResearchFormalizationBatchClaim4779
+import MathlibPlus.Open.Analysis.GraphNormBoundClaim4230
+import MathlibPlus.Open.Analysis.LocalLipschitzTuranScalarClaim4232
+import MathlibPlus.Open.Analysis.NegativeProductEstimateClaim4228
+import MathlibPlus.Open.Analysis.Claim3386
+import MathlibPlus.Open.ResearchFormalization.R2781.Claim31502
+import MathlibPlus.Open.NewResearch2.R1179AlternatingFibreModel
+import MathlibPlus.Open.ResearchFormalization.BatchC0306Claim4275
+import MathlibPlus.Open.ResearchFormalization.BatchR1701Claim31172
+import MathlibPlus.Open.Combinatorics.TreeStateLeafDeck5075
