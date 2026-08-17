@@ -6216,3 +6216,5 @@ import MathlibPlus.Open.NewResearch2.R0092_Claim17880
 import MathlibPlus.Open.NewResearch2.R0096_Claim17912
 import MathlibPlus.Open.ResearchFormalization.R1198Claim41895
 import MathlibPlus.Open.ResearchFormalization.R1212Claim42072
+import MathlibPlus.Open.ResearchFormalization.R1542Claim37770
+import MathlibPlus.Open.ResearchFormalization.R1989Claim35089
