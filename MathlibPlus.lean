@@ -6572,3 +6572,4 @@ import MathlibPlus.Open.ResearchFormalization.R0466Claim25814
 import MathlibPlus.Open.ResearchFormalization.D0014CardCompatibility
 import MathlibPlus.Open.GroupTheory.QuotientCompatibleElementarySectionsClaim61188
 import MathlibPlus.Open.ResearchFormalization.R0656.Claim26524
+import MathlibPlus.Open.ResearchFormalization.R1182.Claim41703
