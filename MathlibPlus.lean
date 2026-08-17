@@ -4987,3 +4987,6 @@ import MathlibPlus.Open.NewResearch2.R0312Claim19645
 import MathlibPlus.Open.NewResearch2.R0312Claim19648
 import MathlibPlus.Open.NewResearch2.R0226Formalization
 import MathlibPlus.Open.Research.PottsRootedAugmentation19704_19707
+import MathlibPlus.Open.NewResearch2.R0316Repair
+import MathlibPlus.Open.ResearchFormalization.R0318CollisionHypergraph
+import MathlibPlus.Open.Algebra.Claim19665Hochschild
