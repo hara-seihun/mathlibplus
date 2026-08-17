@@ -5985,3 +5985,17 @@ import MathlibPlus.Open.ResearchFormalization.R0504Claim26019
 import MathlibPlus.Open.Analysis.MellinClaim13741
 import MathlibPlus.Open.Research.OracleAreaRoofObstruction61070
 import MathlibPlus.Open.Research.DeltaPropagationExact
+import MathlibPlus.Open.Research.GeneratedGroupCensusClaim38257
+import MathlibPlus.Open.ResearchFormalization.R0871Claim29621
+import MathlibPlus.Open.ResearchFormalization.R1368Claim38282
+import MathlibPlus.Open.NewResearch2.R0608SelectedComponentExpansion
+import MathlibPlus.Open.ResearchFormalization.BatchR0504Claim26021
+import MathlibPlus.Open.ResearchFormalization.R0504LowerBlocks26016_26020
+import MathlibPlus.Open.ResearchFormalization.R0783.Claim24661
+import MathlibPlus.Open.ResearchFormalization.LagrangeRatios25815
+import MathlibPlus.Open.ResearchFormalization.R1536.Claim39029
+import MathlibPlus.Open.ResearchFormalization.R1929.Claim36256
+import MathlibPlus.Open.Combinatorics.R0392Claim20830
+import MathlibPlus.Open.Combinatorics.R0392Claim20840
+import MathlibPlus.Open.ResearchFormalization.R0410Claim21079
+import MathlibPlus.Open.ResearchFormalization.R0761Claim24548
