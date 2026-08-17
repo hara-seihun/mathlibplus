@@ -5410,3 +5410,11 @@ import MathlibPlus.Open.ResearchFormalization.R1404CarryAtlas
 import MathlibPlus.Open.Research.R1298Charts40145_40146_40148
 import MathlibPlus.Open.ResearchFormalization.R1288
 import MathlibPlus.Open.ResearchFormalization.R1643Claim39890_R1647Claim39930
+import MathlibPlus.Open.ResearchFormalization.R0532AdjacentTwoByTwo29378
+import MathlibPlus.Open.ResearchFormalization.R1132NormalizedLabelCensus30060
+import MathlibPlus.Open.ResearchFormalization.R0980PartitionSplit27860
+import MathlibPlus.Open.ResearchFormalization.R1118FixedQuadraticTransporter29097
+import MathlibPlus.Open.ResearchFormalization.R0983.Claim27892
+import MathlibPlus.Open.ResearchFormalization.R0990.Claim27995
+import MathlibPlus.Open.ResearchBatch.R1542Claims
+import MathlibPlus.Open.ResearchBatch.R1522Claims
