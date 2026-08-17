@@ -5167,3 +5167,15 @@ import MathlibPlus.Open.ResearchFormalization.R1302Claim40197
 import MathlibPlus.Open.ResearchFormalizationBatch_R1346
 import MathlibPlus.Open.R1081.KernelGraphClassification_15b65c14
 import MathlibPlus.Open.ResearchFormalization.R0554Trace
+import MathlibPlus.Open.Research.R1184Claim61028
+import MathlibPlus.Open.Research.R1184Claim41746
+import MathlibPlus.Open.Research.R1184Claim41747
+import MathlibPlus.Open.ResearchFormalization.C7AffineSectionTransporter
+import MathlibPlus.Open.Analysis.Claim61025
+import MathlibPlus.Open.GraphTheory.Claim61026
+import MathlibPlus.Open.GraphTheory.Claim61027
+import MathlibPlus.Open.GraphTheory.QuotientConnectionLiftClaims28344
+import MathlibPlus.Open.ResearchFormalization.R0498FixedEll
+import MathlibPlus.Open.ResearchFormalization.R0498Recurrence
+import MathlibPlus.Open.ResearchFormalization.R0498PartitionBound
+import MathlibPlus.Open.ResearchFormalization.R0498Bivariate
