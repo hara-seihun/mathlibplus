@@ -4973,3 +4973,17 @@ import MathlibPlus.Open.ResearchFormalization.RankThreeModuliClaim17849
 import MathlibPlus.Open.Analysis.R0117Claim18063
 import MathlibPlus.Open.ResearchFormalization.R0121SpectralBandOscillation
 import MathlibPlus.Open.Analysis.R0123Claim18112
+import MathlibPlus.Open.Combinatorics.AllOrdersMaximumLoad
+import MathlibPlus.Open.Analysis.ThetaCoefficientFlowClaim19070
+import MathlibPlus.Open.Analysis.ThetaDerivativeHBClaim19084
+import MathlibPlus.Open.Analysis.ThetaDeterminantClaim19079
+import MathlibPlus.Open.FormalizationBatch.R0228Claim19022
+import MathlibPlus.Open.FormalizationBatch.R0228Claim19025
+import MathlibPlus.Open.FormalizationBatch.R0229Claim19032
+import MathlibPlus.Open.FormalizationBatch.R0237Claim19112
+import MathlibPlus.Open.NewResearch2.R0312Claim19643
+import MathlibPlus.Open.NewResearch2.R0312Claim19644
+import MathlibPlus.Open.NewResearch2.R0312Claim19645
+import MathlibPlus.Open.NewResearch2.R0312Claim19648
+import MathlibPlus.Open.NewResearch2.R0226Formalization
+import MathlibPlus.Open.Research.PottsRootedAugmentation19704_19707
