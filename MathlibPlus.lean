@@ -4995,3 +4995,6 @@ import MathlibPlus.Open.ResearchFormalization.BatchR0383Lehmer
 import MathlibPlus.Open.ResearchFormalization.R0334Claim20014
 import MathlibPlus.Open.Combinatorics.MarkedCardPairMarginalsClaim20797
 import MathlibPlus.Open.GraphTheory.HalfSupportInversePairIncidenceRigidity
+import MathlibPlus.Open.FormalizationBatch.R0109Claim18017
+import MathlibPlus.Open.Analysis.ResearchFormalizationR0186
+import MathlibPlus.Open.Research.FrobeniusPurity18978
