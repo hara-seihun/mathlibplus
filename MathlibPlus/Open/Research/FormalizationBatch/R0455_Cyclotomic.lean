@@ -1,4 +1,5 @@
 import Mathlib
+import MathlibPlus.Open.Research.FormalizationBatch.R0455
 
 namespace MathlibPlus.Open.ResearchFormalizationBatch
 
