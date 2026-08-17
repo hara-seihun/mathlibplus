@@ -5679,3 +5679,16 @@ import MathlibPlus.Open.NewResearch2.R1179AlternatingFibreModel
 import MathlibPlus.Open.ResearchFormalization.BatchC0306Claim4275
 import MathlibPlus.Open.ResearchFormalization.BatchR1701Claim31172
 import MathlibPlus.Open.Combinatorics.TreeStateLeafDeck5075
+import MathlibPlus.Open.ResearchFormalization.R2614Claim42807
+import MathlibPlus.Open.ResearchFormalization.R2614Claim42812
+import MathlibPlus.Open.ResearchFormalization.D0083Claim5132
+import MathlibPlus.Open.GraphTheory.Claim4447
+import MathlibPlus.Open.Analysis.Claim4470
+import MathlibPlus.Open.ResearchFormalization.Claim3451
+import MathlibPlus.Open.ResearchFormalization.Claim3642
+import MathlibPlus.Open.ResearchFormalization.Claim3863
+import MathlibPlus.Analysis.FirstShiftLaguerreGraphKernel4253
+import MathlibPlus.Open.ResearchFormalizationBatch_01a001b3_443b_7727_a88a_7b55e0d6fe72.Radius
+import MathlibPlus.Open.ResearchFormalization.R1003Claim28182
+import MathlibPlus.Open.ResearchFormalization.R1003Claim28185
+import MathlibPlus.Open.ResearchFormalization.R1003Claim28186
