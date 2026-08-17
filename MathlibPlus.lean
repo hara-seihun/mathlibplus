@@ -5344,3 +5344,5 @@ import MathlibPlus.Open.Research.BatchR1989.Claim35099
 import MathlibPlus.Open.Research.R1388FullRow38501
 import MathlibPlus.Open.ResearchFormalization.R1370Claim38308
 import MathlibPlus.Open.ResearchFormalization.ConstantDerivative38302
+import MathlibPlus.Open.ResearchFormalization.R1444QuinaryDerivative
+import MathlibPlus.Open.ResearchFormalization.R1182QuietRepairs
