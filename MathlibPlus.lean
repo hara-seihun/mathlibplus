@@ -5759,3 +5759,13 @@ import MathlibPlus.Open.Algebra.NormalizedFactorizationClaim7144
 import MathlibPlus.Open.Analysis.OrthogonalPolynomialEnsembleClaim7171
 import MathlibPlus.Open.ResearchFormalizationBatch_01a0032b.CoordinateWeylGram
 import MathlibPlus.Open.Analysis.Claim8852
+import MathlibPlus.Open.Combinatorics.FixedNegativeAxisChristoffelTilt
+import MathlibPlus.Open.Analysis.LambertAntiderivativeK0125
+import MathlibPlus.Open.ResearchFormalization.K0105Claim8585
+import MathlibPlus.Open.FormalizationBatch.K0110Claim8668
+import MathlibPlus.Open.Algebra.FischerHarmonicReductionClaim7851
+import MathlibPlus.Open.Analysis.CompactLambertCoefficientModelK0125
+import MathlibPlus.Open.GraphTheory.TernaryHomogeneousCubicShear61035
+import MathlibPlus.Open.Algebra.R1751RootForgetting
+import MathlibPlus.Open.Algebra.CentralDifferenceShearClaims33147_33151
+import MathlibPlus.Open.Analysis.BatchO0134.Claim11638
