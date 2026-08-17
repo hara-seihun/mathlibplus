@@ -6533,3 +6533,10 @@ import MathlibPlus.Open.ResearchFormalization.R1382.Claim38438
 import MathlibPlus.Open.ResearchFormalization.R2614Claim42806
 import MathlibPlus.Open.ResearchBatch.R3642Claim51119
 import MathlibPlus.Open.ResearchFormalization.Claim61181
+import MathlibPlus.Open.ResearchFormalization.R4215Claim53319
+import MathlibPlus.Open.ResearchFormalization.R4367.Claim54300
+import MathlibPlus.Open.Algebra.Claim55450
+import MathlibPlus.Open.Research.R4242Repair
+import MathlibPlus.Open.ResearchFormalization.R1344Claim41157
+import MathlibPlus.Open.ResearchFormalization.R2614Claim42805
+import MathlibPlus.Open.ResearchFormalization.R4922Claim55454
