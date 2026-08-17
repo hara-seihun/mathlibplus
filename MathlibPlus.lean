@@ -5188,3 +5188,17 @@ import MathlibPlus.Open.ResearchFormalization.R1250.Claim30597
 import MathlibPlus.Open.ResearchFormalization.R1529.Claim38296
 import MathlibPlus.Open.ResearchFormalization.R1529.Claim38318
 import MathlibPlus.Open.ResearchFormalization.R5018.Claim55036
+import MathlibPlus.Open.ResearchFormalization.R2632Claim42992
+import MathlibPlus.Open.ResearchFormalization.R4220Claim53348
+import MathlibPlus.Open.ResearchFormalization.R4192BetaPosterior
+import MathlibPlus.Open.ResearchFormalization.R4192HarmonicLowerBound
+import MathlibPlus.Open.ResearchFormalization.R5238ShiftedTopLayer
+import MathlibPlus.Open.ProjectsResearch.R1215Component30225
+import MathlibPlus.Open.ProjectsResearch.R1215Development30226
+import MathlibPlus.Open.ProjectsResearch.R1215Complement30231
+import MathlibPlus.Open.Combinatorics.FixedSupportClaim26067
+import MathlibPlus.Open.GraphTheory.BalancedTwoCliqueClaim26153
+import MathlibPlus.Open.ResearchFormalization.R1102
+import MathlibPlus.Open.ResearchFormalization.Batch_38f4415f_Claim31631
+import MathlibPlus.Open.ResearchFormalization.R1148Inverse
+import MathlibPlus.Open.ResearchFormalization.R1196Grades
