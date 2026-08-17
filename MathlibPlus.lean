@@ -5264,3 +5264,5 @@ import MathlibPlus.Open.Algebra.MarkerSupportClaims31768_31769
 import MathlibPlus.Open.ResearchFormalization.R1863.Claim34299
 import MathlibPlus.Open.ResearchFormalization.R1863.Claim34302
 import MathlibPlus.Open.Research.Q12PrimeCoverFormalization
+import MathlibPlus.Open.Research.Claim61036
+import MathlibPlus.Open.ResearchFormalization.R1277Claim30908
