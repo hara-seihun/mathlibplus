@@ -5607,3 +5607,15 @@ import MathlibPlus.Open.GroupTheory.R1349Claim41244
 import MathlibPlus.Open.Analysis.ChebyshevPivotClaim46115
 import MathlibPlus.Open.ResearchFormalization.Claim45771
 import MathlibPlus.Open.ResearchFormalization.Claim45772
+import MathlibPlus.Open.ResearchFormalization.R2888.Claim47374
+import MathlibPlus.Open.ResearchFormalization.R2888.Claim47375
+import MathlibPlus.Open.ResearchFormalization.R2888.Claim47376
+import MathlibPlus.Open.ResearchFormalization.R2888.Claim47377
+import MathlibPlus.Open.Research.ScalarConormalClaims26426_26428
+import MathlibPlus.Open.Research.R4242
+import MathlibPlus.Open.Research.R4031Claim51988
+import MathlibPlus.Open.Algebra.Claim50755
+import MathlibPlus.Open.Algebra.Claim50758
+import MathlibPlus.Open.Analysis.Claim50951
+import MathlibPlus.Open.ResearchFormalization.AdaptiveOracleAreaR3803
+import MathlibPlus.Open.ResearchFormalization.R1414Claims36936_36937_36939
