@@ -5545,3 +5545,9 @@ import MathlibPlus.Open.ResearchFormalization.R1402Repair38643_38644
 import MathlibPlus.Open.ResearchFormalization.R3738Claim50252
 import MathlibPlus.Open.Analysis.GammaCellCutoff50164
 import MathlibPlus.Open.Analysis.GammaCellSummation50167
+import MathlibPlus.Open.ResearchFormalization.R1182.Claim41709
+import MathlibPlus.Open.ResearchFormalization.R1182.Claim41710
+import MathlibPlus.Open.ResearchFormalization.R1182.Claim41711
+import MathlibPlus.Open.ResearchFormalization.R1182.Claim41718
+import MathlibPlus.Open.Combinatorics.ProjectsResearchDeletion45230
+import MathlibPlus.Open.Combinatorics.ProjectsResearchOrbit45108
