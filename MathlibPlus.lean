@@ -5216,3 +5216,17 @@ import MathlibPlus.Open.ResearchFormalization.Claim29703
 import MathlibPlus.Open.ResearchFormalization.BatchR0504Claims26023_26024
 import MathlibPlus.Open.ResearchFormalization.R0707Claim26743
 import MathlibPlus.Open.ResearchFormalization.R0970Claim27739
+import MathlibPlus.Open.NumberTheory.EndpointMomentBoundsR0754Claim29534
+import MathlibPlus.Open.NumberTheory.EndpointMomentBoundsR0754Claim34998
+import MathlibPlus.Open.Algebra.Claim30451
+import MathlibPlus.Open.Algebra.Claim30452
+import MathlibPlus.Open.FormalizationBatch.R1242Claim30516
+import MathlibPlus.Open.ResearchFormalization.BatchR0608Claims26362_26364Repair
+import MathlibPlus.Open.ResearchFormalization.BatchR1836Claim32759
+import MathlibPlus.Open.ResearchFormalization.R1132
+import MathlibPlus.Open.Algebra.R1833HankelTransfers
+import MathlibPlus.Open.ResearchFormalization.R1255.Claims30659_30662
+import MathlibPlus.Open.ResearchFormalization.Claim28997
+import MathlibPlus.Open.ResearchFormalization.Claim29202
+import MathlibPlus.Open.ResearchFormalization.Claim29203
+import MathlibPlus.Open.ResearchFormalization.R2781.Claim31501
