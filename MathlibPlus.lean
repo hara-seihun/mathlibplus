@@ -4998,3 +4998,7 @@ import MathlibPlus.Open.GraphTheory.HalfSupportInversePairIncidenceRigidity
 import MathlibPlus.Open.FormalizationBatch.R0109Claim18017
 import MathlibPlus.Open.Analysis.ResearchFormalizationR0186
 import MathlibPlus.Open.Research.FrobeniusPurity18978
+import MathlibPlus.Open.ResearchFormalization.BatchR0415Claim21146
+import MathlibPlus.Open.ResearchFormalization.BatchR0427Claim21231
+import MathlibPlus.Open.ResearchFormalization.R0307TreeClaim19597
+import MathlibPlus.Open.ResearchFormalization.R0410Claim21078
