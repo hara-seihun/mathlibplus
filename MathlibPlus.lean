@@ -5116,3 +5116,10 @@ import MathlibPlus.Open.ResearchFormalization.R0854Claim25340Repair
 import MathlibPlus.Open.ResearchFormalization.R1068Claim28557
 import MathlibPlus.Open.ResearchFormalization.R1068Claim28558
 import MathlibPlus.Open.ResearchFormalization.BatchR1110Claims28992_28993
+import MathlibPlus.Open.ResearchFormalizationBatch.InducedGraphHopfUniversal22987_22990
+import MathlibPlus.Open.ResearchFormalization.BoydWeights25796
+import MathlibPlus.Open.ResearchFormalization.BoydBudget25797
+import MathlibPlus.Open.ResearchFormalization.LehmerMinimum25803
+import MathlibPlus.Open.ResearchFormalization.LagrangeRatios25812
+import MathlibPlus.Open.LinearAlgebra.R0875Claim25527
+import MathlibPlus.Open.LinearAlgebra.R0875Claim25528
