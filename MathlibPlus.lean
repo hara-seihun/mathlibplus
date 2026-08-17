@@ -6139,3 +6139,9 @@ import MathlibPlus.Open.Analysis.R0055
 import MathlibPlus.Open.ResearchFormalization.R0714.Claim24184
 import MathlibPlus.Open.ResearchFormalization.R0913.Claim25578
 import MathlibPlus.Open.ResearchFormalization.R0982.Claim27885
+import MathlibPlus.Open.ResearchFormalization.R1144Claim30197
+import MathlibPlus.Open.ResearchFormalization.R1266Claim30804
+import MathlibPlus.Open.ResearchFormalization.R0725Claim26817
+import MathlibPlus.Open.ResearchFormalization.R1148Claim31559
+import MathlibPlus.Open.ResearchFormalization.R1171Claim31841
+import MathlibPlus.Open.ResearchFormalization.R1179Claim31902
