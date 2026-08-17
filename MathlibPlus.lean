@@ -5527,3 +5527,5 @@ import MathlibPlus.Open.ResearchFormalization.R1172Claim41612
 import MathlibPlus.Open.ResearchFormalization.R1172Claim41613
 import MathlibPlus.Open.ResearchFormalization.R1172Claim41617
 import MathlibPlus.Open.ResearchFormalization.R2197Morris
+import MathlibPlus.Open.ResearchFormalization.R1199TargetFaithfulness
+import MathlibPlus.Open.ResearchFormalization.R1199FiniteCI
