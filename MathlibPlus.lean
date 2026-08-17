@@ -5266,3 +5266,17 @@ import MathlibPlus.Open.ResearchFormalization.R1863.Claim34302
 import MathlibPlus.Open.Research.Q12PrimeCoverFormalization
 import MathlibPlus.Open.Research.Claim61036
 import MathlibPlus.Open.ResearchFormalization.R1277Claim30908
+import MathlibPlus.Open.Research.InverseEllipticBlockTransferClaim8649
+import MathlibPlus.Open.Research.CIElementaryAbelian3Rank6_7CubicGaleShadowClaim61034
+import MathlibPlus.Open.ResearchFormalization.R1661ScalarPowerRepair
+import MathlibPlus.Open.ResearchFormalization.Batch_38f4415f_Claim33179
+import MathlibPlus.Open.GroupTheory.Claim31824RankDrop
+import MathlibPlus.Open.GroupTheory.Claim31838Census
+import MathlibPlus.Open.ResearchFormalization.R1889.Claim34702
+import MathlibPlus.Open.ResearchFormalization.R0326Claim19888
+import MathlibPlus.Open.ResearchFormalization.R0992Claim28041
+import MathlibPlus.Open.ResearchFormalization.R1851Claim32914
+import MathlibPlus.Open.ResearchFormalizationBatchR1261Claim30749
+import MathlibPlus.Open.ResearchFormalization.Claim31955
+import MathlibPlus.Open.ResearchFormalization.Claim31958
+import MathlibPlus.Open.ResearchFormalizationBatch.R1875FractionalLP
