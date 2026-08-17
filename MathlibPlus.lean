@@ -5327,3 +5327,6 @@ import MathlibPlus.Open.R1966.UnorderedOrbitalConjugacy_36585
 import MathlibPlus.Open.R1966.CompleteE8Atlas_36586
 import MathlibPlus.Open.R1966.CommonInvolutionRow_36587
 import MathlibPlus.Open.ResearchFormalization.R1952.Claim36513
+import MathlibPlus.Open.ResearchFormalization.R1467.CapCompanion
+import MathlibPlus.Open.Research.R1492Parity37794
+import MathlibPlus.Open.Research.R1494NoTwoPointBlock37826
