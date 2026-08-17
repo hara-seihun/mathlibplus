@@ -4990,3 +4990,8 @@ import MathlibPlus.Open.Research.PottsRootedAugmentation19704_19707
 import MathlibPlus.Open.NewResearch2.R0316Repair
 import MathlibPlus.Open.ResearchFormalization.R0318CollisionHypergraph
 import MathlibPlus.Open.Algebra.Claim19665Hochschild
+import MathlibPlus.Open.ResearchFormalization.BatchR0383Claim20677
+import MathlibPlus.Open.ResearchFormalization.BatchR0383Lehmer
+import MathlibPlus.Open.ResearchFormalization.R0334Claim20014
+import MathlibPlus.Open.Combinatorics.MarkedCardPairMarginalsClaim20797
+import MathlibPlus.Open.GraphTheory.HalfSupportInversePairIncidenceRigidity
