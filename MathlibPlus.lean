@@ -5029,3 +5029,4 @@ import MathlibPlus.Open.ResearchFormalization.R0521_Claim22287
 import MathlibPlus.Open.ResearchFormalization.R0521_Claim22290
 import MathlibPlus.Open.ResearchFormalization.BatchR0557Claims22655_22657
 import MathlibPlus.Open.ResearchFormalization.BatchR0622Claims23431_23432
+import MathlibPlus.Open.ResearchFormalization.R0474R0538
