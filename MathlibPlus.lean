@@ -5155,3 +5155,15 @@ import MathlibPlus.Open.ResearchFormalization.R1100.Claim28887
 import MathlibPlus.Open.ResearchFormalization.R1144Claim30199
 import MathlibPlus.Open.ResearchFormalization.R1144Claim30200
 import MathlibPlus.Open.ResearchFormalization.R1144Claim30201
+import MathlibPlus.Open.ResearchFormalizationBatch.R1153Replay41399
+import MathlibPlus.Open.ResearchFormalization.R1529.Claim38364
+import MathlibPlus.Open.Research.R1330Claim41037
+import MathlibPlus.Open.Research.R1330Claim41038
+import MathlibPlus.Open.Research.R1330Claim41040
+import MathlibPlus.Open.ResearchFormalization.R1285.Claim39994
+import MathlibPlus.Open.RepresentationTheory.AdmittedR1381
+import MathlibPlus.Open.ResearchFormalization.R1302Claim40196
+import MathlibPlus.Open.ResearchFormalization.R1302Claim40197
+import MathlibPlus.Open.ResearchFormalizationBatch_R1346
+import MathlibPlus.Open.R1081.KernelGraphClassification_15b65c14
+import MathlibPlus.Open.ResearchFormalization.R0554Trace
