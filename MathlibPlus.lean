@@ -5230,3 +5230,5 @@ import MathlibPlus.Open.ResearchFormalization.Claim28997
 import MathlibPlus.Open.ResearchFormalization.Claim29202
 import MathlibPlus.Open.ResearchFormalization.Claim29203
 import MathlibPlus.Open.ResearchFormalization.R2781.Claim31501
+import MathlibPlus.Open.ResearchFormalization.BatchR1267
+import MathlibPlus.Open.ResearchFormalization.R1181Suborbit
