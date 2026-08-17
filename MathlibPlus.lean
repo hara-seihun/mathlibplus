@@ -5666,3 +5666,5 @@ import MathlibPlus.Open.ResearchFormalization.R0466Claim25817
 import MathlibPlus.Open.Analysis.NumeratorInnerOptimizationClaim3422
 import MathlibPlus.Open.Analysis.Claim3384
 import MathlibPlus.Open.Combinatorics.Claim3376
+import MathlibPlus.Open.ResearchFormalization.C0226Claim3301
+import MathlibPlus.Open.ResearchFormalization.C0242Claim3526
