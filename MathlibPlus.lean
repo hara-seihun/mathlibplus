@@ -5769,3 +5769,10 @@ import MathlibPlus.Open.GraphTheory.TernaryHomogeneousCubicShear61035
 import MathlibPlus.Open.Algebra.R1751RootForgetting
 import MathlibPlus.Open.Algebra.CentralDifferenceShearClaims33147_33151
 import MathlibPlus.Open.Analysis.BatchO0134.Claim11638
+import MathlibPlus.Open.ResearchFormalization.K0034Claim7812
+import MathlibPlus.Open.NumberTheory.Claim9756
+import MathlibPlus.Open.Analysis.Claim10110
+import MathlibPlus.Open.ResearchFormalization.O0039Claim10518
+import MathlibPlus.Open.ResearchFormalization.O0060Claim11273
+import MathlibPlus.Open.ResearchFormalization.O0061Claim11296
+import MathlibPlus.Open.ResearchFormalization.O0098Claim11428
