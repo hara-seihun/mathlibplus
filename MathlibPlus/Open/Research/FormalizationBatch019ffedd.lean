@@ -1,6 +1,5 @@
 import Mathlib
 
-<<<<<<< ours
 open scoped Filter Topology
 
 namespace MathlibPlus.Open.Research
@@ -19,21 +18,5 @@ def finite_dirichlet_atoms_no_identity : Prop :=
     (∃ z : ℂ, AccPt z (𝓟 E)) →
     (∀ s ∈ E, ∑ j : Fin m, c j * Complex.cpow (n j : ℂ) (-s) = 0) →
     ∀ j, c j = 0
-=======
-namespace MathlibPlus.Open.Research
-
-/--
-For a finite simple graph, three distinct vertex-deletion cards collectively retain
- every host edge.  The card obtained by deleting `deleted` retains exactly the
-edges whose two endpoints differ from `deleted`.
--/
-def claim_23220 : Prop :=
-  ∀ {V : Type*} [Fintype V] [DecidableEq V]
-    (G : SimpleGraph V) (u v w : V),
-    u ≠ v → u ≠ w → v ≠ w →
-      ∀ {x y : V}, G.Adj x y →
-        ∃ deleted ∈ ({u, v, w} : Finset V),
-          x ≠ deleted ∧ y ≠ deleted
->>>>>>> theirs
 
 end MathlibPlus.Open.Research

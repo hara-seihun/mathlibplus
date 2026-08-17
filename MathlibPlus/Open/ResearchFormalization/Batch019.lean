@@ -3,7 +3,6 @@ import Mathlib
 namespace MathlibPlus.Open.ResearchFormalization.Batch019
 
 noncomputable section
-<<<<<<< ours
 open scoped BigOperators
 
 /-- The cardinality of the edge set of a finite simple graph. -/
@@ -143,56 +142,4 @@ def threeSlotTransportNoDelayedOrientationRepair : Prop :=
       h u = a ∧ Finset.image h {a, b} = {u, b}
 
 end
-=======
-
-/-- A real symmetric matrix in the finite-dimensional carrier used by the claim. -/
-def RealSymmetric {n : ℕ} (A : Matrix (Fin n) (Fin n) ℝ) : Prop :=
-  ∀ i j, A i j = A j i
-
-/-- The usual real inner product written directly on the matrix carrier. -/
-def RealInner {n : ℕ} (v w : Fin n → ℝ) : ℝ :=
-  ∑ i, v i * w i
-
-/-- Positive definiteness for the real symmetric matrices in Claim 18905. -/
-def RealPositiveDefinite {n : ℕ} (G : Matrix (Fin n) (Fin n) ℝ) : Prop :=
-  RealSymmetric G ∧ ∀ v : Fin n → ℝ, v ≠ 0 → 0 < RealInner v (G.mulVec v)
-
-/-- Congruence of a matrix by a change-of-basis matrix. -/
-def Congruence {n : ℕ} (S A : Matrix (Fin n) (Fin n) ℝ) : Matrix (Fin n) (Fin n) ℝ :=
-  S.transpose * A * S
-
-/-- Membership in the generalized spectrum of a real matrix pair. -/
-def IsGeneralizedEigenvalue {n : ℕ}
-    (Δ G : Matrix (Fin n) (Fin n) ℝ) (eigenvalue : ℝ) : Prop :=
-  ∃ v : Fin n → ℝ, v ≠ 0 ∧ Δ.mulVec v = eigenvalue • G.mulVec v
-
-/-- Claim 18905: congruence preserves the generalized eigenvalues of (Δ,G). -/
-def congruenceInvarianceOfGeneralizedEigenvalues : Prop :=
-  ∀ {n : ℕ} (G Δ S : Matrix (Fin n) (Fin n) ℝ),
-    RealPositiveDefinite G →
-    RealSymmetric Δ →
-    Function.Bijective S.mulVec →
-    ∀ eigenvalue : ℝ,
-      IsGeneralizedEigenvalue Δ G eigenvalue ↔
-        IsGeneralizedEigenvalue (Congruence S Δ) (Congruence S G) eigenvalue
-
-/-- The centered tempered local factor from Claim 18887. -/
-def TemperedLocalFactor (p B : ℝ) (q : ℂ) : ℂ :=
-  Complex.cpow (p : ℂ) q + (B : ℂ) +
-    Complex.cpow (p : ℂ) (-q)
-
-/-- Claim 18887: zeros of one tempered local factor are centered imaginary,
-with the stated distance bound for a nonconstant factor. -/
-def temperedLocalFactorZeros : Prop :=
-  ∀ p B : ℝ, 1 < p → |B| ≤ 2 →
-    (∀ q : ℂ, TemperedLocalFactor p B q = 0 → q.re = 0) ∧
-      ((∃ q₁ q₂ : ℂ,
-          TemperedLocalFactor p B q₁ ≠ TemperedLocalFactor p B q₂) →
-        ∃ q : ℂ,
-          TemperedLocalFactor p B q = 0 ∧
-            ‖q‖ ≤ Real.pi / Real.log p)
-
-end
-
->>>>>>> theirs
 end MathlibPlus.Open.ResearchFormalization.Batch019

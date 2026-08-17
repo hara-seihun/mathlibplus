@@ -5373,3 +5373,10 @@ import MathlibPlus.Open.ResearchFormalization.O0328OddIntegerSample15472
 import MathlibPlus.Open.ResearchFormalization.O0328ArchimedeanGrowth15474
 import MathlibPlus.Open.ResearchFormalization.O0328SuperexponentialDecay15475
 import MathlibPlus.Open.Algebra.R1519FiberShearClaims38084_38089_38090_38092
+import MathlibPlus.Open.ResearchFormalization.O0328Claim15463
+import MathlibPlus.Open.ResearchFormalization.R0100Claim17937
+import MathlibPlus.Open.ResearchFormalization.R1539Claim37761
+import MathlibPlus.Open.ResearchFormalization.R1929Claim36255
+import MathlibPlus.Open.ResearchFormalization.R1929Claim36260
+import MathlibPlus.Open.ResearchFormalization.R1929Claim36261
+import MathlibPlus.Open.GraphTheory.Order105ComplementClaims

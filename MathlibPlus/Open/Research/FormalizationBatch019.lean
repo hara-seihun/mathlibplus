@@ -1,6 +1,5 @@
 import Mathlib
 
-<<<<<<< ours
 namespace MathlibPlus.Open.ResearchFormalizationBatch019
 
 /-- The vertices of `T(8)` are the two-element subsets of `Fin 8`. -/
@@ -92,33 +91,3 @@ def claim_12636 : Prop :=
     ¬fullAutomorphism m b i ∧ mismatchedPair m b i
 
 end MathlibPlus.Open.ResearchFormalizationBatch019
-=======
-namespace MathlibPlus.Open.Research.FormalizationBatch019
-
-noncomputable section
-
-/-- A nontrivial zeta zero is a zero in the open critical strip. -/
-def nontrivialZetaZero (s : ℂ) : Prop :=
-  riemannZeta s = 0 ∧ 0 < s.re ∧ s.re < 1
-
-def zetaZeroOnCriticalLine (s : ℂ) : Prop :=
-  s.re = (1 : ℝ) / 2
-
-/-- Claim 1925: all nontrivial zeros through the certified height lie on the
-critical line. -/
-def lowHeightCriticalLineSplice : Prop :=
-  let TPT : ℝ := 3000175332800
-  let H : ℝ := 3000000000000
-  TPT > H ∧ TPT - H = 175332800 ∧
-    ∀ s : ℂ, nontrivialZetaZero s → |s.im| ≤ TPT → zetaZeroOnCriticalLine s
-
-/-- Claim 1927: the global classical zero-free region with denominator 4.81,
-using the strict sigma inequality from the claim. -/
-def globalClassicalZetaZeroFree481 : Prop :=
-  ∀ (t σ : ℝ), t ≥ 2 →
-    σ > 1 - (1 : ℝ) / ((481 : ℝ) / 100 * Real.log t) →
-      riemannZeta ((σ : ℂ) + (t : ℂ) * Complex.I) ≠ 0
-
-end
-end MathlibPlus.Open.Research.FormalizationBatch019
->>>>>>> theirs
