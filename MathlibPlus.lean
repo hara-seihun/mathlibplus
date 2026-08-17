@@ -5514,3 +5514,4 @@ import MathlibPlus.Open.ResearchFormalization.R1148Claim41323
 import MathlibPlus.Open.ResearchFormalization.R1148Claim41326
 import MathlibPlus.Open.ResearchFormalization.R1148Claim41327
 import MathlibPlus.Open.ResearchFormalization.R3270
+import MathlibPlus.Open.ResearchFormalization.R3544CharlierDeterminant
