@@ -5444,3 +5444,14 @@ import MathlibPlus.Open.ResearchFormalization.R1552HomogeneousQuadraticFamily391
 import MathlibPlus.Open.Analysis.R0047ResponseHankel
 import MathlibPlus.Open.LinearAlgebra.R0047AffineHankel
 import MathlibPlus.Open.LinearAlgebra.R0061WallCurrentParity
+import MathlibPlus.Open.ResearchFormalization.R2632OneModeRate
+import MathlibPlus.Open.Research.R1123Claim29176
+import MathlibPlus.Open.ResearchFormalization.ArithmeticSlice25813
+import MathlibPlus.Open.ResearchFormalization.R0913ContextMatrices25582
+import MathlibPlus.Open.Research.FormalizationBatch.R2003FixedSpectrumConsequence
+import MathlibPlus.Open.ResearchFormalization.R1298Claim40149
+import MathlibPlus.Open.ResearchFormalization.R1298Claim40150
+import MathlibPlus.Open.ResearchFormalization.R1298Claim40151
+import MathlibPlus.Open.ResearchFormalization.R1298Claim40152
+import MathlibPlus.Open.ResearchFormalization.R1144DistinctLabels
+import MathlibPlus.Open.ResearchFormalization.R1341.C41124
