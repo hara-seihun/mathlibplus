@@ -5202,3 +5202,17 @@ import MathlibPlus.Open.ResearchFormalization.R1102
 import MathlibPlus.Open.ResearchFormalization.Batch_38f4415f_Claim31631
 import MathlibPlus.Open.ResearchFormalization.R1148Inverse
 import MathlibPlus.Open.ResearchFormalization.R1196Grades
+import MathlibPlus.Open.ResearchFormalization.R1184.Claim41749
+import MathlibPlus.Open.ResearchFormalization.R1900.Claim31268
+import MathlibPlus.Open.ResearchFormalization.R1272AffineShears
+import MathlibPlus.Open.NewResearch2.R0608RootedResponseOrientation
+import MathlibPlus.Open.R1081.LinearConnectionStabilizer_28698
+import MathlibPlus.Open.R1081.SameOrientationRigidity_28699
+import MathlibPlus.Open.R1121.OuterDerivativeCensus_29148
+import MathlibPlus.Open.ResearchFormalization.Claim29696
+import MathlibPlus.Open.ResearchFormalization.Claim29697
+import MathlibPlus.Open.ResearchFormalization.Claim29701
+import MathlibPlus.Open.ResearchFormalization.Claim29703
+import MathlibPlus.Open.ResearchFormalization.BatchR0504Claims26023_26024
+import MathlibPlus.Open.ResearchFormalization.R0707Claim26743
+import MathlibPlus.Open.ResearchFormalization.R0970Claim27739
