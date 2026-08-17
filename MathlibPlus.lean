@@ -5529,3 +5529,8 @@ import MathlibPlus.Open.ResearchFormalization.R1172Claim41617
 import MathlibPlus.Open.ResearchFormalization.R2197Morris
 import MathlibPlus.Open.ResearchFormalization.R1199TargetFaithfulness
 import MathlibPlus.Open.ResearchFormalization.R1199FiniteCI
+import MathlibPlus.Open.ResearchFormalization.R3748TwoBitCounterexample
+import MathlibPlus.Open.ResearchFormalization.R3732Claim49398
+import MathlibPlus.Open.GraphTheory.Q156RecognitionClaims41718_41722
+import MathlibPlus.Open.Combinatorics.R2665CollisionWitnesses
+import MathlibPlus.Open.ResearchFormalization.R3640Claim51107
