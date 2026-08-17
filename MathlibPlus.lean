@@ -6172,3 +6172,8 @@ import MathlibPlus.Open.ResearchFormalization.R0043Claim17444
 import MathlibPlus.Open.ResearchFormalization.R1166.Claim31763
 import MathlibPlus.Open.ResearchFormalization.R1181.Claim31924
 import MathlibPlus.Open.ResearchFormalization.R1181.Claim31928
+import MathlibPlus.Open.ResearchFormalization.R1181.Claim41699
+import MathlibPlus.GroupTheory.Surjunctivity
+import MathlibPlus.Open.ResearchFormalization.Claim17072
+import MathlibPlus.Open.ResearchFormalization.Claim17086
+import MathlibPlus.Open.ResearchFormalization.R1148Claim31555
