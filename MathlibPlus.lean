@@ -5534,3 +5534,14 @@ import MathlibPlus.Open.ResearchFormalization.R3732Claim49398
 import MathlibPlus.Open.GraphTheory.Q156RecognitionClaims41718_41722
 import MathlibPlus.Open.Combinatorics.R2665CollisionWitnesses
 import MathlibPlus.Open.ResearchFormalization.R3640Claim51107
+import MathlibPlus.Open.GroupTheory.R1171RawShearClaims31836_31837
+import MathlibPlus.Open.Combinatorics.R2667.Claim42265
+import MathlibPlus.Open.Combinatorics.R2667.Claim42275
+import MathlibPlus.Open.Combinatorics.ReturnRotationClaim48311
+import MathlibPlus.Open.ResearchFormalization.R1322Claim40941
+import MathlibPlus.Open.ResearchFormalization.R1322Claim40944
+import MathlibPlus.Open.ResearchFormalization.R1333Claim41060
+import MathlibPlus.Open.ResearchFormalization.R1402Repair38643_38644
+import MathlibPlus.Open.ResearchFormalization.R3738Claim50252
+import MathlibPlus.Open.Analysis.GammaCellCutoff50164
+import MathlibPlus.Open.Analysis.GammaCellSummation50167
