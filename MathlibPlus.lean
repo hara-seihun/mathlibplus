@@ -5364,3 +5364,12 @@ import MathlibPlus.Open.ResearchFormalization.R0983.Claim27903
 import MathlibPlus.Open.ResearchFormalization.R0990.Claim27981
 import MathlibPlus.Open.NumberTheory.CRTPrimeAdversityClaim
 import MathlibPlus.Open.ResearchFormalization.R2071
+import MathlibPlus.Open.ResearchFormalization.O0091Claim13477
+import MathlibPlus.Open.ResearchFormalization.O0091Claim13480
+import MathlibPlus.Open.ResearchFormalization.O0091Claim13482
+import MathlibPlus.Open.ResearchFormalization.O0091Claim13487
+import MathlibPlus.Open.NewResearch2.O0328CommonZetaDivisor15468
+import MathlibPlus.Open.ResearchFormalization.O0328OddIntegerSample15472
+import MathlibPlus.Open.ResearchFormalization.O0328ArchimedeanGrowth15474
+import MathlibPlus.Open.ResearchFormalization.O0328SuperexponentialDecay15475
+import MathlibPlus.Open.Algebra.R1519FiberShearClaims38084_38089_38090_38092
