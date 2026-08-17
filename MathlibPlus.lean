@@ -5252,3 +5252,9 @@ import MathlibPlus.Open.ResearchFormalization.R0498ThreeFactor
 import MathlibPlus.Open.ResearchFormalization.R1085.AllProperCIHarmless
 import MathlibPlus.Open.ResearchFormalization.R1085.SupportThreeDisplacement
 import MathlibPlus.Open.ResearchFormalization.R1205SupportOne
+import MathlibPlus.Open.ResearchFormalization.R1336Census
+import MathlibPlus.Open.ResearchFormalization.R1336PairSurjectivity
+import MathlibPlus.Open.ResearchFormalizationBatch.R1153BlockKernel41380
+import MathlibPlus.Open.ResearchFormalization.R1202Power
+import MathlibPlus.Open.ResearchFormalization.R0656.Claim26525
+import MathlibPlus.Open.ResearchFormalization.R1060Claim32926
