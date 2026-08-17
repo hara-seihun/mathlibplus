@@ -5961,3 +5961,10 @@ import MathlibPlus.Open.NewResearch2.R0205Claim18799
 import MathlibPlus.Open.Research.FiniteOracleDepthOneBellman61041
 import MathlibPlus.Open.Research.CIBinaryTimesC9CycleInflation61042
 import MathlibPlus.Open.Research.CIBinaryTimesC9OddShear61043
+import MathlibPlus.Open.ResearchFormalization.Claim7644ThetaIdentities
+import MathlibPlus.Open.LinearAlgebra.Claim8085CauchyBinetBoundary
+import MathlibPlus.Open.Analysis.Claim8175PositivePF
+import MathlibPlus.Open.NumberTheory.Claim8271UniversalCornerFactorization
+import MathlibPlus.Open.ResearchFormalization.R0296ConnectivityWeight
+import MathlibPlus.Open.Research.ArithmeticSliceExact
+import MathlibPlus.Open.ResearchFormalization.OracleAreaDerivativeLog
