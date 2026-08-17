@@ -5619,3 +5619,6 @@ import MathlibPlus.Open.Algebra.Claim50758
 import MathlibPlus.Open.Analysis.Claim50951
 import MathlibPlus.Open.ResearchFormalization.AdaptiveOracleAreaR3803
 import MathlibPlus.Open.ResearchFormalization.R1414Claims36936_36937_36939
+import MathlibPlus.Open.FormalizationBatch.SevenEightChainResidual53859
+import MathlibPlus.Open.ResearchFormalization.Claim53248
+import MathlibPlus.Open.ResearchFormalization.R4377.Claim54358
