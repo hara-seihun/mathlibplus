@@ -5403,3 +5403,10 @@ import MathlibPlus.Open.R1578.FourArmParityTransform_39332
 import MathlibPlus.Open.R1578.SingletonCancellation_39333
 import MathlibPlus.Open.R1578.PairSumRecovery_39334
 import MathlibPlus.Open.R1578.FoldedSingletonRecovery_39335
+import MathlibPlus.Open.ResearchFormalization.O0091PhaseGaugedWeyl13505
+import MathlibPlus.Open.ResearchFormalization.O0314GammaPhaseVelocity15328
+import MathlibPlus.Open.ResearchFormalization.R0516ComponentProfileDerivative26061
+import MathlibPlus.Open.ResearchFormalization.R1404CarryAtlas
+import MathlibPlus.Open.Research.R1298Charts40145_40146_40148
+import MathlibPlus.Open.ResearchFormalization.R1288
+import MathlibPlus.Open.ResearchFormalization.R1643Claim39890_R1647Claim39930
