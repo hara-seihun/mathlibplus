@@ -5579,3 +5579,15 @@ import MathlibPlus.Open.Combinatorics.R4269BlockTransversal
 import MathlibPlus.Open.ResearchFormalization.R4035Replay
 import MathlibPlus.Open.ResearchFormalization.R3966Claim51756
 import MathlibPlus.Open.ResearchFormalization.BatchR2625Tail
+import MathlibPlus.Open.Combinatorics.ResearchFormalizationBatch_20260817_R3830
+import MathlibPlus.Open.ResearchFormalization.R3607CohomologyBoundary
+import MathlibPlus.Open.ResearchFormalization.Claim61020HalfSupportBoundary
+import MathlibPlus.Open.ResearchFormalization.ReflectionDefect
+import MathlibPlus.Open.ResearchFormalization.SpiderBaseCorrection
+import MathlibPlus.Open.ResearchFormalization.SignedMovingGap
+import MathlibPlus.Open.GraphTheory.Claim50757
+import MathlibPlus.Open.Probability.SignedLiteralStopping50325
+import MathlibPlus.Open.Analysis.Claim52257
+import MathlibPlus.Open.DiagonalAffine.Claim45869
+import MathlibPlus.Open.Fourier.Claim45872
+import MathlibPlus.Open.NumberTheory.Claim46155
