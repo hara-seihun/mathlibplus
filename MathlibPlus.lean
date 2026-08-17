@@ -5455,3 +5455,12 @@ import MathlibPlus.Open.ResearchFormalization.R1298Claim40151
 import MathlibPlus.Open.ResearchFormalization.R1298Claim40152
 import MathlibPlus.Open.ResearchFormalization.R1144DistinctLabels
 import MathlibPlus.Open.ResearchFormalization.R1341.C41124
+import MathlibPlus.Open.NewResearch2.R0312ComplementDeck
+import MathlibPlus.Open.NewResearch2.R0325EdgeCumulant
+import MathlibPlus.Open.Combinatorics.Claim29692SubcubicBranch
+import MathlibPlus.Open.Combinatorics.Claim29693LeafJump
+import MathlibPlus.Open.Combinatorics.Claim32709C7Atlas
+import MathlibPlus.Open.Combinatorics.Claim32710C7CI
+import MathlibPlus.Open.Research.FormalizationBatch.R1967Claim36601
+import MathlibPlus.Open.Research.FormalizationBatch.R1358Claim38213
+import MathlibPlus.Open.ResearchFormalization.R1148AndR2645
