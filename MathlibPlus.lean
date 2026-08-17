@@ -6521,3 +6521,15 @@ import MathlibPlus.Open.ResearchFormalization.R4034Claim52069
 import MathlibPlus.Open.ResearchFormalization.R4200Claims53246_53247
 import MathlibPlus.Open.ResearchFormalization.R4220Claim53347
 import MathlibPlus.Open.ResearchFormalization.R4031Claim51957
+import MathlibPlus.Open.ResearchFormalization.Claim37033
+import MathlibPlus.Open.ResearchBatch.R3642Claim51118
+import MathlibPlus.Open.ResearchFormalization.R2105Claim37027
+import MathlibPlus.Open.ResearchFormalization.OracleClaim61183
+import MathlibPlus.Open.ResearchFormalization.BatchR0628Claim26423
+import MathlibPlus.Open.ResearchFormalization.R1203.Claim41971
+import MathlibPlus.Open.Research.R1261.Claim30739
+import MathlibPlus.Open.ResearchFormalization.R1382.Claim38437
+import MathlibPlus.Open.ResearchFormalization.R1382.Claim38438
+import MathlibPlus.Open.ResearchFormalization.R2614Claim42806
+import MathlibPlus.Open.ResearchBatch.R3642Claim51119
+import MathlibPlus.Open.ResearchFormalization.Claim61181
