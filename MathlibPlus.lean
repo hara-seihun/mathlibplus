@@ -2447,7 +2447,6 @@ import MathlibPlus.Open.Analysis.MultiplierWeightedReflection
 import MathlibPlus.Open.Analysis.NR2PrimeFormalizations
 import MathlibPlus.Open.Analysis.NR2PrimeLogBlaschke
 import MathlibPlus.Open.Analysis.NR2RankTwo
-import MathlibPlus.Open.Analysis.NR2SuperheatDrain
 import MathlibPlus.Open.Analysis.NecessaryDivergenceOfRelativeErrorVisibility
 import MathlibPlus.Open.Analysis.NegativeLiCoefficientsForceFinitePrimeEnergy
 import MathlibPlus.Open.Analysis.NeumannTunnelingBound
@@ -6370,3 +6369,15 @@ import MathlibPlus.Open.ResearchFormalization.BatchR2625Claim42890
 import MathlibPlus.Open.ResearchFormalization.BatchR2625Claim42891
 import MathlibPlus.Open.ResearchFormalization.BatchR2625Claim42892
 import MathlibPlus.Open.ResearchFormalization.BatchR2625Claim42896
+import MathlibPlus.Open.ResearchFormalization.R1179.Claim31897
+import MathlibPlus.Open.ResearchFormalization.R1179.Claim41678
+import MathlibPlus.Open.ResearchFormalization.CyclicSquarefreeQ8
+import MathlibPlus.Open.ResearchFormalization.R1159.Claim41462
+import MathlibPlus.Open.ResearchFormalization.R1179.Claim31909
+import MathlibPlus.Open.ResearchFormalization.R1179.Claim31910
+import MathlibPlus.Open.ResearchFormalization.R1199.Claim32151
+import MathlibPlus.Open.ResearchFormalization.R1199.Claim32152
+import MathlibPlus.Open.ResearchFormalization.R2616.Claim42824
+import MathlibPlus.Open.NumberTheory.Claim40471BranchingRosserEntropy
+import MathlibPlus.Open.ResearchFormalization.R1148Claim31561
+import MathlibPlus.Open.ResearchFormalization.R1179.Claim31898
