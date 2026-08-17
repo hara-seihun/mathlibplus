@@ -4867,3 +4867,5 @@ import MathlibPlus.Open.ResearchFormalization.O0356.RHRadiusPairRate15668
 import MathlibPlus.Open.ResearchFormalization.O0356.VerifiedHeightFalseRHWedge15662
 import MathlibPlus.Open.ResearchFormalization.O0355StableSourceCounterexample
 import MathlibPlus.Open.Combinatorics.PositiveRedundancyClaim15612
+import MathlibPlus.Open.ResearchFormalization.O0339.CompletedShiftDeltaPrime15539
+import MathlibPlus.Open.ResearchFormalization.O0353.MertensCountingDiscrepancy15593
