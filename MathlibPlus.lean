@@ -5577,3 +5577,5 @@ import MathlibPlus.Open.ResearchFormalization.R0367CollisionCriterion
 import MathlibPlus.Open.ResearchFormalization.R1223QuadraticLift
 import MathlibPlus.Open.Combinatorics.R4269BlockTransversal
 import MathlibPlus.Open.ResearchFormalization.R4035Replay
+import MathlibPlus.Open.ResearchFormalization.R3966Claim51756
+import MathlibPlus.Open.ResearchFormalization.BatchR2625Tail
