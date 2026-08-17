@@ -5481,3 +5481,11 @@ import MathlibPlus.Open.ResearchFormalization.R1350Claim41255
 import MathlibPlus.Open.ResearchFormalization.R2623Claim42873
 import MathlibPlus.Open.ResearchFormalization.R2623Claim42874
 import MathlibPlus.Open.Research.R2914DepthOneArea44228_44230
+import MathlibPlus.Open.GroupTheory.FiberShearClaim41596
+import MathlibPlus.Open.ResearchFormalization.R1171Claim41595
+import MathlibPlus.Open.ResearchFormalizationBatch01_01a000faClaim42323
+import MathlibPlus.Open.ResearchFormalization.R1210.Claim42045
+import MathlibPlus.Open.ResearchFormalization.R2671R2402
+import MathlibPlus.Open.ResearchFormalization.R2263
+import MathlibPlus.Open.ResearchFormalization.R2662Contraction
+import MathlibPlus.Open.ResearchFormalization.R2895R2330Claims44307_44512
