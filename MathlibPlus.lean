@@ -5232,3 +5232,8 @@ import MathlibPlus.Open.ResearchFormalization.Claim29203
 import MathlibPlus.Open.ResearchFormalization.R2781.Claim31501
 import MathlibPlus.Open.ResearchFormalization.BatchR1267
 import MathlibPlus.Open.ResearchFormalization.R1181Suborbit
+import MathlibPlus.Open.ResearchFormalization.BatchR1102Claims28909_28910
+import MathlibPlus.Open.ResearchFormalization.BatchR0532Claims29380_29381
+import MathlibPlus.Open.R1261.ParityCocycleAveraging_30752
+import MathlibPlus.Open.R1834.FixedGroupOrdinaryCI_32747
+import MathlibPlus.Open.ResearchFormalization.R1153
