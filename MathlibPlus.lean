@@ -5139,3 +5139,6 @@ import MathlibPlus.Open.ResearchFormalization.BatchQ0044.ScalarEigenvectors
 import MathlibPlus.Open.ResearchFormalization.R0714Claim24190
 import MathlibPlus.Open.ResearchFormalization.BatchR0741Claim24428
 import MathlibPlus.Open.ResearchFormalization.R0608Corolla
+import MathlibPlus.Open.ResearchFormalization.R1182.Claim31941
+import MathlibPlus.Open.ResearchFormalization.R1182.Claim31942
+import MathlibPlus.Open.ResearchFormalization.R1182.Claim31945
