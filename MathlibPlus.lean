@@ -5259,3 +5259,8 @@ import MathlibPlus.Open.ResearchFormalization.R1202Power
 import MathlibPlus.Open.ResearchFormalization.R0656.Claim26525
 import MathlibPlus.Open.ResearchFormalization.R1060Claim32926
 import MathlibPlus.Open.R1818.Order105CI_32582
+import MathlibPlus.Open.ResearchFormalization.PrimeFibreOrbitShadowR1198
+import MathlibPlus.Open.Algebra.MarkerSupportClaims31768_31769
+import MathlibPlus.Open.ResearchFormalization.R1863.Claim34299
+import MathlibPlus.Open.ResearchFormalization.R1863.Claim34302
+import MathlibPlus.Open.Research.Q12PrimeCoverFormalization
