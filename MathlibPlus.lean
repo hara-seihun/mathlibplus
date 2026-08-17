@@ -5515,3 +5515,15 @@ import MathlibPlus.Open.ResearchFormalization.R1148Claim41326
 import MathlibPlus.Open.ResearchFormalization.R1148Claim41327
 import MathlibPlus.Open.ResearchFormalization.R3270
 import MathlibPlus.Open.ResearchFormalization.R3544CharlierDeterminant
+import MathlibPlus.Open.ResearchFormalization.R1171Claim41590
+import MathlibPlus.Open.ResearchFormalization.R1171Claim41591
+import MathlibPlus.Open.ResearchFormalization.BatchR2893R2932Claims47381_47383_47494_47495
+import MathlibPlus.Open.Research.R0000InverseCalculus61022
+import MathlibPlus.Open.Research.R0000Hankel61024
+import MathlibPlus.Open.ResearchFormalization.R2833R3678
+import MathlibPlus.Open.ResearchFormalization.R1172Claim41623
+import MathlibPlus.Open.ResearchFormalization.R1172Claim41610
+import MathlibPlus.Open.ResearchFormalization.R1172Claim41612
+import MathlibPlus.Open.ResearchFormalization.R1172Claim41613
+import MathlibPlus.Open.ResearchFormalization.R1172Claim41617
+import MathlibPlus.Open.ResearchFormalization.R2197Morris
