@@ -6106,3 +6106,11 @@ import MathlibPlus.Open.ResearchFormalization.R1821Claim32626
 import MathlibPlus.Open.ResearchFormalization.R1184Claim31977
 import MathlibPlus.Open.ResearchFormalization.R1266Claim30806
 import MathlibPlus.Open.ResearchFormalization.R1801Claim32391
+import MathlibPlus.Open.ResearchFormalization.R0530Claim26120
+import MathlibPlus.Open.ResearchFormalization.R1336Claim30963
+import MathlibPlus.Open.ResearchFormalization.R1402Claim38638
+import MathlibPlus.Open.ResearchFormalization.R1967Claim36593
+import MathlibPlus.Open.NewResearch2.R0523AlphaSupportClaim22331
+import MathlibPlus.Open.NewResearch2.R1052RegularAbelianKernelClaim28515
+import MathlibPlus.Open.ResearchFormalization.R1336OffsetZeroClaim30961
+import MathlibPlus.Open.FormalizationBatch.R1202SixBlockClaim32191
