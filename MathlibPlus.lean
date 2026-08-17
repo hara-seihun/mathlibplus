@@ -5258,3 +5258,4 @@ import MathlibPlus.Open.ResearchFormalizationBatch.R1153BlockKernel41380
 import MathlibPlus.Open.ResearchFormalization.R1202Power
 import MathlibPlus.Open.ResearchFormalization.R0656.Claim26525
 import MathlibPlus.Open.ResearchFormalization.R1060Claim32926
+import MathlibPlus.Open.R1818.Order105CI_32582
