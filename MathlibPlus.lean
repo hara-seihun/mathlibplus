@@ -6317,3 +6317,13 @@ import MathlibPlus.Open.ResearchFormalization.R0328EdgeOperators19906
 import MathlibPlus.Open.ResearchFormalization.R0328TensorPower19908
 import MathlibPlus.Open.ResearchFormalization.R0328PairGroup19911
 import MathlibPlus.Open.ResearchFormalization.R0328GraphInvariant19912
+import MathlibPlus.Open.ResearchFormalization.R0364.DeletionPartition
+import MathlibPlus.Open.ResearchFormalization.R0364.PairRecurrences
+import MathlibPlus.NumberTheory.PronicResidue
+import MathlibPlus.Open.ResearchFormalization.BoydVertexCertification25802
+import MathlibPlus.Open.Research.AdaptiveOracleAreaSharp.Claim61152
+import MathlibPlus.Open.ResearchFormalizationBatch20309
+import MathlibPlus.Open.ResearchFormalizationBatch20463
+import MathlibPlus.Open.Research.R0333PTEClaims
+import MathlibPlus.Open.Research.R0338QuadraticDeck
+import MathlibPlus.Open.NewResearch2.R0312CoefficientChain
