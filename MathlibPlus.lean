@@ -5418,3 +5418,13 @@ import MathlibPlus.Open.ResearchFormalization.R0983.Claim27892
 import MathlibPlus.Open.ResearchFormalization.R0990.Claim27995
 import MathlibPlus.Open.ResearchBatch.R1542Claims
 import MathlibPlus.Open.ResearchBatch.R1522Claims
+import MathlibPlus.Open.ResearchFormalization.R0020ReflectionOrbitInertia17241
+import MathlibPlus.Open.ResearchFormalization.R0516ConnectedSubtreeDerivative26066
+import MathlibPlus.Open.ResearchFormalization.R1144FanoCounts30198
+import MathlibPlus.Open.Geometry.HeisenbergBorel39693_39697
+import MathlibPlus.Open.Research.GroupTheory.R1343OrbitFiber41142
+import MathlibPlus.Open.ResearchFormalization.BatchR1345Claim41171
+import MathlibPlus.Open.ResearchFormalization.R1393Claim38544
+import MathlibPlus.Open.ResearchFormalization.R1393Claim38545
+import MathlibPlus.Open.ResearchFormalization.R1393Claim38546
+import MathlibPlus.Open.ResearchFormalization.R1393Claim38547
