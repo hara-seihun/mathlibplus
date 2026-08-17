@@ -6404,3 +6404,4 @@ import MathlibPlus.Open.ResearchFormalization.R2616Claim42823
 import MathlibPlus.Open.Combinatorics.Claim42303_42304_42306_42307
 import MathlibPlus.Open.Combinatorics.R2667.Claim42268
 import MathlibPlus.Open.ResearchFormalization.R1199Claim32137
+import MathlibPlus.Open.ResearchFormalization.R1201AffineOffsets41941
