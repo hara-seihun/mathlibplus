@@ -6251,3 +6251,14 @@ import MathlibPlus.Open.ResearchFormalization.R1661RegularRadicalAlgebra
 import MathlibPlus.Open.Research.AdaptiveOracleAreaSharp.Claim61133
 import MathlibPlus.Open.GraphTheory.R1168AffineGeneratorVoltages
 import MathlibPlus.Open.GraphTheory.Order105GroupModel37518
+import MathlibPlus.Open.Algebra.MarkerSupportClaim41533
+import MathlibPlus.Open.ResearchFormalization.R1156.Claim41423
+import MathlibPlus.Open.ResearchFormalization.R1185.Claim41762
+import MathlibPlus.Open.ResearchFormalization.OracleAreaClaim61125
+import MathlibPlus.Open.ResearchFormalization.R1171Claim41597
+import MathlibPlus.Open.ResearchFormalization.R0232Claim19051
+import MathlibPlus.Open.ResearchFormalization.R0232Claim19055
+import MathlibPlus.Open.ResearchFormalization.R0233Claim19061
+import MathlibPlus.Open.ResearchFormalization.OracleAreaCommonSupport.Claim61135
+import MathlibPlus.Open.ResearchFormalization.R1441Claim37224
+import MathlibPlus.Open.ResearchFormalization.R1529Claim38235
