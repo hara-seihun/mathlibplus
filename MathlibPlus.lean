@@ -5464,3 +5464,8 @@ import MathlibPlus.Open.Combinatorics.Claim32710C7CI
 import MathlibPlus.Open.Research.FormalizationBatch.R1967Claim36601
 import MathlibPlus.Open.Research.FormalizationBatch.R1358Claim38213
 import MathlibPlus.Open.ResearchFormalization.R1148AndR2645
+import MathlibPlus.Open.ResearchFormalization.R0466BoydChambers
+import MathlibPlus.Open.ResearchFormalization.R1156RepairClaims41425_41426
+import MathlibPlus.Open.ResearchFormalization.R1395.Claim38581
+import MathlibPlus.Open.ResearchFormalization.R1173CorrectedAction
+import MathlibPlus.Open.ResearchFormalization.Batch_52e47c1f_Frobenius21Support
