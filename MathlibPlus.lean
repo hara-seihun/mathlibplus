@@ -5179,3 +5179,12 @@ import MathlibPlus.Open.ResearchFormalization.R0498FixedEll
 import MathlibPlus.Open.ResearchFormalization.R0498Recurrence
 import MathlibPlus.Open.ResearchFormalization.R0498PartitionBound
 import MathlibPlus.Open.ResearchFormalization.R0498Bivariate
+import MathlibPlus.Open.ResearchFormalization.R3390BicentroidClaim50115
+import MathlibPlus.Open.NumberTheory.Claim51904
+import MathlibPlus.Open.ResearchFormalization.R2627.Claim42937
+import MathlibPlus.Open.ResearchFormalization.R2627.Claim42938
+import MathlibPlus.Open.ResearchFormalization.R1250.Claim30593
+import MathlibPlus.Open.ResearchFormalization.R1250.Claim30597
+import MathlibPlus.Open.ResearchFormalization.R1529.Claim38296
+import MathlibPlus.Open.ResearchFormalization.R1529.Claim38318
+import MathlibPlus.Open.ResearchFormalization.R5018.Claim55036
