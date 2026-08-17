@@ -6422,3 +6422,5 @@ import MathlibPlus.Open.GroupTheory.R1171IntersectionFormulaClaim31833
 import MathlibPlus.Open.ResearchFormalization.R1182.Claim31943
 import MathlibPlus.Open.ResearchFormalization.R1182.Claim31949
 import MathlibPlus.Open.Analysis.GammaBranchPoint50156
+import MathlibPlus.Open.Combinatorics.LeafDeletionSupportClaims47814_47818
+import MathlibPlus.Open.ResearchFormalization.R1182.Claim31940
