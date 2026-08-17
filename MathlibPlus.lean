@@ -5142,3 +5142,16 @@ import MathlibPlus.Open.ResearchFormalization.R0608Corolla
 import MathlibPlus.Open.ResearchFormalization.R1182.Claim31941
 import MathlibPlus.Open.ResearchFormalization.R1182.Claim31942
 import MathlibPlus.Open.ResearchFormalization.R1182.Claim31945
+import MathlibPlus.Open.Research.FormalizationBatch.R2003CoverReduction
+import MathlibPlus.Open.Research.FormalizationBatch.R2003MinimumIntersection
+import MathlibPlus.Open.ResearchFormalizationBatch.Retry39484
+import MathlibPlus.Open.Combinatorics.Retry36884
+import MathlibPlus.Open.ResearchFormalization.Retry36927_36929
+import MathlibPlus.Open.ResearchFormalizationBatch.Retry37010
+import MathlibPlus.Open.ResearchFormalization.R1100.Claim28880
+import MathlibPlus.Open.ResearchFormalization.R1100.Claim28881
+import MathlibPlus.Open.ResearchFormalization.R1100.Claim28884
+import MathlibPlus.Open.ResearchFormalization.R1100.Claim28887
+import MathlibPlus.Open.ResearchFormalization.R1144Claim30199
+import MathlibPlus.Open.ResearchFormalization.R1144Claim30200
+import MathlibPlus.Open.ResearchFormalization.R1144Claim30201
