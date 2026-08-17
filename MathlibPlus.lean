@@ -5857,3 +5857,15 @@ import MathlibPlus.Open.Research.FormalizationR0224.Claim18977
 import MathlibPlus.Open.Analysis.ExplicitDecayingModeClaim13825
 import MathlibPlus.Open.Analysis.LogarithmicTiltClaim14061
 import MathlibPlus.Open.FormalizationBatch.WronskianFactorClaim13898
+import MathlibPlus.Open.AnalyticNumberTheory.O0339CompletedShiftDirichlet15338
+import MathlibPlus.Open.ResearchFormalization.O0314CriticalLineLogDerivative15326
+import MathlibPlus.Open.ResearchFormalization.O0322SubHalfEnvelope15368
+import MathlibPlus.Open.Combinatorics.LeafDeckReconstructionClaims14296_14337
+import MathlibPlus.Open.Combinatorics.NevilleGammaAllHoleClaim14815
+import MathlibPlus.Open.Analysis.Claim11286
+import MathlibPlus.Open.Analysis.Claim14112
+import MathlibPlus.Open.Combinatorics.AdmittedBatchR1913_34928
+import MathlibPlus.Open.Combinatorics.AdmittedBatchR1913_34929
+import MathlibPlus.Open.Combinatorics.Q0130Claim16776
+import MathlibPlus.Open.Combinatorics.R1958Claims36535_36536
+import MathlibPlus.Open.GroupTheory.R1658Claim37951
