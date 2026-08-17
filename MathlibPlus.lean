@@ -5717,3 +5717,4 @@ import MathlibPlus.Open.Combinatorics.Claim5536Formalization
 import MathlibPlus.Open.Combinatorics.Claim5538Formalization
 import MathlibPlus.Open.Combinatorics.Claim5541Formalization
 import MathlibPlus.Combinatorics.Claim5086
+import MathlibPlus.Open.ResearchFormalization.BatchD0219Claim6531
