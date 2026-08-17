@@ -6473,3 +6473,17 @@ import MathlibPlus.Open.ResearchFormalization.R1644.Claim39900
 import MathlibPlus.Open.FormalizationBatch.R3134Claim47016Repair
 import MathlibPlus.Open.ResearchFormalization.R1203.Claim32199
 import MathlibPlus.Open.ResearchFormalization.R3861TreePackets
+import MathlibPlus.Open.ResearchFormalization.R3687.Claim47927_47932
+import MathlibPlus.Open.Research.R1185Q12PrimeCoverClaims41754_41757
+import MathlibPlus.Open.ResearchFormalization.Claim61175
+import MathlibPlus.Open.GroupTheory.R1349Claim41233
+import MathlibPlus.Open.Analysis.Claim50949
+import MathlibPlus.Open.ResearchFormalization.R2654AffineResultant
+import MathlibPlus.Open.ResearchFormalization.R1203.Claim32200
+import MathlibPlus.Open.GroupTheory.R1349Claim41231
+import MathlibPlus.Open.ResearchFormalization.R1153Claim41394
+import MathlibPlus.Open.ResearchFormalization.R1203.Claim41969
+import MathlibPlus.Open.ResearchFormalization.R1203.Claim41974
+import MathlibPlus.Open.ResearchFormalization.R2790Claims45165_45166
+import MathlibPlus.Open.ResearchFormalization.R4377.Claim54360_54362
+import MathlibPlus.Open.ResearchFormalization.R4379Claim54376
