@@ -6308,3 +6308,12 @@ import MathlibPlus.Open.ResearchFormalization.R0335
 import MathlibPlus.Open.ResearchFormalization.R0334.Claim20021
 import MathlibPlus.Open.ResearchFormalization.R0341.Claim20128
 import MathlibPlus.Open.ResearchFormalization.CIExtremeValencyClaim61151
+import MathlibPlus.Open.Algebra.Claim20551_20552
+import MathlibPlus.Open.Probability.R61153AreaFive
+import MathlibPlus.Open.ResearchFormalization.R0315ExtensionClaims
+import MathlibPlus.Open.ResearchFormalization.R1185FullStabilizer41759
+import MathlibPlus.Open.ResearchFormalization.R1210ExactWeightTheorems42051
+import MathlibPlus.Open.ResearchFormalization.R0328EdgeOperators19906
+import MathlibPlus.Open.ResearchFormalization.R0328TensorPower19908
+import MathlibPlus.Open.ResearchFormalization.R0328PairGroup19911
+import MathlibPlus.Open.ResearchFormalization.R0328GraphInvariant19912
