@@ -7086,3 +7086,14 @@ import MathlibPlus.Analysis.PrimitiveShell
 import MathlibPlus.Analysis.CompactBumpMoments
 import MathlibPlus.Analysis.CentralCharlier
 import MathlibPlus.MomentGeometry.EndpointDerivativeRecurrence
+import MathlibPlus.Open.ResearchFormalization.R0315LowerIdealMajority
+import MathlibPlus.Open.NumberTheory.SquareMapAngularDefect
+import MathlibPlus.Open.Geometry.Complex.NegativeZeroCone
+import MathlibPlus.Open.Analysis.ProjectiveGauss
+import MathlibPlus.Open.Analysis.Entire.InfiniteZeros
+import MathlibPlus.Open.ResearchFormalization.R0314Claim19694
+import MathlibPlus.Open.ResearchFormalization.R0322Claim19809
+import MathlibPlus.Open.ResearchFormalization.R0334.Claim20022
+import MathlibPlus.Open.ResearchFormalization.C0014Claim210
+import MathlibPlus.Open.ResearchFormalization.C0020Claims317_319
+import MathlibPlus.Open.ResearchFormalization.C0021Claim341
