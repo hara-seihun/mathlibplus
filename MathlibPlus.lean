@@ -7000,3 +7000,8 @@ import MathlibPlus.Open.ResearchFormalization.R1181.Claim31932
 import MathlibPlus.Open.ResearchFormalization.R1901Claim34796
 import MathlibPlus.Open.ResearchFormalization.R1144Claims30196_30204
 import MathlibPlus.Open.ResearchFormalization.R2071Claim36023
+import MathlibPlus.Open.GraphTheory.Claim16171SchurianOrbits
+import MathlibPlus.Open.ResearchFormalization.R1441Claim37230
+import MathlibPlus.Open.ResearchFormalization.R1621Claim39685
+import MathlibPlus.Open.ResearchFormalization.R1166.Claim31766QuarterLocalization
+import MathlibPlus.Open.ResearchFormalization.R1166.Claim31760
