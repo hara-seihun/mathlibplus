@@ -7052,3 +7052,13 @@ import MathlibPlus.Open.ResearchFormalization.R1529Claim38203
 import MathlibPlus.Open.ResearchFormalization.R1302Claim40200
 import MathlibPlus.Open.ResearchFormalization.R1184Claim41741
 import MathlibPlus.Open.ResearchFormalization.R1529.Claim38148
+import MathlibPlus.Open.ResearchFormalization.R0233Claim19065
+import MathlibPlus.Open.ResearchFormalization.R1302Claim40198
+import MathlibPlus.Open.ResearchFormalization.R1302Claim40199
+import MathlibPlus.Open.NewResearch2.R0316HeightTwo
+import MathlibPlus.Open.Research.CIElementaryAbelian3Rank6_7ArbitraryBase3GaleShadowClaim61140
+import MathlibPlus.Open.Research.CICoprimeShellProductsShearSterilityClaim61246
+import MathlibPlus.Open.ResearchFormalization.OracleAreaClaim61124
+import MathlibPlus.Open.ResearchFormalization.R1171Claim31832
+import MathlibPlus.Open.Research.CIBinaryTimesC9Rank3StandardFibres61247
+import MathlibPlus.Open.ResearchFormalization.R0341.Claim20131
