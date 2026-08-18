@@ -6954,3 +6954,7 @@ import MathlibPlus.Open.ResearchFormalization.R0074Claim17706
 import MathlibPlus.Open.ResearchFormalization.R0074Claim17710
 import MathlibPlus.Open.ResearchFormalization.R0081Claim17769
 import MathlibPlus.Open.ResearchFormalization.R1261Claim30734
+import MathlibPlus.Open.ResearchFormalization.R0983Claim27901
+import MathlibPlus.Open.ResearchFormalization.R1153Claim31630
+import MathlibPlus.Open.ResearchFormalization.R1724Claim33738
+import MathlibPlus.Open.ResearchFormalization.HallC9NormalizerShadowClaim61230
