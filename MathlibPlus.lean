@@ -6974,3 +6974,15 @@ import MathlibPlus.Open.ResearchFormalization.R0982Claim27877
 import MathlibPlus.Open.ResearchFormalization.R0982Claim27887
 import MathlibPlus.Open.ResearchFormalization.R0982Claim27872
 import MathlibPlus.Open.ResearchFormalization.Claim61234
+import MathlibPlus.Open.ResearchFormalization.R0083Sawtooth
+import MathlibPlus.Open.ResearchFormalization.Claim16169MarkedRegularFusion
+import MathlibPlus.Open.ResearchFormalization.R1404Claim38674
+import MathlibPlus.Open.ResearchFormalization.R0523Claim22330
+import MathlibPlus.Open.ResearchFormalization.R0613Claim23320
+import MathlibPlus.Open.ResearchFormalization.R0629Claim26441
+import MathlibPlus.Open.ResearchFormalization.CayleyCIClaim61231
+import MathlibPlus.Open.ResearchFormalization.R1171Claim31839
+import MathlibPlus.Open.ResearchFormalization.R1198Claim32134
+import MathlibPlus.Open.ResearchFormalization.R1061Claim29925
+import MathlibPlus.Open.ResearchFormalization.R0034Claim17368
+import MathlibPlus.Open.ResearchFormalization.Claim17068
