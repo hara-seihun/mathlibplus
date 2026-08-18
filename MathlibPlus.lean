@@ -6986,3 +6986,17 @@ import MathlibPlus.Open.ResearchFormalization.R1198Claim32134
 import MathlibPlus.Open.ResearchFormalization.R1061Claim29925
 import MathlibPlus.Open.ResearchFormalization.R0034Claim17368
 import MathlibPlus.Open.ResearchFormalization.Claim17068
+import MathlibPlus.Open.ResearchFormalization.Claim23507
+import MathlibPlus.Open.ResearchFormalization.R0075Claim61235
+import MathlibPlus.Open.ResearchFormalization.R2063Claim35958
+import MathlibPlus.Open.ResearchFormalization.R1379PairwiseClosureClaims
+import MathlibPlus.Open.ResearchFormalization.Claim17071
+import MathlibPlus.Open.ResearchFormalization.Claim17369
+import MathlibPlus.Open.ResearchFormalization.R0516Claim26062
+import MathlibPlus.Open.ResearchFormalization.Claim16736DisjointUnion
+import MathlibPlus.Open.ResearchFormalization.Claim17067
+import MathlibPlus.Open.ResearchFormalization.Claim17073FixedSignature
+import MathlibPlus.Open.ResearchFormalization.R1181.Claim31932
+import MathlibPlus.Open.ResearchFormalization.R1901Claim34796
+import MathlibPlus.Open.ResearchFormalization.R1144Claims30196_30204
+import MathlibPlus.Open.ResearchFormalization.R2071Claim36023
