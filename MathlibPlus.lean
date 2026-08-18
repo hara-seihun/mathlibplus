@@ -7104,3 +7104,5 @@ import MathlibPlus.Open.Analysis.TotalPositivity
 import MathlibPlus.Open.NewResearch2.R0316FiberTableRepair
 import MathlibPlus.Open.ResearchFormalization.R0327Claim19896Repair
 import MathlibPlus.Open.ResearchFormalization.R0335Claim20032Repair
+import MathlibPlus.Open.ResearchFormalization.C0003Claims49_50_57
+import MathlibPlus.Open.ResearchFormalization.C0005Claim86
