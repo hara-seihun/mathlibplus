@@ -7029,3 +7029,9 @@ import MathlibPlus.Open.ResearchFormalization.R1148Claim31552
 import MathlibPlus.Open.ResearchFormalization.R1166.Claim41524
 import MathlibPlus.Open.ResearchFormalization.R1441Claim37234
 import MathlibPlus.Open.ResearchFormalization.OracleAreaShapleyClaim61241
+import MathlibPlus.Open.ResearchFormalization.R1397Claim38596
+import MathlibPlus.Open.ResearchFormalization.R1759Claim34182
+import MathlibPlus.Open.ResearchFormalization.R0088Claim17838
+import MathlibPlus.Open.ResearchFormalization.R0162Claim18454
+import MathlibPlus.Open.ResearchFormalization.R0232Claims19053_19054
+import MathlibPlus.Open.ResearchFormalization.QuotientColouredImageIndexedCorrection
