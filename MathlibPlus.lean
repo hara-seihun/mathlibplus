@@ -6841,3 +6841,10 @@ import MathlibPlus.Open.ResearchFormalization.Claim38254ValuationCode
 import MathlibPlus.Open.ResearchFormalization.Claim61207SquareRootPotentialObstruction
 import MathlibPlus.Open.ResearchFormalization.R0390Claim20809
 import MathlibPlus.Open.ResearchFormalization.OracleAreaCommonLoadLiteral61208
+import MathlibPlus.Open.Analysis.Claim1215Restatement
+import MathlibPlus.Open.Analysis.FixedShiftStripClaim19087
+import MathlibPlus.Open.ResearchFormalization.Claim12169CenteredPositiveSplinePrimitive
+import MathlibPlus.Open.Analysis.Claim11237
+import MathlibPlus.Open.FormalizationBatchK0145Claim9141
+import MathlibPlus.Open.NumberTheory.Claim9191
+import MathlibPlus.Open.Combinatorics.R0392CardDeletionClaims

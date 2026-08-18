@@ -25,7 +25,7 @@ theorem generalizedLaguerreSquared_leadingCoefficient (d : ℕ) :
 
 /-- Claim 39330: the arm polynomial in the connected-subtree spider formula. -/
 def spiderArmPolynomial (a : ℕ) : Polynomial ℤ :=
-  ∑ k ∈ Finset.range (a + 1),
+  ∑ k ∈ Finset.Icc 1 a,
     Polynomial.C (a - k + 1 : ℤ) * Polynomial.X ^ k
 
 /-- Claim 39330: the geometric-series factor for an arm. -/
