@@ -6875,3 +6875,16 @@ import MathlibPlus.Open.ResearchFormalization.R0800RerootDifferenceClaim24838
 import MathlibPlus.Open.ResearchFormalization.R1052Claim28513
 import MathlibPlus.Open.ResearchFormalization.R2017HighPrime
 import MathlibPlus.Open.ResearchFormalization.R2052BooleanComplement
+import MathlibPlus.Open.Combinatorics.R0392Claim20832
+import MathlibPlus.Open.ResearchFormalization.O0314Claim15340
+import MathlibPlus.Open.ResearchFormalization.R1621Claim39689
+import MathlibPlus.Open.ResearchFormalization.R1621Claim39690
+import MathlibPlus.Open.ResearchFormalization.R1621Claim39691
+import MathlibPlus.Open.ResearchFormalization.R1621Claim39692
+import MathlibPlus.Open.ResearchFormalization.O0091Claim13501
+import MathlibPlus.Open.ResearchFormalization.R0502Claim25982
+import MathlibPlus.Open.ResearchFormalization.R0523Claim22323
+import MathlibPlus.Open.ResearchFormalization.R1475Claim37638
+import MathlibPlus.Open.ResearchFormalization.R1475Claim37641
+import MathlibPlus.Open.ResearchFormalization.R1475Claim37643
+import MathlibPlus.Open.ResearchFormalization.R1475Claim37644
