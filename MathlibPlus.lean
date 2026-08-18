@@ -7035,3 +7035,6 @@ import MathlibPlus.Open.ResearchFormalization.R0088Claim17838
 import MathlibPlus.Open.ResearchFormalization.R0162Claim18454
 import MathlibPlus.Open.ResearchFormalization.R0232Claims19053_19054
 import MathlibPlus.Open.ResearchFormalization.QuotientColouredImageIndexedCorrection
+import MathlibPlus.Open.Combinatorics.R1915Claim34963
+import MathlibPlus.Open.ResearchFormalization.R1171Claim31834
+import MathlibPlus.Open.ResearchFormalization.R1184Claim31975
