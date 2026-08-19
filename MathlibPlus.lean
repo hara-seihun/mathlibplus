@@ -8042,3 +8042,4 @@ import MathlibPlus.Open.ResearchFormalization.CIBinaryTimesC9Rank5AffineTwist613
 import MathlibPlus.Open.Research.CIGainElementaryPreimageGauge61384
 import MathlibPlus.Open.Algebra.Claim58789
 import MathlibPlus.Open.NumberTheory.Claim58861
+import MathlibPlus.Open.ResearchFormalization.R1202SylowPowerClaims
