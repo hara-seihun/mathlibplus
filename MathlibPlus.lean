@@ -8085,3 +8085,10 @@ import MathlibPlus.Algebra.Claim19535
 import MathlibPlus.Algebra.Claim19541
 import MathlibPlus.Algebra.Claim19552
 import MathlibPlus.Analysis.Claim19558
+import MathlibPlus.Open.ResearchFormalization.R1060Claim32945
+import MathlibPlus.Open.ResearchFormalization.R1667Claim33090
+import MathlibPlus.Combinatorics.Claim20981_20982
+import MathlibPlus.Open.Algebra.Claim21028
+import MathlibPlus.Combinatorics.Claim21130
+import MathlibPlus.Combinatorics.Claim21136
+import MathlibPlus.Analysis.Claim21366
