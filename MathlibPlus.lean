@@ -7412,3 +7412,16 @@ import MathlibPlus.Algebra.Claim17596Reconstruction
 import MathlibPlus.Algebra.Claim23178DiagonalBase
 import MathlibPlus.Algebra.Claim23182MultiplicationImage
 import MathlibPlus.Algebra.Claim23183ScalarDefect
+import MathlibPlus.Open.GroupTheory.Claim27714
+import MathlibPlus.Open.Combinatorics.Claim27868
+import MathlibPlus.Open.GroupTheory.Claim27876
+import MathlibPlus.Open.GroupTheory.Claim28345
+import MathlibPlus.Open.ResearchFormalization.R1429Claim37161
+import MathlibPlus.Open.ResearchFormalization.Claim34843ClosingDerivative
+import MathlibPlus.Open.ResearchFormalization.Claim35094Sunflower
+import MathlibPlus.Open.ResearchFormalization.Claim35776PeriodicKernel
+import MathlibPlus.Open.ResearchFormalization.Claim35799GeometricBounds
+import MathlibPlus.Open.GroupTheory.Claim37520
+import MathlibPlus.Open.Algebra.Claim37803
+import MathlibPlus.Open.ResearchFormalization.R1212.Claim32303_36511
+import MathlibPlus.Open.ResearchFormalization.R0757PairedEndpointCeiling
