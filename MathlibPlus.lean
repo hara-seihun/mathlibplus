@@ -7400,3 +7400,15 @@ import MathlibPlus.Open.Research.R1230R1253
 import MathlibPlus.Open.ResearchFormalization.R0699Claims
 import MathlibPlus.Open.ResearchFormalization.R0722Claim24241
 import MathlibPlus.Open.ResearchFormalization.R0756Claim24469
+import MathlibPlus.Combinatorics.Claim31114
+import MathlibPlus.GraphTheory.Claim31492
+import MathlibPlus.LinearAlgebra.Claim31498
+import MathlibPlus.Combinatorics.Claim31509
+import MathlibPlus.Open.ResearchFormalization.R1247Claim30563
+import MathlibPlus.Analysis.Claim21654
+import MathlibPlus.Combinatorics.Claim22083
+import MathlibPlus.Open.Analysis.Claim21648
+import MathlibPlus.Algebra.Claim17596Reconstruction
+import MathlibPlus.Algebra.Claim23178DiagonalBase
+import MathlibPlus.Algebra.Claim23182MultiplicationImage
+import MathlibPlus.Algebra.Claim23183ScalarDefect
