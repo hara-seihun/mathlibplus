@@ -1,6 +1,6 @@
 import MathlibPlus.Basic
 
-open scoped BigOperators
+open scoped BigOperators Topology
 
 namespace MathlibPlus.Analysis.Claim49014
 
@@ -41,7 +41,7 @@ def complementClosedForm (n : ℕ) : ℚ :=
 def sharedSelectorExactArea (area preSelector : ℕ → ℚ) : Prop :=
   (∀ n, 0 < n →
     (area n = preSelector n + selectorVariance n +
-      (∑ r in Finset.Icc 1 (n - 1),
+      (∑ r ∈ Finset.Icc 1 (n - 1),
         secondQueryProbability r * continuationVariance n r) ∧
       area n = closedForm n)) ∧
     area 1 = 2 ∧
