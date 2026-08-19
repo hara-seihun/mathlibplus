@@ -7452,3 +7452,12 @@ import MathlibPlus.Open.Analysis.SampledMaximumNotUniformClaim40842
 import MathlibPlus.Open.Analysis.PerCutoffBlockRatioClaim40850
 import MathlibPlus.Open.Analysis.FiniteMollifierZeroTransferClaim40887
 import MathlibPlus.Open.GroupTheory.MixedShearFixedPointsClaim41030
+import MathlibPlus.Open.GroupTheory.Claim43475
+import MathlibPlus.Open.GraphTheory.Claim43511
+import MathlibPlus.Open.ResearchFormalization.Claim43688SparseSupport
+import MathlibPlus.Open.ResearchFormalization.Claim43737Complement
+import MathlibPlus.Open.ResearchFormalization.Claim44289PhaseUniform
+import MathlibPlus.Open.ResearchFormalization.Claim44294TransferReserve
+import MathlibPlus.Algebra.Claim30791Cocycle
+import MathlibPlus.Open.ResearchFormalization.R0537Claim29455
+import MathlibPlus.Open.ResearchFormalization.R1143Claim30183
