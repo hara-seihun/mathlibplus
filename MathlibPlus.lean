@@ -8040,3 +8040,5 @@ import MathlibPlus.Open.ResearchFormalization.CIBinaryTimesC9Rank4FibrePreservin
 import MathlibPlus.Open.ResearchFormalization.R1184Claim41743
 import MathlibPlus.Open.ResearchFormalization.CIBinaryTimesC9Rank5AffineTwist61380
 import MathlibPlus.Open.Research.CIGainElementaryPreimageGauge61384
+import MathlibPlus.Open.Algebra.Claim58789
+import MathlibPlus.Open.NumberTheory.Claim58861
