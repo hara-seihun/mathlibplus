@@ -1,4 +1,5 @@
 import MathlibPlus.Basic
+import MathlibPlus.Algebra.ConjugatePair
 
 namespace MathlibPlus.Algebra.ExponentCancellation
 
@@ -36,22 +37,6 @@ theorem correctedPropagation {a theta₂ T : ℝ}
 
 end MathlibPlus.Algebra.PatelYangPropagation
 
-namespace MathlibPlus.Algebra.ConjugatePair
-
-/--
-Claim 14679's modulus-difference identity.  The variables `x-u`, `v`, `y`,
-and `a` are retained as independent real parameters; the displayed formula
-is a polynomial identity and needs no positivity assumptions.
--/
-theorem modulusDifference (x u v y a : ℝ) :
-    let D : ℝ → ℝ := fun Y =>
-      ((x - u) ^ 2 + (Y - v) ^ 2) * ((x - u) ^ 2 + (Y + v) ^ 2)
-    D (y + a) - D (y - a) =
-      8 * a * y * ((x - u) ^ 2 + y ^ 2 + a ^ 2 - v ^ 2) := by
-  dsimp
-  ring
-
-end MathlibPlus.Algebra.ConjugatePair
 
 namespace MathlibPlus.Algebra.OrderedPairCount
 

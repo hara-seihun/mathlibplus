@@ -1,5 +1,7 @@
 import Mathlib.NumberTheory.ArithmeticFunction.Moebius
 import Mathlib.Data.Nat.Totient
+import Mathlib.Data.Finset.NatDivisors
+import MathlibPlus.NumberTheory.Claim9757
 import Mathlib.RingTheory.Radical.NatInt
 import Mathlib.Tactic
 
@@ -71,6 +73,18 @@ theorem fareyGcdKernel_primePowers_of_le
   simpa using
     (fareyGcdKernel_mul_right (pow_pos pPositive i)
       (pow_pos pPositive (j - i)))
+
+/-- On every prime-power chain, the Farey gcd kernel is the geometric Toeplitz kernel. -/
+theorem fareyGcdKernel_primePowers (p i j : ℕ) (pPositive : 0 < p) :
+    fareyGcdKernel (p ^ i) (p ^ j) =
+      (p ^ Nat.dist i j : ℚ)⁻¹ := by
+  by_cases hij : i ≤ j
+  · rw [fareyGcdKernel_primePowers_of_le pPositive hij]
+    simp [Nat.dist_eq_sub_of_le hij]
+  · have hji : j ≤ i := Nat.le_of_not_ge hij
+    rw [fareyGcdKernel_symmetric]
+    rw [fareyGcdKernel_primePowers_of_le pPositive hji]
+    rw [Nat.dist_comm, Nat.dist_eq_sub_of_le hji]
 
 theorem moebiusPrimePower_weightedRange
     {p t : ℕ} (pPrime : p.Prime) (f : ℕ → ℚ) :
@@ -378,25 +392,52 @@ noncomputable def mobiusLayerFirstRowQ : ArithmeticFunction ℚ where
 theorem mobiusLayerFirstRowQ_apply (n : ℕ) :
     mobiusLayerFirstRowQ n = mobiusLayerInner n 1 := rfl
 
+/-- The first Möbius-layer Gram row is exactly the Farey convolution arithmetic function. -/
+theorem mobiusLayerInner_one_eq_fareyConvolutionCoeff (n : ℕ) :
+    mobiusLayerInner n 1 =
+      MathlibPlus.NumberTheory.Claim9757.fareyConvolutionCoeff n := by
+  by_cases hn : n = 0
+  · simp [hn, mobiusLayerInner, finiteKernelPairing,
+      MathlibPlus.NumberTheory.Claim9757.fareyConvolutionCoeff]
+  · unfold mobiusLayerInner finiteKernelPairing
+    simp only [Nat.divisors_one, Finset.sum_singleton, Nat.div_one,
+      ArithmeticFunction.moebius_apply_one, Int.cast_one, mul_one]
+    unfold MathlibPlus.NumberTheory.Claim9757.fareyConvolutionCoeff
+    rw [ArithmeticFunction.mul_apply]
+    rw [Nat.sum_divisorsAntidiagonal'
+      (f := fun x y => (ArithmeticFunction.moebius : ArithmeticFunction ℚ) x *
+        MathlibPlus.NumberTheory.Claim9757.reciprocalIndexQ y)]
+    apply Finset.sum_congr rfl
+    intro d hd
+    have hd0 : d ≠ 0 := by
+      exact (Nat.pos_of_dvd_of_pos (Nat.dvd_of_mem_divisors hd)
+        (Nat.pos_of_ne_zero hn)).ne'
+    rw [fareyGcdKernel, Nat.gcd_one_right]
+    simp [MathlibPlus.NumberTheory.Claim9757.reciprocalIndexQ, hd0]
+
+/-- Arithmetic-function form of the exact Farey/Gram identification. -/
+theorem mobiusLayerFirstRowQ_eq_fareyConvolutionCoeff :
+    mobiusLayerFirstRowQ =
+      MathlibPlus.NumberTheory.Claim9757.fareyConvolutionCoeff := by
+  ext n
+  exact mobiusLayerInner_one_eq_fareyConvolutionCoeff n
+
 theorem mobiusLayerFirstRowQ_one :
     mobiusLayerFirstRowQ 1 = 1 := by
-  norm_num [mobiusLayerFirstRowQ, mobiusLayerInner,
-    finiteKernelPairing, fareyGcdKernel]
+  rw [mobiusLayerFirstRowQ_eq_fareyConvolutionCoeff]
+  exact MathlibPlus.NumberTheory.Claim9757.fareyConvolutionCoeff_isMultiplicative.map_one
 
 theorem isMultiplicative_mobiusLayerFirstRowQ :
     ArithmeticFunction.IsMultiplicative mobiusLayerFirstRowQ := by
-  rw [ArithmeticFunction.IsMultiplicative.iff_ne_zero]
-  refine ⟨mobiusLayerFirstRowQ_one, ?_⟩
-  intro m n mNonzero nNonzero coprime
-  simpa using
-    (mobiusLayerInner_mul_of_crossCoprime
-      (a := m) (b := n) (c := 1) (d := 1) (by simpa using coprime))
+  rw [mobiusLayerFirstRowQ_eq_fareyConvolutionCoeff]
+  exact MathlibPlus.NumberTheory.Claim9757.fareyConvolutionCoeff_isMultiplicative
 
 theorem mobiusLayerFirstRowQ_primePow
     {p k : ℕ} (pPrime : p.Prime) (kPositive : 0 < k) :
     mobiusLayerFirstRowQ (p ^ k)
       = -(p - 1 : ℚ) / (p ^ k : ℚ) := by
-  exact mobiusLayerInner_primePow_one pPrime kPositive
+  rw [mobiusLayerFirstRowQ_eq_fareyConvolutionCoeff]
+  exact MathlibPlus.NumberTheory.Claim9757.fareyConvolutionCoeff_prime_pow pPrime kPositive
 
 theorem mobiusLayerFirstRowQ_factorization
     {n : ℕ} (nPositive : 0 < n) :
@@ -416,44 +457,13 @@ theorem mobiusLayerFirstRowQ_factorization
     exact Finsupp.mem_support_iff.mp pMem |> Nat.pos_of_ne_zero
   exact mobiusLayerFirstRowQ_primePow pPrime exponentPositive
 
-private theorem mobiusLayerFirstRowQ_radical_formula_aux (n : ℕ) :
-    mobiusLayerInner n 1
-      =
-    (ArithmeticFunction.moebius (radical n) : ℚ)
-      * (Nat.totient (radical n) : ℚ) / n := by
-  induction n using Nat.recOnPosPrimePosCoprime with
-  | zero =>
-      simp [mobiusLayerInner, finiteKernelPairing]
-  | one =>
-      norm_num [mobiusLayerInner, finiteKernelPairing, fareyGcdKernel]
-  | prime_pow p k pPrime kPositive =>
-      rw [mobiusLayerInner_primePow_one pPrime kPositive]
-      rw [radical_pow_of_prime (Nat.prime_iff.mp pPrime) kPositive.ne']
-      simp [ArithmeticFunction.moebius_apply_prime pPrime,
-        Nat.totient_prime pPrime]
-      rw [Nat.cast_sub pPrime.one_le]
-      ring
-  | coprime a b aLarge bLarge coprime aFormula bFormula =>
-      have radicalCoprime : (radical a).Coprime (radical b) :=
-        (coprime.coprime_dvd_left radical_dvd_self).coprime_dvd_right
-          radical_dvd_self
-      rw [mobiusLayerInner_mul_of_crossCoprime
-        (a := a) (b := b) (c := 1) (d := 1) (by simpa using coprime)]
-      rw [aFormula, bFormula,
-        radical_mul (Nat.coprime_iff_isRelPrime.mp coprime)]
-      rw [ArithmeticFunction.isMultiplicative_moebius.map_mul_of_coprime
-        radicalCoprime]
-      rw [Nat.totient_mul radicalCoprime]
-      push_cast
-      ring
-
-
 /-- Exact first Gram-row formula for admitted claim 42717, on its stated positive domain. -/
 theorem mobiusLayerFirstRowQ_radical_formula_claim42717
     (m : ℕ) (_mPositive : 1 ≤ m) :
     mobiusLayerInner m 1 =
       (ArithmeticFunction.moebius (radical m) : ℚ)
         * (Nat.totient (radical m) : ℚ) / m := by
-  exact mobiusLayerFirstRowQ_radical_formula_aux m
+  rw [mobiusLayerInner_one_eq_fareyConvolutionCoeff]
+  exact MathlibPlus.NumberTheory.Claim9757.fareyConvolutionCoeff_radical_formula m
 
 end MathlibPlus.Analysis.Claim42717
