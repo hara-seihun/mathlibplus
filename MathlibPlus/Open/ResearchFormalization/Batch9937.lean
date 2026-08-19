@@ -38,4 +38,4 @@ def surgeryPreservesCompleteRealDiscriminant : Prop :=
 
 end
 
-end MathlibPlus.Open.ResearchFormalization.Batch9937diff --git a/mathlibplus/MathlibPlus.lean b/mathlibplus/MathlibPlus.lean
+end MathlibPlus.Open.ResearchFormalization.Batch9937
