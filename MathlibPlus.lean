@@ -8117,3 +8117,4 @@ import MathlibPlus.Analysis.Claim3864
 import MathlibPlus.Open.Combinatorics.TreeLeafOperators4082
 import MathlibPlus.Combinatorics.IntervalSplitSupport
 import MathlibPlus.Combinatorics.GradeCeiling
+import MathlibPlus.GraphTheory.Claim6566
