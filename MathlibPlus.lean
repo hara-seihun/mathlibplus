@@ -7207,3 +7207,4 @@ import MathlibPlus.Open.ResearchFormalization.D0078Claim5066
 import MathlibPlus.Open.ResearchFormalization.D0085Claim5177
 import MathlibPlus.Open.ResearchFormalization.D0090Claim5264
 import MathlibPlus.Open.ResearchFormalization.K0021K0031K0035
+import MathlibPlus.Open.Combinatorics.C0287KocayClaims
