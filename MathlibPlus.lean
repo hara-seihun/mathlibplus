@@ -8064,3 +8064,13 @@ import MathlibPlus.Open.Combinatorics.Claim44782VertexDeck
 import MathlibPlus.Open.Analysis.Claim48431ExactDelayNormals
 import MathlibPlus.Open.Analysis.Claim48438HDerivativeTransport
 import MathlibPlus.Open.Probability.Claim48678PLProbability
+import MathlibPlus.Open.ResearchFormalization.Claim49568RootedBoundary
+import MathlibPlus.Open.ResearchFormalization.Claim49598InitialRankPotential
+import MathlibPlus.Open.ResearchFormalization.Claim49625OppositeFaceChord
+import MathlibPlus.Karlin.FullPF4StructuralBoundaryCounterexample
+import MathlibPlus.Algebra.Claim1153
+import MathlibPlus.Algebra.Claim1155
+import MathlibPlus.Algebra.Claim1165
+import MathlibPlus.Algebra.PalindromicDefectClaim10614
+import MathlibPlus.Algebra.ReciprocalOffUnitQuadratic
+import MathlibPlus.MomentGeometry.Claim10599
