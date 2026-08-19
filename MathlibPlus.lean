@@ -8118,3 +8118,8 @@ import MathlibPlus.Open.Combinatorics.TreeLeafOperators4082
 import MathlibPlus.Combinatorics.IntervalSplitSupport
 import MathlibPlus.Combinatorics.GradeCeiling
 import MathlibPlus.GraphTheory.Claim6566
+import MathlibPlus.Open.ResearchFormalization.CenteredSlideReplay58103
+import MathlibPlus.Open.ResearchFormalization.R1199Claim32136
+import MathlibPlus.Open.ResearchFormalization.BatchR1432R1441R1444
+import MathlibPlus.Open.ResearchFormalization.BatchR1602R1612R1613
+import MathlibPlus.Open.ResearchFormalization.BatchR2411R2412
