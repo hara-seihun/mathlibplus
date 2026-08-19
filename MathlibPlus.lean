@@ -7472,3 +7472,8 @@ import MathlibPlus.Open.ResearchFormalization.R2662Claim42233
 import MathlibPlus.Open.ResearchFormalization.R2662Claim42235
 import MathlibPlus.Open.ResearchFormalization.R2667Claim42271
 import MathlibPlus.Open.ResearchFormalization.R2689Claim42335
+import MathlibPlus.Open.ResearchFormalization.R2474Claim46308
+import MathlibPlus.Open.ResearchFormalization.R3363Claim46875
+import MathlibPlus.Open.ResearchFormalization.R3473Claim46921
+import MathlibPlus.Open.ResearchFormalization.R3192Claim47041
+import MathlibPlus.Open.ResearchFormalization.R1195Claim41832Presentation
