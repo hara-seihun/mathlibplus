@@ -8123,3 +8123,5 @@ import MathlibPlus.Open.ResearchFormalization.R1199Claim32136
 import MathlibPlus.Open.ResearchFormalization.BatchR1432R1441R1444
 import MathlibPlus.Open.ResearchFormalization.BatchR1602R1612R1613
 import MathlibPlus.Open.ResearchFormalization.BatchR2411R2412
+import MathlibPlus.Open.ResearchFormalization.R3386R3421R3425R3427Claims
+import MathlibPlus.Open.ResearchFormalization.R3844R3706R3943Claims
