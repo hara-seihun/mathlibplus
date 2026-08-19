@@ -7447,3 +7447,8 @@ import MathlibPlus.Algebra.Claim46139
 import MathlibPlus.Open.GroupTheory.Claim31542AutomaticCharacterMatching
 import MathlibPlus.Open.GraphTheory.Claim31564IncidenceStateRigidity
 import MathlibPlus.Open.ResearchFormalization.R1148.Claim41321NormalizedCyclicProfile
+import MathlibPlus.Open.Research.R3677R3541R3552
+import MathlibPlus.Open.Analysis.SampledMaximumNotUniformClaim40842
+import MathlibPlus.Open.Analysis.PerCutoffBlockRatioClaim40850
+import MathlibPlus.Open.Analysis.FiniteMollifierZeroTransferClaim40887
+import MathlibPlus.Open.GroupTheory.MixedShearFixedPointsClaim41030
