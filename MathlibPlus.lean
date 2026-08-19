@@ -8043,3 +8043,8 @@ import MathlibPlus.Open.Research.CIGainElementaryPreimageGauge61384
 import MathlibPlus.Open.Algebra.Claim58789
 import MathlibPlus.Open.NumberTheory.Claim58861
 import MathlibPlus.Open.ResearchFormalization.R1202SylowPowerClaims
+import MathlibPlus.Open.ResearchFormalization.R1429CentralTwoClosureClaims
+import MathlibPlus.Open.ResearchFormalization.R1552_R1561_R1570Claims
+import MathlibPlus.ResearchFormalization.R1686MonomialCores
+import MathlibPlus.Open.ResearchFormalization.R3159Claim45906
+import MathlibPlus.Open.ResearchFormalization.R3436Claim50349
