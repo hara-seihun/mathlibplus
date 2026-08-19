@@ -8038,3 +8038,5 @@ import MathlibPlus.Open.ResearchFormalization.OracleAreaClaim61366
 import MathlibPlus.Open.ResearchFormalization.R1967Claim36599
 import MathlibPlus.Open.ResearchFormalization.CIBinaryTimesC9Rank4FibrePreservingClaim61367
 import MathlibPlus.Open.ResearchFormalization.R1184Claim41743
+import MathlibPlus.Open.ResearchFormalization.CIBinaryTimesC9Rank5AffineTwist61380
+import MathlibPlus.Open.Research.CIGainElementaryPreimageGauge61384
