@@ -7355,3 +7355,17 @@ import MathlibPlus.Open.ResearchFormalization.R0537Claim29449
 import MathlibPlus.Open.ResearchFormalization.R0855Claim29610
 import MathlibPlus.GraphTheory.Claim23364
 import MathlibPlus.Open.GraphTheory.Claim23371PrivatePivotComplement
+import MathlibPlus.Open.Combinatorics.GoldenRatioFrequency
+import MathlibPlus.Open.GroupTheory.R0989.Claim27965_27969_27971
+import MathlibPlus.Open.Combinatorics.R1055.Claim28547
+import MathlibPlus.Open.ResearchFormalization.R0099EulerCurrentAfterDivision
+import MathlibPlus.Open.ResearchFormalization.R0561TriangleNonadjacency
+import MathlibPlus.Open.ResearchFormalization.R0566ModularRank
+import MathlibPlus.Open.ResearchFormalization.R1010Claim28223
+import MathlibPlus.Open.ResearchFormalization.R0668Claim29507
+import MathlibPlus.Algebra.Claim29928CanceledScalar
+import MathlibPlus.Combinatorics.Claim30057PrimeTranslations
+import MathlibPlus.Open.Algebra.Claim24744
+import MathlibPlus.Combinatorics.Claim24885
+import MathlibPlus.Open.NewResearch2.Claim25098
+import MathlibPlus.Open.Research.R0338Claim20082
