@@ -8053,3 +8053,14 @@ import MathlibPlus.Combinatorics.HordeClaimFormalizations
 import MathlibPlus.Open.Combinatorics.Claim44856
 import MathlibPlus.Combinatorics.Claim52499
 import MathlibPlus.Open.GraphTheory.TriangularCayleyGraph
+import MathlibPlus.Open.Analysis.Claim42844SubcriticalWeight
+import MathlibPlus.Open.Analysis.Claim42850BezoutNorm
+import MathlibPlus.Open.Analysis.Claim42855EscapingGeometry
+import MathlibPlus.Open.Analysis.Claim42858EscapingDivisor
+import MathlibPlus.Open.NumberTheory.Claim44720X1Applicability
+import MathlibPlus.Open.GroupTheory.Claim44751ConjugateSubgroups
+import MathlibPlus.Open.Analysis.Claim44756KernelAverage
+import MathlibPlus.Open.Combinatorics.Claim44782VertexDeck
+import MathlibPlus.Open.Analysis.Claim48431ExactDelayNormals
+import MathlibPlus.Open.Analysis.Claim48438HDerivativeTransport
+import MathlibPlus.Open.Probability.Claim48678PLProbability
