@@ -7487,3 +7487,10 @@ import MathlibPlus.Open.ResearchFormalization.Claim23126CardMoment
 import MathlibPlus.Open.ResearchFormalization.Claim23419PrivateSignatures
 import MathlibPlus.Open.ResearchFormalization.R3738Claim50253
 import MathlibPlus.Open.LinearAlgebra.Claim50610FallingTransform
+import MathlibPlus.Open.ResearchFormalization.R2781SpanningDeck
+import MathlibPlus.Open.ResearchFormalization.R1863Claim34343
+import MathlibPlus.Open.ResearchFormalization.R1863Claim34350
+import MathlibPlus.Analysis.Claim34768
+import MathlibPlus.Open.Algebra.R5511R5684.Claim58622_58718
+import MathlibPlus.Open.Analysis.Claim54884
+import MathlibPlus.Open.GroupTheory.Claim55342
