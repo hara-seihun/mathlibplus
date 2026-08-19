@@ -7461,3 +7461,14 @@ import MathlibPlus.Open.ResearchFormalization.Claim44294TransferReserve
 import MathlibPlus.Algebra.Claim30791Cocycle
 import MathlibPlus.Open.ResearchFormalization.R0537Claim29455
 import MathlibPlus.Open.ResearchFormalization.R1143Claim30183
+import MathlibPlus.Open.ResearchFormalization.R2616Claim42827
+import MathlibPlus.Combinatorics.Claim39233
+import MathlibPlus.Algebra.Claim39331
+import MathlibPlus.GroupTheory.Claim39442
+import MathlibPlus.Open.GroupTheory.Claim39443
+import MathlibPlus.Open.GroupTheory.R2273R3028.Claim44381_44809
+import MathlibPlus.Open.Combinatorics.R2385.Claim44584
+import MathlibPlus.Open.ResearchFormalization.R2662Claim42233
+import MathlibPlus.Open.ResearchFormalization.R2662Claim42235
+import MathlibPlus.Open.ResearchFormalization.R2667Claim42271
+import MathlibPlus.Open.ResearchFormalization.R2689Claim42335
