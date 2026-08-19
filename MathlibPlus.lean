@@ -8074,3 +8074,14 @@ import MathlibPlus.Algebra.Claim1165
 import MathlibPlus.Algebra.PalindromicDefectClaim10614
 import MathlibPlus.Algebra.ReciprocalOffUnitQuadratic
 import MathlibPlus.MomentGeometry.Claim10599
+import MathlibPlus.Analysis.ExactScalingLaw11643
+import MathlibPlus.Analysis.Claim11653
+import MathlibPlus.Open.Algebra.EmptyGenericFiber11663
+import MathlibPlus.Algebra.Claim11674
+import MathlibPlus.GroupTheory.Claim14583
+import MathlibPlus.GroupTheory.Claim14586Exact
+import MathlibPlus.AlgebraicGeometry.Claim14594_14612
+import MathlibPlus.Algebra.Claim19535
+import MathlibPlus.Algebra.Claim19541
+import MathlibPlus.Algebra.Claim19552
+import MathlibPlus.Analysis.Claim19558
