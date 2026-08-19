@@ -7392,3 +7392,11 @@ import MathlibPlus.Algebra.Claim31778AutomorphismReceipt
 import MathlibPlus.GroupTheory.Claim32257Centralizer
 import MathlibPlus.Open.ResearchFormalization.R1171Claim41600
 import MathlibPlus.Open.Research.Claim32299
+import MathlibPlus.Open.GraphTheory.R0358VertexDeckClaim20368
+import MathlibPlus.Open.ResearchFormalization.R0353.Claim20301
+import MathlibPlus.Open.ResearchFormalization.R0353.Claim20302
+import MathlibPlus.Algebra.ElementaryArithmeticClaimsOrbit30783
+import MathlibPlus.Open.Research.R1230R1253
+import MathlibPlus.Open.ResearchFormalization.R0699Claims
+import MathlibPlus.Open.ResearchFormalization.R0722Claim24241
+import MathlibPlus.Open.ResearchFormalization.R0756Claim24469
