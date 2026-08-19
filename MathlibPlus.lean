@@ -7485,3 +7485,5 @@ import MathlibPlus.Open.ResearchFormalization.Claim23011OrderTwelveFiber
 import MathlibPlus.Open.ResearchFormalization.Claim23036GradingCocycle
 import MathlibPlus.Open.ResearchFormalization.Claim23126CardMoment
 import MathlibPlus.Open.ResearchFormalization.Claim23419PrivateSignatures
+import MathlibPlus.Open.ResearchFormalization.R3738Claim50253
+import MathlibPlus.Open.LinearAlgebra.Claim50610FallingTransform
