@@ -7909,3 +7909,6 @@ import MathlibPlus.Open.ResearchFormalization.R3585.Claim50803
 import MathlibPlus.Open.ResearchFormalization.R3585.Claim50807
 import MathlibPlus.Open.ResearchFormalization.R3585.Claim50809
 import MathlibPlus.Open.Probability.DepthTwoOracleAreaSchema
+import MathlibPlus.Open.ResearchFormalization.R1437Claim38869
+import MathlibPlus.Open.ResearchFormalization.R2668Claim42292
+import MathlibPlus.Open.ResearchFormalization.R2668Claim42293
