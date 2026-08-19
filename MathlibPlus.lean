@@ -8048,3 +8048,8 @@ import MathlibPlus.Open.ResearchFormalization.R1552_R1561_R1570Claims
 import MathlibPlus.ResearchFormalization.R1686MonomialCores
 import MathlibPlus.Open.ResearchFormalization.R3159Claim45906
 import MathlibPlus.Open.ResearchFormalization.R3436Claim50349
+import MathlibPlus.Combinatorics.Claim44820
+import MathlibPlus.Combinatorics.HordeClaimFormalizations
+import MathlibPlus.Open.Combinatorics.Claim44856
+import MathlibPlus.Combinatorics.Claim52499
+import MathlibPlus.Open.GraphTheory.TriangularCayleyGraph
