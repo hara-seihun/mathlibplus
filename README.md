@@ -21,8 +21,9 @@ batch at a time.
   statements the system had formalized but not proved. They typecheck; they
   are not theorems.
 - **`MathlibPlus.lean`** — an umbrella module importing every library file.
-- **`NumberTheory/`, `Open/`** — two files predating the `MathlibPlus/`
-  namespace layout.
+- **`NumberTheory/`, `Open/`** — three files that sit outside the library tree
+  and are therefore never built by `lake build MathlibPlus`. They predate the
+  `MathlibPlus/` layout and are kept as provenance.
 
 A representative entry — the whole library reads like this:
 
@@ -70,7 +71,19 @@ its defects visible:
 ```sh
 lake exe cache get     # Mathlib oleans; building Mathlib from source takes hours
 lake build MathlibPlus.GroupTheory.Claim38444   # a module, not the umbrella
+lake build MathlibPlus                          # the whole tree; ends nonzero
 ```
+
+A full build of this tree on a 24-core machine (2026-08-20, Lean v4.33.0,
+Mathlib from cache) produced **8,191 of 8,242 modules** and 909 MB of oleans
+in about two hours. The 51 failures are the bit-rot above, plus three modules
+that exceed the 8 GB per-module cap. `lake build MathlibPlus` therefore exits
+nonzero by design — the umbrella target cannot succeed — while every module
+that did build is importable.
+
+Lake in this toolchain has **no `-j` flag**; `LEAN_NUM_THREADS` is what bounds
+concurrent module jobs. On a memory-constrained machine set it (6 is a good
+start), because the default is one `lean` per core and each one holds Mathlib.
 
 ## Provenance
 
