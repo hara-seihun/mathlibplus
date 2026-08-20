@@ -47,7 +47,18 @@ its defects visible:
   kernel-checked *in isolation*, so a name collision only surfaces when
   something imports both partners. Import the specific modules you want.
 - **Roughly 1–2% of modules no longer elaborate in isolation** against the
-  pinned Mathlib, from ordinary bit-rot during the system's own lifetime.
+  pinned Mathlib, from ordinary bit-rot during the system's own lifetime
+  (`Unknown identifier`, `unknown tactic`, missing instances).
+- **Two modules import files that never existed.**
+  `MathlibPlus/Combinatorics/Claim35734.lean` imports
+  `MathlibPlus.Combinatorics.Claim31610`, and
+  `MathlibPlus/Open/Research/VarianceArea60237.lean` imports
+  `MathlibPlus.Open.Research.ProbabilitySupport`. Neither target is in the
+  tree or anywhere in its history, so both importers are unbuildable.
+- **A few modules elaborate into tens of gigabytes.**
+  `MathlibPlus/GroupTheory/Claim43656.lean` passes 13 GB on its own. The
+  lakefile caps Lean at 8 GB per module (`-M 8192`) so one of these fails by
+  itself instead of taking the build host down with it.
 - **118 files use `native_decide`**, which delegates to compiled code and
   introduces `Lean.ofReduceBool`. Anything downstream of them inherits that
   axiom. Check `#print axioms` before trusting a result for a purpose that
