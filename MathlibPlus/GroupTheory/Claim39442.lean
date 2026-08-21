@@ -2,16 +2,6 @@ import Mathlib
 
 namespace MathlibPlus.GroupTheory
 
-/-- The translation part of a subgroup of a semidirect product is normal. -/
-theorem translationPart_normal_claim39442
-    {W C : Type*} [Group W] [Group C]
-    (φ : C →* MulAut W)
-    (Γ : Subgroup (W ⋊[φ] C)) :
-    ((SemidirectProduct.inl : W →* W ⋊[φ] C).range.subgroupOf Γ).Normal := by
-  rw [SemidirectProduct.range_inl_eq_ker_rightHom]
-  apply Subgroup.normal_subgroupOf_of_le_normalizer
-  exact Subgroup.le_normalizer_of_normal
-
 /-- The quotient by the translation part of a subgroup of a semidirect product
 embeds in the acting factor. -/
 theorem quotientEmbedsInLinearImage_claim39442
