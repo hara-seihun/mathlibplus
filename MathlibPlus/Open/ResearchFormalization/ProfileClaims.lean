@@ -66,8 +66,6 @@ def claim_38773 : Prop := by
         Set.image (identityBaseProfile p) (derivativeOrbit p x) =
           derivativeOrbit p x
 
-local instance fact3 : Fact (Nat.Prime 3) := ⟨by decide⟩
-
 abbrev C3 := Multiplicative (ZMod 3)
 
 def c3Profile : C3 → Equiv.Perm (ZMod 3) :=
