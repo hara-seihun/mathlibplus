@@ -1,7 +1,10 @@
+import Mathlib
+
+open scoped Classical
+
 /-!
 Formalization batch for New Research 2 claims 9075--9082.
 -/
-import Mathlib
 
 open scoped BigOperators
 

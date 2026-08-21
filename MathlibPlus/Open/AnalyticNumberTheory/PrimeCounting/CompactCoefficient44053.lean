@@ -23,7 +23,7 @@ def asymptoticCompactGapLowerBound_claim840 : Prop :=
     let t : ℝ := 1 / L
     let s : ℝ := 1 - t - t ^ 2 - 3 * t ^ 3 - ((44053 : ℝ) / 1000) * t ^ 4
     let U : ℝ :=
-      (∑ j in Finset.range 16, (Nat.factorial j : ℝ) / L ^ j) +
+      (∑ j ∈ Finset.range 16, (Nat.factorial j : ℝ) / L ^ j) +
         ((1673823191040000 : ℝ) / 23) / L ^ 16
     ((155265 : ℝ) / 10000) / L ^ 4 < s⁻¹ - U
 

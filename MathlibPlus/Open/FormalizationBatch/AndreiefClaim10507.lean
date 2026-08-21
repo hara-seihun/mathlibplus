@@ -9,7 +9,7 @@ noncomputable def gammaMeasure_claim10507 (α : ℝ) : Measure ℝ :=
     (fun x => ENNReal.ofReal
       (Real.rpow x (α - 1) * Real.exp (-x) / Real.Gamma α))
 
-def gammaMoment_claim10507 (α : ℝ) (n : ℕ) : ℝ :=
+noncomputable def gammaMoment_claim10507 (α : ℝ) (n : ℕ) : ℝ :=
   ∫ x : ℝ, x ^ n ∂(gammaMeasure_claim10507 α)
 
 /-- Andreief's integral representation for every generalized minor of the

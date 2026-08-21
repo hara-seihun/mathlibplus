@@ -1,6 +1,4 @@
-import Mathlib.Combinatorics.SimpleGraph.Cayley
-import Mathlib.GroupTheory.SemidirectProduct
-import Mathlib.Data.ZMod.Basic
+import Mathlib
 
 namespace MathlibPlus.Open.GraphTheory
 
@@ -16,7 +14,7 @@ def scalarThirteenSquareLowAndComplementaryValencyCI : Prop :=
   (∃ φ : C →* MulAut V, IsScalarAction φ) ∧
   ∀ (φ : C →* MulAut V), IsScalarAction φ →
     let G := V ⋊[φ] C
-    Fintype.card G = 507 ∧
+    Nat.card G = 507 ∧
     ∀ (S T : Set G),
       S = S⁻¹ → T = T⁻¹ →
       1 ∉ S → 1 ∉ T →

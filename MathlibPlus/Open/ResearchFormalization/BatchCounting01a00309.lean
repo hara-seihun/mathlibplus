@@ -2,7 +2,7 @@ import Mathlib
 
 namespace MathlibPlus.Open.ResearchFormalization.CountingClaims
 
-private def firstCountSet (A : ℕ) : Finset (ℤ × ℤ) :=
+private noncomputable def firstCountSet (A : ℕ) : Finset (ℤ × ℤ) :=
   let bound : ℤ := 12 * (A : ℤ)
   (Finset.Icc (1 : ℤ) bound ×ˢ Finset.Icc (1 : ℤ) bound).filter
     (fun p =>
@@ -11,7 +11,7 @@ private def firstCountSet (A : ℕ) : Finset (ℤ × ℤ) :=
       p.1 ≤ 3 * p.2 ∧
       p.1 + p.2 ≤ bound)
 
-private def secondCountSet (A : ℕ) : Finset (ℤ × ℤ) :=
+private noncomputable def secondCountSet (A : ℕ) : Finset (ℤ × ℤ) :=
   let bound : ℤ := 12 * (A : ℤ)
   (Finset.Icc (1 : ℤ) bound ×ˢ Finset.Icc (1 : ℤ) bound).filter
     (fun p =>

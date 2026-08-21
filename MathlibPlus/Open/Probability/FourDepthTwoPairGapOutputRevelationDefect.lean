@@ -20,7 +20,7 @@ def fourDepthTwoPairGapOutputRevelationDefect : Prop :=
     let μ := mean f
     mean (fun ω => (f ω - μ) ^ 2)
   let meanOn : Finset Ω → (Ω → ℚ) → ℚ := fun s f =>
-    (∑ ω in s, f ω) / (s.card : ℚ)
+    (∑ ω ∈ s, f ω) / (s.card : ℚ)
   let varianceOn : Finset Ω → (Ω → ℚ) → ℚ := fun s f =>
     let μ := meanOn s f
     meanOn s (fun ω => (f ω - μ) ^ 2)

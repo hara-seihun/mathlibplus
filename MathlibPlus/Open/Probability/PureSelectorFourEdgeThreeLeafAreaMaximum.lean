@@ -38,18 +38,18 @@ def pureSelectorFourEdgeThreeLeafAreaMaximum : Prop :=
   let mean : (Fin 4 → Fin 3) → (Fin 4 → Fin 3) → State → ℚ :=
     fun u v s =>
       if h : (cell s).Nonempty then
-        (∑ x in cell s, mixture u v x) / (cell s).card
+        (∑ x ∈ cell s, mixture u v x) / (cell s).card
       else 0
   let conditionalVariance : (Fin 4 → Fin 3) → (Fin 4 → Fin 3) →
       State → ℚ :=
     fun u v s =>
       if h : (cell s).Nonempty then
-        (∑ x in cell s, (mixture u v x - mean u v s) ^ 2) / (cell s).card
+        (∑ x ∈ cell s, (mixture u v x - mean u v s) ^ 2) / (cell s).card
       else 0
   let area : (Fin 4 → Fin 3) → (Fin 4 → Fin 3) → Policy → ℚ :=
     fun u v P =>
       (1 / (Fintype.card (Fin 7 → Bool) : ℚ)) *
-        ∑ x, ∑ k in Finset.range 7,
+        ∑ x, ∑ k ∈ Finset.range 7,
           conditionalVariance u v (stateAt P x k)
   let u₀ : Fin 4 → Fin 3 := fun _ => 0
   let v₀ : Fin 4 → Fin 3 := fun _ => 1

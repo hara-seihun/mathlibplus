@@ -1,5 +1,7 @@
 import Mathlib
 
+open scoped Classical
+
 namespace MathlibPlus.Open.GraphTheory
 
 /-- The first two-symbol undirected relational defect on `Dih(C₃²)` has total
@@ -37,7 +39,7 @@ def dihedralC3SquareTwoUndirectedRelationMinimumClassification : Prop :=
       (∀ i, (S₀ i).ncard = 3 ∧ (T₀ i).ncard = 3) ∧
       Disjoint (S₀ 0) (S₀ 1) ∧ Disjoint (T₀ 0) (T₀ 1) ∧
       (∀ i, ∃ α : G ≃* G, α '' S₀ i = T₀ i) ∧
-      (∀ i, Fintype.card {α : G ≃* G // α '' S₀ i = T₀ i} = 6) ∧
+      (∀ i, Nat.card {α : G ≃* G // α '' S₀ i = T₀ i} = 6) ∧
       (¬ ∃ α : G ≃* G, ∀ i, α '' S₀ i = T₀ i) ∧
       (∀ (S T : Fin 2 → Set G) (q : G ≃ G),
         q 1 = 1 →

@@ -1,5 +1,7 @@
 import Mathlib
 
+open scoped Classical
+
 namespace MathlibPlus.Open.GraphTheory
 
 /-- The first two-symbol undirected relational defect on `Dih(C₉)` has total
@@ -24,8 +26,8 @@ def dihedralCyclicNineTwoUndirectedRelationMinimumClassification : Prop :=
       (S₀ 0).ncard = 1 ∧ (T₀ 0).ncard = 1 ∧
       (S₀ 1).ncard = 4 ∧ (T₀ 1).ncard = 4 ∧
       Disjoint (S₀ 0) (S₀ 1) ∧ Disjoint (T₀ 0) (T₀ 1) ∧
-      Fintype.card {α : G ≃* G // α '' S₀ 0 = T₀ 0} = 6 ∧
-      Fintype.card {α : G ≃* G // α '' S₀ 1 = T₀ 1} = 3 ∧
+      Nat.card {α : G ≃* G // α '' S₀ 0 = T₀ 0} = 6 ∧
+      Nat.card {α : G ≃* G // α '' S₀ 1 = T₀ 1} = 3 ∧
       (¬ ∃ α : G ≃* G, ∀ i, α '' S₀ i = T₀ i) ∧
       (∀ (S T : Fin 2 → Set G) (q : G ≃ G),
         q 1 = 1 →

@@ -1,5 +1,7 @@
 import Mathlib
 
+open Filter Topology
+
 namespace MathlibPlus.Analysis.Claim15634
 
 /--

@@ -29,6 +29,6 @@ def claim_42952 : Prop :=
         (splitSum S B z = 0 →
           deriv (splitSum S B) z = splitWronskian S B z / S z) ∧
         ((splitSum S B z = 0 ∧ deriv (splitSum S B) z = 0) ↔
-          (projectiveRatio S B z = 1 ∧ splitWronskian S B z = 0))
+          (projectiveRatio S B z = 1 ∧ splitWronskian S B z = 0)))
 
 end MathlibPlus.Open.ResearchFormalization.Batch2630

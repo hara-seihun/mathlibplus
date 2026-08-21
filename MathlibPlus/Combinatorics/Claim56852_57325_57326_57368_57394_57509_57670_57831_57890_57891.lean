@@ -6,14 +6,14 @@ namespace MathlibPlus.Combinatorics.Claim56852
 sets and their spans are source carriers; their numerical receipts are exposed
 as parameters rather than replaced by an invented model of the construction. -/
 def inverseClosedRowUnionCensus_claim56852
-    (inverseClosedS0 inverseClosedSλ : Prop)
-    (sizeS0 sizeSλ spanRankS0 spanRankSλ : ℕ) : Prop :=
+    (inverseClosedS0 inverseClosedSLambda : Prop)
+    (sizeS0 sizeSLambda spanRankS0 spanRankSLambda : ℕ) : Prop :=
   inverseClosedS0 ∧
-    inverseClosedSλ ∧
+    inverseClosedSLambda ∧
     sizeS0 = 2 * 7 * 11 ^ 3 ∧
-    sizeSλ = 2 * 7 * 11 ^ 3 ∧
+    sizeSLambda = 2 * 7 * 11 ^ 3 ∧
     spanRankS0 = 7 ∧
-    spanRankSλ = 7
+    spanRankSLambda = 7
 
 /-- The displayed row-union cardinality evaluates to `18,634`. -/
 theorem rowUnionCardinality_claim56852 :

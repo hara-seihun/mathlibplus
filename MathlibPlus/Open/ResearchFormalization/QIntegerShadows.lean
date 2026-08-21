@@ -68,4 +68,8 @@ def claim29392 : Prop :=
     claim29391
 
 
+end QIntegerShadows
+
 end MathlibPlus.Open.ResearchFormalization
+
+end

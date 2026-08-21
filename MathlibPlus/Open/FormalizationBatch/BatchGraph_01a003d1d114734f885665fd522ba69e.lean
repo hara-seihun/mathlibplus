@@ -5,7 +5,7 @@ open scoped BigOperators
 namespace MathlibPlus.Open.FormalizationBatch.Graph
 
 /-- Ordinary degree polynomial for a path of positive order. -/
-def pathDegreePolynomialValue (h : ℕ) : Polynomial ℕ :=
+noncomputable def pathDegreePolynomialValue (h : ℕ) : Polynomial ℕ :=
   if h = 1 then 1 else
     Polynomial.C 2 * Polynomial.X +
       Polynomial.C (h - 2) * Polynomial.X ^ 2
@@ -20,20 +20,20 @@ def pathDegreePolynomial : Prop :=
 
 /-- Leg factors and the marked side factors, represented as polynomials in u
 with polynomial coefficients in z. -/
-def legR (a : ℕ) : Polynomial (Polynomial ℕ) :=
+noncomputable def legR (a : ℕ) : Polynomial (Polynomial ℕ) :=
   let u : Polynomial (Polynomial ℕ) := Polynomial.X
   let z : Polynomial (Polynomial ℕ) := Polynomial.C Polynomial.X
   u ^ a + z * (∑ j ∈ Finset.range a, u ^ j)
 
-def legK (a : ℕ) : Polynomial (Polynomial ℕ) :=
+noncomputable def legK (a : ℕ) : Polynomial (Polynomial ℕ) :=
   let u : Polynomial (Polynomial ℕ) := Polynomial.X
   ∑ j ∈ Finset.range a,
     u ^ j * Polynomial.C (pathDegreePolynomialValue (a - j))
 
-def sideP (A : Multiset ℕ) : Polynomial (Polynomial ℕ) :=
+noncomputable def sideP (A : Multiset ℕ) : Polynomial (Polynomial ℕ) :=
   (A.map legR).prod
 
-def sideK (A : Multiset ℕ) : Polynomial (Polynomial ℕ) :=
+noncomputable def sideK (A : Multiset ℕ) : Polynomial (Polynomial ℕ) :=
   (A.map (fun a => legK a * (A.erase a |>.map legR).prod)).sum
 
 def legSideFactorsAndMarkedFactors : Prop :=

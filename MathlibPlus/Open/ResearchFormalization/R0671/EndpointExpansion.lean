@@ -2,6 +2,11 @@ import Mathlib
 
 namespace MathlibPlus.Open.ResearchFormalization.R0671
 
+/-- The sup norm `‖p‖∞` on the Lobatto interval `[-1, 1]`, which is the norm
+both bounds of R-0671 are stated in. -/
+noncomputable def lobattoSupNorm (p : Polynomial ℝ) : ℝ :=
+  sSup ((fun x => |p.eval x|) '' Set.Icc (-1 : ℝ) 1)
+
 noncomputable def iteratedDerivative (p : Polynomial ℝ) (K : ℕ) : Polynomial ℝ :=
   (Polynomial.derivative^[K]) p
 

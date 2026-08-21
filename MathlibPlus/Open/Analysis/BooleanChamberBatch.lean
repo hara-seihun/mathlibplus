@@ -29,18 +29,18 @@ def BernsteinIndex :=
 
 noncomputable instance : Fintype BernsteinIndex := Subtype.fintype _
 
-def bernsteinBasis (e : BernsteinIndex) (u : Fin 4 → ℝ) : ℝ :=
+noncomputable def bernsteinBasis (e : BernsteinIndex) (u : Fin 4 → ℝ) : ℝ :=
   (Nat.factorial 3 : ℝ) /
       (∏ i : Fin 4, (Nat.factorial (e.1 i).val : ℝ)) *
     ∏ i : Fin 4, u i ^ (e.1 i).val
 
-def bernsteinPolynomial (b : BernsteinIndex → ℝ) (u : Fin 4 → ℝ) : ℝ :=
+noncomputable def bernsteinPolynomial (b : BernsteinIndex → ℝ) (u : Fin 4 → ℝ) : ℝ :=
   ∑ e : BernsteinIndex, b e * bernsteinBasis e u
 
 def bernsteinSimplex (u : Fin 4 → ℝ) : Prop :=
   (∀ i : Fin 4, 0 ≤ u i) ∧ ∑ i : Fin 4, u i = 1
 
-def bernsteinGapPolynomial {s : ℕ} (A : BernsteinIndex → Fin s → ℝ)
+noncomputable def bernsteinGapPolynomial {s : ℕ} (A : BernsteinIndex → Fin s → ℝ)
     (i : Fin s) (u : Fin 4 → ℝ) : ℝ :=
   ∑ e : BernsteinIndex, A e i * bernsteinBasis e u
 
@@ -113,7 +113,7 @@ def NormalizedSymmetricTensorIsMultisetLaw : Prop :=
     TensorNonnegativeAndNormalized T → TensorExchangeable T →
       IsExchangeableMultisetLaw T
 
-def twoPointExchangeableTensor : TripleTensor 2 :=
+noncomputable def twoPointExchangeableTensor : TripleTensor 2 :=
   fun x =>
     if ((x 0 = 0 ∧ x 1 = 0 ∧ x 2 = 1) ∨
         (x 0 = 0 ∧ x 1 = 1 ∧ x 2 = 0) ∨

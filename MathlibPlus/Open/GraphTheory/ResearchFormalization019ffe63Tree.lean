@@ -1,5 +1,7 @@
 import Mathlib
 
+open scoped Classical
+
 namespace MathlibPlus.Open.GraphTheory
 
 noncomputable section

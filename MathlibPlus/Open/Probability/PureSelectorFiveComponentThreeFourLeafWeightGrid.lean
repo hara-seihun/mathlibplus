@@ -22,8 +22,8 @@ def pureSelectorFiveComponentThreeFourLeafWeightGrid : Prop :=
       (Fin n → Bool) → (Fin n → Bool) → Fin n → Prop :=
     fun {n} q x y t =>
       ∀ j : Fin t.val,
-        Option.map y ((run q x n).get? j.val) =
-          Option.map x ((run q x n).get? j.val)
+        Option.map y ((run q x n)[j.val]?) =
+          Option.map x ((run q x n)[j.val]?)
   let policyArea : ∀ {n : ℕ}, ((Fin n → Bool) → ℚ) →
       (List Bool → Fin n) → ℚ :=
     fun {n} g q =>

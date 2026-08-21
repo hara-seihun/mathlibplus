@@ -7,7 +7,7 @@ written as a finite filtered sum. -/
 noncomputable def arithmeticKernel (c : ℕ) (p : ℝ → ℝ) (x : ℝ) : ℝ :=
   Real.exp (x / 2) / Real.sqrt (c : ℝ) *
     ∑ n ∈ ((Finset.Icc 1 (c - 1)).filter
-      (fun n => (n : ℝ) < (c : ℝ) * Real.exp (-x))),
+      (fun n : ℕ => (n : ℝ) < (c : ℝ) * Real.exp (-x))),
       p ((n : ℝ) * Real.exp x / (c : ℝ))
 
 /-- The value jump at the cutoff where the summand with argument one
@@ -27,7 +27,7 @@ theorem endpointValues (c : ℕ) (hc : 0 < c) (p : ℝ → ℝ) (hp : p 1 = 0) :
   have hcR : (0 : ℝ) < (c : ℝ) := by exact_mod_cast hc
   have hleft :
       ((Finset.Icc 1 (c - 1)).filter
-          (fun n => (n : ℝ) < (c : ℝ) * Real.exp (- (0 : ℝ)))) =
+          (fun n : ℕ => (n : ℝ) < (c : ℝ) * Real.exp (- (0 : ℝ)))) =
         Finset.Icc 1 (c - 1) := by
     apply Finset.filter_eq_self.mpr
     intro n hn
@@ -36,12 +36,13 @@ theorem endpointValues (c : ℕ) (hc : 0 < c) (p : ℝ → ℝ) (hp : p 1 = 0) :
     simpa [Real.exp_zero] using (show (n : ℝ) < (c : ℝ) by exact_mod_cast hnc)
   have hlogexp : Real.exp (-Real.log (c : ℝ)) = 1 / (c : ℝ) := by
     rw [Real.exp_neg, Real.exp_log hcR]
+    exact (one_div (c : ℝ)).symm
   have hlogprod : (c : ℝ) * Real.exp (-Real.log (c : ℝ)) = 1 := by
     rw [hlogexp]
     field_simp
   have hright :
       ((Finset.Icc 1 (c - 1)).filter
-          (fun n => (n : ℝ) < (c : ℝ) * Real.exp (-Real.log (c : ℝ)))) = ∅ := by
+          (fun n : ℕ => (n : ℝ) < (c : ℝ) * Real.exp (-Real.log (c : ℝ)))) = ∅ := by
     apply Finset.filter_eq_empty_iff.mpr
     intro n hn
     have hnlo : 1 ≤ n := (Finset.mem_Icc.mp hn).1
@@ -53,8 +54,6 @@ theorem endpointValues (c : ℕ) (hc : 0 < c) (p : ℝ → ℝ) (hp : p 1 = 0) :
     simp
   · unfold arithmeticKernel
     rw [hleft]
-    simp [div_eq_mul_inv]
-    congr 1
     simp [div_eq_mul_inv]
 
 /-- If the source vanishes at one, every internal value-jump symbol vanishes. -/

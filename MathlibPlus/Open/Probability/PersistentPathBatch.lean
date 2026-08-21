@@ -17,23 +17,23 @@ structure PersistentPLPath (T Q Ω : ℕ) where
   lambda_positive : ∀ t : Fin T, 0 < lambda t
   lambda_total : ∑ t : Fin T, lambda t = 1
 
-def persistentS {T Q Ω : ℕ} (path : PersistentPLPath T Q Ω)
+noncomputable def persistentS {T Q Ω : ℕ} (path : PersistentPLPath T Q Ω)
     (t : Fin T) (ω : Fin Ω) : ℝ :=
   path.A t ω * path.c t / path.p t ω
 
-def persistentM {T Q Ω : ℕ} (path : PersistentPLPath T Q Ω)
+noncomputable def persistentM {T Q Ω : ℕ} (path : PersistentPLPath T Q Ω)
     (s t : Fin T) : ℝ :=
   ∑ ω : Fin Ω, path.probability ω *
     (∑ q : Fin Q, path.C q ω * persistentS path s ω * persistentS path t ω)
 
-def persistentG {T Q Ω : ℕ} (path : PersistentPLPath T Q Ω)
+noncomputable def persistentG {T Q Ω : ℕ} (path : PersistentPLPath T Q Ω)
     (t : Fin T) : ℝ :=
   ∑ ω : Fin Ω, path.probability ω *
     (∑ q : Fin Q,
       path.C q ω * path.queryWeight ω t * path.A t ω *
         (path.c t / path.p t ω) ^ 2)
 
-def persistentK {T Q Ω : ℕ} (path : PersistentPLPath T Q Ω) : ℝ :=
+noncomputable def persistentK {T Q Ω : ℕ} (path : PersistentPLPath T Q Ω) : ℝ :=
   ∑ ω : Fin Ω, path.probability ω *
     (∑ q : Fin Q,
       path.C q ω * (∑ t : Fin T, path.lambda t * persistentS path t ω) ^ 2)

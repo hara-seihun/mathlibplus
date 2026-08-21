@@ -82,4 +82,6 @@ def C8IntegralRoutingObstruction : Prop :=
   c8MaximumDisplayedCut ∧
   c8NoEdgeDisjointRouting
 
+end
+
 end MathlibPlus.Open.ResearchFormalization.C8Routing

@@ -56,4 +56,6 @@ def P4LocalCardWitness : Prop :=
   p4LocalWitness 3 p4Pi3 ∧
   p4GlobalIso (Equiv.refl P4Vertex)
 
+end
+
 end MathlibPlus.Open.ResearchFormalization.ReconstructionFixture

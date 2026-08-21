@@ -30,9 +30,9 @@ def sharedCenterStarDepthTwoOracleArea : Prop :=
       let cell : Strategy → Ω → ℕ → Finset Ω := fun q x t =>
         Finset.univ.filter (fun y => transcript q y t = transcript q x t)
       let mean : Strategy → (Ω → ℝ) → Ω → ℕ → ℝ := fun q g x t =>
-        (∑ y in cell q x t, g y) / ((cell q x t).card : ℝ)
+        (∑ y ∈ cell q x t, g y) / ((cell q x t).card : ℝ)
       let variance : Strategy → (Ω → ℝ) → Ω → ℕ → ℝ := fun q g x t =>
-        (∑ y in cell q x t, (g y - mean q g x t) ^ 2) /
+        (∑ y ∈ cell q x t, (g y - mean q g x t) ^ 2) /
           ((cell q x t).card : ℝ)
       let area : Strategy → (Ω → ℝ) → ℝ := fun q g =>
         (∑ x : Ω, ∑ t : Fin (Fintype.card Ω), variance q g x t) /

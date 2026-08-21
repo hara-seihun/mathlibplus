@@ -18,7 +18,7 @@ theorem vertexDeckDegreesReconstructible_proved :
   intro V hFintype hDecidableEq G hDecidableAdj v
   have hcard := G.card_edgeFinset_induce_compl_singleton v
   rw [G.card_edgeFinset_deleteIncidenceSet v] at hcard
-  have hle : G.degree v ≤ G.edgeFinset.card := G.degree_le_card_edgeFinset
+  have hle : G.degree v ≤ G.edgeFinset.card := G.degree_le_card_edgeFinset v
   omega
 
 end MathlibPlus.GraphTheory
