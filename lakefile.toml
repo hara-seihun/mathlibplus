@@ -5,7 +5,7 @@
 # them all. `lake build` therefore means "every module of the library compiles",
 # and it is expected to exit 0.
 #
-# MathlibPlus is what the kernel has accepted; Unverified is the 147 modules
+# MathlibPlus is what the kernel has accepted; Unverified is the 146 modules
 # it has not, listed with a reason each in unverified.txt. Only the first is a
 # default target, but a quarantined module can still be built by name while it
 # is being repaired.
@@ -1858,6 +1858,7 @@ roots = [
   "MathlibPlus.LinearAlgebra.Claim6498",
   "MathlibPlus.LinearAlgebra.Claim7021TwistedSwap",
   "MathlibPlus.LinearAlgebra.Claim7134",
+  "MathlibPlus.LinearAlgebra.Claim7365",
   "MathlibPlus.LinearAlgebra.Claim7558",
   "MathlibPlus.LinearAlgebra.Claim7682",
   "MathlibPlus.LinearAlgebra.Claim7761",
@@ -8213,7 +8214,6 @@ roots = [
   "MathlibPlus.LinearAlgebra.Claim55205",
   "MathlibPlus.LinearAlgebra.Claim57965",
   "MathlibPlus.LinearAlgebra.Claim6020",
-  "MathlibPlus.LinearAlgebra.Claim7365",
   "MathlibPlus.LinearAlgebra.CoordinateLineRigidity",
   "MathlibPlus.MomentGeometry.Claim10509",
   "MathlibPlus.MomentGeometry.Claim10599",

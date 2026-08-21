@@ -1,4 +1,3 @@
--- UNVERIFIED (does-not-elaborate): submitted but not kernel-verified, so it is a root of the Unverified library rather than of MathlibPlus and no build here depends on it. See unverified.txt.
 import Mathlib
 
 namespace MathlibPlus.LinearAlgebra.Claim7365
@@ -85,3 +84,10 @@ theorem signedMaximalCofactorKernelVector_claim7365
             R i j * ((-1 : ℝ) ^ (n - j.1) * Δ j)) /
               Δ (Fin.last n) := by rw [Finset.sum_div]
       _ = 0 := by
+        have hcomm :
+            (∑ j : Fin n.succ, R i j * ((-1 : ℝ) ^ (n - j.1) * Δ j)) =
+              ∑ j : Fin n.succ, (-1 : ℝ) ^ (n - j.1) * R i j * Δ j :=
+          Finset.sum_congr rfl fun j _ => by ring
+        rw [hcomm, hkernel i, zero_div]
+
+end MathlibPlus.LinearAlgebra.Claim7365

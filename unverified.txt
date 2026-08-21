@@ -4,13 +4,13 @@
 # kernel has not accepted it; every one of them is a repair worth making,
 # and repairing one is what puts it back into MathlibPlus.lean.
 #
-#   does-not-elaborate   does not elaborate against the pinned Mathlib (8)
+#   does-not-elaborate   does not elaborate against the pinned Mathlib (7)
 #   missing-import       imports a module that is not in the tree (2)
 #   too-heavy            needs more memory than the build allows (2)
 #   native-decide        rests on native_decide, so it carries Lean.ofReduceBool (116)
 #   downstream           imports an unverified module (19)
 #
-# 147 unverified modules.
+# 146 unverified modules.
 
 MathlibPlus.Algebra.AffineInversion	native-decide
 MathlibPlus.Algebra.Claim10382	does-not-elaborate
@@ -103,7 +103,6 @@ MathlibPlus.LinearAlgebra.Claim51180	native-decide
 MathlibPlus.LinearAlgebra.Claim55205	native-decide
 MathlibPlus.LinearAlgebra.Claim57965	does-not-elaborate
 MathlibPlus.LinearAlgebra.Claim6020	native-decide
-MathlibPlus.LinearAlgebra.Claim7365	does-not-elaborate
 MathlibPlus.LinearAlgebra.CoordinateLineRigidity	native-decide
 MathlibPlus.MomentGeometry.Claim10509	native-decide
 MathlibPlus.MomentGeometry.Claim10599	native-decide
