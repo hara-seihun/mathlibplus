@@ -1,13 +1,8 @@
-import Mathlib
+import MathlibPlus.Algebra.IntegerEndomorphism
 
 open CategoryTheory
 
 namespace MathlibPlus.Algebra
-
-/-- Claim 11674: every unital ring endomorphism of `ℤ` is the identity. -/
-theorem intRingEndHom_eq_id (f : ℤ →+* ℤ) : f = RingHom.id ℤ := by
-  ext z
-  simpa using f.map_intCast z
 
 /-- Claim 11674, scheme-theoretic dual: every endomorphism of `Spec ℤ` is the
 identity. -/
@@ -19,6 +14,6 @@ theorem specIntSchemeEnd_eq_id
   rw [← AlgebraicGeometry.Spec.map_id]
   apply congrArg AlgebraicGeometry.Spec.map
   apply CommRingCat.hom_ext
-  exact intRingEndHom_eq_id (AlgebraicGeometry.Spec.preimage f).hom
+  exact IntegerEndomorphism.int_ringHom_eq_id (AlgebraicGeometry.Spec.preimage f).hom
 
 end MathlibPlus.Algebra

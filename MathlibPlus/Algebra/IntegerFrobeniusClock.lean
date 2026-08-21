@@ -1,16 +1,8 @@
-import Mathlib.RingTheory.Int.Basic
+import MathlibPlus.Algebra.IntegerEndomorphism
 import Mathlib.Algebra.Order.Ring.Nat
 import Mathlib.Tactic.NormNum
 
 namespace MathlibPlus.Algebra
-
-/--
-Claim 10437 (O-0033): every unital ring endomorphism of `ℤ` is the identity.
-The second, power-clock consequence is recorded separately below.
--/
-theorem integerRingEndHom_isIdentity (f : ℤ →+* ℤ) : f = RingHom.id ℤ := by
-  ext z
-  simpa using f.map_intCast z
 
 /--
 Claim 10437 (O-0033), power-clock consequence.  This is stated with the

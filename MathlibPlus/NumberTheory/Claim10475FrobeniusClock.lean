@@ -1,12 +1,6 @@
-import Mathlib
+import MathlibPlus.Algebra.IntegerEndomorphism
 
 namespace MathlibPlus.NumberTheory
-
-/-- Every unital endomorphism of the integers is the identity, as used in the
-no-global-Frobenius-clock claim 10475. -/
-theorem intRingHom_eq_id_claim10475 (f : ℤ →+* ℤ) :
-    f = RingHom.id ℤ := by
-  exact RingHom.ext_int f (RingHom.id ℤ)
 
 /-- No integer base greater than one can make both 2 and 3 positive powers of
 that same base. -/
