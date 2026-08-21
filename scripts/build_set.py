@@ -25,6 +25,7 @@ all it takes to put it back in the library.
     scripts/build_set.py            regenerate unverified.txt, markers, lakefile
     scripts/build_set.py --check    exit 1 if any of the three is out of date
     scripts/build_set.py --add MOD=REASON ...   record a new seed first
+    scripts/build_set.py --verified MOD ...     a build just accepted these
 """
 from __future__ import annotations
 
@@ -202,10 +203,14 @@ def main() -> int:
     parser.add_argument("--check", action="store_true", help="report staleness, change nothing")
     parser.add_argument("--add", nargs="*", default=[], metavar="MOD=REASON",
                         help=f"record a seed before regenerating; reasons: {', '.join(SEED_REASONS)}")
+    parser.add_argument("--verified", nargs="*", default=[], metavar="MOD",
+                        help="modules a build just accepted: drop their seeds, so a repair rejoins the library")
     args = parser.parse_args()
 
     modules, imports = load_tree()
     seeds = read_seeds()
+    for module in args.verified:
+        seeds.pop(module, None)
     for item in args.add:
         module, _, reason = item.partition("=")
         if reason not in SEED_REASONS:
