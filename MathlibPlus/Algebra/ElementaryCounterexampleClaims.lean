@@ -13,11 +13,6 @@ theorem claim1873_positivePolynomial (b : ℝ) :
       Polynomial.coeff_one]
     norm_num [Polynomial.coeff_X_one]
 
-/-- The explicit quadratic positivity used in Claim 17607. -/
-theorem claim17607_quadraticPositive (x : ℝ) :
-    0 < 7 * x ^ 2 - 576 * x + 20160 := by
-  nlinarith [sq_nonneg (7 * x - 288)]
-
 /-- The explicit rational function in Claim 7759 is bounded above by its
 unique interior maximum on `[0,1]`. -/
 theorem claim7759_ratio_max (x : ℝ) (hx0 : 0 ≤ x) (hx1 : x ≤ 1) :
