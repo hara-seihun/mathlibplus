@@ -40,15 +40,4 @@ theorem distinct_degree_vertex_polynomials_claim27310
     simpa using hc
   exact (mul_eq_zero.mp hcoeff).resolve_right (hq i)
 
-/-- The same distinct-degree argument applies to the mirrored coefficient
-family. -/
-theorem mirrored_distinct_degree_vertex_polynomials_claim27310
-    {R : Type*} [CommRing R] [NoZeroDivisors R]
-    (K : ℕ) (q : Fin (K + 1) → R)
-    (hq : ∀ i, q i ≠ 0) :
-    LinearIndependent R
-      (fun i : Fin (K + 1) =>
-        Polynomial.C (q i) * Polynomial.X ^ (K - i.1)) :=
-  distinct_degree_vertex_polynomials_claim27310 K q hq
-
 end MathlibPlus.Algebra.Claim27310

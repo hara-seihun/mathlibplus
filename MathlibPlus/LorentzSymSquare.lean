@@ -44,12 +44,6 @@ theorem quadraticForm_coordinates (X : SymSquare) :
   simp [quadraticForm, lorentzForm]
   ring
 
-/-- The exact coordinate formula in Claim 4921. -/
-theorem quadraticForm_lorentzCoordinates (X : SymSquare) :
-    quadraticForm X =
-      2 * (X 0 * X 2 - (X 1) ^ 2) :=
-  quadraticForm_coordinates X
-
 /-- Claim 4922: symmetry, real bilinearity, quadratic identities, and
 polarization for the Lorentz form. -/
 theorem lorentzForm_comm (X Y : SymSquare) :

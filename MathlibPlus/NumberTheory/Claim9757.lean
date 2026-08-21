@@ -32,9 +32,6 @@ theorem fareyConvolutionCoeff_isMultiplicative :
   exact ArithmeticFunction.isMultiplicative_moebius.intCast.mul
     reciprocalIndexQ_isMultiplicative
 
-theorem fareyConvolutionCoeff_multiplicative :
-    fareyConvolutionCoeff.IsMultiplicative := fareyConvolutionCoeff_isMultiplicative
-
 theorem fareyConvolutionCoeff_eq_source_sum (n : ℕ) :
     fareyConvolutionCoeff n =
       if n = 0 then 0 else

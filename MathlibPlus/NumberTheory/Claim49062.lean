@@ -13,7 +13,9 @@ theorem add_one_le_two_pow_claim49062_aux (a : ℕ) : a + 1 ≤ 2 ^ a := by
           Nat.add_le_add ih (Nat.one_le_pow _ _ (by decide))
         _ = 2 ^ a.succ := by rw [Nat.pow_succ, mul_comm, two_mul]
 
-theorem divisor_card_le_two_pow_factorization_claim49062_aux {m : ℕ} (hm : m ≠ 0) :
+/-- The exact divisor-count inequality from claim 49062, expressed through
+Mathlib's divisor-count and prime-factorization APIs. -/
+theorem divisor_card_le_two_pow_factorization_claim49062 {m : ℕ} (hm : m ≠ 0) :
     m.divisors.card ≤ 2 ^ (∑ p ∈ m.primeFactors, m.factorization p) := by
   rw [Nat.card_divisors hm]
   calc
@@ -24,12 +26,6 @@ theorem divisor_card_le_two_pow_factorization_claim49062_aux {m : ℕ} (hm : m �
           exact add_one_le_two_pow_claim49062_aux _
     _ = 2 ^ (∑ p ∈ m.primeFactors, m.factorization p) := by
           exact Finset.prod_pow_eq_pow_sum _ _ _
-
-/-- The exact divisor-count inequality from claim 49062, expressed through
-Mathlib's divisor-count and prime-factorization APIs. -/
-theorem divisor_card_le_two_pow_factorization_claim49062 {m : ℕ} (hm : m ≠ 0) :
-    m.divisors.card ≤ 2 ^ (∑ p ∈ m.primeFactors, m.factorization p) := by
-  exact divisor_card_le_two_pow_factorization_claim49062_aux hm
 
 /-- The logarithmic sufficient condition in claim 49062.  The displayed
 hypothesis is precisely `Omega(n-k) ≤ beta * log(k+2)` with
@@ -61,7 +57,7 @@ theorem divisor_card_le_shift_of_log_budget_claim49062
     exact_mod_cast hpow_real
   have hcard : (n - k).divisors.card ≤ 2 ^ omega := by
     dsimp [omega]
-    exact divisor_card_le_two_pow_factorization_claim49062_aux hm
+    exact divisor_card_le_two_pow_factorization_claim49062 hm
   exact hcard.trans hpow_nat
 
 end MathlibPlus.NumberTheory.Claim49062

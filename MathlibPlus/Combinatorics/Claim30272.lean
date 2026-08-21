@@ -48,20 +48,4 @@ theorem partitionRefinement_of_card_eq
   · intro hab
     exact hrefine hab
 
-/-- The source-specific Cayley carriers can instantiate these two finite
-partitions. This theorem is the partition/cardinality core of claim 30272. -/
-theorem automorphismOrbit_eq_graphIso_of_card_eq
-    {α : Type*} [Fintype α]
-    (aut graph : α → α → Prop)
-    (haut : Equivalence aut)
-    (hgraph : Equivalence graph)
-    (hrefine : ∀ {a b : α}, aut a b → graph a b)
-    [DecidableRel aut] [DecidableRel graph]
-    (hcard : Fintype.card
-        (Quotient ({ r := graph, iseqv := hgraph } : Setoid α)) =
-      Fintype.card
-        (Quotient ({ r := aut, iseqv := haut } : Setoid α))) :
-    ∀ a b, graph a b ↔ aut a b := by
-  exact partitionRefinement_of_card_eq aut graph haut hgraph hrefine hcard
-
 end MathlibPlus.Combinatorics.Claim30272
