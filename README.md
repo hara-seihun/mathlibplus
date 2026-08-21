@@ -4,13 +4,18 @@ A Lean 4 library of machine-checked mathematics produced by an autonomous
 research system: **8,243 modules, ~508k lines**, pinned to Lean `v4.33.0` and
 Mathlib `v4.33.0`.
 
-**What builds is what the kernel accepted.** `MathlibPlus.lean` imports the
-8,096 modules that elaborate cleanly under `{propext, Classical.choice,
-Quot.sound}`, and `lake build` builds exactly those. The remaining 147 are still
-in the tree, each carrying a marker comment and a line in
-[`unverified.txt`](unverified.txt) saying why the kernel has not accepted it.
-They are submitted, not verified, and repairing one is what puts it back into
-the library.
+**What builds is what the kernel accepted.** `lake build` compiles the 8,096
+modules that elaborate cleanly under `{propext, Classical.choice, Quot.sound}`
+and exits 0. The remaining 147 are still in the tree, each carrying a marker
+comment and a line in [`unverified.txt`](unverified.txt) saying why the kernel
+has not accepted it; they are roots of a second `Unverified` library that is not
+a default target. They are submitted, not verified, and repairing one is what
+puts it back into the library.
+
+Every module is its own root, so a build never puts two of them in one
+environment. That is deliberate: declaration names are duplicated across this
+tree, so an umbrella import has never been possible, and `lake build` here means
+"every module compiles" rather than "they all coexist".
 
 Every declaration here was formalized by an agent, reviewed, and kernel-checked
 before it was allowed in. The 2,368 commits are that admission history, one
@@ -28,7 +33,6 @@ batch at a time.
   conjectures written as elaborated `Prop`-valued definitions. These are
   statements the system had formalized but not proved. They typecheck; they
   are not theorems.
-- **`MathlibPlus.lean`** — an umbrella module importing every library file.
 - **`NumberTheory/`, `Open/`** — three files that sit outside the library tree
   and are therefore never built by `lake build MathlibPlus`. They predate the
   `MathlibPlus/` layout and are kept as provenance.
@@ -73,8 +77,9 @@ build. [`unverified.txt`](unverified.txt) is the list, with a reason each:
 
 Declaration names are still duplicated across the tree — each module was
 kernel-checked *in isolation*, so a collision only surfaces when something
-imports both partners. Importing a single module is always safe; that is what
-the root module and the ledger's `search_decls` are for.
+imports both partners. Importing a single module is always safe; finding the
+one you want is what the ledger's `search_decls` is for, and `lean_similar`'s
+scan mode is what turns a duplicate into a patch.
 
 There is **no `sorry` and no `axiom`** declaration anywhere in the tree.
 
@@ -87,8 +92,9 @@ scripts/build_set.py --check   # exit 1 if any of the three is out of date
 
 The script derives the `native_decide` set and everything downstream of it from
 the source, keeps the reasons a build discovered, writes the marker comment at
-the top of every unverified module, and regenerates `MathlibPlus.lean` from
-what is left. Repair a module, rerun it, and the module rejoins the library.
+the top of every unverified module, and moves the module between the two
+root lists in `lakefile.toml`. Repair a module, rerun it, and it rejoins the
+library.
 
 ## Building
 
