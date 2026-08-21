@@ -1,21 +1,8 @@
-import Mathlib
-
-open scoped BigOperators
+import MathlibPlus.Open.Combinatorics.R1540.Core
 
 namespace MathlibPlus.Open.Combinatorics.R1540
 
 noncomputable section
-
-abbrev F2Poly := Polynomial (ZMod 2)
-
-private def armF (L : ℕ) : F2Poly :=
-  ∑ k ∈ Finset.Icc 1 L,
-    Polynomial.C ((L - k + 1 : ℕ) : ZMod 2) *
-      (Polynomial.X : F2Poly) ^ k
-
-private def armJ (L : ℕ) : F2Poly :=
-  ∑ k ∈ Finset.range (L + 1),
-    (Polynomial.X : F2Poly) ^ k
 
 /-- Claim 39051: the characteristic-two identities for the exact arm
 polynomials used by the connected-subtree row. -/

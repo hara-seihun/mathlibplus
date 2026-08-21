@@ -1,19 +1,8 @@
-import Mathlib
-
-open scoped BigOperators
+import MathlibPlus.Open.Combinatorics.R1540.Core
 
 namespace MathlibPlus.Open.Combinatorics.R1540
 
 noncomputable section
-
-abbrev F2Poly := Polynomial (ZMod 2)
-
-private def foldedPair (w L : ℕ) : F2Poly :=
-  (Polynomial.X : F2Poly) ^ (L + 3) +
-    Polynomial.X ^ (w - L + 3)
-
-private def foldedArmPolynomial (w a b c : ℕ) : F2Poly :=
-  foldedPair w a + foldedPair w b + foldedPair w c
 
 private def foldedRepresentative (w L : ℕ) : Option ℕ :=
   if 2 * L = w then none else some (min L (w - L))

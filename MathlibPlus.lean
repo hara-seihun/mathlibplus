@@ -7763,6 +7763,7 @@ import MathlibPlus.Open.ResearchFormalization.Claim61045DisjointComponent
 import MathlibPlus.Open.ResearchFormalization.Claim61047ShearRepair
 import MathlibPlus.Open.ResearchFormalization.Claim61051CommonPrefix
 import MathlibPlus.Open.ResearchFormalization.R1210.Claim32273
+import MathlibPlus.Open.Combinatorics.R1540.Core
 import MathlibPlus.Open.Combinatorics.R1540Claim39051
 import MathlibPlus.Open.Combinatorics.R1540Claim39052
 import MathlibPlus.Open.Combinatorics.R1540Claim39054
