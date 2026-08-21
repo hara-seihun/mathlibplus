@@ -51,7 +51,7 @@ DERIVED_REASONS = {
     "native-decide": "rests on native_decide, so it carries Lean.ofReduceBool",
     "downstream": "imports an unverified module",
 }
-MARKER = "-- UNVERIFIED ({reason}): submitted but not kernel-verified, so it is not built and MathlibPlus.lean does not import it. See unverified.txt."
+MARKER = "-- UNVERIFIED ({reason}): submitted but not kernel-verified, so it is a root of the Unverified library rather than of MathlibPlus and no build here depends on it. See unverified.txt."
 MARKER_RE = re.compile(r"^-- UNVERIFIED \([a-z-]+\):.*\n", re.MULTILINE)
 NATIVE_RE = re.compile(r"\bnative_decide\b")
 

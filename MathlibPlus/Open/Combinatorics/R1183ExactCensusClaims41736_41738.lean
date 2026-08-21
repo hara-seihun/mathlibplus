@@ -1,4 +1,4 @@
--- UNVERIFIED (downstream): submitted but not kernel-verified, so it is not built and MathlibPlus.lean does not import it. See unverified.txt.
+-- UNVERIFIED (downstream): submitted but not kernel-verified, so it is a root of the Unverified library rather than of MathlibPlus and no build here depends on it. See unverified.txt.
 import MathlibPlus.Open.Combinatorics.R1183ExactCensus
 
 namespace MathlibPlus.Open.Combinatorics.R1183ExactCensusClaims
