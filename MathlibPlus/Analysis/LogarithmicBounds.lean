@@ -22,12 +22,6 @@ theorem log_one_sub_ge_neg_div {u : ℝ} (_hu0 : 0 < u) (hu1 : u < 1) :
     -u / (1 - u) = -(u / (1 - u)) := by ring
     _ ≤ Real.log (1 - u) := by simpa using (neg_le_neg h)
 
-/-- The tangent-line lower bound for the negative exponential. -/
-theorem exp_neg_ge_one_sub (x : ℝ) : 1 - x ≤ Real.exp (-x) := by
-  have h := Real.add_one_le_exp (-x)
-  linarith
-
-
 /-- Claim 9198: the local theta increment has positive derivative on its natural
     domain.  The prime hypothesis is retained explicitly; the displayed
     expression uses `L = log q`. -/

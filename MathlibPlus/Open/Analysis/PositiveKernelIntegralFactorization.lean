@@ -1,5 +1,4 @@
 import Mathlib
-import MathlibPlus.Analysis.LogarithmicBounds
 
 namespace MathlibPlus.Open.Analysis
 
