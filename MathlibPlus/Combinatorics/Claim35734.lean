@@ -1,3 +1,4 @@
+-- UNVERIFIED (missing-import): submitted but not kernel-verified, so it is not built and MathlibPlus.lean does not import it. See unverified.txt.
 import MathlibPlus.Combinatorics.Claim31610
 
 open Set

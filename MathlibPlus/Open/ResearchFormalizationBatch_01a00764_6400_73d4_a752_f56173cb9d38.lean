@@ -1,3 +1,4 @@
+-- UNVERIFIED (downstream): submitted but not kernel-verified, so it is not built and MathlibPlus.lean does not import it. See unverified.txt.
 import Mathlib
 import MathlibPlus.Analysis.Claim11843
 

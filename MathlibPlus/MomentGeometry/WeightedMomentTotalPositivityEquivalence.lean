@@ -8,11 +8,9 @@ namespace MathlibPlus.MomentGeometry
 in how they encode an available ordered square minor. -/
 theorem strictTotalPositivityWeightedMomentTable_iff_positiveAtomicCellMatrices :
     MathlibPlus.Open.MomentCurve.strictTotalPositivityWeightedMomentTable ↔
-      MathlibPlus.Open.MomentGeometry
-        .positiveAtomicCellMatricesStrictlyTotallyPositive_claim12740 := by
+      MathlibPlus.Open.MomentGeometry.positiveAtomicCellMatricesStrictlyTotallyPositive_claim12740 := by
   unfold MathlibPlus.Open.MomentCurve.strictTotalPositivityWeightedMomentTable
-    MathlibPlus.Open.MomentGeometry
-      .positiveAtomicCellMatricesStrictlyTotallyPositive_claim12740
+    MathlibPlus.Open.MomentGeometry.positiveAtomicCellMatricesStrictlyTotallyPositive_claim12740
   constructor
   · intro h m n x w hdata k rows hrows cols hcols
     let rows' : Fin (k.1 + 1) ↪o Fin m :=

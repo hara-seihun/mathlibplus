@@ -1,3 +1,4 @@
+-- UNVERIFIED (too-heavy): submitted but not kernel-verified, so it is not built and MathlibPlus.lean does not import it. See unverified.txt.
 import Mathlib
 
 namespace MathlibPlus.GroupTheory.CayleyDerivativeShadow

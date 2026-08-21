@@ -1,3 +1,4 @@
+-- UNVERIFIED (does-not-elaborate): submitted but not kernel-verified, so it is not built and MathlibPlus.lean does not import it. See unverified.txt.
 import Mathlib
 
 namespace MathlibPlus.LinearAlgebra.Claim57965
@@ -57,7 +58,7 @@ theorem mixedDifference_expansion_and_mem
   have hm (t : ZMod p) :
       F (t • d + d) - F (t • d) - F d ∈ K := by
     apply Submodule.subset_span
-    exact ⟨t • d, Or.inl ⟨t • d, rfl⟩⟩
+    exact Or.inl ⟨t • d, rfl⟩
   have hfd : F d =
       (2 : ZMod p)⁻¹ • (F (1 • d + d) - F (1 • d) - F d) -
         (3 : ZMod p)⁻¹ •

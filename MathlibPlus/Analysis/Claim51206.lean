@@ -1,3 +1,4 @@
+-- UNVERIFIED (does-not-elaborate): submitted but not kernel-verified, so it is not built and MathlibPlus.lean does not import it. See unverified.txt.
 import Mathlib
 
 open scoped BigOperators
@@ -21,7 +22,7 @@ theorem pointwiseFlipMass_claim51206
   have hdiff (i : ι) :
       |s i - t i| ≤ 2 * (if s i = t i then 0 else 1 : ℝ) := by
     rcases hs i with hsi | hsi <;> rcases ht i with hti | hti
-    all_goals simp [hsi, hti]
+    all_goals norm_num [hsi, hti]
   have hterm (i : ι) :
       |w i * (s i - t i)| ≤
         w i * (2 * (if s i = t i then 0 else 1 : ℝ)) := by

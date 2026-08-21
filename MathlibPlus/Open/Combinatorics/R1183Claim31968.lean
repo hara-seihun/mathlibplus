@@ -1,3 +1,4 @@
+-- UNVERIFIED (downstream): submitted but not kernel-verified, so it is not built and MathlibPlus.lean does not import it. See unverified.txt.
 import MathlibPlus.Combinatorics.Claim41731
 
 namespace MathlibPlus.Open.Combinatorics.R1183.Claim31968

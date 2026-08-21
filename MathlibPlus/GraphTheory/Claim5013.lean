@@ -10,8 +10,8 @@ theorem no_unique_nonisolated_claim5013 {V : Type*} (G : SimpleGraph V) :
   have hvv : ∃ w, G.Adj v w := (hv v).mpr rfl
   obtain ⟨w, hvw⟩ := hvv
   by_cases hw : w = v
-  · exact (G.loopless v) (hw ▸ hvw)
-  · have hwn : ∃ z, G.Adj w z := ⟨v, G.symm hvw⟩
+  · exact G.irrefl (hw ▸ hvw)
+  · have hwn : ∃ z, G.Adj w z := ⟨v, G.adj_symm hvw⟩
     exact hw ((hv w).mp hwn)
 
 end MathlibPlus.GraphTheory.Claim5013

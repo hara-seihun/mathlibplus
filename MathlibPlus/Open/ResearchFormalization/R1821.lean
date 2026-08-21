@@ -1,3 +1,4 @@
+-- UNVERIFIED (downstream): submitted but not kernel-verified, so it is not built and MathlibPlus.lean does not import it. See unverified.txt.
 import MathlibPlus.Open.ResearchBatch.Lease_01a001c2.ActualAffine
 import MathlibPlus.Algebra.Claim32618
 import MathlibPlus.LinearAlgebra.Claim32617

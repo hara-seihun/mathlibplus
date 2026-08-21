@@ -1,3 +1,4 @@
+-- UNVERIFIED (native-decide): submitted but not kernel-verified, so it is not built and MathlibPlus.lean does not import it. See unverified.txt.
 import Mathlib
 
 namespace MathlibPlus.GraphTheory.A4TwoRelationMinimumClassification
@@ -96,7 +97,7 @@ private def a4mc_is_defect (S T : Fin 2 → Set A4MinimumClassificationGroup)
   (∀ a : A4MinimumClassificationGroup ≃* A4MinimumClassificationGroup,
     ¬ (∀ i, a '' S i = T i))
 
-private def a4mc_total_valency (S : Fin 2 → Set A4MinimumClassificationGroup) : ℕ :=
+private noncomputable def a4mc_total_valency (S : Fin 2 → Set A4MinimumClassificationGroup) : ℕ :=
   Set.ncard (S 0) + Set.ncard (S 1)
 
 private def a4mc_rep_properties : Prop :=
@@ -106,8 +107,8 @@ private def a4mc_rep_properties : Prop :=
   Set.ncard (a4mc_target 0) = 5 ∧ Set.ncard (a4mc_target 1) = 1 ∧
   Disjoint (a4mc_source 0) (a4mc_source 1) ∧
   Disjoint (a4mc_target 0) (a4mc_target 1) ∧
-  (∃ a : A4MinimumClassificationGroup ≃*, a '' a4mc_source 0 = a4mc_target 0) ∧
-  (∃ a : A4MinimumClassificationGroup ≃*, a '' a4mc_source 1 = a4mc_target 1)
+  (∃ a : A4MinimumClassificationGroup ≃* A4MinimumClassificationGroup, a '' a4mc_source 0 = a4mc_target 0) ∧
+  (∃ a : A4MinimumClassificationGroup ≃* A4MinimumClassificationGroup, a '' a4mc_source 1 = a4mc_target 1)
 
 end MathlibPlus.GraphTheory.A4TwoRelationMinimumClassification
 
