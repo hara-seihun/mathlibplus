@@ -1,7 +1,8 @@
+import Mathlib
+
 /-!
 Formalization-drain statements for the finite threshold computations.
 -/
-import Mathlib
 
 open scoped BigOperators
 open Polynomial

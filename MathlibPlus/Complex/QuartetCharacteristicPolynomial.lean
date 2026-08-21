@@ -1,5 +1,4 @@
-import Mathlib.Data.Complex.Basic
-import Mathlib.Tactic.Ring
+import Mathlib
 
 namespace MathlibPlus.Complex.QuartetCharacteristicPolynomial
 

@@ -1,5 +1,4 @@
-import Mathlib.Combinatorics.SimpleGraph.Cayley
-import Mathlib.GroupTheory.SpecificGroups.Alternating
+import Mathlib
 
 namespace MathlibPlus.Open.GraphTheory
 

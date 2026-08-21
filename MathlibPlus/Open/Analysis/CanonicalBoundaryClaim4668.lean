@@ -1,4 +1,4 @@
-import Mathlib.RingTheory.PowerSeries.Basic
+import Mathlib
 
 namespace MathlibPlus.Open.Analysis.CanonicalBoundaryClaim4668
 

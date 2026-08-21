@@ -1,4 +1,4 @@
-import Mathlib.Algebra.Polynomial.Expand
+import Mathlib
 
 open Polynomial
 

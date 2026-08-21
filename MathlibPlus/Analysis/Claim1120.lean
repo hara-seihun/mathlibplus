@@ -1,5 +1,4 @@
-import Mathlib.Tactic.FieldSimp
-import Mathlib.Tactic.NormNum
+import Mathlib
 
 namespace MathlibPlus.Analysis.Claim1120
 

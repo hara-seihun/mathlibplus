@@ -1,8 +1,9 @@
+import Mathlib
+
 /-!
 Formalization-drain statements for the boundary layers of the polynomial
 family and the square-shift coefficient transfer.
 -/
-import Mathlib
 
 open scoped BigOperators
 open Polynomial
