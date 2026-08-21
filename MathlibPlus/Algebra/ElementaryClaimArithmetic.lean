@@ -1,5 +1,4 @@
 import MathlibPlus.Basic
-import MathlibPlus.Algebra.ConjugatePair
 
 namespace MathlibPlus.Algebra.ExponentCancellation
 

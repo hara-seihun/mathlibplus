@@ -432,7 +432,6 @@ roots = [
   "MathlibPlus.Algebra.CompleteHomogeneousDeterminantClaim4846",
   "MathlibPlus.Algebra.CompletedQuadratic",
   "MathlibPlus.Algebra.ConjugacyOrientation",
-  "MathlibPlus.Algebra.ConjugatePair",
   "MathlibPlus.Algebra.ConnectedCumulant",
   "MathlibPlus.Algebra.ConstrainedDefect48326",
   "MathlibPlus.Algebra.CoordinateCongruence",
