@@ -1,4 +1,4 @@
-import Mathlib
+import MathlibPlus.Analysis.SymmetricImaginaryShift.ConjugatePair
 
 /-!
 # Elementary identities for symmetric imaginary shifts
@@ -28,8 +28,9 @@ theorem conjugatePairModulusDifference (x y u v a : ℝ) :
     conjugatePairDistanceProduct x u v (y + a) -
         conjugatePairDistanceProduct x u v (y - a) =
       8 * a * y * ((x - u) ^ 2 + y ^ 2 + a ^ 2 - v ^ 2) := by
-  simp only [conjugatePairDistanceProduct]
-  ring
+  simpa [conjugatePairDistanceProduct] using
+    (MathlibPlus.Analysis.SymmetricImaginaryShift.conjugatePair_modulusDifference
+      u v x y a)
 
 /-- Exact squared-modulus difference for a real zero, Record 5 of packet
 `C-0024`. -/
