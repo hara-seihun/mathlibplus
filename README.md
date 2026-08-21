@@ -1,14 +1,14 @@
 # MathlibPlus
 
 A Lean 4 library of machine-checked mathematics produced by an autonomous
-research system: **8,243 modules, ~508k lines**, pinned to Lean `v4.33.0` and
+research system: **8,238 modules, ~508k lines**, pinned to Lean `v4.33.0` and
 Mathlib `v4.33.0`.
 
-**What builds is what the kernel accepted.** `lake build` compiles the 8,096
-modules that elaborate cleanly under `{propext, Classical.choice, Quot.sound}`
-and exits 0. The remaining 147 are still in the tree, each carrying a marker
-comment and a line in [`unverified.txt`](unverified.txt) saying why the kernel
-has not accepted it; they are roots of a second `Unverified` library that is not
+**What builds is what the kernel accepted.** `lake build` compiles every module
+that elaborates cleanly under `{propext, Classical.choice, Quot.sound}` and
+exits 0. The rest are still in the tree, each carrying a marker comment and a
+line in [`unverified.txt`](unverified.txt) saying why the kernel has not
+accepted it; they are roots of a second `Unverified` library that is not
 a default target. They are submitted, not verified, and repairing one is what
 puts it back into the library.
 
@@ -50,18 +50,19 @@ theorem nonlinearSupport_disjoint_leftStabilizer_claim38444
     N ∩ L = ∅ := by
 ```
 
-## The unverified 147
+## The quarantine
 
 This is a research artifact rather than a curated library, and its defects are
 published rather than hidden — but they are quarantined rather than left in the
-build. [`unverified.txt`](unverified.txt) is the list, with a reason each:
+build. [`unverified.txt`](unverified.txt) is the list — 146 modules today, with a reason
+each, and every one of them a repair worth making:
 
 - **116 modules rest on `native_decide`**, which delegates to compiled code and
   introduces `Lean.ofReduceBool`. Under this project's axiom policy that is not
   a kernel proof, so they are out of the library until their decision
   procedures are replaced.
 - **19 more import one of those**, and inherit the axiom with it.
-- **8 no longer elaborate** against the pinned Mathlib, from ordinary bit-rot
+- **7 no longer elaborate** against the pinned Mathlib, from ordinary bit-rot
   during the system's own lifetime — `Unknown identifier`, `unknown tactic`, a
   missing instance.
 - **2 import files that never existed.**
